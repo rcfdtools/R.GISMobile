@@ -61,8 +61,8 @@ def image_info(img_path):
         readme_file.write(map_location + '\n')
 
 # Variables
-path = 'D:/R.GISPython/GISMobile/.poi/'
-path_www = 'https://github.com/rcfdtools/R.GISPython/tree/main/GISMobile/.poi/'
+path = 'D:/R.GISMobile/.poi/'
+path_www = 'https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/'
 poi_file = 'poi.csv'
 geojson_file = 'Readme.md'
 poi_cols = ['POI', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Name', 'Credit', 'Category', 'Link']
@@ -144,11 +144,3 @@ geojson_file_write.write('\n\n\n### POI list\n\n')
 df.index.name = '#'
 geojson_file_write.write(df.to_markdown(index=False))
 
-# https://medium.com/spatial-data-science/how-to-extract-gps-coordinates-from-images-in-python-e66e542af354
-# https://stackoverflow.com/questions/141291/how-to-list-only-top-level-directories-in-python
-# https://stackoverflow.com/questions/14176166/list-only-files-in-a-directory
-# https://stackoverflow.com/questions/7336096/python-glob-without-the-whole-path-only-the-filename
-# https://www.geeksforgeeks.org/python-list-files-in-a-directory/
-# https://gis.stackexchange.com/questions/147156/making-shapefile-from-pandas-dataframe
-# https://python-geojson.readthedocs.io/en/latest/#geometrycollection
-# https://zulko.github.io/moviepy/
