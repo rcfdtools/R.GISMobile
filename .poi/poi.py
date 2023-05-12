@@ -36,9 +36,9 @@ def image_info(img_path):
     readme_file.write(info)
     if coords:
         map_location = ('<sub>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=' + str(
-            cy) + ',' + str(cx) + ') or [Openstreet Map](https://www.openstreetmap.org/query?lat=' + str(cy) + '&lon=' + str(cx) + ')')
+            cy) + ',' + str(cx) + ') or [Openstreet Map](https://www.openstreetmap.org/query?lat=' + str(cy) + '&lon=' + str(cx) + ')</sub>')
         print(f"Coordinates:{coords}")
-        readme_file.write(f"`Coordinates & altitude` {coords}")
+        readme_file.write(f"<sub>`Coordinates & altitude` {coords}</sub>")
         readme_file.write(map_location + '</sub>\n')
 
 # Variables
