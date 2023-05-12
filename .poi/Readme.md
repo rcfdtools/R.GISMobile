@@ -12,6 +12,7 @@
 {"type": "Point","properties": {"POI": "14", "Category": "Technical field visit", "Name": "Arroyo San Antonio - Paso de vía minero", "Date": "2018-04-25", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/14/Readme.md"},"coordinates": [-73.508897,9.529024]},
 {"type": "Point","properties": {"POI": "15", "Category": "Technical field visit", "Name": "Arroyo San Antonio - Estructura escalonada", "Date": "2018-04-25", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/15/Readme.md"},"coordinates": [-73.483261,9.519911]},
 {"type": "Point","properties": {"POI": "16", "Category": "Technical field visit", "Name": "Arroyo San Antonio - Estructura escalonada", "Date": "2018-04-25", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/16/Readme.md"},"coordinates": [-73.469932,9.517357]},
+{"type": "Point","properties": {"POI": "17", "Category": "Technical field visit", "Name": "Arroyo San Antonio - Realineamiento #4 - Construcción inicio desviación", "Date": "2018-04-25", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/17/Readme.md"},"coordinates": [-73.46366,9.525125]},
 {"type": "Point","properties": {"POI": "2", "Category": "Technical field visit", "Name": "Mirador Laguna Seca", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/2/Readme.md"},"coordinates": [-73.79294444444444,4.678047222222222]},
 {"type": "Point","properties": {"POI": "3", "Category": "Technical field visit", "Name": "Campamento EAB. Estación climatológica Chuza Monterredondo", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/3/Readme.md"},"coordinates": [-73.72457222222222,4.634402777777777]},
 {"type": "Point","properties": {"POI": "4", "Category": "Technical field visit", "Name": "Frailejones - Ruilopezia (Espeletia)", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/4/Readme.md"},"coordinates": [-73.72865555555556,4.585705555555555]},
@@ -28,14 +29,14 @@
 
 | Category              |   POI |
 |:----------------------|------:|
-| Technical field visit |    16 |
+| Technical field visit |    17 |
 
 
 ### Estadísticas generales por autor
 
 | Credit    |   POI |
 |:----------|------:|
-| rcfdtools |    16 |
+| rcfdtools |    17 |
 
 
 ### POI list
@@ -45,11 +46,12 @@
 |     1 |    4.71217 |    -73.8198 | 3733.41    | 2023-05-03 | Antigua mina de caliza CEMEX                                                 | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/1/Readme.md  |
 |    10 |    9.53322 |    -73.4628 | 57.73      | 2013-07-03 | Arroyo San Antonio - Erosión remontante                                      | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/10/Readme.md |
 |    11 |    9.53848 |    -73.5216 | 39.24      | 2013-07-03 | Arroyo San Antonio - Paso de vía en entrega Realineamiento #4                | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/11/Readme.md |
-|    12 |    9.53102 |    -73.4626 | 57.73      | 2018-04-25 | Arroyo San Antonio - Erosión remontante - Estructuras de agradación          | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/12/Readme.md |
-|    13 |    9.52834 |    -73.5073 | 57.73      | 2018-04-25 | Arroyo San Antonio - Realineamiento # 4 - Construcción e inicio de operación | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/13/Readme.md |
-|    14 |    9.52902 |    -73.5089 | 57.73      | 2018-04-25 | Arroyo San Antonio - Paso de vía minero                                      | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/14/Readme.md |
+|    12 |    9.53102 |    -73.4626 |            | 2018-04-25 | Arroyo San Antonio - Erosión remontante - Estructuras de agradación          | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/12/Readme.md |
+|    13 |    9.52834 |    -73.5073 |            | 2018-04-25 | Arroyo San Antonio - Realineamiento # 4 - Construcción e inicio de operación | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/13/Readme.md |
+|    14 |    9.52902 |    -73.5089 |            | 2018-04-25 | Arroyo San Antonio - Paso de vía minero                                      | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/14/Readme.md |
 |    15 |    9.51991 |    -73.4833 |            | 2018-04-25 | Arroyo San Antonio - Estructura escalonada                                   | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/15/Readme.md |
 |    16 |    9.51736 |    -73.4699 |            | 2018-04-25 | Arroyo San Antonio - Estructura escalonada                                   | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/16/Readme.md |
+|    17 |    9.52512 |    -73.4637 |            | 2018-04-25 | Arroyo San Antonio - Realineamiento #4 - Construcción inicio desviación      | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/17/Readme.md |
 |     2 |    4.67805 |    -73.7929 | 3730.03    | 2023-05-03 | Mirador Laguna Seca                                                          | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/2/Readme.md  |
 |     3 |    4.6344  |    -73.7246 | 3051.38    | 2023-05-03 | Campamento EAB. Estación climatológica Chuza Monterredondo                   | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/3/Readme.md  |
 |     4 |    4.58571 |    -73.7287 | 3402.35    | 2023-05-03 | Frailejones - Ruilopezia (Espeletia)                                         | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/4/Readme.md  |
