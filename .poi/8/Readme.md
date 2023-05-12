@@ -1,5 +1,5 @@
 ## Embalse Paujil (2013-07-03)
-Créditos imágenes: rcfdtools<br>Categoría: Technical field visit
+Fotos: rcfdtools<br>Categoría: Technical field visit
 
 ```geojson
 {
