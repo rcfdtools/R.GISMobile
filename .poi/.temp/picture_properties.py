@@ -25,9 +25,10 @@ def image_coordinates(img_path):
             print('No Coordinates')
     else:
         print('The Image has no EXIF information')
-    print(f"Image {src.name}, OS Version:{img.get('software', 'Not Known')} ------")
+    info = f"`File`: {src.name}. `OS version`: {img.get('software', 'Not Known')}. `Date`: {img.datetime_original}. `Aperture`: {img.aperture_value}."
+    print(info)
     if coords:
-        print(f"Was taken: {img.datetime_original}, and has coordinates:{coords}")
+        print(f"Was taken: {img.datetime_original}, and has coordinates xyz:{coords}")
 
 def image_info(img_path):
     coords = ''
@@ -47,7 +48,7 @@ def image_info(img_path):
             print('No Coordinates')
     else:
         print('The Image has no EXIF information')
-    info = f"**File: {src.name}**. OS version: {img.get('software', 'Not Known')}. Date: {img.datetime_original}"
+    info = f"**File: {src.name}**. OS version: {img.get('software', 'Not Known')}. Date: {img.datetime_original}. Aperture: {img.aperture_value} "
     print(info)
     readme_file.write(info+'\n')
     if coords:

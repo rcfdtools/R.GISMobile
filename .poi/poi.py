@@ -14,24 +14,6 @@ def decimal_coords(coords, ref):
      decimal_degrees = -decimal_degrees
  return decimal_degrees
 
-def image_coordinates(img_path):
-    with open(img_path, 'rb') as src:
-        img = Image(src)
-    if img.has_exif:
-        try:
-            img.gps_longitude
-            coords = (decimal_coords(img.gps_latitude,
-                      img.gps_latitude_ref),
-                      decimal_coords(img.gps_longitude,
-                      img.gps_longitude_ref),
-                      img.gps_altitude)
-        except AttributeError:
-            print('No Coordinates')
-    else:
-        print('The Image has no EXIF information')
-    print(f"Image {src.name}, OS Version:{img.get('software', 'Not Known')} ------")
-    print(f"Was taken: {img.datetime_original}, and has coordinates:{coords}")
-
 def image_info(img_path):
     coords = ''
     with open(img_path, 'rb') as src:
@@ -50,8 +32,7 @@ def image_info(img_path):
             print('No Coordinates')
     else:
         print('The Image has no EXIF information')
-    info = f"**File: {src.name}**. OS version: {img.get('software', 'Not Known')}. Date: {img.datetime_original}"
-    print(info)
+    info = f"`File`: {src.name}. `OS version`: {img.get('software', 'Not Known')}. `Date`: {img.datetime_original}."
     readme_file.write(info+'\n')
     if coords:
         map_location = (':earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=' + str(

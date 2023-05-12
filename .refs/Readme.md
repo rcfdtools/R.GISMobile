@@ -8,3 +8,4 @@
 * https://gis.stackexchange.com/questions/147156/making-shapefile-from-pandas-dataframe
 * https://python-geojson.readthedocs.io/en/latest/#geometrycollection
 * https://zulko.github.io/moviepy/
+* https://pypi.org/project/exif/
