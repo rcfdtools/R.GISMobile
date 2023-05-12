@@ -9,6 +9,7 @@
 {"type": "Point","properties": {"POI": "11", "Category": "Technical field visit", "Name": "Arroyo San Antonio - Paso de vía en entrega Realineamiento #4", "Date": "2013-07-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/11/Readme.md"},"coordinates": [-73.5215662,9.5384802]},
 {"type": "Point","properties": {"POI": "12", "Category": "Technical field visit", "Name": "Arroyo San Antonio - Erosión remontante - Estructuras de agradación", "Date": "2018-04-25", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/12/Readme.md"},"coordinates": [-73.462601,9.531024]},
 {"type": "Point","properties": {"POI": "13", "Category": "Technical field visit", "Name": "Arroyo San Antonio - Realineamiento # 4 - Construcción e inicio de operación", "Date": "2018-04-25", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/13/Readme.md"},"coordinates": [-73.507306,9.528337]},
+{"type": "Point","properties": {"POI": "14", "Category": "Technical field visit", "Name": "Arroyo San Antonio - Paso de vía minero", "Date": "2018-04-25", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/14/Readme.md"},"coordinates": [-73.508897,9.529024]},
 {"type": "Point","properties": {"POI": "2", "Category": "Technical field visit", "Name": "Mirador Laguna Seca", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/2/Readme.md"},"coordinates": [-73.79294444444444,4.678047222222222]},
 {"type": "Point","properties": {"POI": "3", "Category": "Technical field visit", "Name": "Campamento EAB. Estación climatológica Chuza Monterredondo", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/3/Readme.md"},"coordinates": [-73.72457222222222,4.634402777777777]},
 {"type": "Point","properties": {"POI": "4", "Category": "Technical field visit", "Name": "Frailejones - Ruilopezia (Espeletia)", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/4/Readme.md"},"coordinates": [-73.72865555555556,4.585705555555555]},
@@ -25,14 +26,14 @@
 
 | Category              |   POI |
 |:----------------------|------:|
-| Technical field visit |    13 |
+| Technical field visit |    14 |
 
 
 ### Estadísticas generales por autor
 
 | Credit    |   POI |
 |:----------|------:|
-| rcfdtools |    13 |
+| rcfdtools |    14 |
 
 
 ### POI list
@@ -44,6 +45,7 @@
 |    11 |    9.53848 |    -73.5216 |      39.24 | 2013-07-03 | Arroyo San Antonio - Paso de vía en entrega Realineamiento #4                | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/11/Readme.md |
 |    12 |    9.53102 |    -73.4626 |      57.73 | 2018-04-25 | Arroyo San Antonio - Erosión remontante - Estructuras de agradación          | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/12/Readme.md |
 |    13 |    9.52834 |    -73.5073 |      57.73 | 2018-04-25 | Arroyo San Antonio - Realineamiento # 4 - Construcción e inicio de operación | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/13/Readme.md |
+|    14 |    9.52902 |    -73.5089 |      57.73 | 2018-04-25 | Arroyo San Antonio - Paso de vía minero                                      | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/14/Readme.md |
 |     2 |    4.67805 |    -73.7929 |    3730.03 | 2023-05-03 | Mirador Laguna Seca                                                          | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/2/Readme.md  |
 |     3 |    4.6344  |    -73.7246 |    3051.38 | 2023-05-03 | Campamento EAB. Estación climatológica Chuza Monterredondo                   | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/3/Readme.md  |
 |     4 |    4.58571 |    -73.7287 |    3402.35 | 2023-05-03 | Frailejones - Ruilopezia (Espeletia)                                         | rcfdtools | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/4/Readme.md  |
