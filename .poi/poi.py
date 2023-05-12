@@ -32,7 +32,7 @@ def image_info(img_path):
             print('No Coordinates')
     else:
         print('The Image has no EXIF information')
-    info = f"`File` **{src.name}** <sub> `Exif version` {img.get('exif_version', 'Not known')} `OS version` {img.get('software', 'Not known')} `Date` {img.datetime_original} `Aperture` {img.get('aperture', 'Not known')} `Brightness` {img.get('brightness_value', 'Not known')} `Color space` {img.get('color_space', 'Not known')} `Compression` {img.get('compression', 'Not known')}`Exposure mode` {img.get('exposure_mode', 'Not known')} `Exposure time` {img.get('exposure_time', 'Not known')} `Focal length` {img.get('focal_length', 'Not known')} `Lens model` {img.get('lens_model', 'Not known')} `Lens specification` {img.get('lens_specification', 'Not known')} `Orientation` {img.get('orientation', 'Not known')} `Scene type` {img.get('scene_type', 'Not known')} `f number` {img.get('f_number', 'Not known')} `White balance` {img.get('white_balance', 'Not known')}</sub>"
+    info = f"`:camera:` **{src.name}** <sub> `Exif version` {img.get('exif_version', 'Not known')} `OS version` {img.get('software', 'Not known')} `Date` {img.datetime_original} `Aperture` {img.get('aperture', 'Not known')} `Brightness` {img.get('brightness_value', 'Not known')} `Color space` {img.get('color_space', 'Not known')} `Compression` {img.get('compression', 'Not known')}`Exposure mode` {img.get('exposure_mode', 'Not known')} `Exposure time` {img.get('exposure_time', 'Not known')} `Focal length` {img.get('focal_length', 'Not known')} `Lens model` {img.get('lens_model', 'Not known')} `Lens specification` {img.get('lens_specification', 'Not known')} `Orientation` {img.get('orientation', 'Not known')} `Scene type` {img.get('scene_type', 'Not known')} `f number` {img.get('f_number', 'Not known')} `White balance` {img.get('white_balance', 'Not known')}</sub>"
     readme_file.write(info)
     if coords:
         map_location = ('<sub>:earth_americas: `Location over` [Google Maps](http://maps.google.com/maps?q=' + str(
@@ -62,7 +62,7 @@ for i in directories:
         poi_path = path+i+'/'+poi_file
         print('Processing: %s' %poi_path)
         df1 = pd.read_csv(poi_path)  # Esri shapefile does not support datetime fields with parse_dates=['Date']
-        readme_file.write('## %s (%s)\n:camera: Fotos: %s<br>Categoría: %s\n\n' %(str(df1['Name'][0]), str(df1['Date'][0]), str(df1['Credit'][0]), str(df1['Category'][0])))
+        readme_file.write('## %s (%s)\nFotos por: %s<br>Categoría: %s\n\n' %(str(df1['Name'][0]), str(df1['Date'][0]), str(df1['Credit'][0]), str(df1['Category'][0])))
         geojson = '```geojson\n{\n  "type": "Feature",\n  "geometry": {\n    "type": "Point", \n    "coordinates": ['+str(df1['Longitude'][0])+', '+str(df1['Latitude'][0])+']\n  }, \n  "properties": {\n    "Name": "'+df1['Name'][0]+'"\n  }\n}\n```\n\n'
         readme_file.write(geojson)
         df1['POI'] = i
