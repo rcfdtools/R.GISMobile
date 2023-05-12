@@ -6,7 +6,7 @@ Créditos imágenes: rcfdtools<br>Categoría: Technical field visit
   "type": "Feature",
   "geometry": {
     "type": "Point", 
-    "coordinates": [-73.4627698, 9.5332223]
+    "coordinates": [-73.462601, 9.531024]
   }, 
   "properties": {
     "Name": "Arroyo San Antonio - Erosión remontante - Estructuras de agradación"
