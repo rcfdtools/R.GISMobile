@@ -1,5 +1,5 @@
 ## Arroyo San Antonio - Paso de vía en entrega Realineamiento #4 (2013-07-03)
-Créditos: rcfdtools<br>Categoría: Technical field visit
+Créditos imágenes: rcfdtools<br>Categoría: Technical field visit
 
 ```geojson
 {

@@ -1,5 +1,5 @@
 ## Frailejones - Ruilopezia (Espeletia) (2023-05-03)
-Créditos: rcfdtools<br>Categoría: Technical field visit
+Créditos imágenes: rcfdtools<br>Categoría: Technical field visit
 
 ```geojson
 {
