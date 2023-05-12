@@ -77,7 +77,7 @@ for i in directories:
                 print(filename_absolute)
                 image_info(i+'/'+filename_absolute)
                 readme_file.write('![GISMobile.POI]('+filename_absolute+')\n\n')
-        license_txt = '_Citación: Se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación", https://github.com/rcfdtools/R.GISMobile, Bogotá - Colombia - Suramérica."._'
+        license_txt = '_**Citación:** se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación", https://github.com/rcfdtools/R.GISMobile, Bogotá - Colombia - Suramérica."._'
         readme_file.write(license_txt + '\n')
         readme_file.write('| [:house: Inicio](../Readme.md) |\n|---|')
 df = df[poi_cols]  # Reordering cols
