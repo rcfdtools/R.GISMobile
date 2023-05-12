@@ -1,5 +1,5 @@
 ## Arroyo San Antonio - Realineamiento # 4 - Construcción e inicio de operación (2018-04-25)
-Fotos: rcfdtools<br>Categoría: Technical field visit
+:camera: Fotos: rcfdtools<br>Categoría: Technical field visit
 
 ```geojson
 {

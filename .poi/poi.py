@@ -54,8 +54,8 @@ def image_info(img_path):
     print(info)
     readme_file.write(info+'\n')
     if coords:
-        map_location = ('Location over [Google Maps](http://maps.google.com/maps?q=' + str(
-            cy) + ',' + str(cx) + ') or [Openstreet Map](https://www.openstreetmap.org/query?lat=' + str(cy) + '&lon=' + str(cx) + ')')
+        map_location = ('Location over [:earth_americas: Google Maps](http://maps.google.com/maps?q=' + str(
+            cy) + ',' + str(cx) + ') or [:earth_americas: Openstreet Map](https://www.openstreetmap.org/query?lat=' + str(cy) + '&lon=' + str(cx) + ')')
         print(f"Coordinates:{coords}")
         readme_file.write(f"<br>Coordinates & altitude: {coords}<br>")
         readme_file.write(map_location + '\n')
@@ -81,7 +81,7 @@ for i in directories:
         poi_path = path+i+'/'+poi_file
         print('Processing: %s' %poi_path)
         df1 = pd.read_csv(poi_path)  # Esri shapefile does not support datetime fields with parse_dates=['Date']
-        readme_file.write('## %s (%s)\nFotos: %s<br>Categoría: %s\n\n' %(str(df1['Name'][0]), str(df1['Date'][0]), str(df1['Credit'][0]), str(df1['Category'][0])))
+        readme_file.write('## %s (%s)\n:camera: Fotos: %s<br>Categoría: %s\n\n' %(str(df1['Name'][0]), str(df1['Date'][0]), str(df1['Credit'][0]), str(df1['Category'][0])))
         geojson = '```geojson\n{\n  "type": "Feature",\n  "geometry": {\n    "type": "Point", \n    "coordinates": ['+str(df1['Longitude'][0])+', '+str(df1['Latitude'][0])+']\n  }, \n  "properties": {\n    "Name": "'+df1['Name'][0]+'"\n  }\n}\n```\n\n'
         readme_file.write(geojson)
         df1['POI'] = i
