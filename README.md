@@ -1,4 +1,4 @@
-## GIS Mobile
+## GIS Mobile & [POI](.poi/Readme.md) :earth_americas:
 
 <div align="center">
   <img alt="GISMobile" src=".graph/QField_MapView.png" width="350px"><br>  
