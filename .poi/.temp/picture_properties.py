@@ -65,12 +65,3 @@ image_coordinates(img_path)
 # Convert .mp4 to .gif sample
 #videoClip = VideoFileClip('7/PXL_20230503_184310359.TS.mp4').resize(0.25)
 #videoClip.write_gif('7/PXL_20230503_184310359.TS.gif')
-
-# https://medium.com/spatial-data-science/how-to-extract-gps-coordinates-from-images-in-python-e66e542af354
-# https://stackoverflow.com/questions/141291/how-to-list-only-top-level-directories-in-python
-# https://stackoverflow.com/questions/14176166/list-only-files-in-a-directory
-# https://stackoverflow.com/questions/7336096/python-glob-without-the-whole-path-only-the-filename
-# https://www.geeksforgeeks.org/python-list-files-in-a-directory/
-# https://gis.stackexchange.com/questions/147156/making-shapefile-from-pandas-dataframe
-# https://python-geojson.readthedocs.io/en/latest/#geometrycollection
-# https://zulko.github.io/moviepy/
