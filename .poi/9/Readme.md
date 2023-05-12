@@ -14,35 +14,35 @@
 }
 ```
 
-`File:` **9/2013-07-03_15.48.23.jpg**. `OS version:` N7000XXLS2. `Date:` 2013:07:03 15:48:23.
+`File:` **9/2013-07-03_15.48.23.jpg** `OS version:` N7000XXLS2 `Date:` 2013:07:03 15:48:23 Aperture: Not Known
 <br>Coordinates & altitude: (9.5532847, -73.4642336, 70.18)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5532847,-73.4642336) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5532847&lon=-73.4642336)
 ![GISMobile.POI](2013-07-03_15.48.23.jpg)
 
-`File:` **9/2013-07-03_15.48.54.jpg**. `OS version:` N7000XXLS2. `Date:` 2013:07:03 15:48:54.
+`File:` **9/2013-07-03_15.48.54.jpg** `OS version:` N7000XXLS2 `Date:` 2013:07:03 15:48:54 Aperture: Not Known
 <br>Coordinates & altitude: (9.5532847, -73.4642336, 70.18)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5532847,-73.4642336) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5532847&lon=-73.4642336)
 ![GISMobile.POI](2013-07-03_15.48.54.jpg)
 
-`File:` **9/2013-07-03_15.48.57.jpg**. `OS version:` N7000XXLS2. `Date:` 2013:07:03 15:48:57.
+`File:` **9/2013-07-03_15.48.57.jpg** `OS version:` N7000XXLS2 `Date:` 2013:07:03 15:48:57 Aperture: Not Known
 <br>Coordinates & altitude: (9.5532847, -73.4642336, 70.18)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5532847,-73.4642336) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5532847&lon=-73.4642336)
 ![GISMobile.POI](2013-07-03_15.48.57.jpg)
 
-`File:` **9/2013-07-03_15.49.00.jpg**. `OS version:` N7000XXLS2. `Date:` 2013:07:03 15:49:00.
+`File:` **9/2013-07-03_15.49.00.jpg** `OS version:` N7000XXLS2 `Date:` 2013:07:03 15:49:00 Aperture: Not Known
 <br>Coordinates & altitude: (9.5532847, -73.4642336, 70.18)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5532847,-73.4642336) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5532847&lon=-73.4642336)
 ![GISMobile.POI](2013-07-03_15.49.00.jpg)
 
-`File:` **9/2013-07-03_15.49.16.jpg**. `OS version:` N7000XXLS2. `Date:` 2013:07:03 15:49:16.
+`File:` **9/2013-07-03_15.49.16.jpg** `OS version:` N7000XXLS2 `Date:` 2013:07:03 15:49:16 Aperture: Not Known
 <br>Coordinates & altitude: (9.5532847, -73.4642336, 70.18)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5532847,-73.4642336) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5532847&lon=-73.4642336)
 ![GISMobile.POI](2013-07-03_15.49.16.jpg)
 
-`File:` **9/2013-07-03_15.49.20.jpg**. `OS version:` N7000XXLS2. `Date:` 2013:07:03 15:49:20.
+`File:` **9/2013-07-03_15.49.20.jpg** `OS version:` N7000XXLS2 `Date:` 2013:07:03 15:49:20 Aperture: Not Known
 <br>Coordinates & altitude: (9.5532847, -73.4642336, 70.18)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5532847,-73.4642336) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5532847&lon=-73.4642336)
 ![GISMobile.POI](2013-07-03_15.49.20.jpg)
 
-`File:` **9/2013-07-03_15.49.25.jpg**. `OS version:` N7000XXLS2. `Date:` 2013:07:03 15:49:25.
+`File:` **9/2013-07-03_15.49.25.jpg** `OS version:` N7000XXLS2 `Date:` 2013:07:03 15:49:25 Aperture: Not Known
 <br>Coordinates & altitude: (9.5532847, -73.4642336, 70.18)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5532847,-73.4642336) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5532847&lon=-73.4642336)
 ![GISMobile.POI](2013-07-03_15.49.25.jpg)
 
-`File:` **9/2013-07-03_15.49.33.jpg**. `OS version:` N7000XXLS2. `Date:` 2013:07:03 15:49:33.
+`File:` **9/2013-07-03_15.49.33.jpg** `OS version:` N7000XXLS2 `Date:` 2013:07:03 15:49:33 Aperture: Not Known
 <br>Coordinates & altitude: (9.5532847, -73.4642336, 70.18)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5532847,-73.4642336) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5532847&lon=-73.4642336)
 ![GISMobile.POI](2013-07-03_15.49.33.jpg)
 

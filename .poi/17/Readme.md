@@ -14,28 +14,28 @@
 }
 ```
 
-`File:` **17/20180425_153010.jpg**. `OS version:` G930PVPS5BRA1. `Date:` 2018:04:25 15:30:10.
+`File:` **17/20180425_153010.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 15:30:10 Aperture: Not Known
 ![GISMobile.POI](20180425_153010.jpg)
 
-`File:` **17/20180425_153035.jpg**. `OS version:` G930PVPS5BRA1. `Date:` 2018:04:25 15:30:35.
+`File:` **17/20180425_153035.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 15:30:35 Aperture: Not Known
 ![GISMobile.POI](20180425_153035.jpg)
 
-`File:` **17/20180425_153038.jpg**. `OS version:` G930PVPS5BRA1. `Date:` 2018:04:25 15:30:38.
+`File:` **17/20180425_153038.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 15:30:38 Aperture: Not Known
 ![GISMobile.POI](20180425_153038.jpg)
 
-`File:` **17/20180425_153049.jpg**. `OS version:` G930PVPS5BRA1. `Date:` 2018:04:25 15:30:49.
+`File:` **17/20180425_153049.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 15:30:49 Aperture: Not Known
 ![GISMobile.POI](20180425_153049.jpg)
 
-`File:` **17/20180425_153142.jpg**. `OS version:` G930PVPS5BRA1. `Date:` 2018:04:25 15:31:42.
+`File:` **17/20180425_153142.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 15:31:42 Aperture: Not Known
 ![GISMobile.POI](20180425_153142.jpg)
 
-`File:` **17/20180425_153148.jpg**. `OS version:` G930PVPS5BRA1. `Date:` 2018:04:25 15:31:48.
+`File:` **17/20180425_153148.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 15:31:48 Aperture: Not Known
 ![GISMobile.POI](20180425_153148.jpg)
 
-`File:` **17/20180425_153156.jpg**. `OS version:` G930PVPS5BRA1. `Date:` 2018:04:25 15:31:56.
+`File:` **17/20180425_153156.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 15:31:56 Aperture: Not Known
 ![GISMobile.POI](20180425_153156.jpg)
 
-`File:` **17/20180425_153207.jpg**. `OS version:` G930PVPS5BRA1. `Date:` 2018:04:25 15:32:07.
+`File:` **17/20180425_153207.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 15:32:07 Aperture: Not Known
 ![GISMobile.POI](20180425_153207.jpg)
 
 | [:house: Inicio](../Readme.md) |
