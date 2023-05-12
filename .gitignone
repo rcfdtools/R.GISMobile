@@ -1,0 +1,12 @@
+# Ignore files for push...
+# Excluded files over than 100MB
+# Large files in a GitHub free account has to be compress in 95MB files parts
+
+# General exclusions
+.idea/
+.git/
+.venv/
+.venvPython310/
+.venvPython311/
+GISMobile/GISMobile_EAB_CO/GDB.gdb
+GISMobile/GISMobile_EAB_CO/dem/AlosPalsarZE*.tif*
