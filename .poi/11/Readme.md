@@ -14,51 +14,51 @@
 }
 ```
 
-`File` **11/2013-07-04_08.54.52.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 08:54:52 `Aperture` Not known `Brightness` 7.4 `Color space` 1
+`File` **11/2013-07-04_08.54.52.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 08:54:52 `Aperture` Not known `Brightness` 7.4 `Color space` 1 `Compression` 6 `Exif version` 0220 `Exposure_mode` 0
 <br>Coordinates & altitude: (9.5384802, -73.5215662, 39.24)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5384802,-73.5215662) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5384802&lon=-73.5215662)
 ![GISMobile.POI](2013-07-04_08.54.52.jpg)
 
-`File` **11/2013-07-04_08.55.15.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 08:55:15 `Aperture` Not known `Brightness` 8.42 `Color space` 1
+`File` **11/2013-07-04_08.55.15.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 08:55:15 `Aperture` Not known `Brightness` 8.42 `Color space` 1 `Compression` 6 `Exif version` 0220 `Exposure_mode` 0
 <br>Coordinates & altitude: (9.5384802, -73.5215662, 39.24)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5384802,-73.5215662) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5384802&lon=-73.5215662)
 ![GISMobile.POI](2013-07-04_08.55.15.jpg)
 
-`File` **11/2013-07-04_08.58.04.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 08:58:04 `Aperture` Not known `Brightness` 8.76 `Color space` 1
+`File` **11/2013-07-04_08.58.04.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 08:58:04 `Aperture` Not known `Brightness` 8.76 `Color space` 1 `Compression` 6 `Exif version` 0220 `Exposure_mode` 0
 <br>Coordinates & altitude: (9.5384264, -73.5215579, 40.13)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5384264,-73.5215579) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5384264&lon=-73.5215579)
 ![GISMobile.POI](2013-07-04_08.58.04.jpg)
 
-`File` **11/2013-07-04_08.58.24.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 08:58:24 `Aperture` Not known `Brightness` 8.81 `Color space` 1
+`File` **11/2013-07-04_08.58.24.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 08:58:24 `Aperture` Not known `Brightness` 8.81 `Color space` 1 `Compression` 6 `Exif version` 0220 `Exposure_mode` 0
 <br>Coordinates & altitude: (9.5384264, -73.5215579, 40.13)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5384264,-73.5215579) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5384264&lon=-73.5215579)
 ![GISMobile.POI](2013-07-04_08.58.24.jpg)
 
-`File` **11/2013-07-04_08.58.43.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 08:58:43 `Aperture` Not known `Brightness` 6.92 `Color space` 1
+`File` **11/2013-07-04_08.58.43.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 08:58:43 `Aperture` Not known `Brightness` 6.92 `Color space` 1 `Compression` 6 `Exif version` 0220 `Exposure_mode` 0
 <br>Coordinates & altitude: (9.5384264, -73.5215579, 40.13)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5384264,-73.5215579) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5384264&lon=-73.5215579)
 ![GISMobile.POI](2013-07-04_08.58.43.jpg)
 
-`File` **11/2013-07-04_08.58.48.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 08:58:48 `Aperture` Not known `Brightness` 8.22 `Color space` 1
+`File` **11/2013-07-04_08.58.48.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 08:58:48 `Aperture` Not known `Brightness` 8.22 `Color space` 1 `Compression` 6 `Exif version` 0220 `Exposure_mode` 0
 <br>Coordinates & altitude: (9.5384264, -73.5215579, 40.13)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5384264,-73.5215579) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5384264&lon=-73.5215579)
 ![GISMobile.POI](2013-07-04_08.58.48.jpg)
 
-`File` **11/2013-07-04_08.58.52.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 08:58:52 `Aperture` Not known `Brightness` 6.57 `Color space` 1
+`File` **11/2013-07-04_08.58.52.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 08:58:52 `Aperture` Not known `Brightness` 6.57 `Color space` 1 `Compression` 6 `Exif version` 0220 `Exposure_mode` 0
 <br>Coordinates & altitude: (9.5384264, -73.5215579, 40.13)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5384264,-73.5215579) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5384264&lon=-73.5215579)
 ![GISMobile.POI](2013-07-04_08.58.52.jpg)
 
-`File` **11/2013-07-04_08.59.56.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 08:59:56 `Aperture` Not known `Brightness` 6.54 `Color space` 1
+`File` **11/2013-07-04_08.59.56.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 08:59:56 `Aperture` Not known `Brightness` 6.54 `Color space` 1 `Compression` 6 `Exif version` 0220 `Exposure_mode` 0
 <br>Coordinates & altitude: (9.5384264, -73.5215579, 40.13)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5384264,-73.5215579) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5384264&lon=-73.5215579)
 ![GISMobile.POI](2013-07-04_08.59.56.jpg)
 
-`File` **11/2013-07-04_09.00.00.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 09:00:00 `Aperture` Not known `Brightness` 6.06 `Color space` 1
+`File` **11/2013-07-04_09.00.00.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 09:00:00 `Aperture` Not known `Brightness` 6.06 `Color space` 1 `Compression` 6 `Exif version` 0220 `Exposure_mode` 0
 <br>Coordinates & altitude: (9.5381873, -73.5215483, 77.59)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5381873,-73.5215483) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5381873&lon=-73.5215483)
 ![GISMobile.POI](2013-07-04_09.00.00.jpg)
 
-`File` **11/2013-07-04_09.00.06.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 09:00:06 `Aperture` Not known `Brightness` 5.01 `Color space` 1
+`File` **11/2013-07-04_09.00.06.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 09:00:06 `Aperture` Not known `Brightness` 5.01 `Color space` 1 `Compression` 6 `Exif version` 0220 `Exposure_mode` 0
 <br>Coordinates & altitude: (9.5381873, -73.5215483, 77.59)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5381873,-73.5215483) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5381873&lon=-73.5215483)
 ![GISMobile.POI](2013-07-04_09.00.06.jpg)
 
-`File` **11/2013-07-04_09.00.11.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 09:00:11 `Aperture` Not known `Brightness` 6.4 `Color space` 1
+`File` **11/2013-07-04_09.00.11.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 09:00:11 `Aperture` Not known `Brightness` 6.4 `Color space` 1 `Compression` 6 `Exif version` 0220 `Exposure_mode` 0
 <br>Coordinates & altitude: (9.5381873, -73.5215483, 77.59)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5381873,-73.5215483) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5381873&lon=-73.5215483)
 ![GISMobile.POI](2013-07-04_09.00.11.jpg)
 
-`File` **11/2013-07-04_09.00.17.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 09:00:17 `Aperture` Not known `Brightness` 6.4 `Color space` 1
+`File` **11/2013-07-04_09.00.17.jpg** `OS version` N7000XXLS2 `Date` 2013:07:04 09:00:17 `Aperture` Not known `Brightness` 6.4 `Color space` 1 `Compression` 6 `Exif version` 0220 `Exposure_mode` 0
 <br>Coordinates & altitude: (9.5381873, -73.5215483, 77.59)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=9.5381873,-73.5215483) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5381873&lon=-73.5215483)
 ![GISMobile.POI](2013-07-04_09.00.17.jpg)
 

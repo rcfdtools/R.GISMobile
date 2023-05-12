@@ -14,43 +14,43 @@
 }
 ```
 
-`File` **1/PXL_20230503_141248486.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:12:48 `Aperture` Not known `Brightness` 9.32 `Color space` 1
+`File` **1/PXL_20230503_141248486.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:12:48 `Aperture` Not known `Brightness` 9.32 `Color space` 1 `Compression` 6 `Exif version` 0232 `Exposure_mode` 0
 <br>Coordinates & altitude: (4.712488888888889, -73.81947777777778, 3732.0)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=4.712488888888889,-73.81947777777778) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.712488888888889&lon=-73.81947777777778)
 ![GISMobile.POI](PXL_20230503_141248486.jpg)
 
-`File` **1/PXL_20230503_141401490.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:14:01 `Aperture` Not known `Brightness` 8.39 `Color space` 1
+`File` **1/PXL_20230503_141401490.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:14:01 `Aperture` Not known `Brightness` 8.39 `Color space` 1 `Compression` 6 `Exif version` 0232 `Exposure_mode` 0
 <br>Coordinates & altitude: (4.712169444444444, -73.8198361111111, 3733.41)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=4.712169444444444,-73.8198361111111) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.712169444444444&lon=-73.8198361111111)
 ![GISMobile.POI](PXL_20230503_141401490.jpg)
 
-`File` **1/PXL_20230503_141404104.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:14:04 `Aperture` Not known `Brightness` 9.35 `Color space` 1
+`File` **1/PXL_20230503_141404104.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:14:04 `Aperture` Not known `Brightness` 9.35 `Color space` 1 `Compression` 6 `Exif version` 0232 `Exposure_mode` 0
 <br>Coordinates & altitude: (4.712169444444444, -73.8198361111111, 3733.41)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=4.712169444444444,-73.8198361111111) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.712169444444444&lon=-73.8198361111111)
 ![GISMobile.POI](PXL_20230503_141404104.jpg)
 
-`File` **1/PXL_20230503_141452560.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:14:52 `Aperture` Not known `Brightness` 8.97 `Color space` 1
+`File` **1/PXL_20230503_141452560.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:14:52 `Aperture` Not known `Brightness` 8.97 `Color space` 1 `Compression` 6 `Exif version` 0232 `Exposure_mode` 0
 <br>Coordinates & altitude: (4.712169444444444, -73.8198361111111, 3733.41)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=4.712169444444444,-73.8198361111111) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.712169444444444&lon=-73.8198361111111)
 ![GISMobile.POI](PXL_20230503_141452560.jpg)
 
-`File` **1/PXL_20230503_141454219.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:14:54 `Aperture` Not known `Brightness` 9.17 `Color space` 1
+`File` **1/PXL_20230503_141454219.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:14:54 `Aperture` Not known `Brightness` 9.17 `Color space` 1 `Compression` 6 `Exif version` 0232 `Exposure_mode` 0
 <br>Coordinates & altitude: (4.712169444444444, -73.8198361111111, 3733.41)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=4.712169444444444,-73.8198361111111) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.712169444444444&lon=-73.8198361111111)
 ![GISMobile.POI](PXL_20230503_141454219.jpg)
 
-`File` **1/PXL_20230503_141456741.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:14:56 `Aperture` Not known `Brightness` 9.39 `Color space` 1
+`File` **1/PXL_20230503_141456741.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:14:56 `Aperture` Not known `Brightness` 9.39 `Color space` 1 `Compression` 6 `Exif version` 0232 `Exposure_mode` 0
 <br>Coordinates & altitude: (4.712169444444444, -73.8198361111111, 3733.41)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=4.712169444444444,-73.8198361111111) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.712169444444444&lon=-73.8198361111111)
 ![GISMobile.POI](PXL_20230503_141456741.jpg)
 
-`File` **1/PXL_20230503_141459242.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:14:59 `Aperture` Not known `Brightness` 9.16 `Color space` 1
+`File` **1/PXL_20230503_141459242.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:14:59 `Aperture` Not known `Brightness` 9.16 `Color space` 1 `Compression` 6 `Exif version` 0232 `Exposure_mode` 0
 <br>Coordinates & altitude: (4.712169444444444, -73.8198361111111, 3733.41)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=4.712169444444444,-73.8198361111111) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.712169444444444&lon=-73.8198361111111)
 ![GISMobile.POI](PXL_20230503_141459242.jpg)
 
-`File` **1/PXL_20230503_142135200.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:21:35 `Aperture` Not known `Brightness` 9.35 `Color space` 1
+`File` **1/PXL_20230503_142135200.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:21:35 `Aperture` Not known `Brightness` 9.35 `Color space` 1 `Compression` 6 `Exif version` 0232 `Exposure_mode` 0
 <br>Coordinates & altitude: (4.712169444444444, -73.81983333333334, 3719.56)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=4.712169444444444,-73.81983333333334) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.712169444444444&lon=-73.81983333333334)
 ![GISMobile.POI](PXL_20230503_142135200.jpg)
 
-`File` **1/PXL_20230503_142138155.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:21:38 `Aperture` Not known `Brightness` 10.26 `Color space` 1
+`File` **1/PXL_20230503_142138155.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:21:38 `Aperture` Not known `Brightness` 10.26 `Color space` 1 `Compression` 6 `Exif version` 0232 `Exposure_mode` 0
 <br>Coordinates & altitude: (4.712169444444444, -73.81983333333334, 3719.56)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=4.712169444444444,-73.81983333333334) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.712169444444444&lon=-73.81983333333334)
 ![GISMobile.POI](PXL_20230503_142138155.jpg)
 
-`File` **1/PXL_20230503_142141424.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:21:41 `Aperture` Not known `Brightness` 8.93 `Color space` 1
+`File` **1/PXL_20230503_142141424.jpg** `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 09:21:41 `Aperture` Not known `Brightness` 8.93 `Color space` 1 `Compression` 6 `Exif version` 0232 `Exposure_mode` 0
 <br>Coordinates & altitude: (4.712169444444444, -73.81983333333334, 3719.56)<br>:earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=4.712169444444444,-73.81983333333334) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.712169444444444&lon=-73.81983333333334)
 ![GISMobile.POI](PXL_20230503_142141424.jpg)
 
