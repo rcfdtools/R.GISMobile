@@ -1,0 +1,6 @@
+pandas
+numpy
+tabulate
+exif
+geopandas
+moviepy
