@@ -50,5 +50,6 @@
 `File` **11/2013-07-04_09.00.17.jpg** <sub> `Exif version` 0220 `OS version` N7000XXLS2 `Date` 2013:07:04 09:00:17 `Aperture` Not known `Brightness` 6.4 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.007874015748031496 `Focal length` 3.97 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 2.65 `White balance` 0</sub><sub>`Coordinates & altitude` (9.5381873, -73.5215483, 77.59)</sub><sub>:earth_americas: `Location over` [Google Maps](http://maps.google.com/maps?q=9.5381873,-73.5215483) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5381873&lon=-73.5215483)</sub>
 ![GISMobile.POI](2013-07-04_09.00.17.jpg)
 
+_Citación: Se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación", https://github.com/rcfdtools/R.GISMobile, Bogotá - Colombia - Suramérica."._
 | [:house: Inicio](../Readme.md) |
 |---|
