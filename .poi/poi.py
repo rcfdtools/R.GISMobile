@@ -32,7 +32,7 @@ def image_info(img_path):
             print('No Coordinates')
     else:
         print('The Image has no EXIF information')
-    info = f"`File:` **{src.name}** `OS version:` {img.get('software', 'Not Known')} `Date:` {img.datetime_original} Aperture: {img.get('aperture', 'Not Known')}"
+    info = f"`File` **{src.name}** `OS version` {img.get('software', 'Not known')} `Date` {img.datetime_original} `Aperture` {img.get('aperture', 'Not known')} `Brightness` {img.get('brightness_value', 'Not known')} `Color space` {img.get('color_space', 'Not known')}"
     readme_file.write(info+'\n')
     if coords:
         map_location = (':earth_americas: Location over [Google Maps](http://maps.google.com/maps?q=' + str(

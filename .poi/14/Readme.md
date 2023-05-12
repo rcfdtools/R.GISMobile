@@ -14,34 +14,34 @@
 }
 ```
 
-`File:` **14/20180425_144418.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 14:44:18 Aperture: Not Known
+`File` **14/20180425_144418.jpg** `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:44:18 `Aperture` Not known `Brightness` 9.57 `Color space` 1
 ![GISMobile.POI](20180425_144418.jpg)
 
-`File:` **14/20180425_144421.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 14:44:21 Aperture: Not Known
+`File` **14/20180425_144421.jpg** `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:44:21 `Aperture` Not known `Brightness` 9.69 `Color space` 1
 ![GISMobile.POI](20180425_144421.jpg)
 
-`File:` **14/20180425_144429.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 14:44:29 Aperture: Not Known
+`File` **14/20180425_144429.jpg** `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:44:29 `Aperture` Not known `Brightness` 9.05 `Color space` 1
 ![GISMobile.POI](20180425_144429.jpg)
 
-`File:` **14/20180425_144453.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 14:44:52 Aperture: Not Known
+`File` **14/20180425_144453.jpg** `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:44:52 `Aperture` Not known `Brightness` Not known `Color space` 1
 ![GISMobile.POI](20180425_144453.jpg)
 
-`File:` **14/20180425_144555.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 14:45:54 Aperture: Not Known
+`File` **14/20180425_144555.jpg** `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:45:54 `Aperture` Not known `Brightness` Not known `Color space` 1
 ![GISMobile.POI](20180425_144555.jpg)
 
-`File:` **14/20180425_144716.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 14:47:16 Aperture: Not Known
+`File` **14/20180425_144716.jpg** `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:47:16 `Aperture` Not known `Brightness` 8.69 `Color space` 1
 ![GISMobile.POI](20180425_144716.jpg)
 
-`File:` **14/20180425_144734.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 14:47:34 Aperture: Not Known
+`File` **14/20180425_144734.jpg** `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:47:34 `Aperture` Not known `Brightness` 6.67 `Color space` 1
 ![GISMobile.POI](20180425_144734.jpg)
 
-`File:` **14/20180425_144739.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 14:47:39 Aperture: Not Known
+`File` **14/20180425_144739.jpg** `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:47:39 `Aperture` Not known `Brightness` 7.23 `Color space` 1
 ![GISMobile.POI](20180425_144739.jpg)
 
-`File:` **14/20180425_145355.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 14:53:54 Aperture: Not Known
+`File` **14/20180425_145355.jpg** `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:53:54 `Aperture` Not known `Brightness` 9.44 `Color space` 1
 ![GISMobile.POI](20180425_145355.jpg)
 
-`File:` **14/20180425_145404.jpg** `OS version:` G930PVPS5BRA1 `Date:` 2018:04:25 14:54:04 Aperture: Not Known
+`File` **14/20180425_145404.jpg** `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:54:04 `Aperture` Not known `Brightness` 9.48 `Color space` 1
 ![GISMobile.POI](20180425_145404.jpg)
 
 | [:house: Inicio](../Readme.md) |
