@@ -1,4 +1,5 @@
 ## :earth_americas: GIS Mobile & [POI](.poi/Readme.md)
+Keywords: `QGIS` `QField` `POI` `Android` `iOS` `Python` `pandas` `numpy` `tabulate` `exif` `geopandas` `moviepy`
 
 <div align="center">
   <img alt="GISMobile" src=".graph/QField_MapView.png" width="350px"><br>  
