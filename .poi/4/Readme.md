@@ -1,4 +1,4 @@
-## Fraylejones (2023-05-03)
+## Frailejones - Ruilopezia (Espeletia) (2023-05-03)
 Créditos: rcfdtools<br>Categoría: Technical field visit
 
 ```geojson
@@ -9,7 +9,7 @@ Créditos: rcfdtools<br>Categoría: Technical field visit
     "coordinates": [-73.72865555555556, 4.585705555555555]
   }, 
   "properties": {
-    "Name": "Fraylejones"
+    "Name": "Frailejones - Ruilopezia (Espeletia)"
   }
 }
 ```
