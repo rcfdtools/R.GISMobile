@@ -1,4 +1,4 @@
-## GIS Mobile EAB-CO
+## GIS Mobile Predial - CO
 
 <div align="center">
   <img alt="GISMobile" src="graph/QField_MapView.png" width="300px">
