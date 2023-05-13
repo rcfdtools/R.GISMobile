@@ -10,7 +10,7 @@ Sistema de información geográfico móvil a partir de datos públicos https://w
 
 En Colombia la Ley de Transparencia y Acceso a la Información, define los datos abiertos como “todos aquellos datos primarios o sin procesar, que se encuentran en formatos estándar e interoperables que facilitan su acceso y reutilización, los cuales están bajo la custodia de las entidades públicas o privadas que cumplen con funciones públicas y que son puestos a disposición de cualquier ciudadano, de forma libre y sin restricciones, con el fin de que terceros puedan reutilizarlos y crear servicios derivados de los mismos” (Ley 1712 de 2014. Literal J, artículo 6. Definiciones.)
 
-> Mapa publicado en release como: GISMobile_Predial_CO_v2020
+> Mapa publicado en release como: [GISMobile_Predial_CO_v2020](https://github.com/rcfdtools/R.GISMobile/releases/tag/GISMobile)
 
 
 ### Sistema de proyección de coordenadas - CRS
