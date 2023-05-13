@@ -14,7 +14,7 @@
 {"type": "Point","properties": {"POI": "16", "Category": "Technical field visit", "Name": "Arroyo San Antonio - Estructura escalonada", "Date": "2018-04-25", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/16/Readme.md"},"coordinates": [-73.469932,9.517357]},
 {"type": "Point","properties": {"POI": "17", "Category": "Technical field visit", "Name": "Arroyo San Antonio - Realineamiento #4 - Construcción inicio desviación", "Date": "2018-04-25", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/17/Readme.md"},"coordinates": [-73.46366,9.525125]},
 {"type": "Point","properties": {"POI": "18", "Category": "Technical field visit", "Name": "Arroyo Las Ánimas - Estructura de repartición", "Date": "2022-04-27", "Credits": "rcfdtools & others", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/18/Readme.md"},"coordinates": [-73.518891,9.492937]},
-{"type": "Point","properties": {"POI": "19", "Category": "Technical field visit", "Name": "A Arroyo San Antonio - Descarga piscina sedimentación", "Date": "2022-04-27", "Credits": "rcfdtools & others", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/19/Readme.md"},"coordinates": [-73.506095,9.528783]},
+{"type": "Point","properties": {"POI": "19", "Category": "Technical field visit", "Name": "A Arroyo San Antonio - Descarga piscina sedimentación", "Date": "2022-04-27", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/19/Readme.md"},"coordinates": [-73.506095,9.528783]},
 {"type": "Point","properties": {"POI": "2", "Category": "Technical field visit", "Name": "Mirador Laguna Seca", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/2/Readme.md"},"coordinates": [-73.79294444444444,4.678047222222222]},
 {"type": "Point","properties": {"POI": "20", "Category": "Technical field visit", "Name": "Arroyo San Antonio - Paso de vía en entrega Realineamiento #4", "Date": "2022-04-27", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/20/Readme.md"},"coordinates": [-73.521755,9.538404]},
 {"type": "Point","properties": {"POI": "3", "Category": "Technical field visit", "Name": "Campamento EAB. Estación climatológica Chuza Monterredondo", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/3/Readme.md"},"coordinates": [-73.72457222222222,4.634402777777777]},
@@ -39,8 +39,8 @@
 
 | Credit             |   POI |
 |:-------------------|------:|
-| rcfdtools          |    18 |
-| rcfdtools & others |     2 |
+| rcfdtools          |    19 |
+| rcfdtools & others |     1 |
 
 
 ### POI list
@@ -57,7 +57,7 @@
 |    16 |    9.51736 |    -73.4699 |            | 2018-04-25 | Arroyo San Antonio - Estructura escalonada                                   | rcfdtools          | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/16/Readme.md |
 |    17 |    9.52512 |    -73.4637 |            | 2018-04-25 | Arroyo San Antonio - Realineamiento #4 - Construcción inicio desviación      | rcfdtools          | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/17/Readme.md |
 |    18 |    9.49294 |    -73.5189 |            | 2022-04-27 | Arroyo Las Ánimas - Estructura de repartición                                | rcfdtools & others | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/18/Readme.md |
-|    19 |    9.52878 |    -73.5061 |            | 2022-04-27 | A Arroyo San Antonio - Descarga piscina sedimentación                        | rcfdtools & others | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/19/Readme.md |
+|    19 |    9.52878 |    -73.5061 |            | 2022-04-27 | A Arroyo San Antonio - Descarga piscina sedimentación                        | rcfdtools          | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/19/Readme.md |
 |     2 |    4.67805 |    -73.7929 | 3730.03    | 2023-05-03 | Mirador Laguna Seca                                                          | rcfdtools          | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/2/Readme.md  |
 |    20 |    9.5384  |    -73.5218 |            | 2022-04-27 | Arroyo San Antonio - Paso de vía en entrega Realineamiento #4                | rcfdtools          | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/20/Readme.md |
 |     3 |    4.6344  |    -73.7246 | 3051.38    | 2023-05-03 | Campamento EAB. Estación climatológica Chuza Monterredondo                   | rcfdtools          | Technical field visit | https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/3/Readme.md  |

@@ -1,5 +1,6 @@
 ## Mirador Laguna Seca (2023-05-03)
 Fotos por: rcfdtools<br>Categoría: Technical field visit
+Location over [Google Maps](http://maps.google.com/maps?q=4.678047222222222,-73.79294444444444 
 
 ```geojson
 {

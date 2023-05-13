@@ -1,5 +1,6 @@
 ## A Arroyo San Antonio - Descarga piscina sedimentación (2022-04-27)
-Fotos por: rcfdtools & others<br>Categoría: Technical field visit
+Fotos por: rcfdtools<br>Categoría: Technical field visit
+Location over [Google Maps](http://maps.google.com/maps?q=9.528783,-73.506095 
 
 ```geojson
 {

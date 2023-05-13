@@ -1,5 +1,6 @@
 ## Arroyo San Antonio - Paso de vía en entrega Realineamiento #4 (2013-07-03)
 Fotos por: rcfdtools<br>Categoría: Technical field visit
+Location over [Google Maps](http://maps.google.com/maps?q=9.5384802,-73.5215662 
 
 ```geojson
 {

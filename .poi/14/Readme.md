@@ -1,5 +1,6 @@
 ## Arroyo San Antonio - Paso de vía minero (2018-04-25)
 Fotos por: rcfdtools<br>Categoría: Technical field visit
+Location over [Google Maps](http://maps.google.com/maps?q=9.529024,-73.508897 
 
 ```geojson
 {

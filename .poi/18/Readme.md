@@ -1,5 +1,6 @@
 ## Arroyo Las Ánimas - Estructura de repartición (2022-04-27)
 Fotos por: rcfdtools & others<br>Categoría: Technical field visit
+Location over [Google Maps](http://maps.google.com/maps?q=9.492937,-73.518891 
 
 ```geojson
 {

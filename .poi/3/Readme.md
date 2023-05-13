@@ -1,5 +1,6 @@
 ## Campamento EAB. Estación climatológica Chuza Monterredondo (2023-05-03)
 Fotos por: rcfdtools<br>Categoría: Technical field visit
+Location over [Google Maps](http://maps.google.com/maps?q=4.634402777777777,-73.72457222222222 
 
 ```geojson
 {

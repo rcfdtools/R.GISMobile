@@ -1,5 +1,6 @@
 ## Paso de vía Canal Paujil (2013-07-04)
 Fotos por: rcfdtools<br>Categoría: Technical field visit
+Location over [Google Maps](http://maps.google.com/maps?q=9.5532847,-73.4642336 
 
 ```geojson
 {
