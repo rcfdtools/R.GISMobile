@@ -35,15 +35,15 @@ Fotos por: rcfdtools & others<br>Categoría: Technical field visit
 :camera: **18/20220427_084929.jpg** <sub> `Exif version` 0220 `OS version` G955USQU8DUD3 `Date` 2022:04:27 08:49:29 `Aperture` Not known `Brightness` 8.96 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0003156565656565657 `Focal length` 4.25 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 11.629</sub><sub>`Coordinates & altitude` (0.0, 0.0, 0.0)</sub><sub>:earth_americas: `Location over` [Google Maps](http://maps.google.com/maps?q=0.0,0.0) or [Openstreet Map](https://www.openstreetmap.org/query?lat=0.0&lon=0.0)</sub>
 ![GISMobile.POI](20220427_084929.jpg)
 
-:camera: **18/IMG-20220427a.jpg**![GISMobile.POI](IMG-20220427a.jpg)
+:camera: **18/IMG-20220427a.jpg**  <sub> `Exif version` Not known![GISMobile.POI](IMG-20220427a.jpg)
 
-:camera: **18/IMG-20220427b.jpg**![GISMobile.POI](IMG-20220427b.jpg)
+:camera: **18/IMG-20220427b.jpg**  <sub> `Exif version` Not known![GISMobile.POI](IMG-20220427b.jpg)
 
-:camera: **18/IMG-20220427c.jpg**![GISMobile.POI](IMG-20220427c.jpg)
+:camera: **18/IMG-20220427c.jpg**  <sub> `Exif version` Not known![GISMobile.POI](IMG-20220427c.jpg)
 
-:camera: **18/IMG-20220427d.jpg**![GISMobile.POI](IMG-20220427d.jpg)
+:camera: **18/IMG-20220427d.jpg**  <sub> `Exif version` Not known![GISMobile.POI](IMG-20220427d.jpg)
 
-:camera: **18/IMG-20220427g.jpg**![GISMobile.POI](IMG-20220427g.jpg)
+:camera: **18/IMG-20220427g.jpg**  <sub> `Exif version` Not known![GISMobile.POI](IMG-20220427g.jpg)
 
 _**Citación:** se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación", https://github.com/rcfdtools/R.GISMobile, Bogotá - Colombia - Suramérica."._
 | [:house: Inicio](../Readme.md) |
