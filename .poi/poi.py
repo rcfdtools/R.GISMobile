@@ -132,4 +132,3 @@ df.index.name = '#'
 df = df.drop(['Link'], axis=1)
 geojson_file_write.write(df.to_markdown(index=False))
 geojson_file_write.write(license_txt + '\n')
-
