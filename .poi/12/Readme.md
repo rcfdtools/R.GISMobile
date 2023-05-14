@@ -1,6 +1,6 @@
 ## Arroyo San Antonio - Erosión remontante - Estructuras de agradación (2018-04-25)
-Fotos por: rcfdtools<br>Categoría: Technical field visit
-Location over [Google Maps](http://maps.google.com/maps?q=9.531024,-73.462601 
+`Picture by` rcfdtools<br>`Category` Technical field visit
+`Location over` [Google Maps](http://maps.google.com/maps?q=9.531024,-73.462601) 
 
 ```geojson
 {

@@ -1,6 +1,6 @@
 ## Laguna Chingaza (2023-05-03)
-Fotos por: rcfdtools<br>Categoría: Technical field visit
-Location over [Google Maps](http://maps.google.com/maps?q=4.532322222222223,-73.74963611111112 
+`Picture by` rcfdtools<br>`Category` Technical field visit
+`Location over` [Google Maps](http://maps.google.com/maps?q=4.532322222222223,-73.74963611111112) 
 
 ```geojson
 {

@@ -1,6 +1,6 @@
 ## Arroyo San Antonio - Paso de vía en entrega Realineamiento #4 (2022-04-27)
-Fotos por: rcfdtools<br>Categoría: Technical field visit
-Location over [Google Maps](http://maps.google.com/maps?q=9.538404,-73.521755 
+`Picture by` rcfdtools<br>`Category` Technical field visit
+`Location over` [Google Maps](http://maps.google.com/maps?q=9.538404,-73.521755) 
 
 ```geojson
 {

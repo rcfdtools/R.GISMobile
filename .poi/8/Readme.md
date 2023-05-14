@@ -1,6 +1,6 @@
 ## Embalse Paujil (2013-07-03)
-Fotos por: rcfdtools<br>Categoría: Technical field visit
-Location over [Google Maps](http://maps.google.com/maps?q=9.559278,-73.458466 
+`Picture by` rcfdtools<br>`Category` Technical field visit
+`Location over` [Google Maps](http://maps.google.com/maps?q=9.559278,-73.458466) 
 
 ```geojson
 {

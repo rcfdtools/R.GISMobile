@@ -1,6 +1,6 @@
 ## Arroyo San Antonio - Erosión remontante (2013-07-03)
-Fotos por: rcfdtools<br>Categoría: Technical field visit
-Location over [Google Maps](http://maps.google.com/maps?q=9.5332223,-73.4627698 
+`Picture by` rcfdtools<br>`Category` Technical field visit
+`Location over` [Google Maps](http://maps.google.com/maps?q=9.5332223,-73.4627698) 
 
 ```geojson
 {
