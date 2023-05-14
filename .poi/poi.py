@@ -68,7 +68,7 @@ for i in directories:
         readme_file.write(geojson)
         df1['POI'] = i
         df1['Link'] = path_www+i+'/Readme.md'
-        df1['Linkmd'] = '[Go]('+i+'/Readme.md)'
+        df1['Linkmd'] = '[:globe_with_meridians]('+i+'/Readme.md)'
         df = pd.concat([df, df1], ignore_index=True)
         picture_path = path+i+'/'
         picture_files = [x for x in Path(picture_path).iterdir() if x.is_file()]
