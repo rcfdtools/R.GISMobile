@@ -36,7 +36,7 @@ def image_info(img_path):
         print('The Image has no EXIF information')
     readme_file.write(info)
     if coords:
-        map_location = ('<sub> :globe_with_meridians: `Location over` [Google Maps](http://maps.google.com/maps?q=' + str(
+        map_location = ('<sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=' + str(
             cy) + ',' + str(cx) + ') or [Openstreet Map](https://www.openstreetmap.org/query?lat=' + str(cy) + '&lon=' + str(cx) + ')</sub>')
         print(f"Coordinates:{coords}")
         readme_file.write(f"<sub>`Coordinates & altitude` {coords}</sub>")
@@ -50,7 +50,7 @@ geojson_file = 'Readme.md'
 poi_cols = ['URL', 'POI', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Name', 'Credit', 'Category', 'Link']
 exclude_folder = ['.shp', '.temp']
 picture_format = ['.jpg', '.png', '.tif']
-license_txt = '> _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._'
+license_txt = '> _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._\n'
 directories = [d for d in os.listdir(os.getcwd()) if os.path.isdir(d)]
 
 # Processing directories
