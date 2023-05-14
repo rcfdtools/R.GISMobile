@@ -1,4 +1,4 @@
-## :earth_americas: GIS Mobile & [POI](.poi/Readme.md)
+## :globe_with_meridians: GIS Mobile & [POI](.poi/Readme.md)
 Keywords: `QGIS` `QField` `POI` `Android` `iOS` `Python` `pandas` `numpy` `tabulate` `exif` `geopandas` `moviepy`
 
 <div align="center">
