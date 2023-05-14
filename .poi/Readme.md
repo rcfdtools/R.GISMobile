@@ -1,4 +1,4 @@
-## :globe_with_meridians: Puntos de interés - POI
+## :globe_with_meridians:Puntos de interés - POI
 
 ### Mapa localización de puntos de interés en GISMobile
 
