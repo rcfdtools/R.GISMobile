@@ -1,5 +1,5 @@
 ## Tunel derivador Río Guatiquía a Embalse Chuza (2023-05-03)
-`Picture by` rcfdtools <br>`Category` Technical field visit <br>`Location over` [Google Maps](http://maps.google.com/maps?q=4.537927777777778,-73.72825833333333) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.537927777777778&lon=-73.72825833333333) 
+`Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=4.537927777777778,-73.72825833333333) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.537927777777778&lon=-73.72825833333333) 
 
 ```geojson
 {

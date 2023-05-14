@@ -1,5 +1,5 @@
 ## Frailejones - Ruilopezia (Espeletia) (2023-05-03)
-`Picture by` rcfdtools <br>`Category` Technical field visit <br>`Location over` [Google Maps](http://maps.google.com/maps?q=4.585705555555555,-73.72865555555556) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.585705555555555&lon=-73.72865555555556) 
+`Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=4.585705555555555,-73.72865555555556) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.585705555555555&lon=-73.72865555555556) 
 
 ```geojson
 {
