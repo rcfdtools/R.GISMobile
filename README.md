@@ -22,7 +22,7 @@ GISMobile utiliza bases de datos geográficas en formato File Geodatabase de ESR
 ### Instrucciones de instalación
 
 1. Desde el [Play Store en Android](https://play.google.com/) o desde [App Store en iOS](https://www.apple.com/co/app-store/), instale la App [QField](https://play.google.com/store/search?q=qfield&c=apps) de [OPENGIS.ch](https://qfield.org/) 
-2. Descargue el comprimido GIS Mobile de [rcfdtools](https://github.com/rcfdtools). Dentro de cada proyecto encontrará carpetas con as versiones disponible, p.ej. v20230430. Se recomienda instalar la última versión disponible
+2. Descargue el comprimido GIS Mobile de [rcfdtools](https://github.com/rcfdtools). Dentro de cada proyecto encontrará carpetas con as versiones disponible, p.ej. v20230430. Se recomienda descargar la última versión disponible
 3. En la raíz de su dispositivo o en la carpeta de descargas, cree una carpeta con el nombre `GISMobile` y descomprima los archivos (GDB.gdb y GISMobilexxx.qgz).
 4. Abra QField y de clic en el botón `Open local file`
 5. En la parte inferior derecha, de clic en el botón `+`, seleccione la opción `Import project from folder`
@@ -30,6 +30,8 @@ GISMobile utiliza bases de datos geográficas en formato File Geodatabase de ESR
 7. Una vez finalizada la importación de clic en el archivo `GISMobilexxx.qgz` para abrir el mapa. Espere a que se cargue el mapa en su dispositivo.
 
 > Dependiendo del tipo de dispositivo móvil, la apertura del mapa podrá tardar algunos segundos, una vez cargado podrá navegar por el mapa de forma fluida.
+> 
+> El proceso de apertura del proyecto también puede ser realizado directamente desde el archivo comprimido descargado mediante la opción `Import project from .zip file`
 
 
 ### Bugs & Fixes
