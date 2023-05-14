@@ -131,4 +131,4 @@ geojson_file_write.write('\n\n\n### POI list\n\n')
 df.index.name = '#'
 df = df.drop(['Link'], axis=1)
 geojson_file_write.write(df.to_markdown(index=False))
-geojson_file_write.write('\n'+license_txt+'\n')
+geojson_file_write.write('\n\n'+license_txt+'\n')
