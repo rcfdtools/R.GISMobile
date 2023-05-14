@@ -47,7 +47,7 @@ path = 'D:/R.GISMobile/.poi/'
 path_www = 'https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/'
 poi_file = 'poi.csv'
 geojson_file = 'Readme.md'
-poi_cols = ['POI', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Name', 'Credit', 'Category', 'Link']
+poi_cols = ['POI', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Name', 'Credit', 'Category', 'Link', 'Linkmd']
 exclude_folder = ['.shp', '.temp']
 picture_format = ['.jpg', '.png', '.tif']
 directories = [d for d in os.listdir(os.getcwd()) if os.path.isdir(d)]
@@ -68,6 +68,7 @@ for i in directories:
         readme_file.write(geojson)
         df1['POI'] = i
         df1['Link'] = path_www+i+'/Readme.md'
+        df1['Linkmd'] = '[Go]('+i+'/Readme.md)'
         df = pd.concat([df, df1], ignore_index=True)
         picture_path = path+i+'/'
         picture_files = [x for x in Path(picture_path).iterdir() if x.is_file()]
@@ -124,7 +125,9 @@ geojson_file_write.write('\n\n\n### Estadísticas generales por autor\n\n')
 df2 = df.groupby(['Credit'])['POI'].agg('count').reset_index()
 df2.index.name = '#'
 geojson_file_write.write(df2.to_markdown(index=False))
+# Print POI list
 geojson_file_write.write('\n\n\n### POI list\n\n')
 df.index.name = '#'
+df = df.drop(['Link'], axis=1)
 geojson_file_write.write(df.to_markdown(index=False))
 
