@@ -1,6 +1,5 @@
 ## Antigua mina de caliza CEMEX (2023-05-03)
-`Picture by` rcfdtools<br>`Category` Technical field visit
-`Location over` [Google Maps](http://maps.google.com/maps?q=4.712169444444444,-73.8198361111111) 
+`Picture by` rcfdtools `Category` Technical field visit `Location over` [Google Maps](http://maps.google.com/maps?q=4.712169444444444,-73.8198361111111) 
 
 ```geojson
 {
