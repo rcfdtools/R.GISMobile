@@ -50,6 +50,7 @@ geojson_file = 'Readme.md'
 poi_cols = ['URL', 'POI', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Name', 'Credit', 'Category', 'Link']
 exclude_folder = ['.shp', '.temp']
 picture_format = ['.jpg', '.png', '.tif']
+license_txt = '_**Citación:** se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación", https://github.com/rcfdtools/R.GISMobile, Bogotá - Colombia - Suramérica."._'
 directories = [d for d in os.listdir(os.getcwd()) if os.path.isdir(d)]
 
 # Processing directories
@@ -79,7 +80,6 @@ for i in directories:
                 print(filename_absolute)
                 image_info(i+'/'+filename_absolute)
                 readme_file.write('![GISMobile.POI]('+filename_absolute+')\n\n')
-        license_txt = '_**Citación:** se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación", https://github.com/rcfdtools/R.GISMobile, Bogotá - Colombia - Suramérica."._'
         readme_file.write(license_txt + '\n')
         readme_file.write('| [:house: Inicio](../Readme.md) |\n|---|')
 df = df[poi_cols]  # Reordering cols
@@ -131,4 +131,5 @@ geojson_file_write.write('\n\n\n### POI list\n\n')
 df.index.name = '#'
 df = df.drop(['Link'], axis=1)
 geojson_file_write.write(df.to_markdown(index=False))
+geojson_file_write.write(license_txt + '\n')
 
