@@ -15,6 +15,8 @@ GIS Mobile utiliza bases de datos geográficas en formato File Geodatabase de ES
 ### Descargas
 
 * [GIS Mobile EAB-CO](GISMobile_EAB_CO)
+* [GIS Mobile Predial - CO](GISMobile_Predial_CO)
+* [Puntos de interés - POI](.poi/Readme.md)
 
 
 ### Instrucciones de instalación
