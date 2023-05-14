@@ -1,5 +1,5 @@
 ## Arroyo San Antonio - Estructura escalonada (2018-04-25)
-`Picture by` rcfdtools `Category` Technical field visit `Location over` [Google Maps](http://maps.google.com/maps?q=9.519911,-73.483261) 
+`Picture by` rcfdtools `Category` Technical field visit :earth_americas:`Location over` [Google Maps](http://maps.google.com/maps?q=9.519911,-73.483261) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.519911&lon=-73.483261) 
 
 ```geojson
 {
