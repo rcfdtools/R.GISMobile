@@ -1,4 +1,4 @@
-Linkmd,POI,Latitude,Longitude,Altitude,Date,Name,Credit,Category,Link
+URL,POI,Latitude,Longitude,Altitude,Date,Name,Credit,Category,Link
 [:globe_with_meridians:](1/Readme.md),1,4.712169444444444,-73.8198361111111,3733.41,2023-05-03,Antigua mina de caliza CEMEX,rcfdtools,Technical field visit,https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/1/Readme.md
 [:globe_with_meridians:](10/Readme.md),10,9.5332223,-73.4627698,57.73,2013-07-03,Arroyo San Antonio - Erosión remontante,rcfdtools,Technical field visit,https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/10/Readme.md
 [:globe_with_meridians:](11/Readme.md),11,9.5384802,-73.5215662,39.24,2013-07-03,Arroyo San Antonio - Paso de vía en entrega Realineamiento #4,rcfdtools,Technical field visit,https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/11/Readme.md

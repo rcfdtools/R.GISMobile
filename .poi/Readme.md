@@ -45,7 +45,7 @@
 
 ### POI list
 
-| Linkmd                                 |   POI |   Latitude |   Longitude | Altitude   | Date       | Name                                                                         | Credit             | Category              |
+| URL                                    |   POI |   Latitude |   Longitude | Altitude   | Date       | Name                                                                         | Credit             | Category              |
 |:---------------------------------------|------:|-----------:|------------:|:-----------|:-----------|:-----------------------------------------------------------------------------|:-------------------|:----------------------|
 | [:globe_with_meridians:](1/Readme.md)  |     1 |    4.71217 |    -73.8198 | 3733.41    | 2023-05-03 | Antigua mina de caliza CEMEX                                                 | rcfdtools          | Technical field visit |
 | [:globe_with_meridians:](10/Readme.md) |    10 |    9.53322 |    -73.4628 | 57.73      | 2013-07-03 | Arroyo San Antonio - Erosión remontante                                      | rcfdtools          | Technical field visit |
