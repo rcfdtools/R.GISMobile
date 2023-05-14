@@ -1,4 +1,4 @@
-## :globe_with_meridians: Arroyo San Antonio - Realineamiento # 4 - Construcción e inicio de operación (2018-04-25)
+## :globe_with_meridians:Arroyo San Antonio - Realineamiento # 4 - Construcción e inicio de operación (2018-04-25)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=9.528337,-73.507306) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.528337&lon=-73.507306) 
 
 ```geojson
