@@ -1,4 +1,4 @@
-## Mirador Laguna Seca (2023-05-03)
+## :globe_with_meridians: Mirador Laguna Seca (2023-05-03)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=4.678047222222222,-73.79294444444444) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.678047222222222&lon=-73.79294444444444) 
 
 ```geojson
