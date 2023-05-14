@@ -63,7 +63,7 @@ for i in directories:
         poi_path = path+i+'/'+poi_file
         print('Processing: %s' %poi_path)
         df1 = pd.read_csv(poi_path)  # Esri shapefile does not support datetime fields with parse_dates=['Date']
-        readme_file.write('## %s (%s)\n`Picture by` %s `Category` %s :earth_americas:`Location over` [Google Maps](http://maps.google.com/maps?q=%s,%s) or [Openstreet Map](https://www.openstreetmap.org/query?lat=%s&lon=%s) \n\n' %(str(df1['Name'][0]), str(df1['Date'][0]), str(df1['Credit'][0]), str(df1['Category'][0]), str(df1['Latitude'][0]), str(df1['Longitude'][0]), str(df1['Latitude'][0]), str(df1['Longitude'][0])))
+        readme_file.write('## %s (%s)\n`Picture by` %s \n`Category` %s \n:earth_americas:`Location over` [Google Maps](http://maps.google.com/maps?q=%s,%s) or [Openstreet Map](https://www.openstreetmap.org/query?lat=%s&lon=%s) \n\n' %(str(df1['Name'][0]), str(df1['Date'][0]), str(df1['Credit'][0]), str(df1['Category'][0]), str(df1['Latitude'][0]), str(df1['Longitude'][0]), str(df1['Latitude'][0]), str(df1['Longitude'][0])))
         geojson = '```geojson\n{\n  "type": "Feature",\n  "geometry": {\n    "type": "Point", \n    "coordinates": ['+str(df1['Longitude'][0])+', '+str(df1['Latitude'][0])+']\n  }, \n  "properties": {\n    "Name": "'+df1['Name'][0]+'"\n  }\n}\n```\n\n'
         readme_file.write(geojson)
         df1['POI'] = i
