@@ -1,7 +1,5 @@
 ## Laguna Chingaza (2023-05-03)
-`Picture by` rcfdtools 
-`Category` Technical field visit 
-:earth_americas:`Location over` [Google Maps](http://maps.google.com/maps?q=4.532322222222223,-73.74963611111112) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.532322222222223&lon=-73.74963611111112) 
+`Picture by` rcfdtools <br>`Category` Technical field visit <br>`Location over` [Google Maps](http://maps.google.com/maps?q=4.532322222222223,-73.74963611111112) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.532322222222223&lon=-73.74963611111112) 
 
 ```geojson
 {

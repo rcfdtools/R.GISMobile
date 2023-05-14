@@ -1,7 +1,5 @@
 ## Campamento EAB. Estación climatológica Chuza Monterredondo (2023-05-03)
-`Picture by` rcfdtools 
-`Category` Technical field visit 
-:earth_americas:`Location over` [Google Maps](http://maps.google.com/maps?q=4.634402777777777,-73.72457222222222) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.634402777777777&lon=-73.72457222222222) 
+`Picture by` rcfdtools <br>`Category` Technical field visit <br>`Location over` [Google Maps](http://maps.google.com/maps?q=4.634402777777777,-73.72457222222222) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.634402777777777&lon=-73.72457222222222) 
 
 ```geojson
 {

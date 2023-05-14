@@ -1,7 +1,5 @@
 ## Arroyo San Antonio - Erosión remontante (2013-07-03)
-`Picture by` rcfdtools 
-`Category` Technical field visit 
-:earth_americas:`Location over` [Google Maps](http://maps.google.com/maps?q=9.5332223,-73.4627698) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5332223&lon=-73.4627698) 
+`Picture by` rcfdtools <br>`Category` Technical field visit <br>`Location over` [Google Maps](http://maps.google.com/maps?q=9.5332223,-73.4627698) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5332223&lon=-73.4627698) 
 
 ```geojson
 {

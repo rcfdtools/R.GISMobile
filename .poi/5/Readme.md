@@ -1,7 +1,5 @@
 ## Localización futura presa Río La Playa - Guatiquía (2023-05-03)
-`Picture by` rcfdtools 
-`Category` Technical field visit 
-:earth_americas:`Location over` [Google Maps](http://maps.google.com/maps?q=4.5409,-73.75708888888889) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.5409&lon=-73.75708888888889) 
+`Picture by` rcfdtools <br>`Category` Technical field visit <br>`Location over` [Google Maps](http://maps.google.com/maps?q=4.5409,-73.75708888888889) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.5409&lon=-73.75708888888889) 
 
 ```geojson
 {

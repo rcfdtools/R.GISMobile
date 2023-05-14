@@ -1,7 +1,5 @@
 ## Mirador Laguna Seca (2023-05-03)
-`Picture by` rcfdtools 
-`Category` Technical field visit 
-:earth_americas:`Location over` [Google Maps](http://maps.google.com/maps?q=4.678047222222222,-73.79294444444444) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.678047222222222&lon=-73.79294444444444) 
+`Picture by` rcfdtools <br>`Category` Technical field visit <br>`Location over` [Google Maps](http://maps.google.com/maps?q=4.678047222222222,-73.79294444444444) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.678047222222222&lon=-73.79294444444444) 
 
 ```geojson
 {

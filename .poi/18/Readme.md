@@ -1,7 +1,5 @@
 ## Arroyo Las Ánimas - Estructura de repartición (2022-04-27)
-`Picture by` rcfdtools & others 
-`Category` Technical field visit 
-:earth_americas:`Location over` [Google Maps](http://maps.google.com/maps?q=9.492937,-73.518891) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.492937&lon=-73.518891) 
+`Picture by` rcfdtools & others <br>`Category` Technical field visit <br>`Location over` [Google Maps](http://maps.google.com/maps?q=9.492937,-73.518891) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.492937&lon=-73.518891) 
 
 ```geojson
 {
