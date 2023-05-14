@@ -84,6 +84,7 @@ for i in directories:
         readme_file.write('| [:house: Inicio](../Readme.md) |\n|---|')
 df = df[poi_cols]  # Reordering cols
 print(df)
+df = df.sort_values(by=['POI'], ascending=True)
 df.to_csv(path+poi_file, encoding='utf-8', index=False)
 
 # Create POI shapefile
