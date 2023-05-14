@@ -36,7 +36,7 @@ def image_info(img_path):
         print('The Image has no EXIF information')
     readme_file.write(info)
     if coords:
-        map_location = ('<sub>:globe_with_meridians: `Location over` [Google Maps](http://maps.google.com/maps?q=' + str(
+        map_location = ('<sub> :globe_with_meridians: `Location over` [Google Maps](http://maps.google.com/maps?q=' + str(
             cy) + ',' + str(cx) + ') or [Openstreet Map](https://www.openstreetmap.org/query?lat=' + str(cy) + '&lon=' + str(cx) + ')</sub>')
         print(f"Coordinates:{coords}")
         readme_file.write(f"<sub>`Coordinates & altitude` {coords}</sub>")
