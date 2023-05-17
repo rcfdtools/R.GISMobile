@@ -14,7 +14,7 @@
 }
 ```
 
-:camera: **19/IMG-20220427-WA0038.jpg**  <sub> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0038.jpg)
+:camera: **19/IMG-20220427-WA0038.jpg**  <sub> `Exif version` Not known![GISMobile.POI](IMG-20220427-WA0038.jpg)
 
 > _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
 
