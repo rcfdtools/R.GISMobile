@@ -43,7 +43,3 @@ GISMobile utiliza bases de datos geográficas en formato File Geodatabase de ESR
 ### Descargos de responsabilidad
 
 [rcfdtools](https://github.com/rcfdtools) no se responsabiliza por la información contenida en los mapas publicados, tenga en cuenta que puede contener imprecisiones en su localización y atributos disponibles. Consulte las fuentes originales citadas en cada mapa publicado.
-
-
-2024
-
