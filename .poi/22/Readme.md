@@ -1,4 +1,4 @@
-## :globe_with_meridians:Visita técnica Universidad Escuela Colombiana de Ingeniería Julio Garavito a la ESP Villeta - Cundinamarca - Colombia. Agradecimientos al Ingeniero Diego Mauricio Hernández Toro - Director técnico AAA, por compartir su experiencia profesional y conocimientos con los estudiantes y profesores. Información complementaria en https://espvilleta.gov.co (2024-05-10)
+## :globe_with_meridians:Visita técnica Universidad Escuela Colombiana de Ingeniería Julio Garavito a la ESP Villeta - Cundinamarca - Colombia. Agradecimientos especiales a la Ingeniera Ana Vitalia Gonzalez Suavita, gerente de la E.S.P. por concedernos este espacio y al Ingeniero Diego Mauricio Hernández Toro - Director técnico AAA, por compartir su experiencia profesional y conocimientos con los estudiantes y profesores. Información complementaria en https://espvilleta.gov.co (2024-05-10)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.013062,-74.4782647) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.013062&lon=-74.4782647) 
 
 ```geojson
@@ -9,7 +9,7 @@
     "coordinates": [-74.4782647, 5.013062]
   }, 
   "properties": {
-    "Name": "Visita técnica Universidad Escuela Colombiana de Ingeniería Julio Garavito a la ESP Villeta - Cundinamarca - Colombia. Agradecimientos al Ingeniero Diego Mauricio Hernández Toro - Director técnico AAA, por compartir su experiencia profesional y conocimientos con los estudiantes y profesores. Información complementaria en https://espvilleta.gov.co"
+    "Name": "Visita técnica Universidad Escuela Colombiana de Ingeniería Julio Garavito a la ESP Villeta - Cundinamarca - Colombia. Agradecimientos especiales a la Ingeniera Ana Vitalia Gonzalez Suavita, gerente de la E.S.P. por concedernos este espacio y al Ingeniero Diego Mauricio Hernández Toro - Director técnico AAA, por compartir su experiencia profesional y conocimientos con los estudiantes y profesores. Información complementaria en https://espvilleta.gov.co"
   }
 }
 ```
