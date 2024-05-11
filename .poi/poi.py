@@ -49,7 +49,7 @@ poi_file = 'poi.csv'
 geojson_file = 'Readme.md'
 poi_cols = ['URL', 'POI', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Name', 'Credit', 'Category', 'Link']
 exclude_folder = ['.shp', '.temp']
-picture_format = ['.jpg', '.png', '.tif']
+picture_format = ['.JPG', '.jpg', '.png', '.tif']
 license_txt = '> _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._\n'
 directories = [d for d in os.listdir(os.getcwd()) if os.path.isdir(d)]
 
