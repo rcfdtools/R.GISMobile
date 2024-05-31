@@ -1,4 +1,4 @@
-## :globe_with_meridians: "Visita técnica Universidad Escuela Colombiana de Ingeniería Julio Garavito con las Empresas Públicas de Cundinamarca -EPC a la PTAP de la ESP del municipio de Villapinzón - Cundinamarca - Colombia. " ( 2024-05-31)
+## :globe_with_meridians:Visita técnica Universidad Escuela Colombiana de Ingeniería Julio Garavito con las Empresas Públicas de Cundinamarca - EPC a la PTAP de la ESP del municipio de Villapinzón - Cundinamarca - Colombia (1 aducción de 8in a 6in, caudal operación 16 lps, cobertura de distribución únicamente para el área urbana). (2024-05-31)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.217477777777778,-73.58726388888888) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.217477777777778&lon=-73.58726388888888) 
 
 ```geojson
@@ -9,7 +9,7 @@
     "coordinates": [-73.58726388888888, 5.217477777777778]
   }, 
   "properties": {
-    "Name": " "Visita técnica Universidad Escuela Colombiana de Ingeniería Julio Garavito con las Empresas Públicas de Cundinamarca -EPC a la PTAP de la ESP del municipio de Villapinzón - Cundinamarca - Colombia. ""
+    "Name": "Visita técnica Universidad Escuela Colombiana de Ingeniería Julio Garavito con las Empresas Públicas de Cundinamarca - EPC a la PTAP de la ESP del municipio de Villapinzón - Cundinamarca - Colombia (1 aducción de 8in a 6in, caudal operación 16 lps, cobertura de distribución únicamente para el área urbana)."
   }
 }
 ```
