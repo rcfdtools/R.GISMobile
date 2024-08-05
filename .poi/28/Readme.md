@@ -1,5 +1,5 @@
-## :globe_with_meridians:rcfdtools (Little Dry Creek (river junction), Englewood, Colorado, U.S.)
-`Pictures` Field visit <br>`Category` nan <br>`Location` [Google Maps](http://maps.google.com/maps?q=39.658778,-104.998175) or [Openstreet Map](https://www.openstreetmap.org/query?lat=39.658778&lon=-104.998175) 
+## :globe_with_meridians:Little Dry Creek (river junction), Englewood, Colorado, U.S. (2024-07-21)
+`Pictures` rcfdtools <br>`Category` Field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=39.658778,-104.998175) or [Openstreet Map](https://www.openstreetmap.org/query?lat=39.658778&lon=-104.998175) 
 
 ```geojson
 {
@@ -9,7 +9,7 @@
     "coordinates": [-104.998175, 39.658778]
   }, 
   "properties": {
-    "Name": "rcfdtools"
+    "Name": "Little Dry Creek (river junction), Englewood, Colorado, U.S."
   }
 }
 ```
