@@ -1,5 +1,5 @@
 ## :globe_with_meridians:Southwest Greenbelt Park (open concrete channel with grass valey section), Englewood, Colorado, U.S. (2024-07-27)
-`Pictures` rcfdtools <br>`Category` Field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=39.635192,-104.995979) or [Openstreet Map](https://www.openstreetmap.org/query?lat=39.635192&lon=-104.995979) 
+`Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=39.635192,-104.995979) or [Openstreet Map](https://www.openstreetmap.org/query?lat=39.635192&lon=-104.995979) 
 
 ```geojson
 {
