@@ -14,6 +14,8 @@
 }
 ```
 
+:camera: **32/GoogleMaps.jpg**  <sub> `Exif version` Not known![GISMobile.POI](GoogleMaps.jpg)
+
 :camera: **32/Image 2021-04-03 at 22.43.23 (1).jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Image 2021-04-03 at 22.43.23 (1).jpeg)
 
 :camera: **32/Image 2021-04-03 at 22.43.23 (2).jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Image 2021-04-03 at 22.43.23 (2).jpeg)
