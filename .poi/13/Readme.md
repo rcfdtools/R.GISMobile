@@ -1,4 +1,4 @@
-## :globe_with_meridians:Arroyo San Antonio - Realineamiento # 4 - Construcción e inicio de operación (2018-04-25)
+## :globe_with_meridians:Arroyo San Antonio - Realineamiento # 4 - Construcción, inicio de operación y conformación (2018-04-25)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=9.528337,-73.507306) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.528337&lon=-73.507306) 
 
 ```geojson
@@ -9,7 +9,7 @@
     "coordinates": [-73.507306, 9.528337]
   }, 
   "properties": {
-    "Name": "Arroyo San Antonio - Realineamiento # 4 - Construcción e inicio de operación"
+    "Name": "Arroyo San Antonio - Realineamiento # 4 - Construcción, inicio de operación y conformación"
   }
 }
 ```
@@ -41,6 +41,10 @@
 :camera:**13/20180425_145359.jpg** <sub> `Exif version` 0220 `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:53:59 `Aperture` Not known `Brightness` 9.58 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.00027901785714285713 `Focal length` 4.2 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 11.807</sub>![GISMobile.POI](20180425_145359.jpg)
 
 :camera:**13/20180425_145413.jpg** <sub> `Exif version` 0220 `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:54:13 `Aperture` Not known `Brightness` 10.41 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0001481042654028436 `Focal length` 4.2 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 12.721</sub>![GISMobile.POI](20180425_145413.jpg)
+
+:camera: **13/SanAntonio1.jpeg**  <sub> `Exif version` Not known![GISMobile.POI](SanAntonio1.jpeg)
+
+:camera: **13/SanAntonio2.jpeg**  <sub> `Exif version` Not known![GISMobile.POI](SanAntonio2.jpeg)
 
 > _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
 
