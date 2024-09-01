@@ -31,6 +31,8 @@
 {"type": "Point","properties": {"POI": "31", "Category": "Freelance field visit", "Name": "Antena del Oso, Subachoque, Cundinamarca, Colombia", "Date": "2022-11-31", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/31/Readme.md"},"coordinates": [-74.137623,5.056057]},
 {"type": "Point","properties": {"POI": "32", "Category": "Freelance field visit", "Name": "Ruta Guecha, Suesca, Cundinamarca, Colombia", "Date": "2021-04-02", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/32/Readme.md"},"coordinates": [-73.823783,5.108268]},
 {"type": "Point","properties": {"POI": "33", "Category": "Freelance field visit", "Name": "Black Hawk, Colorado, U.S.", "Date": "2016-10-18", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/33/Readme.md"},"coordinates": [-105.44864,39.767451]},
+{"type": "Point","properties": {"POI": "34", "Category": "Freelance field visit", "Name": "Garden of Gods - Colorado Springs, Colorado, U.S.", "Date": "2018-05-25", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/34/Readme.md"},"coordinates": [-104.889951,38.865713]},
+{"type": "Point","properties": {"POI": "35", "Category": "Freelance field visit", "Name": "Red Rocks, Colorado, U.S.", "Date": "2020-01-05", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/35/Readme.md"},"coordinates": [-105.205656,39.665453]},
 {"type": "Point","properties": {"POI": "4", "Category": "Technical field visit", "Name": "Frailejones - Ruilopezia (Espeletia)", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/4/Readme.md"},"coordinates": [-73.72865555555556,4.585705555555555]},
 {"type": "Point","properties": {"POI": "5", "Category": "Technical field visit", "Name": "Localización futura presa Río La Playa - Guatiquía", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/5/Readme.md"},"coordinates": [-73.75708888888889,4.5409]},
 {"type": "Point","properties": {"POI": "6", "Category": "Technical field visit", "Name": "Laguna Chingaza", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/6/Readme.md"},"coordinates": [-73.74963611111112,4.532322222222223]},
@@ -45,7 +47,7 @@
 
 | Category              |   POI |
 |:----------------------|------:|
-| Freelance field visit |    10 |
+| Freelance field visit |    12 |
 | Technical field visit |    23 |
 
 
@@ -53,7 +55,7 @@
 
 | Credit             |   POI |
 |:-------------------|------:|
-| rcfdtools          |    31 |
+| rcfdtools          |    33 |
 | rcfdtools & others |     2 |
 
 
@@ -94,6 +96,8 @@
 | [:globe_with_meridians:](31/Readme.md) |    31 | Antena del Oso, Subachoque, Cundinamarca, Colombia                                                                                                                                                                                                                                                                                                                                                                                                                       |    5.05606 |    -74.1376 | 3640               | 2022-11-31 | rcfdtools          | Freelance field visit |
 | [:globe_with_meridians:](32/Readme.md) |    32 | Ruta Guecha, Suesca, Cundinamarca, Colombia                                                                                                                                                                                                                                                                                                                                                                                                                              |    5.10827 |    -73.8238 | 3640               | 2021-04-02 | rcfdtools          | Freelance field visit |
 | [:globe_with_meridians:](33/Readme.md) |    33 | Black Hawk, Colorado, U.S.                                                                                                                                                                                                                                                                                                                                                                                                                                               |   39.7675  |   -105.449  | 2255.52            | 2016-10-18 | rcfdtools          | Freelance field visit |
+| [:globe_with_meridians:](34/Readme.md) |    34 | Garden of Gods - Colorado Springs, Colorado, U.S.                                                                                                                                                                                                                                                                                                                                                                                                                        |   38.8657  |   -104.89   | 0.0                | 2018-05-25 | rcfdtools          | Freelance field visit |
+| [:globe_with_meridians:](35/Readme.md) |    35 | Red Rocks, Colorado, U.S.                                                                                                                                                                                                                                                                                                                                                                                                                                                |   39.6655  |   -105.206  | 0.0                | 2020-01-05 | rcfdtools          | Freelance field visit |
 
 > _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
 
