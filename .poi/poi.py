@@ -30,9 +30,9 @@ def image_info(img_path):
             cy = decimal_coords(img.gps_latitude, img.gps_latitude_ref)
         except AttributeError:
             print('No Coordinates')
-        info = f":camera:**{src.name}** <sub> `Exif version` {img.get('exif_version', 'Not known')} `OS version` {img.get('software', 'Not known')} `Date` {img.datetime_original} `Aperture` {img.get('aperture', 'Not known')} `Brightness` {img.get('brightness_value', 'Not known')} `Color space` {img.get('color_space', 'Not known')} `Compression` {img.get('compression', 'Not known')}`Exposure mode` {img.get('exposure_mode', 'Not known')} `Exposure time` {img.get('exposure_time', 'Not known')} `Focal length` {img.get('focal_length', 'Not known')} `Lens model` {img.get('lens_model', 'Not known')} `Lens specification` {img.get('lens_specification', 'Not known')} `Orientation` {img.get('orientation', 'Not known')} `Scene type` {img.get('scene_type', 'Not known')} `f number` {img.get('f_number', 'Not known')} `White balance` {img.get('white_balance', 'Not known')} `Sensing method` {img.get('sensing_method', 'Not known')} `Shutter speed` {img.get('shutter_speed_value', 'Not known')}</sub>"
+        info = f":camera:**{src.name}** <details><summary>+ info</summary><sub> `Exif version` {img.get('exif_version', 'Not known')} `OS version` {img.get('software', 'Not known')} `Date` {img.datetime_original} `Aperture` {img.get('aperture', 'Not known')} `Brightness` {img.get('brightness_value', 'Not known')} `Color space` {img.get('color_space', 'Not known')} `Compression` {img.get('compression', 'Not known')}`Exposure mode` {img.get('exposure_mode', 'Not known')} `Exposure time` {img.get('exposure_time', 'Not known')} `Focal length` {img.get('focal_length', 'Not known')} `Lens model` {img.get('lens_model', 'Not known')} `Lens specification` {img.get('lens_specification', 'Not known')} `Orientation` {img.get('orientation', 'Not known')} `Scene type` {img.get('scene_type', 'Not known')} `f number` {img.get('f_number', 'Not known')} `White balance` {img.get('white_balance', 'Not known')} `Sensing method` {img.get('sensing_method', 'Not known')} `Shutter speed` {img.get('shutter_speed_value', 'Not known')}</sub></details>"
     else:
-        info = f":camera: **{src.name}**  <sub> `Exif version` Not known"
+        info = f":camera: **{src.name}**  <details><summary>+ info</summary><sub> `Exif version` Not known</details>"
         print('The Image has no EXIF information')
     readme_file.write(info)
     if coords:
@@ -49,7 +49,7 @@ poi_file = 'poi.csv'
 geojson_file = 'Readme.md'
 # poi_cols = ['URL', 'POI', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Name', 'Credit', 'Category', 'Link']
 poi_cols = ['URL', 'POI', 'Name', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Credit', 'Category', 'Link']
-exclude_folder = ['.shp', '.temp']
+exclude_folder = ['.shp', '.temp', '.old']
 picture_format = ['.JPG', '.JPEG', '.jpeg', '.jpg', '.png', '.tif']
 license_txt = '> _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._\n'
 directories = [d for d in os.listdir(os.getcwd()) if os.path.isdir(d)]
