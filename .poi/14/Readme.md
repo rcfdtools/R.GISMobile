@@ -14,6 +14,7 @@
 }
 ```
 
+
 <details><summary>:camera:**14/20180425_144418.jpg**</summary><sub> `Exif version` 0220 `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:44:18 `Aperture` Not known `Brightness` 9.57 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0002759381898454746 `Focal length` 4.2 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 11.823</sub></details>![GISMobile.POI](20180425_144418.jpg)
 
 <details><summary>:camera:**14/20180425_144421.jpg**</summary><sub> `Exif version` 0220 `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:44:21 `Aperture` Not known `Brightness` 9.69 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0002670940170940171 `Focal length` 4.2 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 11.87</sub></details>![GISMobile.POI](20180425_144421.jpg)
@@ -33,7 +34,6 @@
 <details><summary>:camera:**14/20180425_145355.jpg**</summary><sub> `Exif version` 0220 `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:53:54 `Aperture` Not known `Brightness` 9.44 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0003026634382566586 `Focal length` 4.2 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 11.689</sub></details>![GISMobile.POI](20180425_145355.jpg)
 
 <details><summary>:camera:**14/20180425_145404.jpg**</summary><sub> `Exif version` 0220 `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:54:04 `Aperture` Not known `Brightness` 9.48 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0002983293556085919 `Focal length` 4.2 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 11.71</sub></details>![GISMobile.POI](20180425_145404.jpg)
-
 > _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
 
 | [:house: Inicio](../Readme.md) |

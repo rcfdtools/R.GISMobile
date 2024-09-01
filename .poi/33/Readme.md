@@ -14,6 +14,7 @@
 }
 ```
 
+
 <details><summary>:camera:**33/20161017_155857.jpg**</summary><sub> `Exif version` 0220 `OS version` G900MUBU1ANJ2 `Date` 2016:10:17 15:58:56 `Aperture` Not known `Brightness` 5.85 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.007194244604316547 `Focal length` 4.8 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 2.2 `White balance` 0 `Sensing method` 2 `Shutter speed` 7.12</sub></details>![GISMobile.POI](20161017_155857.jpg)
 
 <details><summary>:camera:**33/20161017_155902.jpg**</summary><sub> `Exif version` 0220 `OS version` G900MUBU1ANJ2 `Date` 2016:10:17 15:59:02 `Aperture` Not known `Brightness` 6.83 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0035842293906810036 `Focal length` 4.8 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 2.2 `White balance` 0 `Sensing method` 2 `Shutter speed` 8.12</sub></details>![GISMobile.POI](20161017_155902.jpg)
@@ -86,9 +87,7 @@
 
 <details><summary>:camera:**33/20161018_120541.jpg**</summary><sub> `Exif version` 0220 `OS version` G900MUBU1ANJ2 `Date` 2016:10:18 12:05:40 `Aperture` Not known `Brightness` 8.0 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.001597444089456869 `Focal length` 4.8 `Lens model` Not known `Lens specification` Not known `Orientation` 6 `Scene type` Not known `f number` 2.2 `White balance` 0 `Sensing method` 2 `Shutter speed` 9.29</sub></details>![GISMobile.POI](20161018_120541.jpg)
 
-
 <details><summary>:camera:**33/GoogleMaps.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](GoogleMaps.jpg)
-
 > _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
 
 | [:house: Inicio](../Readme.md) |

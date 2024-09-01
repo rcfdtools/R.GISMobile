@@ -30,7 +30,7 @@ def image_info(img_path):
             cy = decimal_coords(img.gps_latitude, img.gps_latitude_ref)
         except AttributeError:
             print('No Coordinates')
-        info = f"<details><summary>:camera:**{src.name}**</summary><sub> `Exif version` {img.get('exif_version', 'Not known')} `OS version` {img.get('software', 'Not known')} `Date` {img.datetime_original} `Aperture` {img.get('aperture', 'Not known')} `Brightness` {img.get('brightness_value', 'Not known')} `Color space` {img.get('color_space', 'Not known')} `Compression` {img.get('compression', 'Not known')}`Exposure mode` {img.get('exposure_mode', 'Not known')} `Exposure time` {img.get('exposure_time', 'Not known')} `Focal length` {img.get('focal_length', 'Not known')} `Lens model` {img.get('lens_model', 'Not known')} `Lens specification` {img.get('lens_specification', 'Not known')} `Orientation` {img.get('orientation', 'Not known')} `Scene type` {img.get('scene_type', 'Not known')} `f number` {img.get('f_number', 'Not known')} `White balance` {img.get('white_balance', 'Not known')} `Sensing method` {img.get('sensing_method', 'Not known')} `Shutter speed` {img.get('shutter_speed_value', 'Not known')}</sub>"
+        info = f"\n<details><summary>:camera:**{src.name}**</summary><sub> `Exif version` {img.get('exif_version', 'Not known')} `OS version` {img.get('software', 'Not known')} `Date` {img.datetime_original} `Aperture` {img.get('aperture', 'Not known')} `Brightness` {img.get('brightness_value', 'Not known')} `Color space` {img.get('color_space', 'Not known')} `Compression` {img.get('compression', 'Not known')}`Exposure mode` {img.get('exposure_mode', 'Not known')} `Exposure time` {img.get('exposure_time', 'Not known')} `Focal length` {img.get('focal_length', 'Not known')} `Lens model` {img.get('lens_model', 'Not known')} `Lens specification` {img.get('lens_specification', 'Not known')} `Orientation` {img.get('orientation', 'Not known')} `Scene type` {img.get('scene_type', 'Not known')} `f number` {img.get('f_number', 'Not known')} `White balance` {img.get('white_balance', 'Not known')} `Sensing method` {img.get('sensing_method', 'Not known')} `Shutter speed` {img.get('shutter_speed_value', 'Not known')}</sub>"
     else:
         info = f"\n<details><summary>:camera:**{src.name}**</summary> `Exif version` Not known"
         print('The Image has no EXIF information')
@@ -82,7 +82,7 @@ for i in directories:
                 filename_absolute = os.path.basename(picture)
                 print(filename_absolute)
                 image_info(i+'/'+filename_absolute)
-                readme_file.write('![GISMobile.POI]('+filename_absolute+')\n\n')
+                readme_file.write('![GISMobile.POI]('+filename_absolute+')\n')
         readme_file.write(license_txt + '\n')
         readme_file.write('| [:house: Inicio](../Readme.md) |\n|---|')
 df = df[poi_cols]  # Reordering cols

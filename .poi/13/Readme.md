@@ -14,6 +14,7 @@
 }
 ```
 
+
 <details><summary>:camera:**13/20180425_143018.jpg**</summary><sub> `Exif version` 0220 `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:30:18 `Aperture` Not known `Brightness` 9.1 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0003869969040247678 `Focal length` 4.2 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 11.335</sub></details>![GISMobile.POI](20180425_143018.jpg)
 
 <details><summary>:camera:**13/20180425_143020.jpg**</summary><sub> `Exif version` 0220 `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:30:20 `Aperture` Not known `Brightness` 8.97 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.00042517006802721087 `Focal length` 4.2 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 11.199</sub></details>![GISMobile.POI](20180425_143020.jpg)
@@ -42,12 +43,9 @@
 
 <details><summary>:camera:**13/20180425_145413.jpg**</summary><sub> `Exif version` 0220 `OS version` G930PVPS5BRA1 `Date` 2018:04:25 14:54:13 `Aperture` Not known `Brightness` 10.41 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0001481042654028436 `Focal length` 4.2 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 12.721</sub></details>![GISMobile.POI](20180425_145413.jpg)
 
-
 <details><summary>:camera:**13/SanAntonio1.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](SanAntonio1.jpeg)
 
-
 <details><summary>:camera:**13/SanAntonio2.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](SanAntonio2.jpeg)
-
 > _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
 
 | [:house: Inicio](../Readme.md) |
