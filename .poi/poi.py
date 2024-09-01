@@ -82,7 +82,7 @@ for i in directories:
                 filename_absolute = os.path.basename(picture)
                 print(filename_absolute)
                 image_info(i+'/'+filename_absolute)
-                readme_file.write('![GISMobile.POI]('+filename_absolute+')\n')
+                readme_file.write('![GISMobile.POI]('+filename_absolute+')\n\n')
         readme_file.write(license_txt + '\n')
         readme_file.write('| [:house: Inicio](../Readme.md) |\n|---|')
 df = df[poi_cols]  # Reordering cols
