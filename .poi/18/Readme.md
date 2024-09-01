@@ -35,29 +35,29 @@
 :camera:**18/20220427_084929.jpg** <sub> `Exif version` 0220 `OS version` G955USQU8DUD3 `Date` 2022:04:27 08:49:29 `Aperture` Not known `Brightness` 8.96 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0003156565656565657 `Focal length` 4.25 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 11.629</sub><sub>`Coordinates & altitude` (0.0, 0.0, 0.0)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=0.0,0.0) or [Openstreet Map](https://www.openstreetmap.org/query?lat=0.0&lon=0.0)</sub>
 ![GISMobile.POI](20220427_084929.jpg)
 
-:camera: **18/Animas (1).jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas (1).jpeg)
+:camera: **18/Animas1.jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas1.jpeg)
 
-:camera: **18/Animas (10).jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas (10).jpeg)
+:camera: **18/Animas10.jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas10.jpeg)
 
-:camera: **18/Animas (11).jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas (11).jpeg)
+:camera: **18/Animas11.jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas11.jpeg)
 
-:camera: **18/Animas (12).jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas (12).jpeg)
+:camera: **18/Animas12.jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas12.jpeg)
 
-:camera: **18/Animas (2).jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas (2).jpeg)
+:camera: **18/Animas2.jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas2.jpeg)
 
-:camera: **18/Animas (3).jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas (3).jpeg)
+:camera: **18/Animas3.jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas3.jpeg)
 
-:camera: **18/Animas (4).jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas (4).jpeg)
+:camera: **18/Animas4.jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas4.jpeg)
 
-:camera: **18/Animas (5).jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas (5).jpeg)
+:camera: **18/Animas5.jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas5.jpeg)
 
-:camera: **18/Animas (6).jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas (6).jpeg)
+:camera: **18/Animas6.jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas6.jpeg)
 
-:camera: **18/Animas (7).jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas (7).jpeg)
+:camera: **18/Animas7.jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas7.jpeg)
 
-:camera: **18/Animas (8).jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas (8).jpeg)
+:camera: **18/Animas8.jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas8.jpeg)
 
-:camera: **18/Animas (9).jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas (9).jpeg)
+:camera: **18/Animas9.jpeg**  <sub> `Exif version` Not known![GISMobile.POI](Animas9.jpeg)
 
 :camera: **18/IMG-20220427a.jpg**  <sub> `Exif version` Not known![GISMobile.POI](IMG-20220427a.jpg)
 
