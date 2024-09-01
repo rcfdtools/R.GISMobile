@@ -30,9 +30,9 @@ def image_info(img_path):
             cy = decimal_coords(img.gps_latitude, img.gps_latitude_ref)
         except AttributeError:
             print('No Coordinates')
-        info = f"<br><details><summary>:camera:**{src.name}**</summary><sub> `Exif version` {img.get('exif_version', 'Not known')} `OS version` {img.get('software', 'Not known')} `Date` {img.datetime_original} `Aperture` {img.get('aperture', 'Not known')} `Brightness` {img.get('brightness_value', 'Not known')} `Color space` {img.get('color_space', 'Not known')} `Compression` {img.get('compression', 'Not known')}`Exposure mode` {img.get('exposure_mode', 'Not known')} `Exposure time` {img.get('exposure_time', 'Not known')} `Focal length` {img.get('focal_length', 'Not known')} `Lens model` {img.get('lens_model', 'Not known')} `Lens specification` {img.get('lens_specification', 'Not known')} `Orientation` {img.get('orientation', 'Not known')} `Scene type` {img.get('scene_type', 'Not known')} `f number` {img.get('f_number', 'Not known')} `White balance` {img.get('white_balance', 'Not known')} `Sensing method` {img.get('sensing_method', 'Not known')} `Shutter speed` {img.get('shutter_speed_value', 'Not known')}</sub></details>"
+        info = f"<br><details><summary>:camera:**{src.name}**</summary><sub> `Exif version` {img.get('exif_version', 'Not known')} `OS version` {img.get('software', 'Not known')} `Date` {img.datetime_original} `Aperture` {img.get('aperture', 'Not known')} `Brightness` {img.get('brightness_value', 'Not known')} `Color space` {img.get('color_space', 'Not known')} `Compression` {img.get('compression', 'Not known')}`Exposure mode` {img.get('exposure_mode', 'Not known')} `Exposure time` {img.get('exposure_time', 'Not known')} `Focal length` {img.get('focal_length', 'Not known')} `Lens model` {img.get('lens_model', 'Not known')} `Lens specification` {img.get('lens_specification', 'Not known')} `Orientation` {img.get('orientation', 'Not known')} `Scene type` {img.get('scene_type', 'Not known')} `f number` {img.get('f_number', 'Not known')} `White balance` {img.get('white_balance', 'Not known')} `Sensing method` {img.get('sensing_method', 'Not known')} `Shutter speed` {img.get('shutter_speed_value', 'Not known')}</sub>"
     else:
-        info = f"<br><details><summary>:camera:**{src.name}**</summary> `Exif version` Not known</details>"
+        info = f"<br><details><summary>:camera:**{src.name}**</summary> `Exif version` Not known"
         print('The Image has no EXIF information')
     readme_file.write(info)
     if coords:
@@ -40,7 +40,9 @@ def image_info(img_path):
             cy) + ',' + str(cx) + ') or [Openstreet Map](https://www.openstreetmap.org/query?lat=' + str(cy) + '&lon=' + str(cx) + ')</sub>')
         print(f"Coordinates:{coords}")
         readme_file.write(f"<sub>`Coordinates & altitude` {coords}</sub>")
-        readme_file.write(map_location + '\n')
+        readme_file.write(map_location + '</details>\n')
+    else:
+        readme_file.write('</details>\n')
 
 # Variables
 path = 'D:/R.GISMobile/.poi/'
