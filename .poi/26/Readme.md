@@ -1,4 +1,4 @@
-## :globe_with_meridians:Southwest Greenbelt Park (open concrete channel with grass valey section), Englewood, Colorado, U.S. (2024-07-27)
+## :globe_with_meridians:Southwest Greenbelt Park (open concrete channel with grass valey section) & gate structure, Englewood, Colorado, U.S. (2024-07-27)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=39.635192,-104.995979) or [Openstreet Map](https://www.openstreetmap.org/query?lat=39.635192&lon=-104.995979) 
 
 ```geojson
@@ -9,10 +9,14 @@
     "coordinates": [-104.995979, 39.635192]
   }, 
   "properties": {
-    "Name": "Southwest Greenbelt Park (open concrete channel with grass valey section), Englewood, Colorado, U.S."
+    "Name": "Southwest Greenbelt Park (open concrete channel with grass valey section) & gate structure, Englewood, Colorado, U.S."
   }
 }
 ```
+
+<br><details><summary>:camera:**26/20211225_181618.jpg**</summary><sub> `Exif version` 0220 `OS version` G955USQU8DUD3 `Date` 2021:12:25 18:16:18 `Aperture` Not known `Brightness` 4.01 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.009615384615384616 `Focal length` 4.25 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 6.7</sub><sub>`Coordinates & altitude` (39.66133611111111, -104.92289755555556, 1651.051)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=39.66133611111111,-104.92289755555556) or [Openstreet Map](https://www.openstreetmap.org/query?lat=39.66133611111111&lon=-104.92289755555556)</sub></details>![GISMobile.POI](20211225_181618.jpg)
+
+<br><details><summary>:camera:**26/20211225_181620.jpg**</summary><sub> `Exif version` 0220 `OS version` G955USQU8DUD3 `Date` 2021:12:25 18:16:20 `Aperture` Not known `Brightness` 6.02 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0024875621890547263 `Focal length` 4.25 `Lens model` Not known `Lens specification` Not known `Orientation` 6 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 8.651</sub><sub>`Coordinates & altitude` (39.66133611111111, -104.92289755555556, 1651.051)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=39.66133611111111,-104.92289755555556) or [Openstreet Map](https://www.openstreetmap.org/query?lat=39.66133611111111&lon=-104.92289755555556)</sub></details>![GISMobile.POI](20211225_181620.jpg)
 
 <br><details><summary>:camera:**26/IMG_1028.JPEG**</summary><sub> `Exif version` 0232 `OS version` 18.0 `Date` 2024:07:27 06:05:24 `Aperture` Not known `Brightness` 2.6769560812824027 `Color space` 65535 `Compression` Not known`Exposure mode` 0 `Exposure time` 0.0125 `Focal length` 5.1 `Lens model` iPhone 12 Pro Max back triple camera 5.1mm f/1.6 `Lens specification` (1.5399999618512084, 7.5, 1.6, 2.4) `Orientation` 1 `Scene type` Not known `f number` 1.6 `White balance` 0 `Sensing method` 2 `Shutter speed` 6.325163356491645</sub><sub>`Coordinates & altitude` (39.63398611111111, -104.99208055555556, 1633.514357053683)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=39.63398611111111,-104.99208055555556) or [Openstreet Map](https://www.openstreetmap.org/query?lat=39.63398611111111&lon=-104.99208055555556)</sub></details>![GISMobile.POI](IMG_1028.JPEG)
 
