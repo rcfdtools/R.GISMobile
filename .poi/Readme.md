@@ -36,6 +36,7 @@
 {"type": "Point","properties": {"POI": "36", "Category": "Technical field visit", "Name": "Visita Drummond 2013 - Departamento del Cesar - Colombia (varios)", "Date": "2013-07-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/36/Readme.md"},"coordinates": [-73.462601,9.531024]},
 {"type": "Point","properties": {"POI": "37", "Category": "Technical field visit", "Name": "Visita Drummond 2018 - Departamento del Cesar - Colombia (varios)", "Date": "2018-04-25", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/37/Readme.md"},"coordinates": [-73.462601,9.531024]},
 {"type": "Point","properties": {"POI": "38", "Category": "Technical field visit", "Name": "Visita Drummond 2022 - Departamento del Cesar - Colombia (varios)", "Date": "2022-04-27", "Credits": "rcfdtools & AHOC", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/38/Readme.md"},"coordinates": [-73.462601,9.531024]},
+{"type": "Point","properties": {"POI": "39", "Category": "Technical field visit", "Name": "Mesa Verde National Park, Colorado, U.S.", "Date": "2019-05-21", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/39/Readme.md"},"coordinates": [-108.488924,37.184072]},
 {"type": "Point","properties": {"POI": "4", "Category": "Technical field visit", "Name": "Frailejones - Ruilopezia (Espeletia)", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/4/Readme.md"},"coordinates": [-73.72865555555556,4.585705555555555]},
 {"type": "Point","properties": {"POI": "5", "Category": "Technical field visit", "Name": "Localización futura presa Río La Playa - Guatiquía", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/5/Readme.md"},"coordinates": [-73.75708888888889,4.5409]},
 {"type": "Point","properties": {"POI": "6", "Category": "Technical field visit", "Name": "Laguna Chingaza", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/6/Readme.md"},"coordinates": [-73.74963611111112,4.532322222222223]},
@@ -51,14 +52,14 @@
 | Category              |   POI |
 |:----------------------|------:|
 | Freelance field visit |    12 |
-| Technical field visit |    26 |
+| Technical field visit |    27 |
 
 
 ### Estadísticas generales por autor
 
 | Credit             |   POI |
 |:-------------------|------:|
-| rcfdtools          |    35 |
+| rcfdtools          |    36 |
 | rcfdtools & AHOC   |     1 |
 | rcfdtools & others |     2 |
 
@@ -105,6 +106,7 @@
 | [:globe_with_meridians:](36/Readme.md) |    36 | Visita Drummond 2013 - Departamento del Cesar - Colombia (varios)                                                                                                                                                                                                                                                                                                                                                                                                        |    9.53102 |    -73.4626 |            | 2013-07-03 | rcfdtools          | Technical field visit |
 | [:globe_with_meridians:](37/Readme.md) |    37 | Visita Drummond 2018 - Departamento del Cesar - Colombia (varios)                                                                                                                                                                                                                                                                                                                                                                                                        |    9.53102 |    -73.4626 |            | 2018-04-25 | rcfdtools          | Technical field visit |
 | [:globe_with_meridians:](38/Readme.md) |    38 | Visita Drummond 2022 - Departamento del Cesar - Colombia (varios)                                                                                                                                                                                                                                                                                                                                                                                                        |    9.53102 |    -73.4626 |            | 2022-04-27 | rcfdtools & AHOC   | Technical field visit |
+| [:globe_with_meridians:](39/Readme.md) |    39 | Mesa Verde National Park, Colorado, U.S.                                                                                                                                                                                                                                                                                                                                                                                                                                 |   37.1841  |   -108.489  |            | 2019-05-21 | rcfdtools          | Technical field visit |
 
 > _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
 
