@@ -14,23 +14,23 @@
 }
 ```
 
-:camera: **32/0.jpeg**  <details><summary>+ info</summary><sub> `Exif version` Not known</details>![GISMobile.POI](0.jpeg)
+<details><summary>:camera:**32/0.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](0.jpeg)
 
-:camera: **32/2.jpeg**  <details><summary>+ info</summary><sub> `Exif version` Not known</details>![GISMobile.POI](2.jpeg)
+<details><summary>:camera:**32/2.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](2.jpeg)
 
-:camera: **32/3.jpeg**  <details><summary>+ info</summary><sub> `Exif version` Not known</details>![GISMobile.POI](3.jpeg)
+<details><summary>:camera:**32/3.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](3.jpeg)
 
-:camera: **32/4.jpeg**  <details><summary>+ info</summary><sub> `Exif version` Not known</details>![GISMobile.POI](4.jpeg)
+<details><summary>:camera:**32/4.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](4.jpeg)
 
-:camera: **32/5.jpeg**  <details><summary>+ info</summary><sub> `Exif version` Not known</details>![GISMobile.POI](5.jpeg)
+<details><summary>:camera:**32/5.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](5.jpeg)
 
-:camera: **32/6.jpeg**  <details><summary>+ info</summary><sub> `Exif version` Not known</details>![GISMobile.POI](6.jpeg)
+<details><summary>:camera:**32/6.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](6.jpeg)
 
-:camera: **32/7.jpeg**  <details><summary>+ info</summary><sub> `Exif version` Not known</details>![GISMobile.POI](7.jpeg)
+<details><summary>:camera:**32/7.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](7.jpeg)
 
-:camera: **32/8.jpeg**  <details><summary>+ info</summary><sub> `Exif version` Not known</details>![GISMobile.POI](8.jpeg)
+<details><summary>:camera:**32/8.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](8.jpeg)
 
-:camera: **32/9999_GoogleMaps.jpg**  <details><summary>+ info</summary><sub> `Exif version` Not known</details>![GISMobile.POI](9999_GoogleMaps.jpg)
+<details><summary>:camera:**32/9999_GoogleMaps.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](9999_GoogleMaps.jpg)
 
 > _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
 
