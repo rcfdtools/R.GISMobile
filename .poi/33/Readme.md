@@ -86,7 +86,7 @@
 
 <br><details><summary>:camera:**33/20161018_120541.jpg**</summary><sub> `Exif version` 0220 `OS version` G900MUBU1ANJ2 `Date` 2016:10:18 12:05:40 `Aperture` Not known `Brightness` 8.0 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.001597444089456869 `Focal length` 4.8 `Lens model` Not known `Lens specification` Not known `Orientation` 6 `Scene type` Not known `f number` 2.2 `White balance` 0 `Sensing method` 2 `Shutter speed` 9.29</sub></details>![GISMobile.POI](20161018_120541.jpg)
 
-<details><summary>:camera:**33/GoogleMaps.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](GoogleMaps.jpg)
+<br><details><summary>:camera:**33/GoogleMaps.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](GoogleMaps.jpg)
 
 > _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
 

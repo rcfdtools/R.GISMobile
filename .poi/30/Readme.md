@@ -31,7 +31,7 @@
 
 <br><details><summary>:camera:**30/20201010_070909.jpg**</summary><sub> `Exif version` 0220 `OS version` G955USQU7DTF4 `Date` 2020:10:10 07:09:09 `Aperture` Not known `Brightness` Not known `Color space` 1 `Compression` Not known`Exposure mode` 0 `Exposure time` 0.0006756756756756757 `Focal length` 4.25 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` Not known `Shutter speed` Not known</sub></details>![GISMobile.POI](20201010_070909.jpg)
 
-<details><summary>:camera:**30/GoogleMaps.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](GoogleMaps.jpg)
+<br><details><summary>:camera:**30/GoogleMaps.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](GoogleMaps.jpg)
 
 > _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
 

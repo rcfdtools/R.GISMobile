@@ -92,13 +92,13 @@
 <br><details><summary>:camera:**31/20221113_105340.jpg**</summary><sub> `Exif version` 0220 `OS version` G955USQU8DUD3 `Date` 2022:11:13 10:53:39 `Aperture` Not known `Brightness` 7.23 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0010548523206751054 `Focal length` 4.25 `Lens model` Not known `Lens specification` Not known `Orientation` 6 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 9.888</sub></details><sub>`Coordinates & altitude` (0.0, 0.0, 0.0)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=0.0,0.0) or [Openstreet Map](https://www.openstreetmap.org/query?lat=0.0&lon=0.0)</sub>
 ![GISMobile.POI](20221113_105340.jpg)
 
-<details><summary>:camera:**31/GoogleMaps.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](GoogleMaps.jpg)
+<br><details><summary>:camera:**31/GoogleMaps.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](GoogleMaps.jpg)
 
-<details><summary>:camera:**31/IMG-20221113-WA0014.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20221113-WA0014.jpg)
+<br><details><summary>:camera:**31/IMG-20221113-WA0014.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20221113-WA0014.jpg)
 
-<details><summary>:camera:**31/IMG-20221113-WA0017.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20221113-WA0017.jpg)
+<br><details><summary>:camera:**31/IMG-20221113-WA0017.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20221113-WA0017.jpg)
 
-<details><summary>:camera:**31/IMG-20221113-WA0018.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20221113-WA0018.jpg)
+<br><details><summary>:camera:**31/IMG-20221113-WA0018.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20221113-WA0018.jpg)
 
 > _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
 
