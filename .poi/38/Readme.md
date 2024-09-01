@@ -14,6 +14,18 @@
 }
 ```
 
+<br><details><summary>:camera:**38/2022-04-27at8.44.17AM.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](2022-04-27at8.44.17AM.jpeg)
+
+<br><details><summary>:camera:**38/2022-04-27at9.28.23AM.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](2022-04-27at9.28.23AM.jpeg)
+
+<br><details><summary>:camera:**38/2022-04-27at9.28.23AM_1.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](2022-04-27at9.28.23AM_1.jpeg)
+
+<br><details><summary>:camera:**38/2022-04-27at9.28.23AM_2.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](2022-04-27at9.28.23AM_2.jpeg)
+
+<br><details><summary>:camera:**38/2022-04-27at9.28.23AM_3.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](2022-04-27at9.28.23AM_3.jpeg)
+
+<br><details><summary>:camera:**38/2022-04-27at9.28.25AM.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](2022-04-27at9.28.25AM.jpeg)
+
 <br><details><summary>:camera:**38/2022-08-04at8.32.23PM.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](2022-08-04at8.32.23PM.jpeg)
 
 <br><details><summary>:camera:**38/2022-08-04at8.32.23PM1.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](2022-08-04at8.32.23PM1.jpeg)
@@ -266,9 +278,9 @@
 
 <br><details><summary>:camera:**38/20220427_093016.jpg**</summary><sub> `Exif version` 0220 `OS version` G955USQU8DUD3 `Date` 2022:04:27 09:30:16 `Aperture` Not known `Brightness` 9.41 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.00024703557312252963 `Focal length` 4.25 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 11.982</sub><sub>`Coordinates & altitude` (0.0, 0.0, 0.0)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=0.0,0.0) or [Openstreet Map](https://www.openstreetmap.org/query?lat=0.0&lon=0.0)</sub></details>![GISMobile.POI](20220427_093016.jpg)
 
-<br><details><summary>:camera:**38/IMG-20220427-WA0000(1).jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0000(1).jpg)
-
 <br><details><summary>:camera:**38/IMG-20220427-WA0000.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0000.jpg)
+
+<br><details><summary>:camera:**38/IMG-20220427-WA0000_1.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0000_1.jpg)
 
 <br><details><summary>:camera:**38/IMG-20220427-WA0001.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0001.jpg)
 
@@ -304,9 +316,9 @@
 
 <br><details><summary>:camera:**38/IMG-20220427-WA0037.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0037.jpg)
 
-<br><details><summary>:camera:**38/IMG-20220427-WA0038(1).jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0038(1).jpg)
-
 <br><details><summary>:camera:**38/IMG-20220427-WA0038.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0038.jpg)
+
+<br><details><summary>:camera:**38/IMG-20220427-WA0038_1.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0038_1.jpg)
 
 <br><details><summary>:camera:**38/IMG-20220427-WA0039.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0039.jpg)
 
@@ -316,9 +328,9 @@
 
 <br><details><summary>:camera:**38/IMG-20220427-WA0042.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0042.jpg)
 
-<br><details><summary>:camera:**38/IMG-20220427-WA0043(1).jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0043(1).jpg)
-
 <br><details><summary>:camera:**38/IMG-20220427-WA0043.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0043.jpg)
+
+<br><details><summary>:camera:**38/IMG-20220427-WA0043_1.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0043_1.jpg)
 
 <br><details><summary>:camera:**38/IMG-20220427-WA0044.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0044.jpg)
 
@@ -333,18 +345,6 @@
 <br><details><summary>:camera:**38/IMG-20220427-WA0049.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0049.jpg)
 
 <br><details><summary>:camera:**38/IMG-20220427-WA0051.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427-WA0051.jpg)
-
-<br><details><summary>:camera:**38/WhatsApp Image 2022-04-27 at 8.44.17 AM.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](WhatsApp Image 2022-04-27 at 8.44.17 AM.jpeg)
-
-<br><details><summary>:camera:**38/WhatsApp Image 2022-04-27 at 9.28.23 AM (1).jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](WhatsApp Image 2022-04-27 at 9.28.23 AM (1).jpeg)
-
-<br><details><summary>:camera:**38/WhatsApp Image 2022-04-27 at 9.28.23 AM (2).jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](WhatsApp Image 2022-04-27 at 9.28.23 AM (2).jpeg)
-
-<br><details><summary>:camera:**38/WhatsApp Image 2022-04-27 at 9.28.23 AM (3).jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](WhatsApp Image 2022-04-27 at 9.28.23 AM (3).jpeg)
-
-<br><details><summary>:camera:**38/WhatsApp Image 2022-04-27 at 9.28.23 AM.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](WhatsApp Image 2022-04-27 at 9.28.23 AM.jpeg)
-
-<br><details><summary>:camera:**38/WhatsApp Image 2022-04-27 at 9.28.25 AM.jpeg**</summary> `Exif version` Not known</details>![GISMobile.POI](WhatsApp Image 2022-04-27 at 9.28.25 AM.jpeg)
 
 > _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
 
