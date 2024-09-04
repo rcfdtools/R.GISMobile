@@ -1,12 +1,12 @@
 ## :globe_with_meridians:Pike - San Isabel National Forest , Colorado, U.S. (2024-01-07)
-`Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=39.407025,-105.31226388888888) or [Openstreet Map](https://www.openstreetmap.org/query?lat=39.407025&lon=-105.31226388888888) 
+`Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=39.407025,-105.312263888) or [Openstreet Map](https://www.openstreetmap.org/query?lat=39.407025&lon=-105.312263888) 
 
 ```geojson
 {
   "type": "Feature",
   "geometry": {
     "type": "Point", 
-    "coordinates": [-105.31226388888888, 39.407025]
+    "coordinates": [-105.312263888, 39.407025]
   }, 
   "properties": {
     "Name": "Pike - San Isabel National Forest , Colorado, U.S."
