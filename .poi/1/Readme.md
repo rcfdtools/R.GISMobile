@@ -1,4 +1,4 @@
-## :globe_with_meridians:Antigua mina de caliza CEMEX (2023-05-03)
+## :globe_with_meridians:Antigua mina de caliza CEMEX, Guasca, Cundinamarca, Colombia (2023-05-03)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=4.712169444444444,-73.8198361111111) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.712169444444444&lon=-73.8198361111111) 
 
 ```geojson
@@ -9,7 +9,7 @@
     "coordinates": [-73.8198361111111, 4.712169444444444]
   }, 
   "properties": {
-    "Name": "Antigua mina de caliza CEMEX"
+    "Name": "Antigua mina de caliza CEMEX, Guasca, Cundinamarca, Colombia"
   }
 }
 ```

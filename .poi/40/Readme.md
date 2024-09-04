@@ -1,5 +1,5 @@
 ## :globe_with_meridians:Royal Gorge Bridge & Park - Arkansas River, Canyon City, Colorado, U.S. (2019-05-24)
-`Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=38.463484,-105.322374) or [Openstreet Map](https://www.openstreetmap.org/query?lat=38.463484&lon=-105.322374) 
+`Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=38.463484,-105.322374) or [Openstreet Map](https://www.openstreetmap.org/query?lat=38.463484&lon=-105.322374) 
 
 ```geojson
 {

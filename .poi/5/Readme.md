@@ -1,4 +1,4 @@
-## :globe_with_meridians:Localización futura presa Río La Playa - Guatiquía (2023-05-03)
+## :globe_with_meridians:Localización futura presa Río La Playa - Guatiquía, Fómeque, Cundinamarca, Colombia (2023-05-03)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=4.5409,-73.75708888888889) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.5409&lon=-73.75708888888889) 
 
 ```geojson
@@ -9,7 +9,7 @@
     "coordinates": [-73.75708888888889, 4.5409]
   }, 
   "properties": {
-    "Name": "Localización futura presa Río La Playa - Guatiquía"
+    "Name": "Localización futura presa Río La Playa - Guatiquía, Fómeque, Cundinamarca, Colombia"
   }
 }
 ```

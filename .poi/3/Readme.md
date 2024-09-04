@@ -1,4 +1,4 @@
-## :globe_with_meridians:Campamento EAB. Estación climatológica Chuza Monterredondo (2023-05-03)
+## :globe_with_meridians:Campamento EAAB - Estación climatológica Chuza Monterredondo, Fómeque, Cundinamarca, Colombia (2023-05-03)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=4.634402777777777,-73.72457222222222) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.634402777777777&lon=-73.72457222222222) 
 
 ```geojson
@@ -9,7 +9,7 @@
     "coordinates": [-73.72457222222222, 4.634402777777777]
   }, 
   "properties": {
-    "Name": "Campamento EAB. Estación climatológica Chuza Monterredondo"
+    "Name": "Campamento EAAB - Estación climatológica Chuza Monterredondo, Fómeque, Cundinamarca, Colombia"
   }
 }
 ```
