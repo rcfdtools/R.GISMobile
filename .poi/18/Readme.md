@@ -1,4 +1,4 @@
-## :globe_with_meridians:Arroyo Las 聲imas - Estructura de repartici鏮 (2022-04-27)
+## :globe_with_meridians:Arroyo Las 聲imas - Estructura de repartici鏮, La Jagua de Ibirico, Cesar, Colombia (2022-04-27)
 `Pictures` rcfdtools & others <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=9.492937,-73.518891) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.492937&lon=-73.518891) 
 
 ```geojson
@@ -9,7 +9,7 @@
     "coordinates": [-73.518891, 9.492937]
   }, 
   "properties": {
-    "Name": "Arroyo Las 聲imas - Estructura de repartici鏮"
+    "Name": "Arroyo Las 聲imas - Estructura de repartici鏮, La Jagua de Ibirico, Cesar, Colombia"
   }
 }
 ```

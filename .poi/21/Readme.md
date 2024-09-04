@@ -1,4 +1,4 @@
-## :globe_with_meridians:Canal de prueba - Realineamiento por retrollenado (2022-04-27)
+## :globe_with_meridians:Canal de prueba - Realineamiento por retrollenado, La Jagua de Ibirico, Cesar, Colombia (2022-04-27)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=9.549353,-73.482781) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.549353&lon=-73.482781) 
 
 ```geojson
@@ -9,7 +9,7 @@
     "coordinates": [-73.482781, 9.549353]
   }, 
   "properties": {
-    "Name": "Canal de prueba - Realineamiento por retrollenado"
+    "Name": "Canal de prueba - Realineamiento por retrollenado, La Jagua de Ibirico, Cesar, Colombia"
   }
 }
 ```
