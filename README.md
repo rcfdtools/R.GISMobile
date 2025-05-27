@@ -39,8 +39,6 @@ GISMobile utiliza bases de datos geográficas en formato File Geodatabase de ESR
 * [QField - Can't access local storage on iOS phone](https://github.com/opengisch/QField/discussions/3755)
 * [How to enable camera and take pictures for features in QFIELD?](https://gis.stackexchange.com/questions/287339/how-to-enable-camera-and-take-pictures-for-features-in-qfield)
 
-12345
-
 
 ### Descargos de responsabilidad
 
