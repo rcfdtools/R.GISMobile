@@ -98,7 +98,7 @@ gdf.set_geometry(
 gdf.drop(['Latitude', 'Longitude'], axis=1, inplace=True)  # optional
 gdf.to_file('.shp/poi.shp')
 
-# Create POI geoJSON
+# Create POI GeoJSON
 if os.path.isfile(path+geojson_file):
     os.remove(path+geojson_file)
 geojson_file_write = open(path+geojson_file, 'w+')   # w+ create the file if it doesn't exist
