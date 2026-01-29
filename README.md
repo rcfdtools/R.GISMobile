@@ -1,25 +1,26 @@
-## :globe_with_meridians: GIS Mobile & POI
+<div align="center"><a href="https://github.com/rcfdtools" target="_blank"><img src="https://github.com/rcfdtools/rcfdtools/blob/main/graph/rcfdtools_banner.png" alt="R.LTWB" width="100%" border="0" /></a></div>
+<div align="center"><sub><i>TOOL: Mobile geographic information systems that do not require an internet connection for navigation - GISMobile</i></sub></div>
+
+# GIS Mobile & POI: Sistemas de información geográficos móviles que no requieren de conexión a Internet para su navegación
 Keywords: `QGIS` `QField` `POI` `Android` `iOS` `Python` `pandas` `numpy` `tabulate` `exif` `geopandas` `moviepy`
 
 <div align="center">
   <img alt="GISMobile" src=".graph/QField_MapView.png" width="350px"><br>  
 </div>
 
-Sistemas de información geográficos móviles que no requieren de conexión a Internet para su navegación. 
-
 > Atención: la información utilizada para la creación de los proyectos GIS Mobile ha sido tomada de servicios de uso libre, consulte la licencia y restricciones de uso específicas de cada fuente de datos referenciada.
 
 GISMobile utiliza bases de datos geográficas en formato File Geodatabase de ESRI y/o archivos de formas geométricas shapefile con despliegue a través de [QGIS](https://qgis.org/) en desktop y [QField](https://github.com/opengisch/QField) sobre dispositivos Android e iOS.
 
 
-### Descargas
+## Descargas
 
 * [GIS Mobile EAB-CO](GISMobile_EAB_CO)
 * [GIS Mobile Predial - CO](GISMobile_Predial_CO)
 * [Puntos de interés - POI](.poi/Readme.md)
 
 
-### Instrucciones de instalación
+## Instrucciones de instalación
 
 1. Desde el [Play Store en Android](https://play.google.com/) o desde [App Store en iOS](https://www.apple.com/co/app-store/), instale la App [QField](https://play.google.com/store/search?q=qfield&c=apps) de [OPENGIS.ch](https://qfield.org/) 
 2. Descargue el comprimido GIS Mobile de [rcfdtools](https://github.com/rcfdtools). Dentro de cada proyecto encontrará carpetas con as versiones disponible, p.ej. v20230430. Se recomienda descargar la última versión disponible
@@ -34,12 +35,12 @@ GISMobile utiliza bases de datos geográficas en formato File Geodatabase de ESR
 > El proceso de apertura del proyecto también puede ser realizado directamente desde el archivo comprimido descargado mediante la opción `Import project from .zip file`
 
 
-### Bugs & Fixes
+## Bugs & Fixes
 
 * [QField - Can't access local storage on iOS phone](https://github.com/opengisch/QField/discussions/3755)
 * [How to enable camera and take pictures for features in QFIELD?](https://gis.stackexchange.com/questions/287339/how-to-enable-camera-and-take-pictures-for-features-in-qfield)
 
 
-### Descargos de responsabilidad
+## Descargos de responsabilidad
 
 [rcfdtools](https://github.com/rcfdtools) no se responsabiliza por la información contenida en los mapas publicados, tenga en cuenta que puede contener imprecisiones en su localización y atributos disponibles. Consulte las fuentes originales citadas en cada mapa publicado.
