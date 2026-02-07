@@ -166,7 +166,7 @@
 
 <br><details><summary>:camera:**34/20180525_131414.jpg**</summary><sub> `Exif version` 0220 `OS version` G930PVPU5BQL1 `Date` 2018:05:25 13:14:14 `Aperture` Not known `Brightness` 6.27 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0029585798816568047 `Focal length` 4.2 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 8.4</sub></details>![GISMobile.POI](20180525_131414.jpg)
 
-> _CitaciÛn: se permite la reproducciÛn digital parcial o total de este repositorio, scripts, guÌas de desarrollo, modelos de datos, im·genes y documentaciÛn, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaciÛn geogr·ficos mÛviles sobre QField que no requieren de conexiÛn a Internet para su navegaciÛn". https://github.com/rcfdtools/R.GISMobile - Bogot· - Colombia - SuramÈrica."._
+> _Citaci√≥n: se permite la reproducci√≥n digital parcial o total de este repositorio, scripts, gu√≠as de desarrollo, modelos de datos, im√°genes y documentaci√≥n, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaci√≥n geogr√°ficos m√≥viles sobre QField que no requieren de conexi√≥n a Internet para su navegaci√≥n". https://github.com/rcfdtools/R.GISMobile - Bogot√° - Colombia - Suram√©rica."._
 
 | [:house: Inicio](../Readme.md) |
 |---|

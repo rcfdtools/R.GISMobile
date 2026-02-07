@@ -1,4 +1,4 @@
-## :globe_with_meridians:Arroyo Las ¡nimas - Estructura de reparticiÛn, La Jagua de Ibirico, Cesar, Colombia (2022-04-27)
+## :globe_with_meridians:Arroyo Las √Ånimas - Estructura de repartici√≥n, La Jagua de Ibirico, Cesar, Colombia (2022-04-27)
 `Pictures` rcfdtools & others <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=9.492937,-73.518891) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.492937&lon=-73.518891) 
 
 ```geojson
@@ -9,7 +9,7 @@
     "coordinates": [-73.518891, 9.492937]
   }, 
   "properties": {
-    "Name": "Arroyo Las ¡nimas - Estructura de reparticiÛn, La Jagua de Ibirico, Cesar, Colombia"
+    "Name": "Arroyo Las √Ånimas - Estructura de repartici√≥n, La Jagua de Ibirico, Cesar, Colombia"
   }
 }
 ```
@@ -62,7 +62,7 @@
 
 <br><details><summary>:camera:**18/IMG-20220427g.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20220427g.jpg)
 
-> _CitaciÛn: se permite la reproducciÛn digital parcial o total de este repositorio, scripts, guÌas de desarrollo, modelos de datos, im·genes y documentaciÛn, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaciÛn geogr·ficos mÛviles sobre QField que no requieren de conexiÛn a Internet para su navegaciÛn". https://github.com/rcfdtools/R.GISMobile - Bogot· - Colombia - SuramÈrica."._
+> _Citaci√≥n: se permite la reproducci√≥n digital parcial o total de este repositorio, scripts, gu√≠as de desarrollo, modelos de datos, im√°genes y documentaci√≥n, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaci√≥n geogr√°ficos m√≥viles sobre QField que no requieren de conexi√≥n a Internet para su navegaci√≥n". https://github.com/rcfdtools/R.GISMobile - Bogot√° - Colombia - Suram√©rica."._
 
 | [:house: Inicio](../Readme.md) |
 |---|

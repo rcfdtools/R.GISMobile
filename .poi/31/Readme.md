@@ -88,7 +88,7 @@
 
 <br><details><summary>:camera:**31/IMG-20221113-WA0018.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](IMG-20221113-WA0018.jpg)
 
-> _CitaciÛn: se permite la reproducciÛn digital parcial o total de este repositorio, scripts, guÌas de desarrollo, modelos de datos, im·genes y documentaciÛn, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaciÛn geogr·ficos mÛviles sobre QField que no requieren de conexiÛn a Internet para su navegaciÛn". https://github.com/rcfdtools/R.GISMobile - Bogot· - Colombia - SuramÈrica."._
+> _Citaci√≥n: se permite la reproducci√≥n digital parcial o total de este repositorio, scripts, gu√≠as de desarrollo, modelos de datos, im√°genes y documentaci√≥n, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaci√≥n geogr√°ficos m√≥viles sobre QField que no requieren de conexi√≥n a Internet para su navegaci√≥n". https://github.com/rcfdtools/R.GISMobile - Bogot√° - Colombia - Suram√©rica."._
 
 | [:house: Inicio](../Readme.md) |
 |---|

@@ -1,4 +1,4 @@
-## :globe_with_meridians:Arroyo San Antonio - Paso de vÌa en entrega Realineamiento #4, La Jagua de Ibirico, Cesar, Colombia (2013-07-03)
+## :globe_with_meridians:Arroyo San Antonio - Paso de v√≠a en entrega Realineamiento #4, La Jagua de Ibirico, Cesar, Colombia (2013-07-03)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=9.5384802,-73.5215662) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5384802&lon=-73.5215662) 
 
 ```geojson
@@ -9,7 +9,7 @@
     "coordinates": [-73.5215662, 9.5384802]
   }, 
   "properties": {
-    "Name": "Arroyo San Antonio - Paso de vÌa en entrega Realineamiento #4, La Jagua de Ibirico, Cesar, Colombia"
+    "Name": "Arroyo San Antonio - Paso de v√≠a en entrega Realineamiento #4, La Jagua de Ibirico, Cesar, Colombia"
   }
 }
 ```
@@ -38,7 +38,7 @@
 
 <br><details><summary>:camera:**11/2013-07-04_09.00.17.jpg**</summary><sub> `Exif version` 0220 `OS version` N7000XXLS2 `Date` 2013:07:04 09:00:17 `Aperture` Not known `Brightness` 6.4 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.007874015748031496 `Focal length` 3.97 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 2.65 `White balance` 0 `Sensing method` Not known `Shutter speed` 6.99</sub><sub>`Coordinates & altitude` (9.5381873, -73.5215483, 77.59)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=9.5381873,-73.5215483) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5381873&lon=-73.5215483)</sub></details>![GISMobile.POI](2013-07-04_09.00.17.jpg)
 
-> _CitaciÛn: se permite la reproducciÛn digital parcial o total de este repositorio, scripts, guÌas de desarrollo, modelos de datos, im·genes y documentaciÛn, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaciÛn geogr·ficos mÛviles sobre QField que no requieren de conexiÛn a Internet para su navegaciÛn". https://github.com/rcfdtools/R.GISMobile - Bogot· - Colombia - SuramÈrica."._
+> _Citaci√≥n: se permite la reproducci√≥n digital parcial o total de este repositorio, scripts, gu√≠as de desarrollo, modelos de datos, im√°genes y documentaci√≥n, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaci√≥n geogr√°ficos m√≥viles sobre QField que no requieren de conexi√≥n a Internet para su navegaci√≥n". https://github.com/rcfdtools/R.GISMobile - Bogot√° - Colombia - Suram√©rica."._
 
 | [:house: Inicio](../Readme.md) |
 |---|

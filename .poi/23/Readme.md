@@ -1,4 +1,4 @@
-## :globe_with_meridians:Visita tÈcnica Universidad Escuela Colombiana de IngenierÌa Julio Garavito con Empresas P˙blicas de Cundinamarca - EPC a la PTAP del municipio de VillapinzÛn - Cundinamarca - Colombia (aducciÛn de 2km ÿ8in a ÿ6in, Q operaciÛn ±16 lps, cobertura de distribuciÛn urbana). (2024-05-31)
+## :globe_with_meridians:Visita t√©cnica Universidad Escuela Colombiana de Ingenier√≠a Julio Garavito con Empresas P√∫blicas de Cundinamarca - EPC a la PTAP del municipio de Villapinz√≥n - Cundinamarca - Colombia (aducci√≥n de 2km √ò8in a √ò6in, Q operaci√≥n ¬±16 lps, cobertura de distribuci√≥n urbana). (2024-05-31)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.21747777,-73.58726388) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.21747777&lon=-73.58726388) 
 
 ```geojson
@@ -9,7 +9,7 @@
     "coordinates": [-73.58726388, 5.21747777]
   }, 
   "properties": {
-    "Name": "Visita tÈcnica Universidad Escuela Colombiana de IngenierÌa Julio Garavito con Empresas P˙blicas de Cundinamarca - EPC a la PTAP del municipio de VillapinzÛn - Cundinamarca - Colombia (aducciÛn de 2km ÿ8in a ÿ6in, Q operaciÛn ±16 lps, cobertura de distribuciÛn urbana)."
+    "Name": "Visita t√©cnica Universidad Escuela Colombiana de Ingenier√≠a Julio Garavito con Empresas P√∫blicas de Cundinamarca - EPC a la PTAP del municipio de Villapinz√≥n - Cundinamarca - Colombia (aducci√≥n de 2km √ò8in a √ò6in, Q operaci√≥n ¬±16 lps, cobertura de distribuci√≥n urbana)."
   }
 }
 ```
@@ -110,7 +110,7 @@
 
 <br><details><summary>:camera:**23/IMG_0652.JPG**</summary><sub> `Exif version` 0232 `OS version` 17.5.1 `Date` 2024:05:31 10:09:34 `Aperture` Not known `Brightness` 10.513591881116346 `Color space` 65535 `Compression` 6`Exposure mode` 0 `Exposure time` 0.00018601190476190475 `Focal length` 5.1 `Lens model` iPhone 12 Pro Max back triple camera 5.1mm f/1.6 `Lens specification` (1.5399999618512084, 7.5, 1.6, 2.4) `Orientation` 6 `Scene type` Not known `f number` 1.6 `White balance` 0 `Sensing method` 2 `Shutter speed` 12.392409761529182</sub><sub>`Coordinates & altitude` (5.217708333333333, -73.5873111111111, 2826.564907275321)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=5.217708333333333,-73.5873111111111) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.217708333333333&lon=-73.5873111111111)</sub></details>![GISMobile.POI](IMG_0652.JPG)
 
-> _CitaciÛn: se permite la reproducciÛn digital parcial o total de este repositorio, scripts, guÌas de desarrollo, modelos de datos, im·genes y documentaciÛn, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaciÛn geogr·ficos mÛviles sobre QField que no requieren de conexiÛn a Internet para su navegaciÛn". https://github.com/rcfdtools/R.GISMobile - Bogot· - Colombia - SuramÈrica."._
+> _Citaci√≥n: se permite la reproducci√≥n digital parcial o total de este repositorio, scripts, gu√≠as de desarrollo, modelos de datos, im√°genes y documentaci√≥n, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaci√≥n geogr√°ficos m√≥viles sobre QField que no requieren de conexi√≥n a Internet para su navegaci√≥n". https://github.com/rcfdtools/R.GISMobile - Bogot√° - Colombia - Suram√©rica."._
 
 | [:house: Inicio](../Readme.md) |
 |---|

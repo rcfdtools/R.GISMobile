@@ -44,6 +44,7 @@ def image_info(img_path):
     else:
         readme_file.write('</details>')
 
+
 # Variables
 path = 'D:/R.GISMobile/.poi/'
 path_www = 'https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/'
@@ -55,6 +56,7 @@ exclude_folder = ['.shp', '.temp', '.old']
 picture_format = ['.JPG', '.JPEG', '.jpeg', '.jpg', '.png', '.tif']
 license_txt = '> _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._\n'
 directories = [d for d in os.listdir(os.getcwd()) if os.path.isdir(d)]
+
 
 # Processing directories
 if os.path.isfile(path+poi_file):

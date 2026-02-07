@@ -1,4 +1,4 @@
-## :globe_with_meridians:Pantano Redondo trail, Zipaquir·, Cundinamarca, Colombia (2020-10-10)
+## :globe_with_meridians:Pantano Redondo trail, Zipaquir√°, Cundinamarca, Colombia (2020-10-10)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.054401,-74.026773) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.054401&lon=-74.026773) 
 
 ```geojson
@@ -9,7 +9,7 @@
     "coordinates": [-74.026773, 5.054401]
   }, 
   "properties": {
-    "Name": "Pantano Redondo trail, Zipaquir·, Cundinamarca, Colombia"
+    "Name": "Pantano Redondo trail, Zipaquir√°, Cundinamarca, Colombia"
   }
 }
 ```
@@ -30,7 +30,7 @@
 
 <br><details><summary>:camera:**30/GoogleMaps.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](GoogleMaps.jpg)
 
-> _CitaciÛn: se permite la reproducciÛn digital parcial o total de este repositorio, scripts, guÌas de desarrollo, modelos de datos, im·genes y documentaciÛn, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaciÛn geogr·ficos mÛviles sobre QField que no requieren de conexiÛn a Internet para su navegaciÛn". https://github.com/rcfdtools/R.GISMobile - Bogot· - Colombia - SuramÈrica."._
+> _Citaci√≥n: se permite la reproducci√≥n digital parcial o total de este repositorio, scripts, gu√≠as de desarrollo, modelos de datos, im√°genes y documentaci√≥n, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaci√≥n geogr√°ficos m√≥viles sobre QField que no requieren de conexi√≥n a Internet para su navegaci√≥n". https://github.com/rcfdtools/R.GISMobile - Bogot√° - Colombia - Suram√©rica."._
 
 | [:house: Inicio](../Readme.md) |
 |---|

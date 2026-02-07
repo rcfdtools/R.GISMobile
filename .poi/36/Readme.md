@@ -70,7 +70,7 @@
 
 <br><details><summary>:camera:**36/2013-07-0415.41.17.jpg**</summary><sub> `Exif version` 0220 `OS version` N7000XXLS2 `Date` 2013:07:04 15:41:17 `Aperture` Not known `Brightness` 6.98 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.005263157894736842 `Focal length` 3.97 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 2.65 `White balance` 0 `Sensing method` Not known `Shutter speed` 7.57</sub><sub>`Coordinates & altitude` (10.477632, -73.2438307, 151.67)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=10.477632,-73.2438307) or [Openstreet Map](https://www.openstreetmap.org/query?lat=10.477632&lon=-73.2438307)</sub></details>![GISMobile.POI](2013-07-0415.41.17.jpg)
 
-> _CitaciÛn: se permite la reproducciÛn digital parcial o total de este repositorio, scripts, guÌas de desarrollo, modelos de datos, im·genes y documentaciÛn, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaciÛn geogr·ficos mÛviles sobre QField que no requieren de conexiÛn a Internet para su navegaciÛn". https://github.com/rcfdtools/R.GISMobile - Bogot· - Colombia - SuramÈrica."._
+> _Citaci√≥n: se permite la reproducci√≥n digital parcial o total de este repositorio, scripts, gu√≠as de desarrollo, modelos de datos, im√°genes y documentaci√≥n, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaci√≥n geogr√°ficos m√≥viles sobre QField que no requieren de conexi√≥n a Internet para su navegaci√≥n". https://github.com/rcfdtools/R.GISMobile - Bogot√° - Colombia - Suram√©rica."._
 
 | [:house: Inicio](../Readme.md) |
 |---|

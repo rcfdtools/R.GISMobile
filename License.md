@@ -1,4 +1,6 @@
-## Licencia y cláusulas de autor
+<div align="center"><img alt="rcfdtools" src="file/graph/R.GISMobile.svg" height="46px"></div>
+
+# Licencia y cláusulas de autor
 
 Al consultar, descargar, descomprimir, instalar, usar o explorar las herramientas, scripts y guías de desarrollo contenidas en este repositorio, sus archivos y documentación, usted como empresa, individuo, investigador, estudiante, profesional, empleado o persona, acepta los siguientes términos de uso:
 
@@ -21,7 +23,7 @@ Al consultar, descargar, descomprimir, instalar, usar o explorar las herramienta
 * No se permite la privatización, acaparamiento, venta o distribución comercial de este repositorio, software o del proyecto _R.GISMobile_, ni ninguno de sus componentes, herramientas, memorias de cálculo, scripts, algoritmos y demás herramientas complementarias que se encuentran aquí publicadas o dentro de paquetes de instalación o liberaciones.
 
 
-### Citación
+## Citación
 
 Se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación", https://github.com/rcfdtools/R.GISMobile, Bogotá - Colombia - Suramérica.".
 

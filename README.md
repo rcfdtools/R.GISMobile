@@ -13,7 +13,7 @@ Keywords: `QGIS` `QField` `POI` `Android` `iOS` `Python` `pandas` `numpy` `tabul
 GISMobile utiliza bases de datos geográficas en formato File Geodatabase de ESRI y/o archivos de formas geométricas shapefile con despliegue a través de [QGIS](https://qgis.org/) en desktop y [QField](https://github.com/opengisch/QField) sobre dispositivos Android e iOS.
 
 
-## Descargas
+## Descargas y consultas
 
 * [GIS Mobile EAB-CO](GISMobile_EAB_CO)
 * [GIS Mobile Predial - CO](GISMobile_Predial_CO)

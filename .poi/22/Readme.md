@@ -1,4 +1,4 @@
-## :globe_with_meridians:Visita tÈcnica Universidad Escuela Colombiana de IngenierÌa Julio Garavito a la ESP Villeta - Cundinamarca - Colombia. Agradecimientos especiales a la Ingeniera Ana Vitalia Gonzalez Suavita, gerente de la E.S.P. por concedernos este espacio y al Ingeniero Diego Mauricio Hern·ndez Toro - Director tÈcnico AAA, por compartir su experiencia profesional y conocimientos con los estudiantes y profesores. InformaciÛn complementaria en https://espvilleta.gov.co (2024-05-10)
+## :globe_with_meridians:Visita t√©cnica Universidad Escuela Colombiana de Ingenier√≠a Julio Garavito a la ESP Villeta - Cundinamarca - Colombia. Agradecimientos especiales a la Ingeniera Ana Vitalia Gonzalez Suavita, gerente de la E.S.P. por concedernos este espacio y al Ingeniero Diego Mauricio Hern√°ndez Toro - Director t√©cnico AAA, por compartir su experiencia profesional y conocimientos con los estudiantes y profesores. Informaci√≥n complementaria en https://espvilleta.gov.co (2024-05-10)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.013062,-74.4782647) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.013062&lon=-74.4782647) 
 
 ```geojson
@@ -9,7 +9,7 @@
     "coordinates": [-74.4782647, 5.013062]
   }, 
   "properties": {
-    "Name": "Visita tÈcnica Universidad Escuela Colombiana de IngenierÌa Julio Garavito a la ESP Villeta - Cundinamarca - Colombia. Agradecimientos especiales a la Ingeniera Ana Vitalia Gonzalez Suavita, gerente de la E.S.P. por concedernos este espacio y al Ingeniero Diego Mauricio Hern·ndez Toro - Director tÈcnico AAA, por compartir su experiencia profesional y conocimientos con los estudiantes y profesores. InformaciÛn complementaria en https://espvilleta.gov.co"
+    "Name": "Visita t√©cnica Universidad Escuela Colombiana de Ingenier√≠a Julio Garavito a la ESP Villeta - Cundinamarca - Colombia. Agradecimientos especiales a la Ingeniera Ana Vitalia Gonzalez Suavita, gerente de la E.S.P. por concedernos este espacio y al Ingeniero Diego Mauricio Hern√°ndez Toro - Director t√©cnico AAA, por compartir su experiencia profesional y conocimientos con los estudiantes y profesores. Informaci√≥n complementaria en https://espvilleta.gov.co"
   }
 }
 ```
@@ -134,7 +134,7 @@
 
 <br><details><summary>:camera:**22/IMG_0579.JPG**</summary><sub> `Exif version` 0232 `OS version` 17.5 `Date` 2024:05:10 13:46:38 `Aperture` Not known `Brightness` 8.118534879440457 `Color space` 65535 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0009017132551848512 `Focal length` 5.1 `Lens model` iPhone 12 Pro Max back triple camera 5.1mm f/1.6 `Lens specification` (1.5399999618512084, 7.5, 1.6, 2.4) `Orientation` 6 `Scene type` Not known `f number` 1.6 `White balance` 0 `Sensing method` 2 `Shutter speed` 10.114584937625136</sub><sub>`Coordinates & altitude` (5.012913888888889, -74.4777611111111, 856.3416030534352)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=5.012913888888889,-74.4777611111111) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.012913888888889&lon=-74.4777611111111)</sub></details>![GISMobile.POI](IMG_0579.JPG)
 
-> _CitaciÛn: se permite la reproducciÛn digital parcial o total de este repositorio, scripts, guÌas de desarrollo, modelos de datos, im·genes y documentaciÛn, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaciÛn geogr·ficos mÛviles sobre QField que no requieren de conexiÛn a Internet para su navegaciÛn". https://github.com/rcfdtools/R.GISMobile - Bogot· - Colombia - SuramÈrica."._
+> _Citaci√≥n: se permite la reproducci√≥n digital parcial o total de este repositorio, scripts, gu√≠as de desarrollo, modelos de datos, im√°genes y documentaci√≥n, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaci√≥n geogr√°ficos m√≥viles sobre QField que no requieren de conexi√≥n a Internet para su navegaci√≥n". https://github.com/rcfdtools/R.GISMobile - Bogot√° - Colombia - Suram√©rica."._
 
 | [:house: Inicio](../Readme.md) |
 |---|

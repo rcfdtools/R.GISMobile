@@ -1,4 +1,4 @@
-## :globe_with_meridians:LocalizaciÛn futura presa RÌo La Playa - GuatiquÌa, FÛmeque, Cundinamarca, Colombia (2023-05-03)
+## :globe_with_meridians:Localizaci√≥n futura presa R√≠o La Playa - Guatiqu√≠a, F√≥meque, Cundinamarca, Colombia (2023-05-03)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=4.5409,-73.75708888888889) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.5409&lon=-73.75708888888889) 
 
 ```geojson
@@ -9,7 +9,7 @@
     "coordinates": [-73.75708888888889, 4.5409]
   }, 
   "properties": {
-    "Name": "LocalizaciÛn futura presa RÌo La Playa - GuatiquÌa, FÛmeque, Cundinamarca, Colombia"
+    "Name": "Localizaci√≥n futura presa R√≠o La Playa - Guatiqu√≠a, F√≥meque, Cundinamarca, Colombia"
   }
 }
 ```
@@ -22,7 +22,7 @@
 
 <br><details><summary>:camera:**5/PXL_20230503_174837491.jpg**</summary><sub> `Exif version` 0232 `OS version` HDR+ 1.0.520435816zd `Date` 2023:05:03 12:48:37 `Aperture` Not known `Brightness` 9.94 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.000296 `Focal length` 2.35 `Lens model` Pixel 6 back camera 2.35mm f/2.2 `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 2.2 `White balance` 0 `Sensing method` 2 `Shutter speed` 11.72</sub><sub>`Coordinates & altitude` (4.540480555555556, -73.75746388888889, 3224.2)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=4.540480555555556,-73.75746388888889) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.540480555555556&lon=-73.75746388888889)</sub></details>![GISMobile.POI](PXL_20230503_174837491.jpg)
 
-> _CitaciÛn: se permite la reproducciÛn digital parcial o total de este repositorio, scripts, guÌas de desarrollo, modelos de datos, im·genes y documentaciÛn, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaciÛn geogr·ficos mÛviles sobre QField que no requieren de conexiÛn a Internet para su navegaciÛn". https://github.com/rcfdtools/R.GISMobile - Bogot· - Colombia - SuramÈrica."._
+> _Citaci√≥n: se permite la reproducci√≥n digital parcial o total de este repositorio, scripts, gu√≠as de desarrollo, modelos de datos, im√°genes y documentaci√≥n, siempre que se haga referencia como: "R.GISMobile - Sistemas de informaci√≥n geogr√°ficos m√≥viles sobre QField que no requieren de conexi√≥n a Internet para su navegaci√≥n". https://github.com/rcfdtools/R.GISMobile - Bogot√° - Colombia - Suram√©rica."._
 
 | [:house: Inicio](../Readme.md) |
 |---|
