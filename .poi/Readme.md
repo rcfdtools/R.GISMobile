@@ -46,6 +46,7 @@
 {"type": "Point","properties": {"POI": "43", "Category": "Freelance field visit", "Name": "Pike - San Isabel National Forest , Colorado, U.S.", "Date": "2024-01-07", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/43/Readme.md"},"coordinates": [-105.312263888,39.407025]},
 {"type": "Point","properties": {"POI": "44", "Category": "Freelance field visit", "Name": "Embalse del Neusa, Cogua, Cundinamarca, Colombia.", "Date": "2024-09-15", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/44/Readme.md"},"coordinates": [-73.96980277777779,5.135966666666668]},
 {"type": "Point","properties": {"POI": "45", "Category": "Freelance field visit", "Name": "Puente Sisga, I-55, Chocontá, Cundinamarca, Colombia", "Date": "2024-04-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/45/Readme.md"},"coordinates": [-73.726167,5.083201]},
+{"type": "Point","properties": {"POI": "46", "Category": "Freelance field visit", "Name": "Santana-Togui, Boyacá, Colombia", "Date": "2022-04-12", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/46/Readme.md"},"coordinates": [-73.490125,6.047301]},
 {"type": "Point","properties": {"POI": "5", "Category": "Technical field visit", "Name": "Localización futura presa Río La Playa - Guatiquía, Fómeque, Cundinamarca, Colombia", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/5/Readme.md"},"coordinates": [-73.75708888888889,4.5409]},
 {"type": "Point","properties": {"POI": "6", "Category": "Technical field visit", "Name": "Laguna Chingaza, Fómeque, Cundinamarca, Colombia", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/6/Readme.md"},"coordinates": [-73.74963611111112,4.532322222222223]},
 {"type": "Point","properties": {"POI": "7", "Category": "Technical field visit", "Name": "Tunel derivador Río Guatiquía a Embalse Chuza, Fómeque, Cundinamarca, Colombia", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/7/Readme.md"},"coordinates": [-73.72825833333333,4.537927777777778]},
@@ -59,7 +60,7 @@
 
 | Category              |   POI |
 |:----------------------|------:|
-| Freelance field visit |    18 |
+| Freelance field visit |    19 |
 | Technical field visit |    27 |
 
 
@@ -67,7 +68,7 @@
 
 | Credit             |   POI |
 |:-------------------|------:|
-| rcfdtools          |    42 |
+| rcfdtools          |    43 |
 | rcfdtools & AHOC   |     1 |
 | rcfdtools & others |     2 |
 
@@ -121,6 +122,7 @@
 | [:globe_with_meridians:](43/Readme.md) |    43 | Pike - San Isabel National Forest , Colorado, U.S.                                                                                                                                                                                                                                                                                                                                                                                                                       |   39.407   |   -105.312  |    2051.54 | 2024-01-07 | rcfdtools          | Freelance field visit |
 | [:globe_with_meridians:](44/Readme.md) |    44 | Embalse del Neusa, Cogua, Cundinamarca, Colombia.                                                                                                                                                                                                                                                                                                                                                                                                                        |    5.13597 |    -73.9698 |    2980.79 | 2024-09-15 | rcfdtools          | Freelance field visit |
 | [:globe_with_meridians:](45/Readme.md) |    45 | Puente Sisga, I-55, Chocontá, Cundinamarca, Colombia                                                                                                                                                                                                                                                                                                                                                                                                                     |    5.0832  |    -73.7262 |    2700    | 2024-04-03 | rcfdtools          | Freelance field visit |
+| [:globe_with_meridians:](46/Readme.md) |    46 | Santana-Togui, Boyacá, Colombia                                                                                                                                                                                                                                                                                                                                                                                                                                          |    6.0473  |    -73.4901 |    1600    | 2022-04-12 | rcfdtools          | Freelance field visit |
 
 > _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
 
