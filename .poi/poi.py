@@ -142,3 +142,4 @@ df = df.drop(['Link'], axis=1)
 df = df.sort_values(by='POI')
 geojson_file_write.write(df.to_markdown(index=False))
 geojson_file_write.write('\n\n'+license_txt+'\n')
+
