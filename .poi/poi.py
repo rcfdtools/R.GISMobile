@@ -111,7 +111,7 @@ df = pd.read_csv(path+poi_file)
 geojson_file_write.write('<div align="center"><img alt="rcfdtools" src="../file/graph/R.GISMobile.svg" height="46px"></div>\n\n')
 geojson_file_write.write('## :globe_with_meridians:Puntos de interés - POI\n\n### Mapa localización de puntos de interés en GISMobile\n\n')
 geojson_file_write.write('```topojson\n{"type": "Topology", "objects": {"example": {"type": "GeometryCollection","geometries": [\n')
-print('Records: %i' %len(df))
+print('\nPOI: %i' %len(df))
 for i in range(0,len(df)):
     if df.loc[i]['Longitude'] and df.loc[i]['Latitude']:
         properties = ('"POI": "%s", "Category": "%s", "Name": "%s", "Date": "%s", "Credits": "%s", "URL": "%s"'

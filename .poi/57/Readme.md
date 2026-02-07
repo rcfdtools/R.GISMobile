@@ -1,17 +1,17 @@
 <div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
 
-## Bailey - Georgetown - Guanella road - Xcel Energy Cabin Creek - Clear Lake - Green Lake, Colorado, USA (2025-06-22)
-`Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=38.899026,-107.108074) or [Openstreet Map](https://www.openstreetmap.org/query?lat=38.899026&lon=-107.108074) 
+## Zipaquirá, Cundinamarca, Colombia (2023-05-24)
+`Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.018813,-74.009868) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.018813&lon=-74.009868) 
 
 ```geojson
 {
   "type": "Feature",
   "geometry": {
     "type": "Point", 
-    "coordinates": [-107.108074, 38.899026]
+    "coordinates": [-74.009868, 5.018813]
   }, 
   "properties": {
-    "Name": "Bailey - Georgetown - Guanella road - Xcel Energy Cabin Creek - Clear Lake - Green Lake, Colorado, USA"
+    "Name": "Zipaquirá, Cundinamarca, Colombia"
   }
 }
 ```
