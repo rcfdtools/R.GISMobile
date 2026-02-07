@@ -1,4 +1,6 @@
-## :globe_with_meridians:Flatiron Reservoir and Spillway, Loveland, Colorado, U.S. (2021-06-26)
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+
+## Flatiron Reservoir and Spillway, Loveland, Colorado, U.S. (2021-06-26)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=40.37364894444445,-105.23005497222222) or [Openstreet Map](https://www.openstreetmap.org/query?lat=40.37364894444445&lon=-105.23005497222222) 
 
 ```geojson

@@ -1,4 +1,5 @@
 <div align="center"><img alt="rcfdtools" src="../file/graph/R.GISMobile.svg" height="46px"></div>
+
 ## :globe_with_meridians:Puntos de interés - POI
 
 ### Mapa localización de puntos de interés en GISMobile

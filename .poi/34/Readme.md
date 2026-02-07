@@ -1,4 +1,6 @@
-## :globe_with_meridians:Garden of Gods - Colorado Springs, Colorado, U.S. (2018-05-25)
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+
+## Garden of Gods - Colorado Springs, Colorado, U.S. (2018-05-25)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=38.865713,-104.889951) or [Openstreet Map](https://www.openstreetmap.org/query?lat=38.865713&lon=-104.889951) 
 
 ```geojson

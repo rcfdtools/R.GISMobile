@@ -1,4 +1,6 @@
-## :globe_with_meridians:Mirador Laguna Seca, La Calera, Cundinamarca, Colombia (2023-05-03)
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+
+## Mirador Laguna Seca, La Calera, Cundinamarca, Colombia (2023-05-03)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=4.678047222222222,-73.79294444444444) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.678047222222222&lon=-73.79294444444444) 
 
 ```geojson

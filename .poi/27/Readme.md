@@ -1,4 +1,6 @@
-## :globe_with_meridians:Big Thompson River, Estes Park, Colorado, U.S. (2024-07-20)
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+
+## Big Thompson River, Estes Park, Colorado, U.S. (2024-07-20)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=40.3767,-105.518536) or [Openstreet Map](https://www.openstreetmap.org/query?lat=40.3767&lon=-105.518536) 
 
 ```geojson

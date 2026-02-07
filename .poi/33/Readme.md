@@ -1,4 +1,6 @@
-## :globe_with_meridians:Black Hawk, Colorado, U.S. (2016-10-18)
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+
+## Black Hawk, Colorado, U.S. (2016-10-18)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=39.767451,-105.44864) or [Openstreet Map](https://www.openstreetmap.org/query?lat=39.767451&lon=-105.44864) 
 
 ```geojson

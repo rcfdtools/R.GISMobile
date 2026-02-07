@@ -1,4 +1,6 @@
-## :globe_with_meridians:Arroyo San Antonio - Estructura escalonada - Entrega Caño Melánquez, La Jagua de Ibirico, Cesar, Colombia (2018-04-25)
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+
+## Arroyo San Antonio - Estructura escalonada - Entrega Caño Melánquez, La Jagua de Ibirico, Cesar, Colombia (2018-04-25)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=9.519911,-73.483261) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.519911&lon=-73.483261) 
 
 ```geojson

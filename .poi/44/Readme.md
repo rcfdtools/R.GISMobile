@@ -1,4 +1,6 @@
-## :globe_with_meridians:Embalse del Neusa, Cogua, Cundinamarca, Colombia. (2024-09-15)
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+
+## Embalse del Neusa, Cogua, Cundinamarca, Colombia. (2024-09-15)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.135966666666668,-73.96980277777779) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.135966666666668&lon=-73.96980277777779) 
 
 ```geojson

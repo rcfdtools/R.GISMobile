@@ -1,4 +1,6 @@
-## :globe_with_meridians:Pantano Redondo trail, Zipaquirá, Cundinamarca, Colombia (2020-10-10)
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+
+## Pantano Redondo trail, Zipaquirá, Cundinamarca, Colombia (2020-10-10)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.054401,-74.026773) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.054401&lon=-74.026773) 
 
 ```geojson

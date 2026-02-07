@@ -1,4 +1,6 @@
-## :globe_with_meridians:Ruta Guecha, Suesca, Cundinamarca, Colombia (2021-04-02)
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+
+## Ruta Guecha, Suesca, Cundinamarca, Colombia (2021-04-02)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.108268,-73.823783) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.108268&lon=-73.823783) 
 
 ```geojson

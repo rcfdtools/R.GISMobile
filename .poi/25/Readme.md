@@ -1,4 +1,6 @@
-## :globe_with_meridians:Lake Estes & Spillway, Estes Park, Colorado, U.S. (2024-07-22)
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+
+## Lake Estes & Spillway, Estes Park, Colorado, U.S. (2024-07-22)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=40.375469,-105.486357) or [Openstreet Map](https://www.openstreetmap.org/query?lat=40.375469&lon=-105.486357) 
 
 ```geojson

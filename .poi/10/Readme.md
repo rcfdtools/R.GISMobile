@@ -1,4 +1,6 @@
-## :globe_with_meridians:Arroyo San Antonio - Erosión remontante, La Jagua de Ibirico, Cesar, Colombia (2013-07-03)
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+
+## Arroyo San Antonio - Erosión remontante, La Jagua de Ibirico, Cesar, Colombia (2013-07-03)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=9.5332223,-73.4627698) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5332223&lon=-73.4627698) 
 
 ```geojson

@@ -1,4 +1,6 @@
-## :globe_with_meridians:Paso de vía Canal Paujil, La Jagua de Ibirico, Cesar, Colombia (2013-07-04)
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+
+## Paso de vía Canal Paujil, La Jagua de Ibirico, Cesar, Colombia (2013-07-04)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=9.5532847,-73.4642336) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.5532847&lon=-73.4642336) 
 
 ```geojson

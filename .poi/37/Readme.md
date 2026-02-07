@@ -1,4 +1,6 @@
-## :globe_with_meridians:Visita Drummond 2018 - Departamento del Cesar - Colombia (varios) (2018-04-25)
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+
+## Visita Drummond 2018 - Departamento del Cesar - Colombia (varios) (2018-04-25)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=9.531024,-73.462601) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.531024&lon=-73.462601) 
 
 ```geojson
