@@ -49,6 +49,7 @@
 {"type": "Point","properties": {"POI": "46", "Category": "Freelance field visit", "Name": "Santana-Togui, Boyacá, Colombia", "Date": "2022-04-12", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/46/Readme.md"},"coordinates": [-73.490125,6.047301]},
 {"type": "Point","properties": {"POI": "47", "Category": "Freelance field visit", "Name": "Sopó-Pionono, Cundinamarca, Colombia", "Date": "2025-04-27", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/47/Readme.md"},"coordinates": [-73.920929,4.905097]},
 {"type": "Point","properties": {"POI": "48", "Category": "Freelance field visit", "Name": "Subachoque - Pantano de Arce, Cundinamarca, Colombia", "Date": "2025-04-11", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/48/Readme.md"},"coordinates": [-74.180353,5.002233]},
+{"type": "Point","properties": {"POI": "49", "Category": "Freelance field visit", "Name": "Laguna de Suesca, Cundinamarca, Colombia", "Date": "2025-08-07", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/49/Readme.md"},"coordinates": [-73.788042,5.185168]},
 {"type": "Point","properties": {"POI": "5", "Category": "Technical field visit", "Name": "Localización futura presa Río La Playa - Guatiquía, Fómeque, Cundinamarca, Colombia", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/5/Readme.md"},"coordinates": [-73.75708888888889,4.5409]},
 {"type": "Point","properties": {"POI": "6", "Category": "Technical field visit", "Name": "Laguna Chingaza, Fómeque, Cundinamarca, Colombia", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/6/Readme.md"},"coordinates": [-73.74963611111112,4.532322222222223]},
 {"type": "Point","properties": {"POI": "7", "Category": "Technical field visit", "Name": "Tunel derivador Río Guatiquía a Embalse Chuza, Fómeque, Cundinamarca, Colombia", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/7/Readme.md"},"coordinates": [-73.72825833333333,4.537927777777778]},
@@ -62,7 +63,7 @@
 
 | Category              |   POI |
 |:----------------------|------:|
-| Freelance field visit |    21 |
+| Freelance field visit |    22 |
 | Technical field visit |    27 |
 
 
@@ -70,7 +71,7 @@
 
 | Credit             |   POI |
 |:-------------------|------:|
-| rcfdtools          |    45 |
+| rcfdtools          |    46 |
 | rcfdtools & AHOC   |     1 |
 | rcfdtools & others |     2 |
 
@@ -127,6 +128,7 @@
 | [:globe_with_meridians:](46/Readme.md) |    46 | Santana-Togui, Boyacá, Colombia                                                                                                                                                                                                                                                                                                                                                                                                                                          |    6.0473  |    -73.4901 |    1600    | 2022-04-12 | rcfdtools          | Freelance field visit |
 | [:globe_with_meridians:](47/Readme.md) |    47 | Sopó-Pionono, Cundinamarca, Colombia                                                                                                                                                                                                                                                                                                                                                                                                                                     |    4.9051  |    -73.9209 |    3200    | 2025-04-27 | rcfdtools          | Freelance field visit |
 | [:globe_with_meridians:](48/Readme.md) |    48 | Subachoque - Pantano de Arce, Cundinamarca, Colombia                                                                                                                                                                                                                                                                                                                                                                                                                     |    5.00223 |    -74.1804 |    3200    | 2025-04-11 | rcfdtools          | Freelance field visit |
+| [:globe_with_meridians:](49/Readme.md) |    49 | Laguna de Suesca, Cundinamarca, Colombia                                                                                                                                                                                                                                                                                                                                                                                                                                 |    5.18517 |    -73.788  |    2840    | 2025-08-07 | rcfdtools          | Freelance field visit |
 
 > _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
 
