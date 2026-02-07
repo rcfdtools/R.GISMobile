@@ -5,7 +5,7 @@
 Keywords: `QGIS` `QField` `POI` `Android` `iOS` `Python` `pandas` `numpy` `tabulate` `exif` `geopandas` `moviepy`
 
 <div align="center">
-  <img alt="GISMobile" src=".graph/QField_MapView.png" width="350px"><br>  
+  <img alt="GISMobile" src="file/graph/QField_MapView.png" width="350px"><br>  
 </div>
 
 > Atención: la información utilizada para la creación de los proyectos GIS Mobile ha sido tomada de servicios de uso libre, consulte la licencia y restricciones de uso específicas de cada fuente de datos referenciada.
@@ -45,4 +45,4 @@ GISMobile utiliza bases de datos geográficas en formato File Geodatabase de ESR
 
 [rcfdtools](https://github.com/rcfdtools) no se responsabiliza por la información contenida en los mapas publicados, tenga en cuenta que puede contener imprecisiones en su localización y atributos disponibles. Consulte las fuentes originales citadas en cada mapa publicado.
 
-<div align="center"><img alt="rcfdtools" src=".graph/R.GISMobile.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="file/graph/R.GISMobile.svg" height="46px"></div>
