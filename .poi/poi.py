@@ -65,6 +65,7 @@ if os.path.isfile(path+poi_file):
 df = pd.DataFrame()
 print('Directories:', directories)
 for i in directories:
+    print(f'\n\nProcessing directory {i}')
     if i not in exclude_folder:
         readme_file = open(path+i+'/'+'Readme.md', 'w+')   # w+ create the file if it doesn't exist
         poi_path = path+i+'/'+poi_file
