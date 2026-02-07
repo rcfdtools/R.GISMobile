@@ -57,6 +57,7 @@
 {"type": "Point","properties": {"POI": "53", "Category": "Freelance field visit", "Name": "Ráquira, Boyacá, Colombia", "Date": "2017-08-20", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/53/Readme.md"},"coordinates": [-73.633589,5.538295]},
 {"type": "Point","properties": {"POI": "54", "Category": "Freelance field visit", "Name": "Saravena, Arauca, Colombia", "Date": "2012-11-16", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/54/Readme.md"},"coordinates": [-71.863894,6.93436]},
 {"type": "Point","properties": {"POI": "55", "Category": "Freelance field visit", "Name": "Sevilla, Valle, Colombia", "Date": "2013-12-25", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/55/Readme.md"},"coordinates": [-75.934291,4.264387]},
+{"type": "Point","properties": {"POI": "56", "Category": "Freelance field visit", "Name": "Bailey - Georgetown - Guanella road - Xcel Energy Cabin Creek - Clear Lake - Green Lake, Colorado, USA", "Date": "2025-06-22", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/56/Readme.md"},"coordinates": [-107.108074,38.899026]},
 {"type": "Point","properties": {"POI": "6", "Category": "Technical field visit", "Name": "Laguna Chingaza, Fómeque, Cundinamarca, Colombia", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/6/Readme.md"},"coordinates": [-73.74963611111112,4.532322222222223]},
 {"type": "Point","properties": {"POI": "7", "Category": "Technical field visit", "Name": "Tunel derivador Río Guatiquía a Embalse Chuza, Fómeque, Cundinamarca, Colombia", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/7/Readme.md"},"coordinates": [-73.72825833333333,4.537927777777778]},
 {"type": "Point","properties": {"POI": "8", "Category": "Technical field visit", "Name": "Embalse Paujil, La Jagua de Ibirico, Cesar, Colombia", "Date": "2013-07-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/8/Readme.md"},"coordinates": [-73.458466,9.559278]},
@@ -69,7 +70,7 @@
 
 | Category              |   POI |
 |:----------------------|------:|
-| Freelance field visit |    28 |
+| Freelance field visit |    29 |
 | Technical field visit |    27 |
 
 
@@ -77,7 +78,7 @@
 
 | Credit             |   POI |
 |:-------------------|------:|
-| rcfdtools          |    52 |
+| rcfdtools          |    53 |
 | rcfdtools & AHOC   |     1 |
 | rcfdtools & others |     2 |
 
@@ -141,6 +142,7 @@
 | [:globe_with_meridians:](53/Readme.md) |    53 | Ráquira, Boyacá, Colombia                                                                                                                                                                                                                                                                                                                                                                                                                                                |    5.53829 |    -73.6336 |    2200    | 2017-08-20 | rcfdtools          | Freelance field visit |
 | [:globe_with_meridians:](54/Readme.md) |    54 | Saravena, Arauca, Colombia                                                                                                                                                                                                                                                                                                                                                                                                                                               |    6.93436 |    -71.8639 |     200    | 2012-11-16 | rcfdtools          | Freelance field visit |
 | [:globe_with_meridians:](55/Readme.md) |    55 | Sevilla, Valle, Colombia                                                                                                                                                                                                                                                                                                                                                                                                                                                 |    4.26439 |    -75.9343 |    1600    | 2013-12-25 | rcfdtools          | Freelance field visit |
+| [:globe_with_meridians:](56/Readme.md) |    56 | Bailey - Georgetown - Guanella road - Xcel Energy Cabin Creek - Clear Lake - Green Lake, Colorado, USA                                                                                                                                                                                                                                                                                                                                                                   |   38.899   |   -107.108  |    3300    | 2025-06-22 | rcfdtools          | Freelance field visit |
 
 > _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
 
