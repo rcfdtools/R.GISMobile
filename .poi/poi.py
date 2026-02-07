@@ -52,9 +52,10 @@ poi_file = 'poi.csv'
 geojson_file = 'Readme.md'
 # poi_cols = ['URL', 'POI', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Name', 'Credit', 'Category', 'Link']
 poi_cols = ['URL', 'POI', 'Name', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Credit', 'Category', 'Link']
-exclude_folder = ['.shp', '.temp', '.old']
+exclude_folder = ['shp', 'temp', 'old']
 picture_format = ['.JPG', '.JPEG', '.jpeg', '.jpg', '.png', '.tif']
 license_txt = '> _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._\n'
+directories = [d for d in os.listdir(os.getcwd()) if os.path.isdir(d)]
 directories = [d for d in os.listdir(os.getcwd()) if os.path.isdir(d)]
 
 
@@ -98,7 +99,7 @@ gdf.set_geometry(
     geopandas.points_from_xy(gdf['Longitude'], gdf['Latitude']),
     inplace=True, crs='EPSG:4326')
 gdf.drop(['Latitude', 'Longitude'], axis=1, inplace=True)  # optional
-gdf.to_file('.shp/poi.shp')
+gdf.to_file('shp/poi.shp')
 
 # Create POI GeoJSON
 if os.path.isfile(path+geojson_file):
