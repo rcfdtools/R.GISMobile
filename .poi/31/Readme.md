@@ -132,7 +132,7 @@
 
 <br><details><summary>:camera:**31/TKUM5651.jpg**</summary><sub> `Exif version` Not known `OS version` Not known `Date` 2026:02:07 16:23:30 `Aperture` Not known `Brightness` Not known `Color space` Not known `Compression` Not known`Exposure mode` Not known `Exposure time` Not known `Focal length` Not known `Lens model` Not known `Lens specification` Not known `Orientation` Not known `Scene type` Not known `f number` Not known `White balance` Not known `Sensing method` Not known `Shutter speed` Not known</sub></details>![GISMobile.POI](TKUM5651.jpg)
 
-> _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
+<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - South America"._<sub>
 
-| [:house: Inicio](../Readme.md) |
+| [:house: POI home](../Readme.md) |
 |---|

@@ -54,7 +54,7 @@ geojson_file = 'Readme.md'
 poi_cols = ['URL', 'POI', 'Name', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Credit', 'Category', 'Link']
 exclude_folder = ['shp', 'temp', 'old']
 picture_format = ['.JPG', '.JPEG', '.jpeg', '.jpg', '.png', '.PNG', '.tif', '.TIF', '.tiff', '.TIFF']
-license_txt = '> _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._\n'
+license_txt = '<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - South America"._<sub>\n'
 directories = [d for d in os.listdir(os.getcwd()) if os.path.isdir(d)]
 directories = [d for d in os.listdir(os.getcwd()) if os.path.isdir(d)]
 
@@ -89,7 +89,7 @@ for i in directories:
                 image_info(i+'/'+filename_absolute)
                 readme_file.write('![GISMobile.POI]('+filename_absolute+')\n\n')
         readme_file.write(license_txt + '\n')
-        readme_file.write('| [:house: Inicio](../Readme.md) |\n|---|')
+        readme_file.write('| [:house: POI home](../Readme.md) |\n|---|')
 df = df[poi_cols]  # Reordering cols
 print(df)
 df = df.sort_values(by=['POI'], ascending=True)
@@ -111,7 +111,7 @@ df = pd.read_csv(path+poi_file)
 geojson_file_write.write('<div align="center"><img alt="rcfdtools" src="../file/graph/R.GISMobile.svg" height="46px"></div>\n\n')
 geojson_file_write.write('## :globe_with_meridians:Puntos de interés - POI\n\n### Mapa localización de puntos de interés en GISMobile\n\n')
 geojson_file_write.write('```topojson\n{"type": "Topology", "objects": {"example": {"type": "GeometryCollection","geometries": [\n')
-print('\nPOI: %i' %len(df))
+print('\nPOIs processed: %i' %len(df))
 for i in range(0,len(df)):
     if df.loc[i]['Longitude'] and df.loc[i]['Latitude']:
         properties = ('"POI": "%s", "Category": "%s", "Name": "%s", "Date": "%s", "Credits": "%s", "URL": "%s"'

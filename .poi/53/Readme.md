@@ -60,7 +60,7 @@
 
 <br><details><summary>:camera:**53/IMG_20170820_162253.jpg**</summary><sub> `Exif version` 0220 `OS version` P895T20_MPCS-user 6.0.1 MMB29M 20170418.111425 release-keys `Date` 2017:08:20 16:22:53 `Aperture` Not known `Brightness` 0.0 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.008333333333333333 `Focal length` 3.46 `Lens model` Not known `Lens specification` Not known `Orientation` Not known `Scene type` Not known `f number` 2.2 `White balance` 0 `Sensing method` 2 `Shutter speed` 6.906</sub></details>![GISMobile.POI](IMG_20170820_162253.jpg)
 
-> _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
+<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - South America"._<sub>
 
-| [:house: Inicio](../Readme.md) |
+| [:house: POI home](../Readme.md) |
 |---|

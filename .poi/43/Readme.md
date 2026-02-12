@@ -74,7 +74,7 @@
 
 <br><details><summary>:camera:**43/IMG_0089.JPEG**</summary><sub> `Exif version` 0232 `OS version` 17.2.1 `Date` 2024:01:07 15:18:31 `Aperture` Not known `Brightness` 7.493182411273486 `Color space` 65535 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0013850415512465374 `Focal length` 5.1 `Lens model` iPhone 12 Pro Max back triple camera 5.1mm f/1.6 `Lens specification` (1.5399999618512084, 7.5, 1.6, 2.4) `Orientation` 1 `Scene type` Not known `f number` 1.6 `White balance` 0 `Sensing method` 2 `Shutter speed` 9.494857025303435</sub><sub>`Coordinates & altitude` (39.29108333333333, -105.20665, 1930.933626159102)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=39.29108333333333,-105.20665) or [Openstreet Map](https://www.openstreetmap.org/query?lat=39.29108333333333&lon=-105.20665)</sub></details>![GISMobile.POI](IMG_0089.JPEG)
 
-> _Citación: se permite la reproducción digital parcial o total de este repositorio, scripts, guías de desarrollo, modelos de datos, imágenes y documentación, siempre que se haga referencia como: "R.GISMobile - Sistemas de información geográficos móviles sobre QField que no requieren de conexión a Internet para su navegación". https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - Suramérica."._
+<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - South America"._<sub>
 
-| [:house: Inicio](../Readme.md) |
+| [:house: POI home](../Readme.md) |
 |---|
