@@ -1,0 +1,4 @@
+Converting .HEIC to .JPG while preserving EXIF data (metadata like date, location, and camera settings) can be achieved using built-in tools on macOS, dedicated software on Windows, or secure online converters. 
+
+https://imazing.com/
+
