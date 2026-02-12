@@ -89,7 +89,7 @@ for i in directories:
                 image_info(i+'/'+filename_absolute)
                 readme_file.write('![GISMobile.POI]('+filename_absolute+')\n\n')
         readme_file.write(license_txt + '\n')
-        readme_file.write('| [:house: POI home](../Readme.md) |\n|---|')
+        readme_file.write('| [:house: Home](../Readme.md) |\n|---|')
 df = df[poi_cols]  # Reordering cols
 print(df)
 df = df.sort_values(by=['POI'], ascending=True)

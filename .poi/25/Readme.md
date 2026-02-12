@@ -48,5 +48,5 @@
 
 <sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - South America"._<sub>
 
-| [:house: POI home](../Readme.md) |
+| [:house: Home](../Readme.md) |
 |---|
