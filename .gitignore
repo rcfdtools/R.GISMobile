@@ -15,8 +15,8 @@ GISMobile_Predial_CO/GDB.gdb
 GISMobile_Predial_CO/GISMobile_Predial_CO.zip
 
 
-file/gismobile/GISMobile_EAB_CO/GDB.gdb
-file/gismobile/GISMobile_EAB_CO/dem/AlosPalsar*.tif*
-file/gismobile/GISMobile_EAB_CO/dem/AlosPalsarZE*.tif*
-file/gismobile/GISMobile_Predial_CO/GDB.gdb
-file/gismobile/GISMobile_Predial_CO/GISMobile_Predial_CO.zip
+file/gis/GISMobile_EAB_CO/GDB.gdb
+file/gis/GISMobile_EAB_CO/dem/AlosPalsar*.tif*
+file/gis/GISMobile_EAB_CO/dem/AlosPalsarZE*.tif*
+file/gis/GISMobile_Predial_CO/GDB.gdb
+file/gis/GISMobile_Predial_CO/GISMobile_Predial_CO.zip
