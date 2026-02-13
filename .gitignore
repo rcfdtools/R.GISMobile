@@ -26,13 +26,6 @@
 *.tfw
 *.tif
 *.ovr
-GISMobile_EAB_CO/GDB.gdb
-GISMobile_EAB_CO/dem/AlosPalsar*.tif*
-GISMobile_EAB_CO/dem/AlosPalsarZE*.tif*
-GISMobile_Predial_CO/GDB.gdb
-GISMobile_Predial_CO/GISMobile_Predial_CO.zip
-
-
 file/gis/GISMobile_EAB_CO/GDB.gdb
 file/gis/GISMobile_EAB_CO/dem/AlosPalsar*.tif*
 file/gis/GISMobile_EAB_CO/dem/AlosPalsarZE*.tif*
