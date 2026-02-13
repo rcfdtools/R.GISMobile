@@ -47,6 +47,7 @@ def image_info(img_path):
 
 # Variables
 path = 'D:/R.GISMobile/.poi/'
+os.chdir(path)
 path_www = 'https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/'
 poi_file = 'poi.csv'
 geojson_file = 'Readme.md'
