@@ -28,7 +28,6 @@ def image_info(img_path):
                       img.gps_altitude)
             cx = decimal_coords(img.gps_longitude, img.gps_longitude_ref)
             cy = decimal_coords(img.gps_latitude, img.gps_latitude_ref)
-            cz = img.gps_altitude
         except AttributeError:
             print('No Coordinates')
         info = f"<br><details><summary>:camera:**{src.name}**</summary><sub> `Exif version` {img.get('exif_version', 'Not known')} `OS version` {img.get('software', 'Not known')} `Date` {img.datetime_original} `Aperture` {img.get('aperture', 'Not known')} `Brightness` {img.get('brightness_value', 'Not known')} `Color space` {img.get('color_space', 'Not known')} `Compression` {img.get('compression', 'Not known')}`Exposure mode` {img.get('exposure_mode', 'Not known')} `Exposure time` {img.get('exposure_time', 'Not known')} `Focal length` {img.get('focal_length', 'Not known')} `Lens model` {img.get('lens_model', 'Not known')} `Lens specification` {img.get('lens_specification', 'Not known')} `Orientation` {img.get('orientation', 'Not known')} `Scene type` {img.get('scene_type', 'Not known')} `f number` {img.get('f_number', 'Not known')} `White balance` {img.get('white_balance', 'Not known')} `Sensing method` {img.get('sensing_method', 'Not known')} `Shutter speed` {img.get('shutter_speed_value', 'Not known')}</sub>"
@@ -37,14 +36,11 @@ def image_info(img_path):
         print('The Image has no EXIF information')
     readme_file.write(info)
     if coords:
-        google_maps = f'http://maps.google.com/maps?q={str(cy)},{str(cx)}'
-        osm_maps = f'https://www.openstreetmap.org/query?lat={str(cy)}&lon={str(cx)}'
         map_location = ('<sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=' + str(
             cy) + ',' + str(cx) + ') or [Openstreet Map](https://www.openstreetmap.org/query?lat=' + str(cy) + '&lon=' + str(cx) + ')</sub>')
         print(f"Coordinates:{coords}")
         readme_file.write(f"<sub>`Coordinates & altitude` {coords}</sub>")
         readme_file.write(map_location + '</details>')
-        picture_file.write(f'"{path_www+img_path}",{cy},{cx},{cz},"{google_maps}","{osm_maps}"\n')
     else:
         readme_file.write('</details>')
 
@@ -54,27 +50,22 @@ path = 'D:/R.GISMobile/.poi/'
 os.chdir(path)
 path_www = 'https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/'
 poi_file = 'poi.csv'
-picture_file_name = 'picture.csv'
+picture_file = 'picture.csv'
 geojson_file = 'Readme.md'
 # poi_cols = ['URL', 'POI', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Name', 'Credit', 'Category', 'Link']
 poi_cols = ['URL', 'POI', 'Name', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Credit', 'Category', 'Link']
-picture_cols = ['URL', 'Latitude', 'Longitude', 'Altitude', 'GoogleMaps', 'OSMaps']
+picture_cols = ['URL', 'POI', 'Name', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Credit', 'Category', 'Link']
 exclude_folder = ['shp', 'temp', 'old']
 picture_format = ['.JPG', '.JPEG', '.jpeg', '.jpg', '.png', '.PNG', '.tif', '.TIF', '.tiff', '.TIFF']
 license_txt = '<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - South America"._<sub>\n'
 directories = [d for d in os.listdir(os.getcwd()) if os.path.isdir(d)]
-#directories = [d for d in os.listdir(os.getcwd()) if os.path.isdir(d)]
+directories = [d for d in os.listdir(os.getcwd()) if os.path.isdir(d)]
 
 
 # Processing directories
 if os.path.isfile(path+poi_file):
     os.remove(path+poi_file)
-if os.path.isfile(path+picture_file_name):
-    os.remove(path+picture_file_name)
 df = pd.DataFrame()
-picture_file = open(path + '/' + picture_file_name, 'w+')
-picture_file.write(','.join(picture_cols))
-picture_file.write('\n')
 print('Directories:', directories)
 for i in directories:
     print(f'\n******************************\nProcessing directory {i}\n******************************')
@@ -100,7 +91,6 @@ for i in directories:
                 print(filename_absolute)
                 image_info(i+'/'+filename_absolute)
                 readme_file.write('![GISMobile.POI]('+filename_absolute+')\n\n')
-                #picture_file.write(f'{str(picture)},{filename_absolute}\n')
         readme_file.write(license_txt + '\n')
         readme_file.write('| [:house: Home](../Readme.md) |\n|---|')
 df = df[poi_cols]  # Reordering cols
