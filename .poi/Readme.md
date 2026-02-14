@@ -1,6 +1,8 @@
 <div align="center"><img alt="rcfdtools" src="../file/graph/R.GISMobile.svg" height="46px"></div>
 
-## :globe_with_meridians:Geographical Points of Interest - POI
+# :globe_with_meridians:Geographical Points of Interest - POI
+
+> A Point of Interest (POI) list is a dataset containing specific, geographically located points on a map that are considered useful or interesting, such as dams, reservoirs, ecological parks, or landmarks. Each entry in the list typically includes a name, location (latitude/longitude), and category to identify the place.
 
 ### Map points
 
