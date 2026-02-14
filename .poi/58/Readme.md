@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
 
-## El Guavio Dam - Ubalá - Gachala, Cundinamarca, Colombia (2026-02-01)
+## The Guavio Dam - Ubalá - Gachala, Cundinamarca, Colombia. https://en.wikipedia.org/wiki/Alberto_Lleras_Dam (2026-02-01)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=4.726371,-73.483435) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.726371&lon=-73.483435) 
 
 ```geojson
@@ -11,18 +11,14 @@
     "coordinates": [-73.483435, 4.726371]
   }, 
   "properties": {
-    "Name": "El Guavio Dam - Ubalá - Gachala, Cundinamarca, Colombia"
+    "Name": "The Guavio Dam - Ubalá - Gachala, Cundinamarca, Colombia. https://en.wikipedia.org/wiki/Alberto_Lleras_Dam"
   }
 }
 ```
 
 <br><details><summary>:camera:**58/0_GarminConnect1.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](0_GarminConnect1.jpg)
 
-<br><details><summary>:camera:**58/0_GarminConnect2.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](0_GarminConnect2.jpg)
-
 <br><details><summary>:camera:**58/0_GarminConnect3.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](0_GarminConnect3.jpg)
-
-<br><details><summary>:camera:**58/0_GarminConnect4.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](0_GarminConnect4.jpg)
 
 <br><details><summary>:camera:**58/IMG_20260201_101201094.jpg**</summary><sub> `Exif version` 0220 `OS version`  `Date` 2026:02:01 10:12:02 `Aperture` Not known `Brightness` 0.0 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.000360252 `Focal length` 2.13 `Lens model` Not known `Lens specification` Not known `Orientation` 6 `Scene type` Not known `f number` 2.2 `White balance` 0 `Sensing method` 1 `Shutter speed` 11.438</sub><sub>`Coordinates & altitude` (4.808038194444444, -73.70345305555556, 2030.0)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=4.808038194444444,-73.70345305555556) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.808038194444444&lon=-73.70345305555556)</sub></details>![GISMobile.POI](IMG_20260201_101201094.jpg)
 
@@ -113,6 +109,10 @@
 <br><details><summary>:camera:**58/IMG_20260201_145153219.jpg**</summary><sub> `Exif version` 0220 `OS version`  `Date` 2026:02:01 14:51:54 `Aperture` Not known `Brightness` 0.0 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.001088 `Focal length` 5.56 `Lens model` Not known `Lens specification` Not known `Orientation` 6 `Scene type` Not known `f number` 1.88 `White balance` 0 `Sensing method` 1 `Shutter speed` 9.844</sub></details>![GISMobile.POI](IMG_20260201_145153219.jpg)
 
 <br><details><summary>:camera:**58/IMG_20260201_145201795.jpg**</summary><sub> `Exif version` 0220 `OS version`  `Date` 2026:02:01 14:52:09 `Aperture` Not known `Brightness` 0.0 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.00128 `Focal length` 5.56 `Lens model` Not known `Lens specification` Not known `Orientation` 6 `Scene type` Not known `f number` 1.88 `White balance` 0 `Sensing method` 1 `Shutter speed` 9.609</sub></details>![GISMobile.POI](IMG_20260201_145201795.jpg)
+
+<br><details><summary>:camera:**58/XXXXXX_GarminConnect1.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](XXXXXX_GarminConnect1.jpg)
+
+<br><details><summary>:camera:**58/XXXXXX_GarminConnect2.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](XXXXXX_GarminConnect2.jpg)
 
 <sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - South America"._<sub>
 
