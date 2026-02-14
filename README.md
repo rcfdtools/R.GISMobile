@@ -15,8 +15,8 @@ GISMobile utiliza bases de datos geográficas en formato File Geodatabase de ESR
 
 ## Descargas y consultas
 
-* [GIS Mobile EAB-CO](GISMobile_EAB_CO)
-* [GIS Mobile Predial - CO](GISMobile_Predial_CO)
+* [GIS Mobile EAB-CO](file/gis/GISMobile_EAB_CO)
+* [GIS Mobile Predial - CO](file/gis/GISMobile_Predial_CO)
 * [Puntos de interés - POI](.poi/Readme.md)
 
 
