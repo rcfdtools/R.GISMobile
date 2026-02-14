@@ -122,7 +122,7 @@ if os.path.isfile(path+geojson_file):
 geojson_file_write = open(path+geojson_file, 'w+')   # w+ create the file if it doesn't exist
 df = pd.read_csv(path+poi_file)
 geojson_file_write.write('<div align="center"><img alt="rcfdtools" src="../file/graph/R.GISMobile.svg" height="46px"></div>\n\n')
-geojson_file_write.write('## :globe_with_meridians:Puntos de interés - POI\n\n### Mapa localización de puntos de interés en GISMobile\n\n')
+geojson_file_write.write('## :globe_with_meridians:Geographical Points of Interest - POI\n\n### Map points\n\n')
 geojson_file_write.write('```topojson\n{"type": "Topology", "objects": {"example": {"type": "GeometryCollection","geometries": [\n')
 print('\nPOIs processed: %i' %len(df))
 for i in range(0,len(df)):
@@ -140,11 +140,11 @@ for i in range(0,len(df)):
         else:
             geojson_file_write.write('\n')
 geojson_file_write.write(']}}}\n\n```')
-geojson_file_write.write('\n\n### Estadísticas generales por categoría\n\n')
+geojson_file_write.write('\n\n### Statistics by categories\n\n')
 df2 = df.groupby(['Category'])['POI'].agg('count').reset_index()
 df2.index.name = '#'
 geojson_file_write.write(df2.to_markdown(index=False))
-geojson_file_write.write('\n\n\n### Estadísticas generales por autor\n\n')
+geojson_file_write.write('\n\n\n### Statistics by author\n\n')
 df2 = df.groupby(['Credit'])['POI'].agg('count').reset_index()
 df2.index.name = '#'
 geojson_file_write.write(df2.to_markdown(index=False))

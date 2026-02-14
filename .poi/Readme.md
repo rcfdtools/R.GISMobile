@@ -1,8 +1,8 @@
 <div align="center"><img alt="rcfdtools" src="../file/graph/R.GISMobile.svg" height="46px"></div>
 
-## :globe_with_meridians:Puntos de interés - POI
+## :globe_with_meridians:Geographical Points of Interest - POI
 
-### Mapa localización de puntos de interés en GISMobile
+### Map points
 
 ```topojson
 {"type": "Topology", "objects": {"example": {"type": "GeometryCollection","geometries": [
@@ -68,7 +68,7 @@
 
 ```
 
-### Estadísticas generales por categoría
+### Statistics by categories
 
 | Category              |   POI |
 |:----------------------|------:|
@@ -76,7 +76,7 @@
 | Technical field visit |    27 |
 
 
-### Estadísticas generales por autor
+### Statistics by author
 
 | Credit             |   POI |
 |:-------------------|------:|
