@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
 
-## The Hanging Rock, Susa, Cundinamarca, Colombia. (2026-02-15)
+## The Hato Dam - Chegua Hill - The Hanging Rock, Susa, Cundinamarca, Colombia. (2026-02-15)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.425771,-73.84567) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.425771&lon=-73.84567) 
 
 ```geojson
@@ -11,7 +11,7 @@
     "coordinates": [-73.84567, 5.425771]
   }, 
   "properties": {
-    "Name": "The Hanging Rock, Susa, Cundinamarca, Colombia."
+    "Name": "The Hato Dam - Chegua Hill - The Hanging Rock, Susa, Cundinamarca, Colombia."
   }
 }
 ```
