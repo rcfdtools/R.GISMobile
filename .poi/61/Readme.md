@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
 
-## Tobia, Cundinamarca, Colombia. (2026-03-01)
+## Tobia, Cundinamarca, Colombia. https://photos.app.goo.gl/uV9decaL1GgRBgx97 (2026-03-01)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.122999,-74.450599) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.122999&lon=-74.450599) 
 
 ```geojson
@@ -11,10 +11,12 @@
     "coordinates": [-74.450599, 5.122999]
   }, 
   "properties": {
-    "Name": "Tobia, Cundinamarca, Colombia."
+    "Name": "Tobia, Cundinamarca, Colombia. https://photos.app.goo.gl/uV9decaL1GgRBgx97"
   }
 }
 ```
+
+<br><details><summary>:camera:**61/0_GarminConnect1.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](0_GarminConnect1.jpg)
 
 <br><details><summary>:camera:**61/IMG_20260301_095712049.jpg**</summary><sub> `Exif version` 0220 `OS version`  `Date` 2026:03:01 09:57:13 `Aperture` Not known `Brightness` 0.0 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.001312 `Focal length` 5.56 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.88 `White balance` 0 `Sensing method` 1 `Shutter speed` 9.574</sub><sub>`Coordinates & altitude` (5.123499861111111, -74.44959258333334, 638.0)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=5.123499861111111,-74.44959258333334) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.123499861111111&lon=-74.44959258333334)</sub></details>![GISMobile.POI](IMG_20260301_095712049.jpg)
 
@@ -115,6 +117,10 @@
 <br><details><summary>:camera:**61/IMG_20260301_150936946.jpg**</summary><sub> `Exif version` 0220 `OS version`  `Date` 2026:03:01 15:09:38 `Aperture` Not known `Brightness` 0.0 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.000390273 `Focal length` 2.13 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 2.2 `White balance` 0 `Sensing method` 1 `Shutter speed` 11.323</sub><sub>`Coordinates & altitude` (4.937962083333334, -74.11002347222221, 2869.0)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=4.937962083333334,-74.11002347222221) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.937962083333334&lon=-74.11002347222221)</sub></details>![GISMobile.POI](IMG_20260301_150936946.jpg)
 
 <br><details><summary>:camera:**61/IMG_20260301_150939738.jpg**</summary><sub> `Exif version` 0220 `OS version`  `Date` 2026:03:01 15:09:40 `Aperture` Not known `Brightness` 0.0 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.000430301 `Focal length` 2.13 `Lens model` Not known `Lens specification` Not known `Orientation` 6 `Scene type` Not known `f number` 2.2 `White balance` 0 `Sensing method` 1 `Shutter speed` 11.182</sub><sub>`Coordinates & altitude` (4.937962083333334, -74.11002347222221, 2869.0)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=4.937962083333334,-74.11002347222221) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.937962083333334&lon=-74.11002347222221)</sub></details>![GISMobile.POI](IMG_20260301_150939738.jpg)
+
+<br><details><summary>:camera:**61/XXXXXX_GarminConnect1.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](XXXXXX_GarminConnect1.jpg)
+
+<br><details><summary>:camera:**61/XXXXXX_GarminConnect2.jpg**</summary> `Exif version` Not known</details>![GISMobile.POI](XXXXXX_GarminConnect2.jpg)
 
 <sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - South America"._<sub>
 
