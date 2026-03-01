@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
 
-## The Hato Dam (Ubaté) - Chegua Hill (Cármen de Carupa) - The Hanging Rock (Susa), Cundinamarca, Colombia. (2026-02-15)
+## The Hato Dam (Ubaté) - Chegua Hill (Cármen de Carupa) - The Hanging Rock (Susa), Cundinamarca, Colombia. https://photos.app.goo.gl/wNTzDLmsNYUWWa6Q8 (2026-02-15)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.425771,-73.84567) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.425771&lon=-73.84567) 
 
 ```geojson
@@ -11,7 +11,7 @@
     "coordinates": [-73.84567, 5.425771]
   }, 
   "properties": {
-    "Name": "The Hato Dam (Ubaté) - Chegua Hill (Cármen de Carupa) - The Hanging Rock (Susa), Cundinamarca, Colombia."
+    "Name": "The Hato Dam (Ubaté) - Chegua Hill (Cármen de Carupa) - The Hanging Rock (Susa), Cundinamarca, Colombia. https://photos.app.goo.gl/wNTzDLmsNYUWWa6Q8"
   }
 }
 ```
@@ -113,10 +113,6 @@
 <br><details><summary>:camera:**60/IMG_20260215_110140837.jpg**</summary><sub> `Exif version` 0220 `OS version`  `Date` 2026:02:15 11:01:41 `Aperture` Not known `Brightness` 0.0 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.000288 `Focal length` 5.56 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.88 `White balance` 0 `Sensing method` 1 `Shutter speed` 11.761</sub><sub>`Coordinates & altitude` (5.348848805555555, -73.90204619444445, 2987.0)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=5.348848805555555,-73.90204619444445) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.348848805555555&lon=-73.90204619444445)</sub></details>![GISMobile.POI](IMG_20260215_110140837.jpg)
 
 <br><details><summary>:camera:**60/IMG_20260215_110146279.jpg**</summary><sub> `Exif version` 0220 `OS version`  `Date` 2026:02:15 11:01:47 `Aperture` Not known `Brightness` 0.0 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.000260182 `Focal length` 2.13 `Lens model` Not known `Lens specification` Not known `Orientation` 6 `Scene type` Not known `f number` 2.2 `White balance` 0 `Sensing method` 1 `Shutter speed` 11.908</sub><sub>`Coordinates & altitude` (5.348848805555555, -73.90204619444445, 2987.0)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=5.348848805555555,-73.90204619444445) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.348848805555555&lon=-73.90204619444445)</sub></details>![GISMobile.POI](IMG_20260215_110146279.jpg)
-
-<br><details><summary>:camera:**60/IMG_20260215_121014613_HDR.jpg**</summary><sub> `Exif version` 0220 `OS version`  `Date` 2026:02:15 12:10:17 `Aperture` Not known `Brightness` 0.0 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.000384 `Focal length` 5.56 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.88 `White balance` 0 `Sensing method` 1 `Shutter speed` 11.346</sub><sub>`Coordinates & altitude` (5.428434833333333, -73.84717558333332, 3366.0)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=5.428434833333333,-73.84717558333332) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.428434833333333&lon=-73.84717558333332)</sub></details>![GISMobile.POI](IMG_20260215_121014613_HDR.jpg)
-
-<br><details><summary>:camera:**60/IMG_20260215_122025160.jpg**</summary><sub> `Exif version` 0220 `OS version`  `Date` 2026:02:15 12:20:26 `Aperture` Not known `Brightness` 0.0 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.002208 `Focal length` 5.56 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.88 `White balance` 0 `Sensing method` 1 `Shutter speed` 8.823</sub><sub>`Coordinates & altitude` (5.428225027777778, -73.84699247222221, 3375.0)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=5.428225027777778,-73.84699247222221) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.428225027777778&lon=-73.84699247222221)</sub></details>![GISMobile.POI](IMG_20260215_122025160.jpg)
 
 <br><details><summary>:camera:**60/IMG_20260215_122406624.jpg**</summary><sub> `Exif version` 0220 `OS version`  `Date` 2026:02:15 12:24:07 `Aperture` Not known `Brightness` 0.0 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.000256 `Focal length` 5.56 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.88 `White balance` 0 `Sensing method` 1 `Shutter speed` 11.931</sub><sub>`Coordinates & altitude` (5.427843083333333, -73.8467636111111, 3378.0)</sub><sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=5.427843083333333,-73.8467636111111) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.427843083333333&lon=-73.8467636111111)</sub></details>![GISMobile.POI](IMG_20260215_122406624.jpg)
 
