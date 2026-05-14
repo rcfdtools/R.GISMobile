@@ -4,7 +4,7 @@
 
 > A Point of Interest (POI) list is a dataset containing specific, geographically located points on a map that are considered useful or interesting, such as dams, reservoirs, ecological parks, or landmarks. Each entry in the list typically includes a name, location (latitude/longitude), and category to identify the place.
 
-### ● Map points
+### A. Map points
 
 ```topojson
 {"type": "Topology", "objects": {"example": {"type": "GeometryCollection","geometries": [
@@ -74,7 +74,7 @@
 
 ```
 
-### ● Statistics by categories
+### B. Statistics by categories
 
 | Category              |   POI |
 |:----------------------|------:|
@@ -82,7 +82,7 @@
 | Technical field visit |    27 |
 
 
-### ● Statistics by author
+### C. Statistics by author
 
 | Credit             |   POI |
 |:-------------------|------:|
@@ -91,7 +91,7 @@
 | rcfdtools & others |     2 |
 
 
-### ● POI list
+### D. POI list
 
 | URL                                    |   POI | Name                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |   Latitude |   Longitude |   Altitude | Date       | Credit             | Category              |
 |:---------------------------------------|------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------:|------------:|-----------:|:-----------|:-------------------|:----------------------|
