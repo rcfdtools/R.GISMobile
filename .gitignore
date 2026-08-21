@@ -8,13 +8,13 @@
 .venv/
 .venvPython310/
 .venvPython311/
-*.qgz
-*.mxd
+#*.qgz
+#*.mxd
 *.shp
 *.shx
 *.dbf
 *.prj
-*.CPG
+*.cpg
 *.sbn
 *.sbx
 *.shp.*
