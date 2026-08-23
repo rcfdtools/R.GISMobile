@@ -26,6 +26,8 @@
 *.tfw
 *.tif
 *.ovr
+file/gdb/*.gdb
+file/gdb/*.gpkg
 file/gis/GISMobile_EAB_CO/*.gdb
 file/gis/GISMobile_EAB_CO/*.gpkg
 file/gis/GISMobile_EAB_CO/dem/AlosPalsar*.tif*

@@ -1,0 +1,34 @@
+# https://github.com/rcfdtools/R.GISMobile/blob/main/README.md
+# Compress county files into a ZIP file
+
+import os
+import glob
+import zipfile
+from pathlib import Path
+
+directory = '../temp/'
+version_info = f'# Dataset Information\n\n* Datasource: https://www.colombiaenmapas.gov.co/inicio\n* [Base Catastral Pública del Gestor IGAC en Formato Geopackage v202606]( https://datos-abiertos-igac-igac-oit.hub.arcgis.com/content/27e4473ca51c4c4085d92ace2fc87f2c/about)\n* More information in https://github.com/rcfdtools/R.GISMobile/blob/main/README.md'
+files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
+exclude_file_type = ['.zip', '.xml', '.cpg', '.sbn', '.sbx', '.qix', '.qmd', '.ovr']
+files = [
+    item for item in files
+    if not any(exclude in item for exclude in exclude_file_type)
+]
+#print(files)
+target_slice_character = '_'
+county_list = [item.split(target_slice_character)[0] for item in files]
+county_list = list(set(county_list))
+county_list = sorted(county_list)
+print(county_list)
+for county in county_list:
+    readme_path = f'{directory}{county}_Readme.md'
+    # Create a version file
+    with open(readme_path, 'w', encoding='utf-8') as file:
+        file.write(version_info)
+    filtered = [x for x in files if county in x]
+    if not os.path.exists(readme_path):
+        filtered.append(f'{county}_Readme.md')
+    print(f'Compressing: {filtered}')
+    with zipfile.ZipFile(f'{directory}/{county}.zip', mode='w') as archive:
+        for file in filtered:
+            archive.write(f'{directory}/{file}', compress_type=zipfile.ZIP_DEFLATED) # compress_type=zipfile.ZIP_DEFLATED actually shrinks the file size
