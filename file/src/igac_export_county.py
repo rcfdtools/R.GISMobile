@@ -9,7 +9,7 @@ import processing
 # Export layers
 layer = iface.activeLayer()
 layer_suffix = '_Rural' # ● Suffix for label each exported layer, e.g., U_TERRENO correspond to 'Urban'
-index_field = 'codigo_municipio' # ● Index field in the selected layer
+index_field = 'codigo_municipioXXX' # ● Index field in the selected layer
 print_explicit = False # ● Show explicit running in console
 run_complete = False # ● Run for each index_field value. Use False if you want to get the unique value list
 load_layer_in_map = False # ● Load each exported layer into the current project map
