@@ -18,6 +18,8 @@ files = [
 #print(files)
 target_slice_character = '_'
 county_list = [item.split(target_slice_character)[0] for item in files]
+target_slice_character = '.'
+county_list = [item.split(target_slice_character)[0] for item in county_list]
 county_list = list(set(county_list))
 county_list = sorted(county_list)
 print(county_list)
