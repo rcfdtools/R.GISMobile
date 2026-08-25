@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../graph/R.GISMobile.svg" height="60px"></div>
+<div align="center"><img alt="rcfdtools" src="../graph/R.GISMobile.svg" width="250px"></div>
 
 # 📝Shapefile Changelog (shp)
 
