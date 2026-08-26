@@ -15,15 +15,15 @@ GISMobile utiliza bases de datos geográficas en formato File Geodatabase de ESR
 
 ## Descargas y consultas
 
-* [GIS Mobile EAB - CO](file/gis/GISMobile_EAB_CO)
-* [GIS Mobile Predial Colombia - CO](file/gis/GISMobile_Predial_CO)
-* [GIS Mobile Layers por Municipio - CO](file/shp/Readme.md)
-* [Puntos de interés - POI](.poi/Readme.md)
+* [GIS Mobile / EAAB Colombia](file/gis/GISMobile_EAB_CO)
+* [GIS Mobile / Predial Colombia](file/gis/GISMobile_Predial_CO)
+* [Layers por Municipio Colombia](file/shp/Readme.md)
+* [Puntos de interés (POI) Mundial](.poi/Readme.md)
 
 
 ## Instrucciones de instalación
 
-1. Desde el [Play Store en Android](https://play.google.com/) o desde [App Store en iOS](https://www.apple.com/co/app-store/), instale la App [QField](https://play.google.com/store/search?q=qfield&c=apps) de [OPENGIS.ch](https://qfield.org/) 
+1. Desde la [Play Store en Android](https://play.google.com/) o desde [App Store en iOS](https://www.apple.com/co/app-store/), instale la App [QField](https://play.google.com/store/search?q=qfield&c=apps) de [OPENGIS.ch](https://qfield.org/) 
 2. Descargue el comprimido GIS Mobile de [rcfdtools](https://github.com/rcfdtools). Dentro de cada proyecto encontrará carpetas con las versiones disponibles, p.ej. v20230430. Se recomienda descargar la última versión.
 3. En la raíz de su dispositivo o en la carpeta de descargas, cree una carpeta con el nombre `GISMobile` y descomprima los archivos (GDB.gdb y GISMobilexxx.qgz).
 4. Abra QField y de clic en el botón `Open local file`
