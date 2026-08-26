@@ -25,7 +25,8 @@ if run_complete:
     for county_file in files_individual:
         readme_path = f'{directory}{county_file}.readme'
         filtered = [x for x in files if county_file in x]
-        print(f'Compressing {county_file}.zip: {filtered}')
+        #print(f'Compressing {county_file}.zip: {filtered}')
+        print(f'Compressing {county_file}.zip')
         # Create a zip file
         with zipfile.ZipFile(f'{directory}/{county_file}.zip', mode='w') as archive:
             for file in filtered:
