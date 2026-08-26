@@ -24,10 +24,10 @@ print(f'Compressing {len(files)} files into {len(files_individual)} zip files in
 if run_complete:
     for county_file in files_individual:
         filtered = [x for x in files if county_file in x]
-        #print(f'Compressing {county_file}.zip: {filtered}')
         # Create a zip file
         zip_path = Path(f'{directory}/{county_file}.zip')
         if not zip_path.is_file():
+            # print(f'Compressing {county_file}.zip: {filtered}')
             print(f'Compressing {county_file}.zip')
             with zipfile.ZipFile(f'{directory}/{county_file}.zip', mode='w') as archive:
                 for file in filtered:
