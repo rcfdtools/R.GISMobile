@@ -7,11 +7,12 @@ from qgis.core import QgsProject, QgsVectorFileWriter, QgsCoordinateTransformCon
 import processing
 
 # Export layers
+output_path = 'D:/R.GISMobile/file/temp/'
 layer = iface.activeLayer()
-layer_suffix = '_Urban' # ● Suffix for label each exported layer, e.g., U_TERRENO correspond to 'Urban'
+layer_suffix = '_Rural_202001' # ● Suffix for label each exported layer, e.g., U_TERRENO correspond to 'Urban'
 index_field = 'MUNICIPIO' # ● Index field in the selected layer
 print_explicit = False # ● Show explicit running in console
-run_complete = False # ● Run for each index_field value. Use False if you want to get the unique value list
+run_complete = True # ● Run for each index_field value. Use False if you want to get the unique value list
 load_layer_in_map = False # ● Load each exported layer into the current project map
 crs_target_code = '9377'
 crs_target = QgsCoordinateReferenceSystem(f'EPSG:{crs_target_code}')
@@ -20,21 +21,21 @@ values = sorted(layer.uniqueValues(idx))
 print(f'Type: {type(values)}\n{values}')
 if run_complete:
     for i in values:
-        output_path = f'D:/R.GISMobile/file/temp/{i}{layer_suffix}.shp'
+        path = f'{output_path}{i}{layer_suffix}.shp'
         layer_filter = f'"{index_field}" = \'{i}\'' # Note: Use double quotes for fields, single quotes for text values
         if print_explicit:
-            print(f'Processing: {output_path}')
+            print(f'Processing: {path}')
             print(f'Filter: {layer_filter}')
         layer.setSubsetString("")
         layer.setSubsetString(layer_filter)
         parameters = {
             'INPUT': layer,
-            'OUTPUT': output_path,
+            'OUTPUT': path,
             'TARGET_CRS': crs_target,
             'LAYER_NAME': f'{i}{layer_suffix}'
         }    
         #result = processing.run("native:savefeatures", parameters)
         result = processing.run("native:reprojectlayer", parameters)
-        if load_layer_in_map: new_layer = iface.addVectorLayer(output_path, f'{i}_{layer_suffix}', "ogr")
+        if load_layer_in_map: new_layer = iface.addVectorLayer(path, f'{i}_{layer_suffix}', "ogr")
     
 
