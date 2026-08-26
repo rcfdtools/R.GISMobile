@@ -8,6 +8,7 @@ from pathlib import Path
 
 directory = '../shp/'
 run_complete = True # ● Run for each county founded. Use False if you want to get the unique value list
+run_chunk = 100 # ● Create max n zip files per run to simplify small GitHub pushs
 version_info = f'# Dataset Information\n\n* More information in https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/Readme.md'
 files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
 exclude_file_type = ['.zip', '.xml', '.cpg', '.sbn', '.sbx', '.qix', '.qmd', '.ovr']
@@ -21,18 +22,22 @@ files_individual = list(set(files_individual))
 files_individual = sorted(files_individual)
 #print(f'Files individual: {files_individual}\n')
 print(f'Compressing {len(files)} files into {len(files_individual)} zip files in {directory}')
-if run_complete:
-    for county_file in files_individual:
+run_chunk_start = 0
+for county_file in files_individual:
+    if run_complete:
         filtered = [x for x in files if county_file in x]
         # Create a zip file
         zip_path = Path(f'{directory}/{county_file}.zip')
         if not zip_path.is_file():
+            run_chunk_start += 1
             # print(f'Compressing {county_file}.zip: {filtered}')
-            print(f'Compressing {county_file}.zip')
+            print(f'({run_chunk_start}) Compressing {county_file}.zip')
             with zipfile.ZipFile(f'{directory}/{county_file}.zip', mode='w') as archive:
                 for file in filtered:
                     #archive.write(f'{directory}/{file}', compress_type=zipfile.ZIP_DEFLATED) # compress_type=zipfile.ZIP_DEFLATED actually shrinks the file size
                     archive.write(f'{directory}/{file}', compress_type=zipfile.ZIP_DEFLATED) # compress_type=zipfile.ZIP_DEFLATED actually shrinks the file size
         else:
             print(f'File {county_file}.zip already exists')
+        if run_chunk_start == run_chunk:
+            run_complete = False
 print(f'\nProcess completed.')
