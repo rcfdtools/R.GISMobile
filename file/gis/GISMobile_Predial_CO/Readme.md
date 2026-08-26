@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="300px"></div>
 
 ## 🌎GIS Mobile Predial - CO
 
