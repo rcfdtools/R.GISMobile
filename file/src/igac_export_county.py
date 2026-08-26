@@ -1,5 +1,5 @@
 # https://github.com/rcfdtools/R.GISMobile/blob/main/README.md
-# Export counties to shapefile from the global IGAC geopackage using QGIS (Tested in version 4.0.1)
+# Export counties to individual shapefile from the global IGAC geopackage or a global layer using QGIS (Tested in QGIS version 4.0.1)
 # Select a layer in the QGIS Layer Panel
 
 import os
@@ -12,7 +12,7 @@ layer = iface.activeLayer()
 layer_suffix = '_Urban_202504' # ● Suffix for label each exported layer, e.g., U_TERRENO correspond to 'Urban'
 index_field = 'MUNICIPIOXXXXXX' # ● Index field in the selected layer
 print_explicit = False # ● Show explicit running in console
-run_complete = True # ● Run for each index_field value. Use False if you want to get the unique value list
+run_complete = False # ● Run for each index_field value. Use False if you want to get the unique value list
 load_layer_in_map = False # ● Load each exported layer into the current project map
 crs_target_code = '9377'
 crs_target = QgsCoordinateReferenceSystem(f'EPSG:{crs_target_code}')
