@@ -8,7 +8,7 @@ from pathlib import Path
 
 directory = '../shp/'
 run_complete = True # ● Run for each county founded. Use False if you want to get the unique value list
-run_bulk = 250 # ● Create max n zip files per run to simplify small GitHub pushs
+run_bulk = 10 # ● Create max n zip files per run to simplify small GitHub pushs
 show_details = False # ● Run showing in console files to include in each zip file
 version_info = f'# Dataset Information\n\n* More information in https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/Readme.md'
 files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
