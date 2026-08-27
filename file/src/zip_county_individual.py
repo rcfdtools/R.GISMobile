@@ -9,6 +9,7 @@ from pathlib import Path
 directory = '../shp/'
 run_complete = True # ● Run for each county founded. Use False if you want to get the unique value list
 run_bulk = 100 # ● Create max n zip files per run to simplify small GitHub pushs
+show_details = False # ● Run showing files to include in each zip file
 version_info = f'# Dataset Information\n\n* More information in https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/Readme.md'
 files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
 exclude_file_type = ['.zip', '.xml', '.cpg', '.sbn', '.sbx', '.qix', '.qmd', '.ovr']
@@ -30,8 +31,10 @@ for county_file in files_individual:
         zip_path = Path(f'{directory}/{county_file}.zip')
         if not zip_path.is_file():
             run_bulk_start += 1
-            #print(f'({run_bulk_start}) Compressing {county_file}.zip')
-            print(f'({run_bulk_start}) Compressing {county_file}.zip: {filtered}')
+            if show_details:
+                print(f'({run_bulk_start}) Compressing {county_file}.zip: {filtered}')
+            else:
+                print(f'({run_bulk_start}) Compressing {county_file}.zip')
             with zipfile.ZipFile(f'{directory}/{county_file}.zip', mode='w') as archive:
                 for file in filtered:
                     #archive.write(f'{directory}/{file}', compress_type=zipfile.ZIP_DEFLATED) # compress_type=zipfile.ZIP_DEFLATED actually shrinks the file size
