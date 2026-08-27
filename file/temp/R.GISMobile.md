@@ -19,7 +19,6 @@ pip install esridump
 
 Samples:
 
-esri2geojson https://sampleserver6.arcgisonline.com/arcgis/rest/services/Census/MapServer/3 output.geojson
 esri2geojson https://geodatos.antioquia.gov.co/server/rest/services/Catastro/Visor_Geo/FeatureServer/0 AntioquiaLimiteMunicipal202608.geojson
 esri2geojson https://geodatos.antioquia.gov.co/server/rest/services/Catastro/Visor_Geo/FeatureServer/1 AntioquiaVereda202608.geojson
 esri2geojson https://geodatos.antioquia.gov.co/server/rest/services/Catastro/Visor_Geo/FeatureServer/2 AntioquiaCorreguimiento202608.geojson
