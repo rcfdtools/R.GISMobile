@@ -40,7 +40,8 @@ for county_file in files_individual:
                     #archive.write(f'{directory}/{file}', compress_type=zipfile.ZIP_DEFLATED) # compress_type=zipfile.ZIP_DEFLATED actually shrinks the file size
                     archive.write(filename=f'{directory}/{file}', arcname=f'{file}', compress_type=zipfile.ZIP_DEFLATED) # compress_type=zipfile.ZIP_DEFLATED actually shrinks the file size
         else:
-            print(f'File {county_file}.zip already exists...')
+            #print(f'File {county_file}.zip already exists...')
+            a = 0
         if run_bulk_start == run_bulk:
             run_complete = False
 print(f'\nProcess completed.')
