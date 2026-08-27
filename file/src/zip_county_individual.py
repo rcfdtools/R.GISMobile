@@ -8,7 +8,7 @@ from pathlib import Path
 
 directory = '../shp/'
 run_complete = True # ● Run for each county founded. Use False if you want to get the unique value list
-run_bulk = 500 # ● Create max n zip files per run to simplify small GitHub pushs
+run_bulk = 250 # ● Create max n zip files per run to simplify small GitHub pushs
 show_details = False # ● Run showing in console files to include in each zip file
 version_info = f'# Dataset Information\n\n* More information in https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/Readme.md'
 files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
@@ -40,7 +40,7 @@ for county_file in files_individual:
                     #archive.write(f'{directory}/{file}', compress_type=zipfile.ZIP_DEFLATED) # compress_type=zipfile.ZIP_DEFLATED actually shrinks the file size
                     archive.write(filename=f'{directory}/{file}', arcname=f'{file}', compress_type=zipfile.ZIP_DEFLATED) # compress_type=zipfile.ZIP_DEFLATED actually shrinks the file size
         else:
-            print(f'File {county_file}.zip already exists')
+            print(f'File {county_file}.zip already exists...')
         if run_bulk_start == run_bulk:
             run_complete = False
 print(f'\nProcess completed.')
