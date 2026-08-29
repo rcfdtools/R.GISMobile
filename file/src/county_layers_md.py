@@ -36,7 +36,7 @@ df_county = df_county[['DeCodigo', 'DeNombre', 'MpCodigo', 'MpNombre', 'MpNorma'
 df_county = df_county.sort_values(by=['DeCodigo', 'DeNombre', 'MpCodigo', 'MpNombre'])
 df_county.drop(df_county[df_county['MpCodigo'] == '00000'].index, inplace=True)
 grouped = df_county.groupby('MpCodigo')
-print_log(file_log, f'# 🌎GISMobile: Colombian County Layers \n')
+print_log(file_log, f'# 🌎GISMobile - Layers por Municipio Colombia\n')
 for group_id, group_df in grouped:
     df_county_info = df_county[df_county['MpCodigo'] == group_id]
     state_name = df_county_info['DeNombre'].values[0]
@@ -48,4 +48,4 @@ for group_id, group_df in grouped:
         for file in zip_files_filter:
             print_log(file_log,f'* [{file}]({url_file}{file})\n')
     else:
-        print_log(file_log,'Layers not found in county.\n')
+        print_log(file_log,'* Layers not found in county.\n')
