@@ -42,11 +42,11 @@ for group_id, group_df in grouped:
     df_county_info = df_county[df_county['MpCodigo'] == group_id]
     state_name = df_county_info['DeNombre'].values[0]
     county_name = df_county_info['MpNombre'].values[0]
-    print_log(file_log,f'\n**{state_name} / {county_name}** (ID: {group_id})\n\n')
+    print_log(file_log,f'\n\n**{state_name} / {county_name}** (ID {group_id}): ')
     #zip_files_filter = [item for item in zip_files if group_id in item]
     zip_files_filter = [item for item in zip_files if item.startswith(group_id)]
     if len(zip_files_filter) > 0:
         for file in zip_files_filter:
-            print_log(file_log,f'* [{file}]({url_file}{file})\n')
+            print_log(file_log,f'* [{file}]({url_file}{file}),')
     else:
-        print_log(file_log,'* Layers not found in county\n')
+        print_log(file_log,'* Layers not found in county')
