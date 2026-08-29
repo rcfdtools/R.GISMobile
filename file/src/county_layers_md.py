@@ -47,6 +47,6 @@ for group_id, group_df in grouped:
     zip_files_filter = [item for item in zip_files if item.startswith(group_id)]
     if len(zip_files_filter) > 0:
         for file in zip_files_filter:
-            print_log(file_log,f'[•{file}]({url_file}{file}) ')
+            print_log(file_log,f'[• {file}]({url_file}{file}) ')
     else:
         print_log(file_log,'layers not found in county')
