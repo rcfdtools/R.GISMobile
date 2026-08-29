@@ -49,4 +49,4 @@ for group_id, group_df in grouped:
         for file in zip_files_filter:
             print_log(file_log,f'[• {file}]({url_file}{file}) ')
     else:
-        print_log(file_log,'layers not found in county')
+        print_log(file_log,'Layers not found')

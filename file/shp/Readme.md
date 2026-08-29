@@ -3,7 +3,7 @@
 # 🌎GISMobile: Layers por Municipio - Colombia Suramérica
 
 
-**Antioquia / Medellín** - 05001: layers not found in county
+**Antioquia / Medellín** - 05001: Layers not found
 
 **Antioquia / Abejorral** - 05002: [• 05002_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05002_Rural_Lot_202608.zip) [• 05002_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05002_Urban_Lot_202608.zip) 
 
@@ -35,11 +35,11 @@
 
 **Antioquia / Armenia** - 05059: [• 05059_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05059_Rural_Lot_202608.zip) [• 05059_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05059_Urban_Lot_202608.zip) 
 
-**Antioquia / Barbosa** - 05079: layers not found in county
+**Antioquia / Barbosa** - 05079: Layers not found
 
 **Antioquia / Belmira** - 05086: [• 05086_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05086_Rural_Lot_202608.zip) [• 05086_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05086_Urban_Lot_202608.zip) 
 
-**Antioquia / Bello** - 05088: layers not found in county
+**Antioquia / Bello** - 05088: Layers not found
 
 **Antioquia / Betania** - 05091: [• 05091_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05091_Rural_Lot_202608.zip) [• 05091_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05091_Urban_Lot_202608.zip) 
 
@@ -83,7 +83,7 @@
 
 **Antioquia / Concordia** - 05209: [• 05209_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05209_Rural_Lot_202608.zip) [• 05209_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05209_Urban_Lot_202608.zip) 
 
-**Antioquia / Copacabana** - 05212: layers not found in county
+**Antioquia / Copacabana** - 05212: Layers not found
 
 **Antioquia / Dabeiba** - 05234: [• 05234_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05234_Rural_Lot_202608.zip) [• 05234_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05234_Urban_Lot_202608.zip) 
 
@@ -95,7 +95,7 @@
 
 **Antioquia / Entrerrios** - 05264: [• 05264_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05264_Rural_Lot_202608.zip) [• 05264_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05264_Urban_Lot_202608.zip) 
 
-**Antioquia / Envigado** - 05266: layers not found in county
+**Antioquia / Envigado** - 05266: Layers not found
 
 **Antioquia / Fredonia** - 05282: [• 05282_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05282_Rural_Lot_202608.zip) [• 05282_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05282_Urban_Lot_202608.zip) 
 
@@ -103,7 +103,7 @@
 
 **Antioquia / Giraldo** - 05306: [• 05306_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05306_Rural_Lot_202608.zip) [• 05306_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05306_Urban_Lot_202608.zip) 
 
-**Antioquia / Girardota** - 05308: layers not found in county
+**Antioquia / Girardota** - 05308: Layers not found
 
 **Antioquia / Gómez Plata** - 05310: [• 05310_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05310_Rural_Lot_202608.zip) [• 05310_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05310_Urban_Lot_202608.zip) 
 
@@ -129,7 +129,7 @@
 
 **Antioquia / La Ceja** - 05376: [• 05376_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05376_Rural_Lot_202608.zip) [• 05376_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05376_Urban_Lot_202608.zip) 
 
-**Antioquia / La Estrella** - 05380: layers not found in county
+**Antioquia / La Estrella** - 05380: Layers not found
 
 **Antioquia / La Pintada** - 05390: [• 05390_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05390_Rural_Lot_202608.zip) [• 05390_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05390_Urban_Lot_202608.zip) 
 
@@ -139,7 +139,7 @@
 
 **Antioquia / Maceo** - 05425: [• 05425_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05425_Rural_Lot_202608.zip) [• 05425_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05425_Urban_Lot_202608.zip) 
 
-**Antioquia / Marinilla** - 05440: layers not found in county
+**Antioquia / Marinilla** - 05440: Layers not found
 
 **Antioquia / Montebello** - 05467: [• 05467_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05467_Rural_Lot_202608.zip) [• 05467_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05467_Urban_Lot_202608.zip) 
 
@@ -169,13 +169,13 @@
 
 **Antioquia / Remedios** - 05604: [• 05604_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05604_Rural_Lot_202608.zip) [• 05604_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05604_Urban_Lot_202608.zip) 
 
-**Antioquia / El Retiro** - 05607: layers not found in county
+**Antioquia / El Retiro** - 05607: Layers not found
 
-**Antioquia / Rionegro** - 05615: layers not found in county
+**Antioquia / Rionegro** - 05615: Layers not found
 
 **Antioquia / Sabanalarga** - 05628: [• 05628_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05628_Rural_Lot_202608.zip) [• 05628_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05628_Urban_Lot_202608.zip) 
 
-**Antioquia / Sabaneta** - 05631: layers not found in county
+**Antioquia / Sabaneta** - 05631: Layers not found
 
 **Antioquia / Salgar** - 05642: [• 05642_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05642_Rural_Lot_202608.zip) [• 05642_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05642_Urban_Lot_202608.zip) 
 
@@ -201,7 +201,7 @@
 
 **Antioquia / San Roque** - 05670: [• 05670_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05670_Rural_Lot_202608.zip) [• 05670_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05670_Urban_Lot_202608.zip) 
 
-**Antioquia / San Vicente** - 05674: layers not found in county
+**Antioquia / San Vicente** - 05674: Layers not found
 
 **Antioquia / Santa Bárbara** - 05679: [• 05679_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05679_Rural_Lot_202608.zip) [• 05679_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05679_Urban_Lot_202608.zip) 
 
@@ -253,7 +253,7 @@
 
 **Antioquia / Zaragoza** - 05895: [• 05895_Rural_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05895_Rural_Lot_202608.zip) [• 05895_Urban_Lot_202608.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/05895_Urban_Lot_202608.zip) 
 
-**Atlántico / Barranquilla** - 08001: layers not found in county
+**Atlántico / Barranquilla** - 08001: Layers not found
 
 **Atlántico / Baranoa** - 08078: [• 08078_Rural_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08078_Rural_Building_202606.zip) [• 08078_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08078_Rural_Lot_202606.zip) [• 08078_Rural_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08078_Rural_Nomenclature_202606.zip) [• 08078_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08078_Rural_Sector_202606.zip) [• 08078_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08078_Rural_Vereda_202606.zip) [• 08078_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08078_Urban_Block_202606.zip) [• 08078_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08078_Urban_Building_202606.zip) [• 08078_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08078_Urban_Lot_202606.zip) [• 08078_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08078_Urban_Nomenclature_202606.zip) [• 08078_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08078_Urban_Sector_202606.zip) 
 
@@ -299,7 +299,7 @@
 
 **Atlántico / Usiacurí** - 08849: [• 08849_Rural_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08849_Rural_Building_202606.zip) [• 08849_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08849_Rural_Lot_202606.zip) [• 08849_Rural_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08849_Rural_Nomenclature_202606.zip) [• 08849_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08849_Rural_Sector_202606.zip) [• 08849_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08849_Rural_Vereda_202606.zip) [• 08849_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08849_Urban_Block_202606.zip) [• 08849_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08849_Urban_Building_202606.zip) [• 08849_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08849_Urban_Lot_202606.zip) [• 08849_Urban_Neighborhood_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08849_Urban_Neighborhood_202606.zip) [• 08849_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08849_Urban_Nomenclature_202606.zip) [• 08849_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08849_Urban_Nomenclature_Road_202606.zip) [• 08849_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08849_Urban_Perimeter_202606.zip) [• 08849_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/08849_Urban_Sector_202606.zip) 
 
-**Cundinamarca / Bogotá, D.C.** - 11001: layers not found in county
+**Cundinamarca / Bogotá, D.C.** - 11001: Layers not found
 
 **Bolívar / Cartagena De Indias** - 13001: [• 13001_Rural_Lot_202001.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/13001_Rural_Lot_202001.zip) [• 13001_Urban_Lot_202001.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/13001_Urban_Lot_202001.zip) 
 
@@ -1187,13 +1187,13 @@
 
 **Chocó / Medio Atrato** - 27425: [• 27425_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27425_Rural_Lot_202606.zip) 
 
-**Chocó / Medio Baudó** - 27430: layers not found in county
+**Chocó / Medio Baudó** - 27430: Layers not found
 
 **Chocó / Medio San Juan** - 27450: [• 27450_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27450_Rural_Lot_202606.zip) [• 27450_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27450_Urban_Block_202606.zip) [• 27450_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27450_Urban_Building_202606.zip) [• 27450_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27450_Urban_Lot_202606.zip) [• 27450_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27450_Urban_Nomenclature_202606.zip) [• 27450_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27450_Urban_Nomenclature_Road_202606.zip) [• 27450_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27450_Urban_Perimeter_202606.zip) 
 
 **Chocó / Nóvita** - 27491: [• 27491_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27491_Rural_Lot_202606.zip) [• 27491_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27491_Urban_Block_202606.zip) [• 27491_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27491_Urban_Building_202606.zip) [• 27491_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27491_Urban_Lot_202606.zip) [• 27491_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27491_Urban_Nomenclature_202606.zip) [• 27491_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27491_Urban_Nomenclature_Road_202606.zip) [• 27491_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27491_Urban_Perimeter_202606.zip) 
 
-**Chocó / Nuevo Belen de Bajira** - 27493: layers not found in county
+**Chocó / Nuevo Belen de Bajira** - 27493: Layers not found
 
 **Chocó / Nuquí** - 27495: [• 27495_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27495_Rural_Lot_202606.zip) [• 27495_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27495_Rural_Sector_202606.zip) [• 27495_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27495_Rural_Vereda_202606.zip) 
 
@@ -1507,7 +1507,7 @@
 
 **Nariño / Los Andes** - 52418: [• 52418_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52418_Urban_Block_202606.zip) [• 52418_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52418_Urban_Building_202606.zip) [• 52418_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52418_Urban_Lot_202606.zip) [• 52418_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52418_Urban_Nomenclature_202606.zip) [• 52418_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52418_Urban_Nomenclature_Road_202606.zip) [• 52418_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52418_Urban_Perimeter_202606.zip) [• 52418_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52418_Urban_Sector_202606.zip) 
 
-**Nariño / Magüí** - 52427: layers not found in county
+**Nariño / Magüí** - 52427: Layers not found
 
 **Nariño / Mallama** - 52435: [• 52435_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52435_Urban_Block_202606.zip) [• 52435_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52435_Urban_Building_202606.zip) [• 52435_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52435_Urban_Lot_202606.zip) [• 52435_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52435_Urban_Nomenclature_202606.zip) [• 52435_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52435_Urban_Nomenclature_Road_202606.zip) [• 52435_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52435_Urban_Perimeter_202606.zip) [• 52435_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52435_Urban_Sector_202606.zip) 
 
@@ -1519,7 +1519,7 @@
 
 **Nariño / Ospina** - 52506: [• 52506_Rural_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52506_Rural_Building_202606.zip) [• 52506_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52506_Rural_Lot_202606.zip) [• 52506_Rural_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52506_Rural_Nomenclature_202606.zip) [• 52506_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52506_Rural_Sector_202606.zip) [• 52506_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52506_Rural_Vereda_202606.zip) [• 52506_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52506_Urban_Block_202606.zip) [• 52506_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52506_Urban_Building_202606.zip) [• 52506_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52506_Urban_Lot_202606.zip) [• 52506_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52506_Urban_Nomenclature_202606.zip) [• 52506_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52506_Urban_Nomenclature_Road_202606.zip) [• 52506_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52506_Urban_Sector_202606.zip) 
 
-**Nariño / Francisco Pizarro** - 52520: layers not found in county
+**Nariño / Francisco Pizarro** - 52520: Layers not found
 
 **Nariño / Policarpa** - 52540: [• 52540_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52540_Urban_Block_202606.zip) [• 52540_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52540_Urban_Building_202606.zip) [• 52540_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52540_Urban_Lot_202606.zip) [• 52540_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52540_Urban_Nomenclature_202606.zip) [• 52540_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52540_Urban_Nomenclature_Road_202606.zip) [• 52540_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52540_Urban_Perimeter_202606.zip) [• 52540_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/52540_Urban_Sector_202606.zip) 
 
@@ -2015,7 +2015,7 @@
 
 **Tolima / Villarrica** - 73873: [• 73873_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/73873_Urban_Block_202606.zip) [• 73873_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/73873_Urban_Building_202606.zip) [• 73873_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/73873_Urban_Lot_202606.zip) [• 73873_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/73873_Urban_Nomenclature_202606.zip) [• 73873_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/73873_Urban_Nomenclature_Road_202606.zip) [• 73873_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/73873_Urban_Perimeter_202606.zip) [• 73873_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/73873_Urban_Sector_202606.zip) 
 
-**Valle del Cauca / Santiago de Cali** - 76001: layers not found in county
+**Valle del Cauca / Santiago de Cali** - 76001: Layers not found
 
 **Valle del Cauca / Alcalá** - 76020: [• 76020_Rural_Lot_202001.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/76020_Rural_Lot_202001.zip) [• 76020_Urban_Lot_202001.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/76020_Urban_Lot_202001.zip) 
 
@@ -2207,17 +2207,17 @@
 
 **Guainía / Barrancominas** - 94343: [• 94343_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/94343_Urban_Block_202606.zip) [• 94343_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/94343_Urban_Building_202606.zip) [• 94343_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/94343_Urban_Lot_202606.zip) [• 94343_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/94343_Urban_Nomenclature_202606.zip) [• 94343_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/94343_Urban_Nomenclature_Road_202606.zip) [• 94343_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/94343_Urban_Perimeter_202606.zip) 
 
-**Guainía / San Felipe** - 94883: layers not found in county
+**Guainía / San Felipe** - 94883: Layers not found
 
-**Guainía / Puerto Colombia** - 94884: layers not found in county
+**Guainía / Puerto Colombia** - 94884: Layers not found
 
-**Guainía / La Guadalupe** - 94885: layers not found in county
+**Guainía / La Guadalupe** - 94885: Layers not found
 
-**Guainía / Cacahual** - 94886: layers not found in county
+**Guainía / Cacahual** - 94886: Layers not found
 
-**Guainía / Paná-Paná** - 94887: layers not found in county
+**Guainía / Paná-Paná** - 94887: Layers not found
 
-**Guainía / Morichal** - 94888: layers not found in county
+**Guainía / Morichal** - 94888: Layers not found
 
 **Guaviare / San José Del Guaviare** - 95001: [• 95001_Rural_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Rural_Building_202606.zip) [• 95001_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Rural_Lot_202606.zip) [• 95001_Rural_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Rural_Nomenclature_202606.zip) [• 95001_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Rural_Sector_202606.zip) [• 95001_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Rural_Vereda_202606.zip) [• 95001_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Urban_Block_202606.zip) [• 95001_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Urban_Building_202606.zip) [• 95001_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Urban_Lot_202606.zip) [• 95001_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Urban_Nomenclature_202606.zip) [• 95001_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Urban_Nomenclature_Road_202606.zip) [• 95001_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Urban_Perimeter_202606.zip) [• 95001_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Urban_Sector_202606.zip) 
 
@@ -2231,13 +2231,13 @@
 
 **Vaupés / Carurú** - 97161: [• 97161_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/97161_Urban_Block_202606.zip) [• 97161_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/97161_Urban_Building_202606.zip) [• 97161_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/97161_Urban_Lot_202606.zip) [• 97161_Urban_Neighborhood_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/97161_Urban_Neighborhood_202606.zip) [• 97161_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/97161_Urban_Nomenclature_202606.zip) [• 97161_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/97161_Urban_Nomenclature_Road_202606.zip) [• 97161_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/97161_Urban_Perimeter_202606.zip) [• 97161_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/97161_Urban_Sector_202606.zip) 
 
-**Vaupés / Pacoa** - 97511: layers not found in county
+**Vaupés / Pacoa** - 97511: Layers not found
 
 **Vaupés / Taraira** - 97666: [• 97666_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/97666_Rural_Lot_202606.zip) [• 97666_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/97666_Rural_Sector_202606.zip) [• 97666_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/97666_Rural_Vereda_202606.zip) 
 
-**Vaupés / Papunaua** - 97777: layers not found in county
+**Vaupés / Papunaua** - 97777: Layers not found
 
-**Vaupés / Yavaraté** - 97889: layers not found in county
+**Vaupés / Yavaraté** - 97889: Layers not found
 
 **Vichada / Puerto Carreño** - 99001: [• 99001_Rural_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/99001_Rural_Building_202606.zip) [• 99001_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/99001_Rural_Lot_202606.zip) [• 99001_Rural_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/99001_Rural_Nomenclature_202606.zip) [• 99001_Rural_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/99001_Rural_Nomenclature_Road_202606.zip) [• 99001_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/99001_Rural_Sector_202606.zip) [• 99001_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/99001_Rural_Vereda_202606.zip) 
 
