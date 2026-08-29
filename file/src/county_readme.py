@@ -36,7 +36,7 @@ file_log = open(file_log_name, 'w+', encoding='utf-8')  # w+ create the file if 
 dbf_county = Dbf5('../shp/ColombiaCounty4326.dbf', codec='cp1252')
 df_county = pd.DataFrame(dbf_county.to_dataframe())
 df_county = df_county[['DeCodigo', 'DeNombre', 'MpCodigo', 'MpNombre', 'MpNorma', 'Latitude', 'Longitude']]
-df_county = df_county.sort_values(by=['DeCodigo', 'DeNombre', 'MpCodigo', 'MpNombre'])
+df_county = df_county.sort_values(by=['DeCodigo', 'DeNombre', 'MpNombre', 'MpCodigo'])
 df_county.drop(df_county[df_county['MpCodigo'] == '00000'].index, inplace=True)
 # State list
 df_state = df_county['DeNombre'].unique()
