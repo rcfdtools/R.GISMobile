@@ -1,4 +1,6 @@
-# Convert geojson to shapefile (GeoPandas)
+# https://github.com/rcfdtools
+# Download ESRI Rest Service as geojson and convert to shapefile (GeoPandas)
+
 # First: download layers in geojson format from Python console
 # pip install esridump
 # From CMD as administrator run
