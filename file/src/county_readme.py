@@ -44,7 +44,7 @@ print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../graph/R.G
 print_log(file_log, f'# 🌎GISMobile: Layers por Municipio - Colombia Suramérica')
 for state in df_state:
     print_dataframe = pd.DataFrame(columns=['CountyID', 'CountyName', 'CountyFiles'])
-    print_log(file_log, f'\n\n\n# {state}\n\n')
+    print_log(file_log, f'\n\n\n# {state}\n')
     df_county_filter = df_county[df_county['DeNombre'] == state]
     df_county_unique = df_county_filter['MpCodigo'].unique()
     for county in df_county_unique:
@@ -57,8 +57,8 @@ for state in df_state:
         files_txt = ''
         if len(zip_files_filter) > 0:
             for file in zip_files_filter:
-                files_txt += f'[• {file}]({url_file}{file})<br/>'
+                files_txt += f'[{file}]({url_file}{file})<br/>'
         else:
             files_txt = 'Not found'
         print_dataframe.loc[len(print_dataframe)] = [county, county_name, files_txt]
-    print_log(file_log, print_dataframe.to_markdown(index=False))
+    print_log(file_log, print_dataframe.to_markdown(index=False), center_div=True)
