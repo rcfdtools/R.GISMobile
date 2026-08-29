@@ -35,7 +35,7 @@ df_state = df_county['DeCodigo'].unique()
 funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../graph/R.GISMobile.svg" width="250px"></div>\n\n')
 funcs.print_log(file_log, f'# {dictionary.dicts['study_name']} \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n', on_screen=print_on_screen)
 for state in df_state:
-    print_dataframe = pd.DataFrame(columns=['CountyID', 'CountyName', 'CountyRule', 'CountyFiles'])
+    print_dataframe = pd.DataFrame(columns=['CountyID', 'CountyName', 'CountyFiles'])
     df_state_info = df_county[df_county['DeCodigo'] == state]
     state_name = df_state_info['DeNombre'].values[0]
     df_county_filter = df_county[df_county['DeCodigo'] == state]
@@ -61,7 +61,7 @@ for state in df_state:
                 files_txt += f'[{file}]({url_file}{file})<br/>'
         else:
             files_txt = 'Not found'
-        print_dataframe.loc[len(print_dataframe)] = [county, county_name, CountyRule, files_txt]
+        print_dataframe.loc[len(print_dataframe)] = [county, f'{county_name}<br/><sub>{CountyRule}</sub>', files_txt]
     funcs.print_log(file_log, print_dataframe.to_markdown(index=False), center_div=True)
 funcs.print_log(file_log, f'\n#\n\n<div align="center"><img alt="rcfdtools" src="../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>', on_screen = print_on_screen)
 funcs.print_log(file_log, f'\n\n<sub>{dictionary.dicts['disclaimer']}</sub>', on_screen = print_on_screen)
