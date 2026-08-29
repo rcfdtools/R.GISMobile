@@ -61,7 +61,7 @@ for state in df_state:
                 files_txt += f'[{file}]({url_file}{file})<br/>'
         else:
             files_txt = 'Not found'
-        print_dataframe.loc[len(print_dataframe)] = [county, f'{county_name}<br/><sub>{CountyRule}</sub>', files_txt]
+        print_dataframe.loc[len(print_dataframe)] = [county, f'{county_name} <sub>{CountyRule}</sub>', files_txt]
     funcs.print_log(file_log, print_dataframe.to_markdown(index=False), center_div=True)
 funcs.print_log(file_log, f'\n#\n\n<div align="center"><img alt="rcfdtools" src="../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>', on_screen = print_on_screen)
 funcs.print_log(file_log, f'\n\n<sub>{dictionary.dicts['disclaimer']}</sub>', on_screen = print_on_screen)
