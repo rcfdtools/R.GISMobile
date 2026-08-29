@@ -1,6 +1,9 @@
 <div align="center"><img alt="rcfdtools" src="../graph/R.GISMobile.svg" width="300px"></div>
 
-# 🌎County Layer - Colombia South America
+# 🌎County GIS Layers - Colombia South America 
+Keywords: `geographical-information-system` `gis` `igac` `ider` `geodata` `colombia` `south-america`
+
+County GIS layers are individual digital map datasets stacked together in a Geographic Information System (GIS) to visualize, manage, and analyze a county´s geographic information. Local governments, researches and engineers use these layers to run daily operations, plan infrastructure, track tax assessments, evaluate land plot risk, and dispatch emergency services.
 
 
 # 05 - Antioquia (125 Counties)
@@ -145,8 +148,6 @@
 </div>
 
 
-
-
 # 08 - Atlántico (23 Counties)
 
 <div align="center">
@@ -187,8 +188,6 @@
 </div>
 
 
-
-
 # 11 - Cundinamarca (1 Counties)
 
 <div align="center">
@@ -205,8 +204,6 @@
 |      11001 | Bogotá, D.C. | Not found     |
 
 </div>
-
-
 
 
 # 13 - Bolívar (46 Counties)
@@ -270,8 +267,6 @@
 |      13894 | Zambrano              | [13894_Rural_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/13894_Rural_Building_202606.zip)<br/>[13894_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/13894_Rural_Lot_202606.zip)<br/>[13894_Rural_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/13894_Rural_Nomenclature_202606.zip)<br/>[13894_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/13894_Rural_Sector_202606.zip)<br/>[13894_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/13894_Rural_Vereda_202606.zip)<br/>[13894_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/13894_Urban_Block_202606.zip)<br/>[13894_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/13894_Urban_Building_202606.zip)<br/>[13894_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/13894_Urban_Lot_202606.zip)<br/>[13894_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/13894_Urban_Nomenclature_202606.zip)<br/>[13894_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/13894_Urban_Perimeter_202606.zip)<br/>[13894_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/13894_Urban_Sector_202606.zip)<br/>                                                                                                                                                                                                                                                                                                 |
 
 </div>
-
-
 
 
 # 15 - Boyacá (123 Counties)
@@ -414,8 +409,6 @@
 </div>
 
 
-
-
 # 17 - Caldas (27 Counties)
 
 <div align="center">
@@ -460,8 +453,6 @@
 </div>
 
 
-
-
 # 18 - Caquetá (16 Counties)
 
 <div align="center">
@@ -493,8 +484,6 @@
 |      18860 | Valparaíso             | [18860_Rural_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/18860_Rural_Building_202606.zip)<br/>[18860_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/18860_Rural_Lot_202606.zip)<br/>[18860_Rural_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/18860_Rural_Nomenclature_202606.zip)<br/>[18860_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/18860_Rural_Sector_202606.zip)<br/>[18860_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/18860_Rural_Vereda_202606.zip)<br/>[18860_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/18860_Urban_Block_202606.zip)<br/>[18860_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/18860_Urban_Building_202606.zip)<br/>[18860_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/18860_Urban_Lot_202606.zip)<br/>[18860_Urban_Neighborhood_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/18860_Urban_Neighborhood_202606.zip)<br/>[18860_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/18860_Urban_Nomenclature_202606.zip)<br/>[18860_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/18860_Urban_Nomenclature_Road_202606.zip)<br/>[18860_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/18860_Urban_Perimeter_202606.zip)<br/>[18860_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/18860_Urban_Sector_202606.zip)<br/>                                                                                                                                                      |
 
 </div>
-
-
 
 
 # 19 - Cauca (42 Counties)
@@ -556,8 +545,6 @@
 </div>
 
 
-
-
 # 20 - Cesar (25 Counties)
 
 <div align="center">
@@ -598,8 +585,6 @@
 |      20001 | Valledupar               | [20001_Rural_Lot_202001.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/20001_Rural_Lot_202001.zip)<br/>[20001_Urban_Lot_202001.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/20001_Urban_Lot_202001.zip)<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 </div>
-
-
 
 
 # 23 - Córdoba (30 Counties)
@@ -647,8 +632,6 @@
 |      23855 | Valencia                | [23855_Rural_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/23855_Rural_Building_202606.zip)<br/>[23855_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/23855_Rural_Lot_202606.zip)<br/>[23855_Rural_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/23855_Rural_Nomenclature_202606.zip)<br/>[23855_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/23855_Rural_Sector_202606.zip)<br/>[23855_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/23855_Rural_Vereda_202606.zip)<br/>[23855_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/23855_Urban_Block_202606.zip)<br/>[23855_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/23855_Urban_Building_202606.zip)<br/>[23855_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/23855_Urban_Lot_202606.zip)<br/>[23855_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/23855_Urban_Nomenclature_202606.zip)<br/>[23855_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/23855_Urban_Nomenclature_Road_202606.zip)<br/>[23855_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/23855_Urban_Perimeter_202606.zip)<br/>[23855_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/23855_Urban_Sector_202606.zip)<br/>                                                                                                                                                                                                                                                                                                 |
 
 </div>
-
-
 
 
 # 25 - Cundinamarca (116 Counties)
@@ -784,8 +767,6 @@
 </div>
 
 
-
-
 # 27 - Chocó (31 Counties)
 
 <div align="center">
@@ -832,8 +813,6 @@
 |      27810 | Unión Panamericana      | [27810_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27810_Rural_Lot_202606.zip)<br/>[27810_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27810_Urban_Block_202606.zip)<br/>[27810_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27810_Urban_Building_202606.zip)<br/>[27810_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27810_Urban_Lot_202606.zip)<br/>[27810_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27810_Urban_Nomenclature_202606.zip)<br/>[27810_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27810_Urban_Nomenclature_Road_202606.zip)<br/>[27810_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/27810_Urban_Perimeter_202606.zip)<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 </div>
-
-
 
 
 # 41 - Huila (37 Counties)
@@ -890,8 +869,6 @@
 </div>
 
 
-
-
 # 44 - La Guajira (15 Counties)
 
 <div align="center">
@@ -922,8 +899,6 @@
 |      44874 | Villanueva         | [44874_Rural_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/44874_Rural_Building_202606.zip)<br/>[44874_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/44874_Rural_Lot_202606.zip)<br/>[44874_Rural_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/44874_Rural_Nomenclature_202606.zip)<br/>[44874_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/44874_Rural_Sector_202606.zip)<br/>[44874_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/44874_Rural_Vereda_202606.zip)<br/>[44874_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/44874_Urban_Block_202606.zip)<br/>[44874_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/44874_Urban_Building_202606.zip)<br/>[44874_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/44874_Urban_Lot_202606.zip)<br/>[44874_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/44874_Urban_Nomenclature_202606.zip)<br/>[44874_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/44874_Urban_Nomenclature_Road_202606.zip)<br/>[44874_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/44874_Urban_Perimeter_202606.zip)<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
 </div>
-
-
 
 
 # 47 - Magdalena (30 Counties)
@@ -973,8 +948,6 @@
 </div>
 
 
-
-
 # 50 - Meta (29 Counties)
 
 <div align="center">
@@ -1019,8 +992,6 @@
 |      50711 | Vistahermosa         | [50711_Rural_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/50711_Rural_Building_202606.zip)<br/>[50711_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/50711_Rural_Lot_202606.zip)<br/>[50711_Rural_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/50711_Rural_Nomenclature_202606.zip)<br/>[50711_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/50711_Rural_Sector_202606.zip)<br/>[50711_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/50711_Rural_Vereda_202606.zip)<br/>[50711_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/50711_Urban_Block_202606.zip)<br/>[50711_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/50711_Urban_Building_202606.zip)<br/>[50711_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/50711_Urban_Lot_202606.zip)<br/>[50711_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/50711_Urban_Nomenclature_202606.zip)<br/>[50711_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/50711_Urban_Nomenclature_Road_202606.zip)<br/>[50711_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/50711_Urban_Perimeter_202606.zip)<br/>[50711_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/50711_Urban_Sector_202606.zip)<br/>                                                                                                                                                                                                                                                                                                 |
 
 </div>
-
-
 
 
 # 52 - Nariño (64 Counties)
@@ -1104,8 +1075,6 @@
 </div>
 
 
-
-
 # 54 - Norte de Santander (40 Counties)
 
 <div align="center">
@@ -1163,8 +1132,6 @@
 </div>
 
 
-
-
 # 63 - Quindío (12 Counties)
 
 <div align="center">
@@ -1192,8 +1159,6 @@
 |      63690 | Salento      | [63690_Rural_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/63690_Rural_Building_202606.zip)<br/>[63690_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/63690_Rural_Lot_202606.zip)<br/>[63690_Rural_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/63690_Rural_Nomenclature_202606.zip)<br/>[63690_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/63690_Rural_Sector_202606.zip)<br/>[63690_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/63690_Rural_Vereda_202606.zip)<br/>[63690_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/63690_Urban_Block_202606.zip)<br/>[63690_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/63690_Urban_Building_202606.zip)<br/>[63690_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/63690_Urban_Lot_202606.zip)<br/>[63690_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/63690_Urban_Nomenclature_202606.zip)<br/>[63690_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/63690_Urban_Nomenclature_Road_202606.zip)<br/>[63690_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/63690_Urban_Perimeter_202606.zip)<br/> |
 
 </div>
-
-
 
 
 # 66 - Risaralda (14 Counties)
@@ -1225,8 +1190,6 @@
 |      66687 | Santuario           | [66687_Rural_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/66687_Rural_Building_202606.zip)<br/>[66687_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/66687_Rural_Lot_202606.zip)<br/>[66687_Rural_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/66687_Rural_Nomenclature_202606.zip)<br/>[66687_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/66687_Rural_Sector_202606.zip)<br/>[66687_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/66687_Rural_Vereda_202606.zip)<br/>[66687_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/66687_Urban_Block_202606.zip)<br/>[66687_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/66687_Urban_Building_202606.zip)<br/>[66687_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/66687_Urban_Lot_202606.zip)<br/>[66687_Urban_Neighborhood_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/66687_Urban_Neighborhood_202606.zip)<br/>[66687_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/66687_Urban_Nomenclature_202606.zip)<br/>[66687_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/66687_Urban_Perimeter_202606.zip)<br/>[66687_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/66687_Urban_Sector_202606.zip)<br/>                                 |
 
 </div>
-
-
 
 
 # 68 - Santander (87 Counties)
@@ -1333,8 +1296,6 @@
 </div>
 
 
-
-
 # 70 - Sucre (26 Counties)
 
 <div align="center">
@@ -1376,8 +1337,6 @@
 |      70820 | Tolú                | [70820_Rural_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/70820_Rural_Building_202606.zip)<br/>[70820_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/70820_Rural_Lot_202606.zip)<br/>[70820_Rural_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/70820_Rural_Nomenclature_202606.zip)<br/>[70820_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/70820_Rural_Sector_202606.zip)<br/>[70820_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/70820_Rural_Vereda_202606.zip)<br/>[70820_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/70820_Urban_Block_202606.zip)<br/>[70820_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/70820_Urban_Building_202606.zip)<br/>[70820_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/70820_Urban_Lot_202606.zip)<br/>[70820_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/70820_Urban_Nomenclature_202606.zip)<br/>[70820_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/70820_Urban_Nomenclature_Road_202606.zip)<br/>[70820_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/70820_Urban_Perimeter_202606.zip)<br/>[70820_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/70820_Urban_Sector_202606.zip)<br/>                                                                                                                                                                                                                                                                                                 |
 
 </div>
-
-
 
 
 # 73 - Tolima (47 Counties)
@@ -1444,8 +1403,6 @@
 </div>
 
 
-
-
 # 76 - Valle del Cauca (42 Counties)
 
 <div align="center">
@@ -1505,8 +1462,6 @@
 </div>
 
 
-
-
 # 81 - Arauca (7 Counties)
 
 <div align="center">
@@ -1529,8 +1484,6 @@
 |      81794 | Tame          | [81794_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/81794_Urban_Block_202606.zip)<br/>[81794_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/81794_Urban_Building_202606.zip)<br/>[81794_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/81794_Urban_Lot_202606.zip)<br/>[81794_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/81794_Urban_Nomenclature_202606.zip)<br/>[81794_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/81794_Urban_Nomenclature_Road_202606.zip)<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 </div>
-
-
 
 
 # 85 - Casanare (19 Counties)
@@ -1569,8 +1522,6 @@
 </div>
 
 
-
-
 # 86 - Putumayo (13 Counties)
 
 <div align="center">
@@ -1601,8 +1552,6 @@
 </div>
 
 
-
-
 # 88 - San Andrés y Providencia (2 Counties)
 
 <div align="center">
@@ -1620,8 +1569,6 @@
 |      88001 | San Andrés                   | [88001_Rural_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/88001_Rural_Building_202606.zip)<br/>[88001_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/88001_Rural_Lot_202606.zip)<br/>[88001_Rural_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/88001_Rural_Nomenclature_202606.zip)<br/>[88001_Rural_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/88001_Rural_Nomenclature_Road_202606.zip)<br/>[88001_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/88001_Rural_Sector_202606.zip)<br/>[88001_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/88001_Rural_Vereda_202606.zip)<br/>[88001_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/88001_Urban_Block_202606.zip)<br/>[88001_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/88001_Urban_Building_202606.zip)<br/>[88001_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/88001_Urban_Lot_202606.zip)<br/>[88001_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/88001_Urban_Nomenclature_202606.zip)<br/>[88001_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/88001_Urban_Nomenclature_Road_202606.zip)<br/>[88001_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/88001_Urban_Perimeter_202606.zip)<br/>[88001_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/88001_Urban_Sector_202606.zip)<br/> |
 
 </div>
-
-
 
 
 # 91 - Amazonas (11 Counties)
@@ -1652,8 +1599,6 @@
 </div>
 
 
-
-
 # 94 - Guainía (8 Counties)
 
 <div align="center">
@@ -1679,8 +1624,6 @@
 </div>
 
 
-
-
 # 95 - Guaviare (4 Counties)
 
 <div align="center">
@@ -1700,8 +1643,6 @@
 |      95001 | San José Del Guaviare | [95001_Rural_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Rural_Building_202606.zip)<br/>[95001_Rural_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Rural_Lot_202606.zip)<br/>[95001_Rural_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Rural_Nomenclature_202606.zip)<br/>[95001_Rural_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Rural_Sector_202606.zip)<br/>[95001_Rural_Vereda_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Rural_Vereda_202606.zip)<br/>[95001_Urban_Block_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Urban_Block_202606.zip)<br/>[95001_Urban_Building_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Urban_Building_202606.zip)<br/>[95001_Urban_Lot_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Urban_Lot_202606.zip)<br/>[95001_Urban_Nomenclature_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Urban_Nomenclature_202606.zip)<br/>[95001_Urban_Nomenclature_Road_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Urban_Nomenclature_Road_202606.zip)<br/>[95001_Urban_Perimeter_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Urban_Perimeter_202606.zip)<br/>[95001_Urban_Sector_202606.zip](https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/95001_Urban_Sector_202606.zip)<br/> |
 
 </div>
-
-
 
 
 # 97 - Vaupés (6 Counties)
@@ -1727,8 +1668,6 @@
 </div>
 
 
-
-
 # 99 - Vichada (4 Counties)
 
 <div align="center">
@@ -1749,3 +1688,10 @@
 
 </div>
 
+
+#
+
+<sub>**APPS & TOOLS & CONTENT DISCLAIMER**: • NO WARRANTY - This content and software is provided by <a href="https://github.com/rcfdtools" target="_blank">github.com/rcfdtools</a> "as is", without any express or implied warranty, including warranties of merchantability, fitness for a particular purpose, or non-infringement. There is no guarantee that the software will be error-free or operate without interruption. • LIMITATION OF LIABILITY - Neither the authors nor copyright holders will be liable for claims or damages arising from the software or its use. You are responsible for determining if the software is appropriate for your use and assume all associated risks, including errors, legal compliance, and data loss. • NO PROFESSIONAL ADVICE - The software provides general information and does not offer professional advice. It should not replace consultation with professional advisors. [Clauses and global license for rcfdtools use.](https://github.com/rcfdtools/rcfdtools/blob/main/LICENSE.md)</sub>
+
+| [:house: Home](../../Readme.md)  | [:beginner: Help / Collab](https://github.com/rcfdtools/R.GISMobile/discussions) |
+|----------------------------|-------------------------------------------------------------------------------------------|

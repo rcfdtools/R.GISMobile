@@ -5,8 +5,8 @@
 
 # Libraries
 import functions as funcs
+import dictionary as dictionary
 from pathlib import Path
-from pandas.core.interchange.from_dataframe import primitive_column_to_ndarray
 from simpledbf import Dbf5
 import tabulate
 import matplotlib.pyplot as plt
@@ -19,7 +19,7 @@ pd.set_option('display.width', None)
 # Processing
 url_file = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/'
 dir_path = Path('../shp')
-create_location_map = True # ● Create and save location map
+create_location_map = False # ● Create and save location map
 print_on_screen = False # Global print graph in screen
 zip_files = [file.name for file in dir_path.glob('*.zip')]
 file_log_name = f'../shp/Readme.md'  # Markdown file log
@@ -33,7 +33,7 @@ df_county.drop(df_county[df_county['MpCodigo'] == '00000'].index, inplace=True)
 # State list
 df_state = df_county['DeCodigo'].unique()
 funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../graph/R.GISMobile.svg" width="300px"></div>\n\n')
-funcs.print_log(file_log, f'# 🌎County Layer - Colombia South America')
+funcs.print_log(file_log, f'# {dictionary.dicts['study_name']} \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n', on_screen=print_on_screen)
 for state in df_state:
     print_dataframe = pd.DataFrame(columns=['CountyID', 'CountyName', 'CountyFiles'])
     df_state_info = df_county[df_county['DeCodigo'] == state]
@@ -41,7 +41,7 @@ for state in df_state:
     df_county_filter = df_county[df_county['DeCodigo'] == state]
     state_latitude = df_state_info['Latitude'].values[0]
     state_longitude = df_state_info['Longitude'].values[0]
-    funcs.print_log(file_log, f'\n\n\n# {state} - {state_name} ({len(df_county_filter)} Counties)\n')
+    funcs.print_log(file_log, f'\n# {state} - {state_name} ({len(df_county_filter)} Counties)\n')
     fig_file0a = '../graph/' + state + 'LocationMap.png'
     if create_location_map:
         location_map_plot = funcs.location_map(point_latitude = state_latitude, point_longitude = state_longitude, point_name = state_name.upper(), state_filter = state, county_label_on = True)
@@ -61,3 +61,6 @@ for state in df_state:
             files_txt = 'Not found'
         print_dataframe.loc[len(print_dataframe)] = [county, county_name, files_txt]
     funcs.print_log(file_log, print_dataframe.to_markdown(index=False), center_div=True)
+funcs.print_log(file_log, f'\n#\n\n<sub>{dictionary.dicts['disclaimer']}</sub>', on_screen = print_on_screen)
+funcs.print_log(file_log, f'\n\n| [:house: Home](../../Readme.md)  | [:beginner: Help / Collab](https://github.com/rcfdtools/R.GISMobile/discussions) |', on_screen=print_on_screen)
+funcs.print_log(file_log, f'\n|----------------------------|-------------------------------------------------------------------------------------------|', on_screen=print_on_screen)
