@@ -16,7 +16,7 @@ exclude_file_type = ['.zip', '.xml', '.cpg', '.sbn', '.sbx', '.qix', '.qmd', '.o
 files = [item for item in files if not any(exclude in item for exclude in exclude_file_type)]
 #print(f'Files founded: {files}')
 files_individual = [f.stem for f in Path(directory).iterdir() if f.is_file()]
-exclude_files = {'Readme', 'R.GISMobile'}
+exclude_files = {'Readme', 'R.GISMobile', 'Readme_Changelog'}
 files_individual = [item for item in files_individual if item not in exclude_files]
 files_individual = [item for item in files_individual if not any(exclude in item for exclude in exclude_file_type)]
 files_individual = list(set(files_individual))
