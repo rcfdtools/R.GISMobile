@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="300px"></div>
+<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>
 
 ## 🌎Predial - Colombia Suramérica
 

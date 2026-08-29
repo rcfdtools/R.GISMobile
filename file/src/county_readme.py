@@ -32,7 +32,7 @@ df_county = df_county.sort_values(by=['DeCodigo', 'DeNombre', 'MpNombre', 'MpCod
 df_county.drop(df_county[df_county['MpCodigo'] == '00000'].index, inplace=True)
 # State list
 df_state = df_county['DeCodigo'].unique()
-funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../graph/R.GISMobile.svg" width="300px"></div>\n\n')
+funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../graph/R.GISMobile.svg" width="250px"></div>\n\n')
 funcs.print_log(file_log, f'# {dictionary.dicts['study_name']} \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n', on_screen=print_on_screen)
 for state in df_state:
     print_dataframe = pd.DataFrame(columns=['CountyID', 'CountyName', 'CountyFiles'])
