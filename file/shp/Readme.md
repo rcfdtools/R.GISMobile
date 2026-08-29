@@ -188,7 +188,7 @@ County GIS layers are individual digital map datasets stacked together in a Geog
 </div>
 
 
-# 11 - Cundinamarca (1 Counties)
+# 11 - Bogotá, D.C. (1 Counties)
 
 <div align="center">
 
