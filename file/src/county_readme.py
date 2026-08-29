@@ -61,6 +61,7 @@ for state in df_state:
             files_txt = 'Not found'
         print_dataframe.loc[len(print_dataframe)] = [county, county_name, files_txt]
     funcs.print_log(file_log, print_dataframe.to_markdown(index=False), center_div=True)
-funcs.print_log(file_log, f'\n#\n\n<sub>{dictionary.dicts['disclaimer']}</sub>', on_screen = print_on_screen)
+funcs.print_log(file_log, f'\n#\n\n<div align="center"><img alt="rcfdtools" src="../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>', on_screen = print_on_screen)
+funcs.print_log(file_log, f'\n\n<sub>{dictionary.dicts['disclaimer']}</sub>', on_screen = print_on_screen)
 funcs.print_log(file_log, f'\n\n| [:house: Home](../../README.md)  | [:beginner: Help / Collab](https://github.com/rcfdtools/R.GISMobile/discussions) |', on_screen=print_on_screen)
 funcs.print_log(file_log, f'\n|----------------------------|-------------------------------------------------------------------------------------------|', on_screen=print_on_screen)

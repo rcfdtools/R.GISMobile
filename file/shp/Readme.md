@@ -1,6 +1,6 @@
-<div align="center"><img alt="rcfdtools" src="../graph/R.GISMobile.svg" width="300px"></div>
+<div align="center"><img alt="rcfdtools" src="../graph/R.GISMobile.svg" width="250px"></div>
 
-# 📜RESEARCH: _“County GIS Layers - Colombia South America”_ 
+# 🛠️TOOL: _“County GIS Layers - Colombia South America”_ 
 Keywords: `geographical-information-system` `gis` `igac` `ider` `geodata` `colombia` `south-america`
 
 County GIS layers are individual digital map datasets stacked together in a Geographic Information System (GIS) to visualize, manage, and analyze a county´s geographic information. Local governments, researches and engineers use these layers to run daily operations, plan infrastructure, track tax assessments, evaluate land plot risk, and dispatch emergency services.
@@ -1690,6 +1690,8 @@ County GIS layers are individual digital map datasets stacked together in a Geog
 
 
 #
+
+<div align="center"><img alt="rcfdtools" src="../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>
 
 <sub>**APPS & TOOLS & CONTENT DISCLAIMER**: • NO WARRANTY - This content and software is provided by <a href="https://github.com/rcfdtools" target="_blank">github.com/rcfdtools</a> "as is", without any express or implied warranty, including warranties of merchantability, fitness for a particular purpose, or non-infringement. There is no guarantee that the software will be error-free or operate without interruption. • LIMITATION OF LIABILITY - Neither the authors nor copyright holders will be liable for claims or damages arising from the software or its use. You are responsible for determining if the software is appropriate for your use and assume all associated risks, including errors, legal compliance, and data loss. • NO PROFESSIONAL ADVICE - The software provides general information and does not offer professional advice. It should not replace consultation with professional advisors. [Clauses and global license for rcfdtools use.](https://github.com/rcfdtools/rcfdtools/blob/main/LICENSE.md)</sub>
 
