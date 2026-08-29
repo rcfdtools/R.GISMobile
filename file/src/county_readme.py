@@ -43,20 +43,22 @@ df_state = df_county['DeNombre'].unique()
 print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../graph/R.GISMobile.svg" width="300px"></div>\n\n')
 print_log(file_log, f'# 🌎GISMobile: Layers por Municipio - Colombia Suramérica')
 for state in df_state:
-    print_log(file_log, f'\n\n\n# {state}')
+    print_dataframe = pd.DataFrame(columns=['CountyID', 'CountyName', 'CountyFiles'])
+    print_log(file_log, f'\n\n\n# {state}\n\n')
     df_county_filter = df_county[df_county['DeNombre'] == state]
     df_county_unique = df_county_filter['MpCodigo'].unique()
     for county in df_county_unique:
         #print_log(file_log, county)
         df_county_info = df_county[df_county['MpCodigo'] == county]
-        state_name = df_county_info['DeNombre'].values[0]
         county_name = df_county_info['MpNombre'].values[0]
-        print_log(file_log,f'\n\n**{county_name}** - {county}: ')
+        #print_log(file_log,f'\n\n**{county_name}** - {county}: ')
         #zip_files_filter = [item for item in zip_files if group_id in item]
         zip_files_filter = [item for item in zip_files if item.startswith(county)]
+        files_txt = ''
         if len(zip_files_filter) > 0:
             for file in zip_files_filter:
-                print_log(file_log,f'[• {file}]({url_file}{file}) ')
+                files_txt += f'[• {file}]({url_file}{file})<br/>'
         else:
-            print_log(file_log,'Layers not found')
-
+            files_txt = 'Not found'
+        print_dataframe.loc[len(print_dataframe)] = [county, county_name, files_txt]
+    print_log(file_log, print_dataframe.to_markdown(index=False))
