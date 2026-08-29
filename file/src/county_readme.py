@@ -53,7 +53,6 @@ for state in df_state:
         df_county_info = df_county[df_county['MpCodigo'] == county]
         df_county_info['MpNorma'] = df_county_info['MpNorma'].fillna('')
         county_name = df_county_info['MpNombre'].values[0]
-        CountyRule = df_county_info['MpNorma'].values[0]
         zip_files_filter = [item for item in zip_files if item.startswith(county)]
         files_txt = ''
         if len(zip_files_filter) > 0:
@@ -61,7 +60,7 @@ for state in df_state:
                 files_txt += f'[{file}]({url_file}{file})<br/>'
         else:
             files_txt = 'Not found'
-        print_dataframe.loc[len(print_dataframe)] = [county, f'{county_name} <sub>{CountyRule}</sub>', files_txt]
+        print_dataframe.loc[len(print_dataframe)] = [county, county_name, files_txt]
     funcs.print_log(file_log, print_dataframe.to_markdown(index=False), center_div=True)
 funcs.print_log(file_log, f'\n#\n\n<div align="center"><img alt="rcfdtools" src="../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>', on_screen = print_on_screen)
 funcs.print_log(file_log, f'\n\n<sub>{dictionary.dicts['disclaimer']}</sub>', on_screen = print_on_screen)
