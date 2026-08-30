@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
 
-## Laguna de Suesca, Cundinamarca, Colombia (2025-08-07)
+## :earth_americas:POI: Laguna de Suesca, Cundinamarca, Colombia (2025-08-07)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.185168,-73.788042) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.185168&lon=-73.788042) 
 
 ```geojson

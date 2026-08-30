@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
 
-## San Martín, Meta, Colombia (2018-03-29)
+## :earth_americas:POI: San Martín, Meta, Colombia (2018-03-29)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=3.708075,-73.701043) or [Openstreet Map](https://www.openstreetmap.org/query?lat=3.708075&lon=-73.701043) 
 
 ```geojson

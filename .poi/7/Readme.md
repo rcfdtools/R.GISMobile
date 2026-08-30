@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
 
-## Tunel derivador Río Guatiquía a Embalse Chuza, Fómeque, Cundinamarca, Colombia (2023-05-03)
+## :earth_americas:POI: Tunel derivador Río Guatiquía a Embalse Chuza, Fómeque, Cundinamarca, Colombia (2023-05-03)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=4.537927777777778,-73.72825833333333) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.537927777777778&lon=-73.72825833333333) 
 
 ```geojson

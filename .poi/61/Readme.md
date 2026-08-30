@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
 
-## Tobia, Cundinamarca, Colombia. https://photos.app.goo.gl/uV9decaL1GgRBgx97 (2026-03-01)
+## :earth_americas:POI: Tobia, Cundinamarca, Colombia. https://photos.app.goo.gl/uV9decaL1GgRBgx97 (2026-03-01)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.122999,-74.450599) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.122999&lon=-74.450599) 
 
 ```geojson

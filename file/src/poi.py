@@ -85,7 +85,7 @@ for i in directories:
         print('Processing: %s' %poi_path)
         df1 = pd.read_csv(poi_path)  # Esri shapefile does not support datetime fields with parse_dates=['Date']
         readme_file.write('<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>\n\n')
-        readme_file.write('## %s (%s)\n`Pictures` %s <br>`Category` %s <br>`Location` [Google Maps](http://maps.google.com/maps?q=%s,%s) or [Openstreet Map](https://www.openstreetmap.org/query?lat=%s&lon=%s) \n\n' %(str(df1['Name'][0]), str(df1['Date'][0]), str(df1['Credit'][0]), str(df1['Category'][0]), str(df1['Latitude'][0]), str(df1['Longitude'][0]), str(df1['Latitude'][0]), str(df1['Longitude'][0])))
+        readme_file.write('## :earth_americas:POI: %s (%s)\n`Pictures` %s <br>`Category` %s <br>`Location` [Google Maps](http://maps.google.com/maps?q=%s,%s) or [Openstreet Map](https://www.openstreetmap.org/query?lat=%s&lon=%s) \n\n' %(str(df1['Name'][0]), str(df1['Date'][0]), str(df1['Credit'][0]), str(df1['Category'][0]), str(df1['Latitude'][0]), str(df1['Longitude'][0]), str(df1['Latitude'][0]), str(df1['Longitude'][0])))
         geojson = '```geojson\n{\n  "type": "Feature",\n  "geometry": {\n    "type": "Point", \n    "coordinates": ['+str(df1['Longitude'][0])+', '+str(df1['Latitude'][0])+']\n  }, \n  "properties": {\n    "Name": "'+df1['Name'][0]+'"\n  }\n}\n```\n\n'
         readme_file.write(geojson)
         df1['POI'] = i
@@ -122,7 +122,7 @@ if os.path.isfile(path+geojson_file):
     os.remove(path+geojson_file)
 geojson_file_write = open(path+geojson_file, 'w+')   # w+ create the file if it doesn't exist
 df = pd.read_csv(path+poi_file)
-geojson_file_write.write('<div align="center"><img alt="rcfdtools" src="../file/graph/R.GISMobile.svg" height="46px"></div>\n\n')
+geojson_file_write.write('<div align="center"><img alt="rcfdtools" src="../file/graph/R.GISMobile.svg" width="300px"></div>\n\n')
 geojson_file_write.write('# :large_blue_circle:Geographical Points of Interest - POI\n\n> A Point of Interest (POI) list is a dataset containing specific, geographically located points on a map that are considered useful or interesting, such as dams, reservoirs, ecological parks, or landmarks. Each entry in the list typically includes a name, location (latitude/longitude), and category to identify the place.\n\n### A. Map points\n\n')
 geojson_file_write.write('```topojson\n{"type": "Topology", "objects": {"example": {"type": "GeometryCollection","geometries": [\n')
 print('\nPOIs processed: %i' %len(df))

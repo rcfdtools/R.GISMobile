@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
 
-## Cherry Creek River (Sinusoidal river design, downstream Cherry Creek Reservoir), Denver, Colorado, U.S. (2024-07-21)
+## :earth_americas:POI: Cherry Creek River (Sinusoidal river design, downstream Cherry Creek Reservoir), Denver, Colorado, U.S. (2024-07-21)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=39.679556,-104.895472) or [Openstreet Map](https://www.openstreetmap.org/query?lat=39.679556&lon=-104.895472) 
 
 ```geojson

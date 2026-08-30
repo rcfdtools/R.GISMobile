@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
 
-## Antigua mina de caliza CEMEX, Guasca, Cundinamarca, Colombia (2023-05-03)
+## :earth_americas:POI: Antigua mina de caliza CEMEX, Guasca, Cundinamarca, Colombia (2023-05-03)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=4.712169444444444,-73.8198361111111) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.712169444444444&lon=-73.8198361111111) 
 
 ```geojson
