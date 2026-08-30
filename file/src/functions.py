@@ -34,9 +34,9 @@ def location_map(point_latitude, point_longitude, point_name, state_filter, coun
     point_gdf = gpd.GeoDataFrame(geometry=[point_location], crs=state_shapefile.crs)
     fig, ax = plt.subplots(figsize=(horizontal_size, vertical_size))  # Adjust figure size as needed
     if county_label_on:
-        state_shapefile.plot(ax=ax, color='lightgray', edgecolor='black', linewidth=1.5, legend=True, legend_kwds={'fontsize': 'small'}, label='DeCodigo')
+        state_shapefile.plot(ax=ax, color='lightgray', edgecolor='black', linewidth=1.25, legend=True, legend_kwds={'fontsize': 'small'}, label='DeCodigo')
     else:
-        state_shapefile.plot(ax=ax, color='lightgray', edgecolor='black', linewidth=1.5, legend=True, legend_kwds={'fontsize': 'small'})
+        state_shapefile.plot(ax=ax, color='lightgray', edgecolor='black', linewidth=1.25, legend=True, legend_kwds={'fontsize': 'small'})
     #state_shapefile.plot(ax=ax, column='DeCodigo', cmap='Greens', edgecolor='black', linewidth=0.75, legend=True, legend_kwds={'fontsize': 'small'}) # , label='AH'
     county_shapefile.boundary.plot(ax=ax, edgecolor='black', linewidth=0.25) # , label='AH'
     if show_marker:
