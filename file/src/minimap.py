@@ -16,7 +16,7 @@ pd.set_option('display.width', None)
 # General parameters
 minimap_path = '../gis/MiniMAP/'
 dpi_resolution = 180
-run_colombia_state = False
+run_colombia_state = True
 run_colombia_county_national_point = False
 
 # Colombia State MiniMAP
