@@ -29,15 +29,7 @@
 *.ovr
 file/gdb/*.gdb
 file/gdb/*.gpkg
-file/gis/GISMobile_EAB_CO/*.gdb
-file/gis/GISMobile_EAB_CO/*.gpkg
-file/gis/GISMobile_EAB_CO/dem/AlosPalsar*.tif*
-file/gis/GISMobile_EAB_CO/dem/AlosPalsarZE*.tif*
-file/gis/GISMobile_Predial_CO/*.gdb
-file/gis/GISMobile_Predial_CO/*.gpkg
-file/gis/GISMobile_Predial_CO/GISMobile_Predial_CO*.zip
 file/dem/*.tif
-
 file/gis/EAAB_CO/*.gdb
 file/gis/EAAB_CO/*.gpkg
 file/gis/EAAB_CO/dem/AlosPalsar*.tif*
