@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
 
 ## Visita Drummond 2018 - Departamento del Cesar - Colombia (varios) (2018-04-25)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=9.531024,-73.462601) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.531024&lon=-73.462601) 
@@ -196,7 +196,7 @@
 
 <br><details><summary>:camera:**37/20180425_155038.jpg**</summary><sub> `Exif version` 0220 `OS version` G930PVPS5BRA1 `Date` 2018:04:25 15:50:38 `Aperture` Not known `Brightness` 8.73 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0004970178926441351 `Focal length` 4.2 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 10.974</sub></details>![GISMobile.POI](20180425_155038.jpg)
 
-<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogot√° - Colombia - South America"._<sub>
+<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogot· - Colombia - South America"._<sub>
 
 | [:house: Home](../Readme.md) |
 |---|

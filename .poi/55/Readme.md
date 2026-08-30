@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
 
 ## Sevilla, Valle, Colombia (2013-12-25)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=4.264387,-75.934291) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.264387&lon=-75.934291) 
@@ -38,7 +38,7 @@
 
 <br><details><summary>:camera:**55/20131225_070750.jpg**</summary><sub> `Exif version` 0220 `OS version` N7000XXLS2 `Date` 2013:12:25 07:07:49 `Aperture` Not known `Brightness` 7.77 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0031545741324921135 `Focal length` 3.97 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 2.65 `White balance` 0 `Sensing method` Not known `Shutter speed` 8.31</sub></details>![GISMobile.POI](20131225_070750.jpg)
 
-<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogot√° - Colombia - South America"._<sub>
+<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogot· - Colombia - South America"._<sub>
 
 | [:house: Home](../Readme.md) |
 |---|

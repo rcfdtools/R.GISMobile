@@ -1,6 +1,6 @@
-<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
 
-## Arroyo San Antonio - Realineamiento #4 - Construcci√≥n inicio desviaci√≥n, La Jagua de Ibirico, Cesar, Colombia (2018-04-25)
+## Arroyo San Antonio - Realineamiento #4 - ConstrucciÛn inicio desviaciÛn, La Jagua de Ibirico, Cesar, Colombia (2018-04-25)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=9.525125,-73.46366) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.525125&lon=-73.46366) 
 
 ```geojson
@@ -11,7 +11,7 @@
     "coordinates": [-73.46366, 9.525125]
   }, 
   "properties": {
-    "Name": "Arroyo San Antonio - Realineamiento #4 - Construcci√≥n inicio desviaci√≥n, La Jagua de Ibirico, Cesar, Colombia"
+    "Name": "Arroyo San Antonio - Realineamiento #4 - ConstrucciÛn inicio desviaciÛn, La Jagua de Ibirico, Cesar, Colombia"
   }
 }
 ```
@@ -32,7 +32,7 @@
 
 <br><details><summary>:camera:**17/20180425_153207.jpg**</summary><sub> `Exif version` 0220 `OS version` G930PVPS5BRA1 `Date` 2018:04:25 15:32:07 `Aperture` Not known `Brightness` 9.4 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0003156565656565657 `Focal length` 4.2 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 11.629</sub></details>![GISMobile.POI](20180425_153207.jpg)
 
-<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogot√° - Colombia - South America"._<sub>
+<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogot· - Colombia - South America"._<sub>
 
 | [:house: Home](../Readme.md) |
 |---|

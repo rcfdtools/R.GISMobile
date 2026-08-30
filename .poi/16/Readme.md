@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
 
 ## Arroyo San Antonio - Estructura escalonada, La Jagua de Ibirico, Cesar, Colombia (2018-04-25)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=9.517357,-73.469932) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.517357&lon=-73.469932) 
@@ -40,7 +40,7 @@
 
 <br><details><summary>:camera:**16/20180425_152723.jpg**</summary><sub> `Exif version` 0220 `OS version` G930PVPS5BRA1 `Date` 2018:04:25 15:27:23 `Aperture` Not known `Brightness` Not known `Color space` 1 `Compression` Not known`Exposure mode` 0 `Exposure time` Not known `Focal length` 4.2 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` Not known `Shutter speed` Not known</sub></details>![GISMobile.POI](20180425_152723.jpg)
 
-<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogot√° - Colombia - South America"._<sub>
+<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogot· - Colombia - South America"._<sub>
 
 | [:house: Home](../Readme.md) |
 |---|

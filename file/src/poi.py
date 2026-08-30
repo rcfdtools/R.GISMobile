@@ -40,7 +40,7 @@ def image_info(img_path):
     if coords:
         google_maps = f'http://maps.google.com/maps?q={str(cy)},{str(cx)}'
         osm_maps = f'https://www.openstreetmap.org/query?lat={str(cy)}&lon={str(cx)}'
-        map_location = ('<sub> :globe_with_meridians:`Location over` [Google Maps](http://maps.google.com/maps?q=' + str(
+        map_location = ('<sub> :earth_americas:`Location over` [Google Maps](http://maps.google.com/maps?q=' + str(
             cy) + ',' + str(cx) + ') or [Openstreet Map](https://www.openstreetmap.org/query?lat=' + str(cy) + '&lon=' + str(cx) + ')</sub>')
         #print(f"Coordinates:{coords}")
         readme_file.write(f"<sub>`Coordinates & altitude` {coords}</sub>")
@@ -84,13 +84,13 @@ for i in directories:
         poi_path = path+i+'/'+poi_file
         print('Processing: %s' %poi_path)
         df1 = pd.read_csv(poi_path)  # Esri shapefile does not support datetime fields with parse_dates=['Date']
-        readme_file.write('<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>\n\n')
+        readme_file.write('<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>\n\n')
         readme_file.write('## %s (%s)\n`Pictures` %s <br>`Category` %s <br>`Location` [Google Maps](http://maps.google.com/maps?q=%s,%s) or [Openstreet Map](https://www.openstreetmap.org/query?lat=%s&lon=%s) \n\n' %(str(df1['Name'][0]), str(df1['Date'][0]), str(df1['Credit'][0]), str(df1['Category'][0]), str(df1['Latitude'][0]), str(df1['Longitude'][0]), str(df1['Latitude'][0]), str(df1['Longitude'][0])))
         geojson = '```geojson\n{\n  "type": "Feature",\n  "geometry": {\n    "type": "Point", \n    "coordinates": ['+str(df1['Longitude'][0])+', '+str(df1['Latitude'][0])+']\n  }, \n  "properties": {\n    "Name": "'+df1['Name'][0]+'"\n  }\n}\n```\n\n'
         readme_file.write(geojson)
         df1['POI'] = i
         df1['Link'] = path_www+i+'/Readme.md'
-        df1['URL'] = '[:globe_with_meridians:]('+i+'/Readme.md)'
+        df1['URL'] = '[:earth_americas:]('+i+'/Readme.md)'
         df = pd.concat([df, df1], ignore_index=True)
         picture_path = path+i+'/'
         picture_files = [x for x in Path(picture_path).iterdir() if x.is_file()]

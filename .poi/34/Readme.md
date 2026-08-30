@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
 
 ## Garden of Gods - Colorado Springs, Colorado, U.S. (2018-05-25)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=38.865713,-104.889951) or [Openstreet Map](https://www.openstreetmap.org/query?lat=38.865713&lon=-104.889951) 
@@ -192,7 +192,7 @@
 
 <br><details><summary>:camera:**34/IMG_20170723_133519.jpg**</summary><sub> `Exif version` 0220 `OS version` P895T20_MPCS-user 6.0.1 MMB29M 20170418.111425 release-keys `Date` 2017:07:23 12:35:19 `Aperture` Not known `Brightness` 0.0 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.0004716981132075472 `Focal length` 3.46 `Lens model` Not known `Lens specification` Not known `Orientation` Not known `Scene type` Not known `f number` 2.2 `White balance` 0 `Sensing method` 2 `Shutter speed` 11.05</sub></details>![GISMobile.POI](IMG_20170723_133519.jpg)
 
-<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogot√° - Colombia - South America"._<sub>
+<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogot· - Colombia - South America"._<sub>
 
 | [:house: Home](../Readme.md) |
 |---|

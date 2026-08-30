@@ -1,6 +1,6 @@
-<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" height="46px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
 
-## Pauna, Boyac√°, Colombia (2018-07-08)
+## Pauna, Boyac·, Colombia (2018-07-08)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.659578,-73.984318) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.659578&lon=-73.984318) 
 
 ```geojson
@@ -11,7 +11,7 @@
     "coordinates": [-73.984318, 5.659578]
   }, 
   "properties": {
-    "Name": "Pauna, Boyac√°, Colombia"
+    "Name": "Pauna, Boyac·, Colombia"
   }
 }
 ```
@@ -126,7 +126,7 @@
 
 <br><details><summary>:camera:**52/20180708_143006.jpg**</summary><sub> `Exif version` 0220 `OS version` G930PVPU6CRE7 `Date` 2018:07:08 14:30:06 `Aperture` Not known `Brightness` 10.32 `Color space` 1 `Compression` 6`Exposure mode` 0 `Exposure time` 0.00015984654731457802 `Focal length` 4.2 `Lens model` Not known `Lens specification` Not known `Orientation` 1 `Scene type` Not known `f number` 1.7 `White balance` 0 `Sensing method` 2 `Shutter speed` 12.611</sub></details>![GISMobile.POI](20180708_143006.jpg)
 
-<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogot√° - Colombia - South America"._<sub>
+<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogot· - Colombia - South America"._<sub>
 
 | [:house: Home](../Readme.md) |
 |---|
