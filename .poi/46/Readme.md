@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="250px"></div>
 
 ## :earth_americas:POI: Guachetá - Tausa - Santa Sofía - Villa de Leyva - Santana - Togui - Vélez - Barichara, San José de Suaita, Cundinamarca - Boyacá - Santander, Colombia (2022-04-12)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=6.047301,-73.490125) or [Openstreet Map](https://www.openstreetmap.org/query?lat=6.047301&lon=-73.490125) 

@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="250px"></div>
 
 ## :earth_americas:POI: Arroyo San Antonio - Realineamiento # 4 - Construcción, inicio de operación y conformación, La Jagua de Ibirico, Cesar, Colombia (2018-04-25)
 `Pictures` rcfdtools & others <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=9.528337,-73.507306) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.528337&lon=-73.507306) 

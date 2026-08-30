@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="250px"></div>
 
 ## :earth_americas:POI: Frailejones - Ruilopezia (Espeletia), Fómeque, Cundinamarca, Colombia (2023-05-03)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=4.585705555555555,-73.72865555555556) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.585705555555555&lon=-73.72865555555556) 

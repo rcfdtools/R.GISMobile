@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="250px"></div>
 
 ## :earth_americas:POI: Arroyo Las Ánimas - Estructura de repartición, La Jagua de Ibirico, Cesar, Colombia (2022-04-27)
 `Pictures` rcfdtools & others <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=9.492937,-73.518891) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.492937&lon=-73.518891) 

@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="250px"></div>
 
 ## :earth_americas:POI: Antena del Oso, Subachoque, Cundinamarca, Colombia (2022-11-31)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.056057,-74.137623) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.056057&lon=-74.137623) 

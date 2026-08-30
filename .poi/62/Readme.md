@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="250px"></div>
 
 ## :earth_americas:POI: Cascada de Angulo - El Peñon, Cundinamarca (2026-03-01)
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.239061,-74.294128) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.239061&lon=-74.294128) 

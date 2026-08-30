@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="300px"></div>
+<div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="250px"></div>
 
 ## :earth_americas:POI: Embalse Paujil, La Jagua de Ibirico, Cesar, Colombia (2013-07-03)
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=9.559278,-73.458466) or [Openstreet Map](https://www.openstreetmap.org/query?lat=9.559278&lon=-73.458466) 
