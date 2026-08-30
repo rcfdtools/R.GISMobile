@@ -15,28 +15,28 @@ pd.set_option('display.width', None)
 
 # General parameters
 minimap_path = '../gis/MiniMAP/'
-dpi_resolution = 200
-run_colombia_state = True
+dpi_resolution = 180
+run_layer = True
 
 # Colombia State MiniMAP
 # Source:
-if run_colombia_state:
+if run_layer:
     country_code = '57'
-    dbf_colombia_state = Dbf5('../shp/ColombiaState4326.dbf', codec='cp1252')
-    df_colombia_state = pd.DataFrame(dbf_colombia_state.to_dataframe())
-    df_colombia_state = df_colombia_state[['DeCodigo', 'DeNombre', 'DeNorma', 'Latitude', 'Longitude']]
-    df_colombia_state = df_colombia_state.sort_values(by=['DeCodigo', 'DeNombre'])
-    df_colombia_state.drop(df_colombia_state[df_colombia_state['DeCodigo'] == '00'].index, inplace=True)
-    db_colombia_state_list = df_colombia_state['DeCodigo'].unique()
-    print(f'Colombia State: {db_colombia_state_list}\n')
-    for minimap_name in db_colombia_state_list:
+    dbf_layer = Dbf5('../shp/ColombiaState4326.dbf', codec='cp1252')
+    df_layer = pd.DataFrame(dbf_layer.to_dataframe())
+    df_layer = df_layer[['DeCodigo', 'DeNombre', 'DeNorma', 'Latitude', 'Longitude']]
+    df_layer = df_layer.sort_values(by=['DeCodigo', 'DeNombre'])
+    df_layer.drop(df_layer[df_layer['DeCodigo'] == '00'].index, inplace=True)
+    db_layer_list = df_layer['DeCodigo'].unique()
+    print(f'Colombia State: {db_layer_list}\n')
+    for minimap_name in db_layer_list:
         figure = f'{minimap_path}{country_code}_{minimap_name}_LocationMap.png'
-        df_state_info = df_colombia_state[df_colombia_state['DeCodigo'] == minimap_name]
+        df_state_info = df_layer[df_layer['DeCodigo'] == minimap_name]
         state_name = df_state_info['DeNombre'].values[0]
         state_latitude = df_state_info['Latitude'].values[0]
         state_longitude = df_state_info['Longitude'].values[0]
         print(figure)
-        location_map_plot = funcs.location_map(point_latitude = state_latitude, point_longitude = state_longitude, point_name = state_name.upper(), state_filter = minimap_name, county_label_on = True)
+        location_map_plot = funcs.location_map(point_latitude = state_latitude, point_longitude = state_longitude, point_name = f'{minimap_name} - {state_name.upper()}', state_filter = minimap_name, county_label_on = True, show_marker = False, horizontal_size = 6, vertical_size = 6)
         location_map_plot.savefig(figure, dpi=dpi_resolution)
         plt.close()
 
