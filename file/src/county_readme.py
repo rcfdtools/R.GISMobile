@@ -19,9 +19,9 @@ pd.set_option('display.width', None)
 # Processing
 url_file = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/'
 ppsd_link = 'https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/'
+country_code = '57'
 minimap_link = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/MiniMAP/'
 dir_path = Path('../shp')
-country_code = '57'
 create_location_map = False # ● Create and save location map
 print_on_screen = False # Global print graph in screen
 zip_files = [file.name for file in dir_path.glob('*.zip')]
