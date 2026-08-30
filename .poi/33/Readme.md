@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="250px"></div>
 
-## :earth_americas:POI: Black Hawk, Colorado, U.S. (2016-10-18)
+## :earth_americas:POI: _“Black Hawk, Colorado, U.S. (2016-10-18)”_
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=39.767451,-105.44864) or [Openstreet Map](https://www.openstreetmap.org/query?lat=39.767451&lon=-105.44864) 
 
 ```geojson

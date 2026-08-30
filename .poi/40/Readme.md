@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="../../file/graph/R.GISMobile.svg" width="250px"></div>
 
-## :earth_americas:POI: Royal Gorge Bridge & Park - Arkansas River, Canyon City, Colorado, U.S. (2019-05-24)
+## :earth_americas:POI: _“Royal Gorge Bridge & Park - Arkansas River, Canyon City, Colorado, U.S. (2019-05-24)”_
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=38.463484,-105.322374) or [Openstreet Map](https://www.openstreetmap.org/query?lat=38.463484&lon=-105.322374) 
 
 ```geojson
