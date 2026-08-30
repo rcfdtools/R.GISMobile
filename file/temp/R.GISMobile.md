@@ -3,14 +3,22 @@
 
 ## Pending tasks
 
+* .poi refactor to file/poi
+* Check counties without data >>> county_zip_grouped.py
 * Load big POI to Google Drive
 * Route map picture by POI
-* .poi by file/poi
 * POI group by near city location
 * https://geovisor.antioquia.gov.co/GeoAntioquia/?page=Catastro
 * https://geodatos.antioquia.gov.co/portal/home/item.html?id=29a6f8ac836d4ac3b5213c83c3274b58
 * https://geodatos.antioquia.gov.co/server/rest/services/Catastro/Visor_Geo/FeatureServer
 
+
+MiniMAP
+
+* LocationMapState
+* LocationMapCounty
+* LocationMapCountry
+* LocationMapWorld
 
 
 ## Download layers in geojson format from Python console
