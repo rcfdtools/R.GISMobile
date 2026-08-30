@@ -14,7 +14,8 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
 # General parameters
-minimap_path = '../gis/GISMobile_MiniMAP/'
+minimap_path = '../gis/MiniMAP/'
+dpi_resolution = 200
 run_colombia_state = True
 
 # Colombia State MiniMAP
@@ -36,7 +37,7 @@ if run_colombia_state:
         state_longitude = df_state_info['Longitude'].values[0]
         print(figure)
         location_map_plot = funcs.location_map(point_latitude = state_latitude, point_longitude = state_longitude, point_name = state_name.upper(), state_filter = minimap_name, county_label_on = True)
-        location_map_plot.savefig(figure, dpi=120)
+        location_map_plot.savefig(figure, dpi=dpi_resolution)
         plt.close()
 
 
