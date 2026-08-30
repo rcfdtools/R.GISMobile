@@ -29,9 +29,9 @@ def location_map(point_latitude, point_longitude, point_name, state_filter, coun
     point_gdf = gpd.GeoDataFrame(geometry=[point_location], crs=state_shapefile.crs)
     fig, ax = plt.subplots(figsize=(6, 6))  # Adjust figure size as needed
     if county_label_on:
-        state_shapefile.plot(ax=ax, color='lightgray', edgecolor='black', linewidth=1, legend=True, legend_kwds={'fontsize': 'small'}, label='DeCodigo') # , label='AH'
+        state_shapefile.plot(ax=ax, color='lightgray', edgecolor='black', linewidth=1.5, legend=True, legend_kwds={'fontsize': 'small'}, label='DeCodigo') # , label='AH'
     else:
-        state_shapefile.plot(ax=ax, color='lightgray', edgecolor='black', linewidth=1, legend=True, legend_kwds={'fontsize': 'small'})  # , label='AH'
+        state_shapefile.plot(ax=ax, color='lightgray', edgecolor='black', linewidth=1.5, legend=True, legend_kwds={'fontsize': 'small'})  # , label='AH'
     #state_shapefile.plot(ax=ax, column='DeCodigo', cmap='Greens', edgecolor='black', linewidth=0.75, legend=True, legend_kwds={'fontsize': 'small'}) # , label='AH'
     county_shapefile.boundary.plot(ax=ax, edgecolor='black', linewidth=0.25) # , label='AH'
     point_gdf.plot(ax=ax, marker='o', color='brown', markersize=40, legend=False)  # color='black', 'marker' and 'markersize' customize the point
