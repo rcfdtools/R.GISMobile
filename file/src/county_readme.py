@@ -19,7 +19,9 @@ pd.set_option('display.width', None)
 # Processing
 url_file = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/'
 ppsd_link = 'https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/'
+minimap_link = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/MiniMAP/'
 dir_path = Path('../shp')
+country_code = '57'
 create_location_map = False # ● Create and save location map
 print_on_screen = False # Global print graph in screen
 zip_files = [file.name for file in dir_path.glob('*.zip')]
@@ -43,7 +45,7 @@ for state in df_state:
     state_latitude = df_state_info['Latitude'].values[0]
     state_longitude = df_state_info['Longitude'].values[0]
     funcs.print_log(file_log, f'\n# {state} - {state_name} ({len(df_county_filter)} Counties)\n')
-    fig_file0a = '../gis/GISMobile_MiniMAP/' + state + 'LocationMap.png'
+    fig_file0a = f'{minimap_link}{country_code}_{state}_LocationMap.png'
     if create_location_map:
         location_map_plot = funcs.location_map(point_latitude = state_latitude, point_longitude = state_longitude, point_name = state_name.upper(), state_filter = state, county_label_on = True)
         location_map_plot.savefig(fig_file0a, dpi=120)
