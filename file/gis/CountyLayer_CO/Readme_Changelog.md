@@ -1,6 +1,17 @@
-<div align="center"><img alt="rcfdtools" src="../graph/R.GISMobile.svg" width="250px"></div>
+<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>
 
-# 📝Shapefile Changelog (shp)
+# 📝County GIS Layers - ChangeLog
+
+
+## Main procedure
+
+1. Download data (manually or from rest service)
+2. Convert .json to shapefile: rest_service_geojson_to_shapefile.py
+3. County segmentation: county_export_separated.py
+4. Compress .zip: county_zip_layer_individually.py
+5. Update main Readme.md: county_readme.py
+
+> Antioquia data requires `CountyID = '05' ||  "MUNICIPIO"`
 
 
 ## IDER Cundinamarca
