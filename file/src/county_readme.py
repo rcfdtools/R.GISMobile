@@ -34,7 +34,7 @@ df_county = df_county.sort_values(by=['DeCodigo', 'DeNombre', 'MpNombre', 'MpCod
 df_county.drop(df_county[df_county['MpCodigo'] == '00000'].index, inplace=True)
 # State list
 df_state = df_county['DeCodigo'].unique()
-funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../graph/R.GISMobile.svg" width="250px"></div>\n\n')
+funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
 funcs.print_log(file_log, f'# {dictionary.dicts['study_name']} \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n', on_screen=print_on_screen)
 for state in df_state:
     print_dataframe = pd.DataFrame(columns=['CountyID', 'CountyName', 'CountyFiles'])
@@ -61,7 +61,7 @@ for state in df_state:
             files_txt = 'Not found'
         print_dataframe.loc[len(print_dataframe)] = [county_ppsd_link, county_name, files_txt]
     funcs.print_log(file_log, print_dataframe.to_markdown(index=False), center_div=True)
-funcs.print_log(file_log, f'\n#\n\n<div align="center"><img alt="rcfdtools" src="../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>', on_screen = print_on_screen)
+funcs.print_log(file_log, f'\n#\n\n<div align="center"><img alt="rcfdtools" src="../../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>', on_screen = print_on_screen)
 funcs.print_log(file_log, f'\n\n<sub>{dictionary.dicts['disclaimer']}</sub>', on_screen = print_on_screen)
-funcs.print_log(file_log, f'\n\n| [:house: Home](../../README.md)  | [:beginner: Help / Collab](https://github.com/rcfdtools/R.GISMobile/discussions) |', on_screen=print_on_screen)
+funcs.print_log(file_log, f'\n\n| [:house: Home](../../../README.md)  | [:beginner: Help / Collab](https://github.com/rcfdtools/R.GISMobile/discussions) |', on_screen=print_on_screen)
 funcs.print_log(file_log, f'\n|----------------------------|-------------------------------------------------------------------------------------------|', on_screen=print_on_screen)
