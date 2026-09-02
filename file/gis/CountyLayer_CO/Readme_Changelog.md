@@ -5,7 +5,7 @@
 
 ## Main procedure
 
-1. Download data (manually or from rest service)
+1. Download data (manually or from rest service with esri2geojson): rest_service_geojson_to_shapefile.py
 2. Convert .json to shapefile: rest_service_geojson_to_shapefile.py
 3. County segmentation: county_export_separated.py
 4. Compress .zip: county_zip_layer_individually.py
