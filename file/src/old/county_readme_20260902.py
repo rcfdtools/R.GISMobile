@@ -20,12 +20,11 @@ url_file = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/'
 ppsd_link = 'https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/'
 country_code = '57'
 minimap_link = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/MiniMAP/'
-county_layer_path = '../gis/CountyLayer_Co/'
-county_layer_filetype_path = f'{county_layer_path}county_layer_filetype.csv'
+county_layer_filetype_path = '../gis/CountyLayer_Co/county_layer_filetype.csv'
 dir_path = Path('../shp')
 print_on_screen = False # Global print graph in screen
 zip_files = [file.name for file in dir_path.glob('*.zip')]
-file_log_name = f'{county_layer_path}/Readme.md'  # Markdown file log
+file_log_name = f'../gis/CountyLayer_CO/Readme.md'  # Markdown file log
 file_log = open(file_log_name, 'w+', encoding='utf-8')  # w+ create the file if it doesn't exist
 # County list
 dbf_county = Dbf5(f'{dir_path}/ColombiaCounty4326.dbf', codec='cp1252')
@@ -38,34 +37,17 @@ df_county_layer_filetype = pd.read_csv(county_layer_filetype_path, encoding='cp1
 #print(df_county_layer_filetype.to_markdown(index=False))
 # State list
 df_state = df_county['DeCodigo'].unique()
-
-# Main Readme.md
 funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
 funcs.print_log(file_log, f'# {dictionary.dicts['study_name']} \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n\n', on_screen=print_on_screen)
 funcs.print_log(file_log, f'## File names\n\n{dictionary.dicts['county_layer_filetype']}\n\n{df_county_layer_filetype.to_markdown(index=False)}\n\n', on_screen=print_on_screen)
 for state in df_state:
-    df_state_info = df_county[df_county['DeCodigo'] == state]
-    state_name = df_state_info['DeNombre'].values[0]
-    df_county_filter = df_county[df_county['DeCodigo'] == state]
-    funcs.print_log(file_log, f'\n* [{state} - {state_name}]({state}.md) ({len(df_county_filter)} Counties)')
-funcs.print_log(file_log, f'\n\n#\n\n<div align="center"><img alt="rcfdtools" src="../../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>', on_screen=print_on_screen)
-funcs.print_log(file_log, f'\n\n<sub>{dictionary.dicts['disclaimer']}</sub>', on_screen=print_on_screen)
-funcs.print_log(file_log, f'\n\n| [:house: Home](../../../README.md)  | [:beginner: Help / Collab](https://github.com/rcfdtools/R.GISMobile/discussions) |', on_screen=print_on_screen)
-funcs.print_log(file_log, f'\n|----------------------------|-------------------------------------------------------------------------------------------|', on_screen=print_on_screen)
-
-# Individual state.md readme files
-for state in df_state:
-    file_log_name = f'{county_layer_path}/{state}.md'  # Markdown file log
-    file_log = open(file_log_name, 'w+', encoding='utf-8')  # w+ create the file if it doesn't exist
     print_dataframe = pd.DataFrame(columns=['CountyID', 'CountyName', 'CountyFiles'])
     df_state_info = df_county[df_county['DeCodigo'] == state]
     state_name = df_state_info['DeNombre'].values[0]
     df_county_filter = df_county[df_county['DeCodigo'] == state]
-    funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
-    funcs.print_log(file_log, f'# {dictionary.dicts['study_name']} / {state} - {state_name} ({len(df_county_filter)} Counties) \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n', on_screen=print_on_screen)
     state_latitude = df_state_info['Latitude'].values[0]
     state_longitude = df_state_info['Longitude'].values[0]
-    #funcs.print_log(file_log, f'\n# {state} - {state_name} ({len(df_county_filter)} Counties)\n')
+    funcs.print_log(file_log, f'\n# {state} - {state_name} ({len(df_county_filter)} Counties)\n')
     fig_file0a = f'{minimap_link}{country_code}_{state}_LocationMap.png'
     funcs.print_log(file_log, f'<img alt="rcfdtools" src="{fig_file0a}" width="600px"></img>', center_div=True, on_screen=print_on_screen)
     df_county_unique = df_county_filter['MpCodigo'].unique()
@@ -83,7 +65,7 @@ for state in df_state:
             files_txt = 'Not found'
         print_dataframe.loc[len(print_dataframe)] = [county_ppsd_link, county_name, files_txt]
     funcs.print_log(file_log, print_dataframe.to_markdown(index=False), center_div=True)
-    funcs.print_log(file_log, f'\n#\n\n<div align="center"><img alt="rcfdtools" src="../../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>', on_screen = print_on_screen)
-    funcs.print_log(file_log, f'\n\n<sub>{dictionary.dicts['disclaimer']}</sub>', on_screen = print_on_screen)
-    funcs.print_log(file_log, f'\n\n| [:house: Home](Readme.md)  | [:beginner: Help / Collab](https://github.com/rcfdtools/R.GISMobile/discussions) |', on_screen=print_on_screen)
-    funcs.print_log(file_log, f'\n|----------------------------|-------------------------------------------------------------------------------------------|', on_screen=print_on_screen)
+funcs.print_log(file_log, f'\n#\n\n<div align="center"><img alt="rcfdtools" src="../../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>', on_screen = print_on_screen)
+funcs.print_log(file_log, f'\n\n<sub>{dictionary.dicts['disclaimer']}</sub>', on_screen = print_on_screen)
+funcs.print_log(file_log, f'\n\n| [:house: Home](../../../README.md)  | [:beginner: Help / Collab](https://github.com/rcfdtools/R.GISMobile/discussions) |', on_screen=print_on_screen)
+funcs.print_log(file_log, f'\n|----------------------------|-------------------------------------------------------------------------------------------|', on_screen=print_on_screen)
