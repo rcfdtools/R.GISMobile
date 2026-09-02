@@ -74,7 +74,7 @@ for state in df_state:
         df_county_info['MpNorma'] = df_county_info['MpNorma'].fillna('')
         county_name = df_county_info['MpNombre'].values[0]
         county_ppsd_link = f'[{str(county)}]({ppsd_link}{str(county)}.md)'
-        county_minimap = f'<img alt="rcfdtools" src="{minimap_link}{country_code}_{str(county)}_LocationMapCountySimple.png" height="120px">'
+        county_minimap = f'<img alt="rcfdtools" src="{minimap_link}{country_code}_{str(county)}_LocationMapCountySimple.png" height="150px">'
         zip_files_filter = [item for item in zip_files if item.startswith(county)]
         files_txt = ''
         if len(zip_files_filter) > 0:
