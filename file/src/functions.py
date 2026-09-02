@@ -41,7 +41,7 @@ def location_map(point_latitude, point_longitude, point_name, state_filter = 'Al
     point_gdf = gpd.GeoDataFrame(geometry=[point_location], crs=state_shapefile.crs)
     fig, ax = plt.subplots(figsize=(horizontal_size, vertical_size))  # Adjust figure size as needed
     if plot_only_shape:
-        county_linewidth = 2 # Applied when you print only the county limit
+        county_linewidth = 4 # Applied when you print only the county limit
         plt.margins(0)
         ax.margins(0.025)
         ax.axis('off')

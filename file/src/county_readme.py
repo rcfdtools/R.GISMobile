@@ -57,7 +57,7 @@ funcs.print_log(file_log, f'\n|----------------------------|--------------------
 for state in df_state:
     file_log_name = f'{county_layer_path}/{state}.md'  # Markdown file log
     file_log = open(file_log_name, 'w+', encoding='utf-8')  # w+ create the file if it doesn't exist
-    print_dataframe = pd.DataFrame(columns=['CountyID', 'CountyName', 'CountyFiles'])
+    print_dataframe = pd.DataFrame(columns=['MiniMap', 'CountyID', 'CountyName', 'CountyFiles'])
     df_state_info = df_county[df_county['DeCodigo'] == state]
     state_name = df_state_info['DeNombre'].values[0]
     df_county_filter = df_county[df_county['DeCodigo'] == state]
@@ -74,6 +74,7 @@ for state in df_state:
         df_county_info['MpNorma'] = df_county_info['MpNorma'].fillna('')
         county_name = df_county_info['MpNombre'].values[0]
         county_ppsd_link = f'[{str(county)}]({ppsd_link}{str(county)}.md)'
+        county_minimap = f'[<img alt="rcfdtools" src="{minimap_link}{country_code}_{str(county)}_LocationMapCountySimple.png" height="60px"' ##############
         zip_files_filter = [item for item in zip_files if item.startswith(county)]
         files_txt = ''
         if len(zip_files_filter) > 0:
@@ -81,7 +82,7 @@ for state in df_state:
                 files_txt += f'[{file}]({url_file}{file})<br/>'
         else:
             files_txt = 'Not found'
-        print_dataframe.loc[len(print_dataframe)] = [county_ppsd_link, county_name, files_txt]
+        print_dataframe.loc[len(print_dataframe)] = [county_minimap, county_ppsd_link, county_name, files_txt]
     funcs.print_log(file_log, print_dataframe.to_markdown(index=False), center_div=True)
     funcs.print_log(file_log, f'\n#\n\n<div align="center"><img alt="rcfdtools" src="../../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>', on_screen = print_on_screen)
     funcs.print_log(file_log, f'\n\n<sub>{dictionary.dicts['disclaimer']}</sub>', on_screen = print_on_screen)
