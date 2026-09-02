@@ -20,6 +20,7 @@ url_file = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/'
 ppsd_link = 'https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/'
 country_code = '57'
 minimap_link = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/MiniMAP/'
+county_layer_filetype_path = '../gis/CountyLayer_Co/county_layer_filetype.csv'
 dir_path = Path('../shp')
 print_on_screen = False # Global print graph in screen
 zip_files = [file.name for file in dir_path.glob('*.zip')]
@@ -31,10 +32,14 @@ df_county = pd.DataFrame(dbf_county.to_dataframe())
 df_county = df_county[['DeCodigo', 'DeNombre', 'MpCodigo', 'MpNombre', 'MpNorma', 'Latitude', 'Longitude']]
 df_county = df_county.sort_values(by=['DeCodigo', 'DeNombre', 'MpNombre', 'MpCodigo'])
 df_county.drop(df_county[df_county['MpCodigo'] == '00000'].index, inplace=True)
+# Filetype list
+df_county_layer_filetype = pd.read_csv(county_layer_filetype_path, encoding='cp1252', sep=',', dtype={'FileName': 'str', 'EnDesc': 'str', 'EsDesc': 'str'})
+#print(df_county_layer_filetype.to_markdown(index=False))
 # State list
 df_state = df_county['DeCodigo'].unique()
 funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
-funcs.print_log(file_log, f'# {dictionary.dicts['study_name']} \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n', on_screen=print_on_screen)
+funcs.print_log(file_log, f'# {dictionary.dicts['study_name']} \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n\n', on_screen=print_on_screen)
+funcs.print_log(file_log, f'## File types\n\n{dictionary.dicts['county_layer_filetype']}\n\n{df_county_layer_filetype.to_markdown(index=False)}\n\n', on_screen=print_on_screen)
 for state in df_state:
     print_dataframe = pd.DataFrame(columns=['CountyID', 'CountyName', 'CountyFiles'])
     df_state_info = df_county[df_county['DeCodigo'] == state]

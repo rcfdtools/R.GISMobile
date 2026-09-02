@@ -18,7 +18,7 @@
 # Convert geojson to shapefile (GeoPandas)
 import geopandas as gpd
 
-file_name = 'AntioquiaPredioUrbano202608'
+file_name = 'AntioquiaBarrios202608'
 
 # 1. Read the GeoJSON file into a GeoDataFrame
 gdf = gpd.read_file(f'../geojson/{file_name}.geojson')

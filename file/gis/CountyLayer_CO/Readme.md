@@ -6,6 +6,23 @@ Keywords: `geographical-information-system` `gis` `igac` `ider` `geodata` `colom
 County GIS layers are individual digital map datasets stacked together in a Geographic Information System (GIS) to visualize, manage, and analyze a county´s geographic information. Local governments, researches and engineers use these layers to run daily operations, plan infrastructure, track tax assessments, evaluate land plot risk, and dispatch emergency services.
 
 
+## File types
+
+The county files will contain the following names in the compress .zip file name, at the end the showed number correspond to the year and month version, e.g., 202606 means the file correspond to June 2026.
+
+| FileName     |  EnDesc                                                 |  EsDesc                                  |
+|:-------------|:--------------------------------------------------------|:-----------------------------------------|
+| Rural        | Rural zone                                              | Zona rural                               |
+| Lot          | Land plot                                               | Lote, predio o terreno                   |
+| Building     | Building or construction under roof                     | Construcción o edificación bajo cubierta |
+| Nomenclature | Nomenclature or lot address                             | Dirección o nombre de predio             |
+| Sector       | Sector or land plot aggrupation in urban or rural areas | Sector urbano o rural                    |
+| Vereda       | Rural zonification                                      | Zonificación rural                       |
+| Block        | Urban block                                             | Manzana urbana                           |
+| Perimeter    | Perimeter around urban lots                             | Perímetro de predios urbanos             |
+| Carto        | Detail Cartography                                      | Cartografía detallada                    |
+
+
 # 05 - Antioquia (125 Counties)
 
 <div align="center">
