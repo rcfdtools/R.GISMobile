@@ -10,7 +10,7 @@ County GIS layers are individual digital map datasets stacked together in a Geog
 
 The county files will contain the following names in the compress .zip file name, at the end the showed number correspond to the year and month version, e.g., 202606 means the file correspond to June 2026.
 
-| FileName     |  EnDesc                                                 |  EsDesc                                  |
+| FileName     | EnDesc                                                  | EsDesc                                   |
 |:-------------|:--------------------------------------------------------|:-----------------------------------------|
 | Rural        | Rural zone                                              | Zona rural                               |
 | Lot          | Land plot                                               | Lote, predio o terreno                   |

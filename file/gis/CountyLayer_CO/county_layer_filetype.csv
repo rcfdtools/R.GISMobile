@@ -1,10 +1,11 @@
-FileName, EnDesc, EsDesc
-Rural, Rural zone, Zona rural
-Lot, Land plot," Lote, predio o terreno"
-Building, Building or construction under roof, Construcción o edificación bajo cubierta
-Nomenclature, Nomenclature or lot address, Dirección o nombre de predio
-Sector, Sector or land plot aggrupation in urban or rural areas, Sector urbano o rural
-Vereda, Rural zonification, Zonificación rural
-Block, Urban block, Manzana urbana
-Perimeter, Perimeter around urban lots, Perímetro de predios urbanos
-Carto, Detail Cartography, Cartografía detallada
+FileName,EnDesc,EsDesc
+Rural,Rural zone,Zona rural
+Lot,Land plot,"Lote, predio o terreno"
+Building,Building or construction under roof,Construcción o edificación bajo cubierta
+Nomenclature,Nomenclature or lot address,Dirección o nombre de predio
+Sector,Sector or land plot aggrupation in urban or rural areas,Sector urbano o rural
+Vereda,Rural zonification,Zonificación rural
+Block,Urban block,Manzana urbana
+Perimeter,Perimeter around urban lots,Perímetro de predios urbanos
+Carto,Detail Cartography,Cartografía detallada
+Neighborhood,Urban Neighborhood, Barrio urbano
