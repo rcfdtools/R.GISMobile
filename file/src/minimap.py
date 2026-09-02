@@ -18,7 +18,7 @@ minimap_path = '../gis/MiniMAP/'
 dpi_resolution = 180
 run_colombia_state = False
 run_colombia_county_national_point = False
-run_colombia_county_simple = False
+run_colombia_county_simple = True
 
 # Colombia State MiniMAP
 if run_colombia_state:
@@ -82,6 +82,6 @@ if run_colombia_county_simple:
         latitude = df_state_info['LatCentr'].values[0]
         longitude = df_state_info['LonCentr'].values[0]
         print(figure)
-        location_map_plot = funcs.location_map(point_latitude = latitude, point_longitude = longitude, point_name = f'{minimap_name} - {name.upper()}', state_filter = 'All', county_label_on = False, show_marker = False, horizontal_size = 6, vertical_size = 6, plot_state=False, county_filter = minimap_name, plot_only_shape = True)
-        location_map_plot.savefig(figure, dpi=dpi_resolution)
+        location_map_plot = funcs.location_map(point_latitude = latitude, point_longitude = longitude, point_name = f'{minimap_name} - {name.upper()}', state_filter = 'All', county_label_on = False, show_marker = False, horizontal_size = 8, vertical_size = 6, plot_state=False, county_filter = minimap_name, plot_only_shape = True)
+        location_map_plot.savefig(figure, dpi=dpi_resolution, transparent=True)
         plt.close()

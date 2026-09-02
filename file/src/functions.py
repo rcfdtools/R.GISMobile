@@ -40,14 +40,14 @@ def location_map(point_latitude, point_longitude, point_name, state_filter = 'Al
     point_location = Point(point_longitude, point_latitude)
     point_gdf = gpd.GeoDataFrame(geometry=[point_location], crs=state_shapefile.crs)
     fig, ax = plt.subplots(figsize=(horizontal_size, vertical_size))  # Adjust figure size as needed
-    if plot_only_shape:
-        county_linewidth = 4 # Applied when you print only the county limit
+    if plot_only_shape: # Applied when you print only the county limit
+        county_linewidth = 4
         plt.margins(0)
         ax.margins(0.025)
         ax.axis('off')
         fig.subplots_adjust(left=0, right=1, bottom=0, top=1)
-        fontsize = 18
-        xytext = (-80, 0)
+        fontsize = 26
+        xytext = (-120, 0)
     if plot_state:
         county_shapefile.boundary.plot(ax=ax, edgecolor='black', linewidth=county_linewidth)  # , label='AH'
         if county_label_on:
