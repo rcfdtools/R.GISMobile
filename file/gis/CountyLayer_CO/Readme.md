@@ -29,6 +29,8 @@ The counties files will contain the following names in the compress .zip archive
 
 ## Colombian States
 
+In Colombia, "Departamentos" (Departments) are the main regional administrative divisions that split the country into 33 large political areas, one special Capital District, which is Bogotá D.C. They are the top level of regional government below the national government. You can think of them like states in the United States or provinces in other nations. 
+
 * [05 - Antioquia](05.md) (125 Counties)
 * [08 - Atlántico](08.md) (23 Counties)
 * [11 - Bogotá, D.C.](11.md) (1 Counties)
