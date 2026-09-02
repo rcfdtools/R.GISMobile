@@ -9,7 +9,7 @@ import processing
 # Export layers
 output_path = 'D:/R.GISMobile/file/temp/'
 layer = iface.activeLayer()
-layer_suffix = '_District_202608' # ● Suffix for label each exported layer, e.g., U_TERRENO correspond to 'Urban'
+layer_suffix = '_Rural_Vereda_202608' # ● Suffix for label each exported layer, e.g., U_TERRENO correspond to 'Urban'
 index_field = 'CountyID' # ● Index field in the selected layer
 print_explicit = False # ● Show explicit running in console
 run_complete = True # ● Run for each index_field value. Use False if you want to get the unique value list
