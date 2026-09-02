@@ -1,7 +1,6 @@
 # https://github.com/rcfdtools
 # -*- coding: UTF-8 -*-
 # Markdown report of individual county layers in /shp
-from logging import NullHandler
 
 # Libraries
 import functions as funcs
