@@ -27,7 +27,7 @@ dicts = {
 
     'keywords': 'Keywords: `geographical-information-system` `gis` `igac` `ider` `geodata` `colombia` `south-america`',
 
-    'county_layer_filetype': 'The county files will contain the following names in the compress .zip file name, at the end the showed number correspond to the year and month version, e.g., 202606 means the file correspond to June 2026.',
+    'county_layer_filetype': 'The counties files will contain the following names in the compress .zip archive. At the end, the showed number correspond to the year and month version, e.g., 202606 means the file correspond to June 2026.',
 
     'disclaimer': '**APPS & TOOLS & CONTENT DISCLAIMER**: • NO WARRANTY - This content and software is provided by <a href="https://github.com/rcfdtools" target="_blank">github.com/rcfdtools</a> "as is", without any express or implied warranty, including warranties of merchantability, fitness for a particular purpose, or non-infringement. There is no guarantee that the software will be error-free or operate without interruption. • LIMITATION OF LIABILITY - Neither the authors nor copyright holders will be liable for claims or damages arising from the software or its use. You are responsible for determining if the software is appropriate for your use and assume all associated risks, including errors, legal compliance, and data loss. • NO PROFESSIONAL ADVICE - The software provides general information and does not offer professional advice. It should not replace consultation with professional advisors. [Clauses and global license for rcfdtools use.](https://github.com/rcfdtools/rcfdtools/blob/main/LICENSE.md)',
 }

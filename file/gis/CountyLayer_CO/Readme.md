@@ -6,9 +6,9 @@ Keywords: `geographical-information-system` `gis` `igac` `ider` `geodata` `colom
 County GIS layers are individual digital map datasets stacked together in a Geographic Information System (GIS) to visualize, manage, and analyze a county´s geographic information. Local governments, researches and engineers use these layers to run daily operations, plan infrastructure, track tax assessments, evaluate land plot risk, and dispatch emergency services.
 
 
-## File types
+## File names
 
-The county files will contain the following names in the compress .zip file name, at the end the showed number correspond to the year and month version, e.g., 202606 means the file correspond to June 2026.
+The counties files will contain the following names in the compress .zip archive. At the end, the showed number correspond to the year and month version, e.g., 202606 means the file correspond to June 2026.
 
 | FileName     | EnDesc                                                  | EsDesc                                           |
 |:-------------|:--------------------------------------------------------|:-------------------------------------------------|

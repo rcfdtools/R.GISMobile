@@ -39,7 +39,7 @@ df_county_layer_filetype = pd.read_csv(county_layer_filetype_path, encoding='cp1
 df_state = df_county['DeCodigo'].unique()
 funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
 funcs.print_log(file_log, f'# {dictionary.dicts['study_name']} \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n\n', on_screen=print_on_screen)
-funcs.print_log(file_log, f'## File types\n\n{dictionary.dicts['county_layer_filetype']}\n\n{df_county_layer_filetype.to_markdown(index=False)}\n\n', on_screen=print_on_screen)
+funcs.print_log(file_log, f'## File names\n\n{dictionary.dicts['county_layer_filetype']}\n\n{df_county_layer_filetype.to_markdown(index=False)}\n\n', on_screen=print_on_screen)
 for state in df_state:
     print_dataframe = pd.DataFrame(columns=['CountyID', 'CountyName', 'CountyFiles'])
     df_state_info = df_county[df_county['DeCodigo'] == state]
