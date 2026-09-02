@@ -21,7 +21,7 @@ general_vars = ([
 
 # General definitions
 dicts = {
-    'study_name': '🛠️TOOL: _“County GIS Layers - Colombia South America”_',
+    'study_name': '🛠️TOOL: “County GIS Layers - Colombia South America”',
 
     'study_desc': 'County GIS layers are individual digital map datasets stacked together in a Geographic Information System (GIS) to visualize, manage, and analyze a county´s geographic information. Local governments, researches and engineers use these layers to run daily operations, plan infrastructure, track tax assessments, evaluate land plot risk, and dispatch emergency services.',
 

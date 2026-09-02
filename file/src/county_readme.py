@@ -41,8 +41,8 @@ df_state = df_county['DeCodigo'].unique()
 
 # Main Readme.md
 funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
-funcs.print_log(file_log, f'# {dictionary.dicts['study_name']} \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n\n', on_screen=print_on_screen)
-funcs.print_log(file_log, f'## File names\n\n{dictionary.dicts['county_layer_filetype']}\n\n{df_county_layer_filetype.to_markdown(index=False)}\n\n', on_screen=print_on_screen)
+funcs.print_log(file_log, f'# _{dictionary.dicts['study_name']}_ \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n\n', on_screen=print_on_screen)
+funcs.print_log(file_log, f'## File names\n\n{dictionary.dicts['county_layer_filetype']}\n\n{df_county_layer_filetype.to_markdown(index=False)}\n\n\n## Colombian States\n', on_screen=print_on_screen)
 for state in df_state:
     df_state_info = df_county[df_county['DeCodigo'] == state]
     state_name = df_state_info['DeNombre'].values[0]
@@ -62,7 +62,7 @@ for state in df_state:
     state_name = df_state_info['DeNombre'].values[0]
     df_county_filter = df_county[df_county['DeCodigo'] == state]
     funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
-    funcs.print_log(file_log, f'# {dictionary.dicts['study_name']} / {state} - {state_name} ({len(df_county_filter)} Counties) \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n', on_screen=print_on_screen)
+    funcs.print_log(file_log, f'# _{dictionary.dicts['study_name']} for {state} - {state_name} ({len(df_county_filter)} Counties)_ \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n', on_screen=print_on_screen)
     state_latitude = df_state_info['Latitude'].values[0]
     state_longitude = df_state_info['Longitude'].values[0]
     #funcs.print_log(file_log, f'\n# {state} - {state_name} ({len(df_county_filter)} Counties)\n')
