@@ -24,10 +24,10 @@ minimap_link = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/Mini
 dir_path = Path('../shp')
 print_on_screen = False # Global print graph in screen
 zip_files = [file.name for file in dir_path.glob('*.zip')]
-file_log_name = f'../shp/Readme.md'  # Markdown file log
+file_log_name = f'../gis/CountyLayer_CO/Readme.md'  # Markdown file log
 file_log = open(file_log_name, 'w+', encoding='utf-8')  # w+ create the file if it doesn't exist
 # County list
-dbf_county = Dbf5('../shp/ColombiaCounty4326.dbf', codec='cp1252')
+dbf_county = Dbf5(f'{dir_path}/ColombiaCounty4326.dbf', codec='cp1252')
 df_county = pd.DataFrame(dbf_county.to_dataframe())
 df_county = df_county[['DeCodigo', 'DeNombre', 'MpCodigo', 'MpNombre', 'MpNorma', 'Latitude', 'Longitude']]
 df_county = df_county.sort_values(by=['DeCodigo', 'DeNombre', 'MpNombre', 'MpCodigo'])

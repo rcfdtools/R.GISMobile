@@ -16,7 +16,7 @@ GISMobile utiliza bases de datos geográficas en formato File Geodatabase de ESR
 ## Descargas y consultas
 
 * [GISMobile: Puntos de interés Mundial - POI](.poi/Readme.md)
-* [GISMobile: GIS Layers por Municipio - Colombia Suramérica](file/shp/Readme.md)
+* [GISMobile: GIS Layers por Municipio - Colombia Suramérica](file/gis/CountyLayer_CO/Readme.md)
 * [GISMobile: Predial - Colombia Suramérica](file/gis/Predial_CO)
 * [GISMobile: EAAB - Colombia Suramérica](file/gis/EAAB_CO)
 
