@@ -18,7 +18,7 @@ minimap_path = '../gis/MiniMAP/'
 dpi_resolution = 180
 run_colombia_state = False
 run_colombia_county_national_point = False
-run_colombia_county_simple = True
+run_colombia_county_simple = False
 
 # Colombia State MiniMAP
 if run_colombia_state:
@@ -64,7 +64,7 @@ if run_colombia_county_national_point:
         location_map_plot.savefig(figure, dpi=dpi_resolution)
         plt.close()
 
-# Colombia County simple polygon: LocationMapCountySimple.png
+# Colombia County simple polygon and with transparency: LocationMapCountySimple.png
 if run_colombia_county_simple:
     dpi_resolution = 100
     country_code = '57'
