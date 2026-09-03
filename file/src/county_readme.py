@@ -19,7 +19,7 @@ pd.set_option('display.width', None)
 url_file = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/'
 ppsd_link = 'https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/'
 country_code = '57'
-minimap_link = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/MiniMAP/'
+minimap_link = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/MiniMap/'
 county_layer_path = '../gis/CountyLayer_Co/'
 county_layer_filetype_path = f'{county_layer_path}county_layer_filetype.csv'
 dir_path = Path('../shp')
