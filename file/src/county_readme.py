@@ -66,7 +66,7 @@ for state in df_state:
     state_latitude = df_state_info['Latitude'].values[0]
     state_longitude = df_state_info['Longitude'].values[0]
     #funcs.print_log(file_log, f'\n# {state} - {state_name} ({len(df_county_filter)} Counties)\n')
-    fig_file0a = f'{minimap_link}{country_code}_{state}_LocationMap.png'
+    fig_file0a = f'{minimap_link}{country_code}_{state}_MiniMap.png'
     funcs.print_log(file_log, f'<img alt="rcfdtools" src="{fig_file0a}" width="600px"></img>', center_div=True, on_screen=print_on_screen)
     df_county_unique = df_county_filter['MpCodigo'].unique()
     for county in df_county_unique:
@@ -74,7 +74,7 @@ for state in df_state:
         df_county_info['MpNorma'] = df_county_info['MpNorma'].fillna('')
         county_name = df_county_info['MpNombre'].values[0]
         county_ppsd_link = f'[{str(county)}]({ppsd_link}{str(county)}.md)'
-        county_minimap = f'<img alt="rcfdtools" src="{minimap_link}{country_code}_{str(county)}_LocationMapCountySimple.png" height="150px">'
+        county_minimap = f'<img alt="rcfdtools" src="{minimap_link}{country_code}_{str(county)}_MiniMapCountySimple.png" height="150px">'
         zip_files_filter = [item for item in zip_files if item.startswith(county)]
         files_txt = ''
         if len(zip_files_filter) > 0:
