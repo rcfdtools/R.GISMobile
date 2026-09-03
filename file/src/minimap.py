@@ -14,13 +14,13 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
 # General parameters
-minimap_path = '../gis/MiniMAP/'
+minimap_path = '../gis/MiniMap/'
 dpi_resolution = 180
 run_colombia_state = False
 run_colombia_county_national_point = False
 run_colombia_county_simple = False
 
-# Colombia State MiniMAP
+# Colombia State MiniMap: MiniMap.png
 if run_colombia_state:
     dpi_resolution = 180
     country_code = '57'
@@ -32,7 +32,7 @@ if run_colombia_state:
     db_layer_list = df_layer['DeCodigo'].unique()
     print(f'Colombia State: {db_layer_list}\n')
     for minimap_name in db_layer_list:
-        figure = f'{minimap_path}{country_code}_{minimap_name}_LocationMap.png'
+        figure = f'{minimap_path}{country_code}_{minimap_name}_MiniMap.png'
         df_state_info = df_layer[df_layer['DeCodigo'] == minimap_name]
         name = df_state_info['DeNombre'].values[0]
         latitude = df_state_info['Latitude'].values[0]
@@ -42,7 +42,7 @@ if run_colombia_state:
         location_map_plot.savefig(figure, dpi=dpi_resolution)
         plt.close()
 
-# Colombia County National Point Location
+# Colombia County National Point Location: MiniMapCountry.png
 if run_colombia_county_national_point:
     dpi_resolution = 180
     country_code = '57'
@@ -54,7 +54,7 @@ if run_colombia_county_national_point:
     db_layer_list = df_layer['MpCodigo'].unique()
     print(f'Colombia county: {db_layer_list}\n')
     for minimap_name in db_layer_list:
-        figure = f'{minimap_path}{country_code}_{minimap_name}_LocationMapCountry.png'
+        figure = f'{minimap_path}{country_code}_{minimap_name}_MiniMapCountry.png'
         df_state_info = df_layer[df_layer['MpCodigo'] == minimap_name]
         name = df_state_info['MpNombre'].values[0]
         latitude = df_state_info['LatCentr'].values[0]
@@ -64,7 +64,7 @@ if run_colombia_county_national_point:
         location_map_plot.savefig(figure, dpi=dpi_resolution)
         plt.close()
 
-# Colombia County simple polygon and with transparency: LocationMapCountySimple.png
+# Colombia County simple polygon and with transparency: MiniMapCountySimple.png
 if run_colombia_county_simple:
     dpi_resolution = 100
     country_code = '57'
@@ -76,7 +76,7 @@ if run_colombia_county_simple:
     db_layer_list = df_layer['MpCodigo'].unique()
     print(f'Colombia county: {db_layer_list}\n')
     for minimap_name in db_layer_list:
-        figure = f'{minimap_path}{country_code}_{minimap_name}_LocationMapCountySimple.png'
+        figure = f'{minimap_path}{country_code}_{minimap_name}_MiniMapCountySimple.png'
         df_state_info = df_layer[df_layer['MpCodigo'] == minimap_name]
         name = df_state_info['MpNombre'].values[0]
         latitude = df_state_info['LatCentr'].values[0]
