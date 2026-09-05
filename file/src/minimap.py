@@ -3,7 +3,7 @@
 # MiniMAP
 
 # Libraries
-import functions as funcs
+import county_layer_functions as funcs
 from simpledbf import Dbf5
 import tabulate
 import matplotlib.pyplot as plt

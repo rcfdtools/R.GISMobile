@@ -3,8 +3,8 @@
 # Markdown report of individual county layers in /shp
 
 # Libraries
-import functions as funcs
-import dictionary as dictionary
+import county_layer_functions as funcs
+import county_layer_dictionary as dictionary
 from pathlib import Path
 from simpledbf import Dbf5
 import tabulate
