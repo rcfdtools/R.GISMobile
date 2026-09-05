@@ -22,6 +22,8 @@ esri2geojson https://geodatos.antioquia.gov.co/server/rest/services/Catastro/Vis
 
 ## IDER Cundinamarca
 
+The Regional Spatial Data Infrastructure (IDER) provides geospatial and statistical information on Bogotá and the municipalities of Cundinamarca, which is useful for the development and understanding of the territory.
+
 * Source: https://ider.cundinamarca.gov.co/
 * Cundinamarca counties shapefile versions in [IDER.xlsx](../table/IDER.xlsx)
 * Counties: '25019', '25035', '25040', '25053', '25095', '25123', '25151', '25154', '25168', '25178', '25200', '25224', '25245', '25258', '25260', '25269', '25281', '25288', '25293', '25297', '25299', '25312', '25317', '25320', '25326', '25328', '25335', '25368', '25372', '25386', '25394', '25407', '25436', '25438', '25483', '25486', '25489', '25491', '25506', '25518', '25524', '25530', '25535', '25580', '25592', '25594', '25596', '25599', '25645', '25653', '25662', '25718', '25743', '25769', '25777', '25779', '25781', '25793', '25797', '25805', '25807', '25815', '25839', '25841', '25843', '25845', '25862', '25867', '25871', '25873', '25875', '25878', '25885', '25898'
@@ -50,7 +52,7 @@ It contains geographic and alphanumeric cadastral data for municipalities within
 * County: '11001'
 
 
-## Data sources
+## Complementary data sources
 
 * [Cartografía básica urbana. Municipio de El Colegio del Departamento de Cundinamarca. Escala 1:1.000. Año 2021 gdb](https://hub.arcgis.com/datasets/ac25453ed9af4aa5a470bfaa000ae15e/about)
 
