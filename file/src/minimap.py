@@ -19,6 +19,7 @@ dpi_resolution = 180
 run_colombia_state = False
 run_colombia_county_national_point = False
 run_colombia_county_simple = False
+run_colombia_country = False
 
 # Colombia State MiniMap: MiniMap.png
 if run_colombia_state:
@@ -85,3 +86,17 @@ if run_colombia_county_simple:
         location_map_plot = funcs.location_map(point_latitude = latitude, point_longitude = longitude, point_name = f'{minimap_name} - {name.upper()}', state_filter = 'All', county_label_on = False, show_marker = False, horizontal_size = 8, vertical_size = 6, plot_state=False, county_filter = minimap_name, plot_only_shape = True)
         location_map_plot.savefig(figure, dpi=dpi_resolution, transparent=True)
         plt.close()
+
+
+# Colombia State MiniMap: Country.png
+if run_colombia_country:
+    dpi_resolution = 180
+    country_code = '57'
+    figure = f'{minimap_path}{country_code}_MiniMapCountry.png'
+    name = 'Colombia'
+    latitude = 4.000000
+    longitude = -73.000000
+    print(figure)
+    location_map_plot = funcs.location_map(point_latitude = latitude, point_longitude = longitude, point_name = f'{country_code} - {name.upper()}', state_filter = 'All', county_label_on = True, show_marker = False, horizontal_size = 6, vertical_size = 6, plot_state=True, county_filter = 'All', plot_only_shape = False)
+    location_map_plot.savefig(figure, dpi=dpi_resolution)
+    plt.close()

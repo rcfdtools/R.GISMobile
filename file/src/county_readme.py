@@ -42,7 +42,8 @@ df_state = df_county['DeCodigo'].unique()
 # Main Readme.md
 funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
 funcs.print_log(file_log, f'# _{dictionary.dicts['study_name']}_ \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n\n', on_screen=print_on_screen)
-funcs.print_log(file_log, f'## File names\n\n{dictionary.dicts['county_layer_filetype']}\n\n{df_county_layer_filetype.to_markdown(index=False)}\n\n\n## Colombian States\n\n{dictionary.dicts['state']}\n', on_screen=print_on_screen)
+funcs.print_log(file_log, f'<img alt="rcfdtools" src="{minimap_link}{country_code}_MiniMapCountry.png" width="600px"></img>', center_div=True, on_screen=print_on_screen)
+funcs.print_log(file_log, f'## File Names\n\n{dictionary.dicts['county_layer_filetype']}\n\n{df_county_layer_filetype.to_markdown(index=False)}\n\n\n## Colombian States\n\n{dictionary.dicts['state']}\n', on_screen=print_on_screen)
 for state in df_state:
     df_state_info = df_county[df_county['DeCodigo'] == state]
     state_name = df_state_info['DeNombre'].values[0]
