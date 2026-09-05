@@ -57,6 +57,11 @@ It contains geographic and alphanumeric cadastral data for municipalities within
 * [Cartografía básica urbana. Municipio de El Colegio del Departamento de Cundinamarca. Escala 1:1.000. Año 2021 gdb](https://hub.arcgis.com/datasets/ac25453ed9af4aa5a470bfaa000ae15e/about)
 
 
+#
+
+<div align="center"><img alt="rcfdtools" src="../../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>
+
+
 | [:house: Start](../../README.md)  | [:beginner: Help / Collab](https://github.com/rcfdtools/R.GISMobile/discussions) |
 |-----------------------------------|------------------------------------------------------------------------------------|
 
