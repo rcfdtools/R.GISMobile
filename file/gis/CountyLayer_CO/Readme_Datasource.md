@@ -1,18 +1,24 @@
 <div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>
 
-# 📝County GIS Layers - ChangeLog
+# 📝County GIS Layers - Datasource & ChangeLog
 
 
 ## Main procedure
 
-1. Download data (manually or from rest service with esri2geojson): rest_service_geojson_to_shapefile.py
-2. Convert .json to shapefile: rest_service_geojson_to_shapefile.py
-3. County segmentation: county_export_separated.py
-4. Compress .zip: county_zip_layer_individually.py
-5. Update main Readme.md: county_readme.py
+1. Download data (manually or from rest service with esri2geojson): countylayer_rest_service_geojson_to_shapefile.py
+2. Convert .json to shapefile: countylayer_rest_service_geojson_to_shapefile.py
+3. County segmentation: countylayer_export_separated.py
+4. Compress .zip: countylayer_zip_layer_individually.py
+5. Update main Readme.md: countylayer_readme.py
 
 > Antioquia data requires `CountyID = '05' ||  "MUNICIPIO"`
 
+esri2geojson sample:
+```
+pip install esridump
+From CMD as administrator run
+esri2geojson https://geodatos.antioquia.gov.co/server/rest/services/Catastro/Visor_Geo/FeatureServer/0 AntioquiaLimiteMunicipal202608.geojson
+```
 
 ## IDER Cundinamarca
 
