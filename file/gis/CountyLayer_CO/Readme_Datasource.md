@@ -66,6 +66,7 @@ It contains geographic and alphanumeric cadastral data for municipalities within
 * [11001 - Bogotá D.C. Lot](https://www.ideca.gov.co/recursos/mapas/lote-bogota-dc)
 * [11001 - Bogotá D.C. Building](https://www.ideca.gov.co/recursos/mapas/construccion)
 * [25245 - El Colegio](https://hub.arcgis.com/datasets/ac25453ed9af4aa5a470bfaa000ae15e/about)
+* [Base Catastral Pública del Departamento de Choco 202607](https://hub.arcgis.com/datasets/ef867bdadca34e85a65371cb2dcf8799/about)
 
 
 
