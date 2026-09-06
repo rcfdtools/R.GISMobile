@@ -11,7 +11,7 @@
 4. Compress .zip: countylayer_zip_layer_individually.py
 5. Update main Readme.md: countylayer_readme.py
 
-> Antioquia data requires `CountyID = '05' ||  "MUNICIPIO"`
+> Antioquia layers data requires the GIS field `CountyID = '05' ||  "MUNICIPIO"`
 
 esri2geojson sample:
 ```
@@ -19,6 +19,11 @@ pip install esridump
 From CMD as administrator run
 esri2geojson https://geodatos.antioquia.gov.co/server/rest/services/Catastro/Visor_Geo/FeatureServer/0 AntioquiaLimiteMunicipal202608.geojson
 ```
+
+## Counties without layers
+
+The following counties are into process for acquired and publish spatial data: '5001', '5079', '5088', '5212', '5266', '5308', '5380', '5440', '5607', '5615', '5631', '5674', '8001', '11001', '27430', '27493', '52427', '52520', '76001', '94883', '94884', '94885', '94886', '94887', '94888', '97511', '97777', '97889'
+
 
 ## IDER Cundinamarca
 
