@@ -60,7 +60,7 @@ It contains geographic and alphanumeric cadastral data for municipalities within
 
 ## Complementary data sources
 
-* [Cartografía básica urbana. Municipio de El Colegio del Departamento de Cundinamarca. Escala 1:1.000. Año 2021 gdb](https://hub.arcgis.com/datasets/ac25453ed9af4aa5a470bfaa000ae15e/about)
+* [25245 - El Colegio](https://hub.arcgis.com/datasets/ac25453ed9af4aa5a470bfaa000ae15e/about)
 
 
 #
