@@ -12,7 +12,7 @@ run_bulk = 130 # ● Create max n zip files per run to simplify small GitHub pus
 show_details = False # ● Run showing in console files to include in each zip file
 version_info = f'# Dataset Information\n\n* More information in https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/Readme.md'
 files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
-exclude_file_type = ['.zip', '.rar', '*.part*.rar', '.xml', '.cpg', '.sbn', '.sbx', '.qix', '.qmd', '.ovr']
+exclude_file_type = ['.zip', '.rar', '*.part*.rar', '.xml', '.cpg', '.sbn', '.sbx', '.qix', '.qmd', '.ovr', '.part1', '.part2', '.part2', '.part3', '.part4', '.part5', '.part6', '.part7', '.part8', '.part9', '.part10']
 files = [item for item in files if not any(exclude in item for exclude in exclude_file_type)]
 #print(f'Files founded: {files}')
 files_individual = [f.stem for f in Path(directory).iterdir() if f.is_file()]
@@ -21,7 +21,7 @@ files_individual = [item for item in files_individual if item not in exclude_fil
 files_individual = [item for item in files_individual if not any(exclude in item for exclude in exclude_file_type)]
 files_individual = list(set(files_individual))
 files_individual = sorted(files_individual)
-#print(f'Files individual: {files_individual}\n')
+print(f'Files individual: {files_individual}\n')
 print(f'Compressing {len(files)} files into {len(files_individual)} zip files in {directory}')
 run_bulk_start = 0
 for county_file in files_individual:
