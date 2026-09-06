@@ -24,7 +24,8 @@ county_layer_path = '../gis/CountyLayer_Co/'
 county_layer_filetype_path = f'{county_layer_path}county_layer_filetype.csv'
 dir_path = Path('../shp')
 print_on_screen = False # Global print graph in screen
-zip_files = [file.name for file in dir_path.glob('*.zip')]
+# zip_files = [file.name for file in dir_path.glob('*.zip')]
+zip_files = [file.name for file in dir_path.iterdir() if file.suffix in ('.zip', '.rar')]
 file_log_name = f'{county_layer_path}/Readme.md'  # Markdown file log
 file_log = open(file_log_name, 'w+', encoding='utf-8')  # w+ create the file if it doesn't exist
 # County list
