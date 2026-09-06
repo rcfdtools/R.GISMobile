@@ -57,12 +57,15 @@ It contains geographic and alphanumeric cadastral data for municipalities within
 * Counties: '05079', '05088', '05212', '05266', '05308', '05380', '05631'
 * [05001 - Medellín ArcGIS Rest Service](https://www.medellin.gov.co/servidormapas/rest/services)
 * [05001 - Medellín Lot info](https://www.datos.gov.co/en/dataset/Informaci-n-Predios/bp59-rj8r/about_data)
+* https://portalidem.metropol.gov.co/server/rest/services/DISTRITO_MEDELLIN_CATASTRO/MapServer
+* https://geodatos.antioquia.gov.co/server/rest/services/Catastro/BCGS_Catastro_Publico/MapServer
 
 
 ## Complementary data sources
 
 * https://mapas.igac.gov.co/server/rest/services
 * https://mapas2.igac.gov.co/server/rest/services
+* https://www.igac.gov.co/index.php/node/31261
 * [11001 - Bogotá D.C. Lot](https://www.ideca.gov.co/recursos/mapas/lote-bogota-dc)
 * [11001 - Bogotá D.C. Building](https://www.ideca.gov.co/recursos/mapas/construccion)
 * [25245 - El Colegio](https://hub.arcgis.com/datasets/ac25453ed9af4aa5a470bfaa000ae15e/about)
