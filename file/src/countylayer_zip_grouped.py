@@ -1,5 +1,6 @@
 # https://github.com/rcfdtools/R.GISMobile/blob/main/README.md
-# Compress county files into a group ZIP file by CountyID
+# Compress multiple county files into a group ZIP file by CountyID
+
 
 import os
 import glob

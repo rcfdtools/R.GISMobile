@@ -1,18 +1,34 @@
 # https://github.com/rcfdtools/R.GISMobile/blob/main/README.md
 # Compress county files into individual ZIP files
 
+# Libraries
 import os
 import glob
 import zipfile
 from pathlib import Path
 
+# General parameters
 directory = '../shp/'
 run_complete = True # ● Run for each county founded. Use False if you want to get the unique value list
 run_bulk = 130 # ● Create max n zip files per run to simplify small GitHub pushs
 show_details = False # ● Run showing in console files to include in each zip file
 version_info = f'# Dataset Information\n\n* More information in https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/Readme.md'
-files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
 exclude_file_type = ['.zip', '.rar', '*.part*.rar', '.xml', '.cpg', '.sbn', '.sbx', '.qix', '.qmd', '.ovr', '.part1', '.part2', '.part2', '.part3', '.part4', '.part5', '.part6', '.part7', '.part8', '.part9', '.part10']
+
+# List counties with files
+files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
+files = [item for item in files if not any(exclude in item for exclude in exclude_file_type)]
+#print(files)
+target_slice_character = '_'
+county_list = [item.split(target_slice_character)[0] for item in files]
+target_slice_character = '.'
+county_list = [item.split(target_slice_character)[0] for item in county_list]
+county_list = list(set(county_list))
+county_list = sorted(county_list)
+print(f'Counties with files: {county_list}\n')
+
+# Individual compression
+files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
 files = [item for item in files if not any(exclude in item for exclude in exclude_file_type)]
 if show_details: print(f'Files founded: {files}')
 files_individual = [f.stem for f in Path(directory).iterdir() if f.is_file()]
