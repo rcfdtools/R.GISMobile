@@ -51,15 +51,10 @@ It contains geographic and alphanumeric cadastral data for municipalities within
 * Counties: '08372', '08549', '13670', '15001', '15176', '15401', '15480', '15861', '19701', '23001', '41006', '41206', '44279', '50350', '50370', '52079', '52233', '52250', '52256', '52385', '52390', '52418', '52435', '52473', '52490', '52540', '52612', '52621', '52678', '52696', '52699', '54820', '63111', '63212', '63272', '63470', '63594', '68432', '73873', '81794', '85001', '86755', '94001', '94343', '95025', '97161'
 
 
-## IDECA - Bogotá D.C Colombia 20210725
-
-* Source lot: https://www.ideca.gov.co/recursos/mapas/lote-bogota-dc
-* Source building: https://www.ideca.gov.co/recursos/mapas/construccion
-* County: '11001'
-
-
 ## Complementary data sources
 
+* [11001 - Bogotá D.C. Lot](https://www.ideca.gov.co/recursos/mapas/lote-bogota-dc)
+* [11001 - Bogotá D.C. building](https://www.ideca.gov.co/recursos/mapas/construccion)
 * [25245 - El Colegio](https://hub.arcgis.com/datasets/ac25453ed9af4aa5a470bfaa000ae15e/about)
 
 
