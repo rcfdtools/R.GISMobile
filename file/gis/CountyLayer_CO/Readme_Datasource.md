@@ -61,6 +61,8 @@ It contains geographic and alphanumeric cadastral data for municipalities within
 
 ## Complementary data sources
 
+* https://mapas.igac.gov.co/server/rest/services
+* https://mapas2.igac.gov.co/server/rest/services
 * [11001 - Bogotá D.C. Lot](https://www.ideca.gov.co/recursos/mapas/lote-bogota-dc)
 * [11001 - Bogotá D.C. Building](https://www.ideca.gov.co/recursos/mapas/construccion)
 * [25245 - El Colegio](https://hub.arcgis.com/datasets/ac25453ed9af4aa5a470bfaa000ae15e/about)

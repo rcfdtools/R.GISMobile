@@ -24,11 +24,11 @@
 # Convert geojson to shapefile (GeoPandas)
 import geopandas as gpd
 
-file_name_input = '05001MedellinLotes202608'
-#file_name_output = '05631_Rural_Building_202608'
+file_name_input = '05001MedellinConstruccion202608'
+file_name_output = '05001_Building_202608'
 #file_name_output = '05631_Urban_Building_202608'
 #file_name_output = '05631_Rural_Lot_202608'
-file_name_output = '05001_Lot_202608'
+#file_name_output = '05001_Lot_202608'
 
 # 1. Read the GeoJSON file into a GeoDataFrame
 gdf = gpd.read_file(f'../geojson/{file_name_input}.geojson')
