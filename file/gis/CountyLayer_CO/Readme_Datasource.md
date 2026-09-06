@@ -22,7 +22,7 @@ esri2geojson https://geodatos.antioquia.gov.co/server/rest/services/Catastro/Vis
 
 ## Counties without layers
 
-The following counties are into process for acquired and publish spatial data: '5001', '5079', '5088', '5212', '5266', '5308', '5380', '5440', '5607', '5615', '5631', '5674', '8001', '11001', '27430', '27493', '52427', '52520', '76001', '94883', '94884', '94885', '94886', '94887', '94888', '97511', '97777', '97889'
+The following counties are into process for acquired and publish spatial data here in _CountyLayers_CO_: '5001', '5079', '5088', '5212', '5266', '5308', '5380', '5440', '5607', '5615', '5631', '5674', '8001', '11001', '27430', '27493', '52427', '52520', '76001', '94883', '94884', '94885', '94886', '94887', '94888', '97511', '97777', '97889'
 
 
 ## IDER Cundinamarca
