@@ -12,7 +12,7 @@ run_bulk = 130 # ● Create max n zip files per run to simplify small GitHub pus
 show_details = False # ● Run showing in console files to include in each zip file
 version_info = f'# Dataset Information\n\n* More information in https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/Readme.md'
 files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
-exclude_file_type = ['.zip', '.xml', '.cpg', '.sbn', '.sbx', '.qix', '.qmd', '.ovr']
+exclude_file_type = ['.zip', '.rar', '*.part*.rar', '.xml', '.cpg', '.sbn', '.sbx', '.qix', '.qmd', '.ovr']
 files = [item for item in files if not any(exclude in item for exclude in exclude_file_type)]
 #print(f'Files founded: {files}')
 files_individual = [f.stem for f in Path(directory).iterdir() if f.is_file()]
