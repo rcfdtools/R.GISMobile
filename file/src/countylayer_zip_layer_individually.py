@@ -14,14 +14,14 @@ version_info = f'# Dataset Information\n\n* More information in https://github.c
 files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
 exclude_file_type = ['.zip', '.rar', '*.part*.rar', '.xml', '.cpg', '.sbn', '.sbx', '.qix', '.qmd', '.ovr', '.part1', '.part2', '.part2', '.part3', '.part4', '.part5', '.part6', '.part7', '.part8', '.part9', '.part10']
 files = [item for item in files if not any(exclude in item for exclude in exclude_file_type)]
-#print(f'Files founded: {files}')
+if show_details: print(f'Files founded: {files}')
 files_individual = [f.stem for f in Path(directory).iterdir() if f.is_file()]
 exclude_files = {'Readme', 'R.GISMobile', 'Readme_Changelog'}
 files_individual = [item for item in files_individual if item not in exclude_files]
 files_individual = [item for item in files_individual if not any(exclude in item for exclude in exclude_file_type)]
 files_individual = list(set(files_individual))
 files_individual = sorted(files_individual)
-print(f'Files individual: {files_individual}\n')
+if show_details: print(f'Files individual: {files_individual}\n')
 print(f'Compressing {len(files)} files into {len(files_individual)} zip files in {directory}')
 run_bulk_start = 0
 for county_file in files_individual:
