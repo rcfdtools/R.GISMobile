@@ -3,10 +3,7 @@
 # _🛠️TOOL: “County GIS Layers - Colombia South America”_ 
 Keywords: `geographical-information-system` `gis` `igac` `ider` `geodata` `colombia` `south-america`
 
-County GIS layers are individual digital map datasets stacked together in a Geographic Information System (GIS) to visualize, manage, and analyze a county´s geographic information. Local governments, researches and engineers use these layers to run daily operations, plan infrastructure, track tax assessments, evaluate land plot risk, and dispatch emergency services.
-
-
-
+County GIS layers are individual digital map datasets stacked together in a Geographic Information System (GIS) to visualize, manage, and analyze a county´s geographic information. Local governments, researches and engineers use these layers to run daily operations, plan infrastructure, track tax assessments, evaluate land plot risk, and dispatch emergency services. Check the general [Datasource & ChangeLog](Readme_Datasource.md) readme file.
 <div align="center">
 
 <img alt="rcfdtools" src="https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/MiniMap/57_MiniMapCountry.png" width="600px"></img>
@@ -15,7 +12,7 @@ County GIS layers are individual digital map datasets stacked together in a Geog
 
 ## File Names
 
-The counties files will contain the following names in the compress .zip archive. At the end, the showed number correspond to the year and month version, e.g., 202606 means the file correspond to June 2026.
+The counties files will contain the following part names in the compressed (.zip, .rar, .7z) archives. At the end, the showed number correspond to the year and month version, e.g., 202606 means the file correspond to June 2026.
 
 | FileName     | EnDesc                                                  | EsDesc                                           |
 |:-------------|:--------------------------------------------------------|:-------------------------------------------------|
@@ -36,7 +33,7 @@ The counties files will contain the following names in the compress .zip archive
 
 ## Colombian States
 
-In Colombia, "Departamentos" (Departments) are the main regional administrative divisions that split the country into 33 large political areas, one special Capital District, which is Bogotá D.C. They are the top level of regional government below the national government. You can think of them like states in the United States or provinces in other nations. 
+In Colombia, "Departamentos" (Departments) are the main regional administrative divisions that split the country into 33 large political areas, one special Capital District, which is Bogotá D.C. They are the top level of regional government below the national government. You can think of them like states in the United States or provinces in other nations.
 
 * [05 - Antioquia](05.md) (125 Counties)
 * [08 - Atlántico](08.md) (23 Counties)

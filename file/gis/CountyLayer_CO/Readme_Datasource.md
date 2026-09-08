@@ -22,7 +22,7 @@ esri2geojson https://geodatos.antioquia.gov.co/server/rest/services/Catastro/Vis
 
 ## Counties without layers
 
-The following counties are into process for acquired and publish spatial data here in _CountyLayers_CO_: '05607', '05615', '05631', '05674', '08001', '27430', '27493', '52427', '52520', '76001', '94883', '94884', '94885', '94886', '94887', '94888', '97511', '97777', '97889'
+The following counties are into process for acquired and publish spatial data here in _CountyLayers_CO_: '05615', '05631', '05674', '08001', '27430', '27493', '52427', '52520', '76001', '94883', '94884', '94885', '94886', '94887', '94888', '97511', '97777', '97889'
 
 
 ## IDER Cundinamarca
@@ -63,13 +63,14 @@ It contains geographic and alphanumeric cadastral data for municipalities within
 
 ## Complementary data sources
 
+* [IGAC - Dirección de Gestión Catastral](https://www.igac.gov.co/index.php/node/31261)
 * https://mapas.igac.gov.co/server/rest/services
 * https://mapas2.igac.gov.co/server/rest/services
-* https://www.igac.gov.co/index.php/node/31261
+* [Base Catastral Pública del Departamento de Choco 202607](https://hub.arcgis.com/datasets/ef867bdadca34e85a65371cb2dcf8799/about)
 * [11001 - Bogotá D.C. Lot](https://www.ideca.gov.co/recursos/mapas/lote-bogota-dc)
 * [11001 - Bogotá D.C. Building](https://www.ideca.gov.co/recursos/mapas/construccion)
 * [25245 - El Colegio](https://hub.arcgis.com/datasets/ac25453ed9af4aa5a470bfaa000ae15e/about)
-* [Base Catastral Pública del Departamento de Choco 202607](https://hub.arcgis.com/datasets/ef867bdadca34e85a65371cb2dcf8799/about)
+* [05607 - El Retiro](https://dsitelretiro-alcretiro.hub.arcgis.com/datasets/e4a313ef008749c3a110d84a7c63aa7e/about)
 
 
 
