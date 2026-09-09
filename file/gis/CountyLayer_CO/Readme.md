@@ -4,34 +4,12 @@
 Keywords: `geographical-information-system` `gis` `igac` `ider` `geodata` `colombia` `south-america`
 
 County GIS layers are individual digital map datasets stacked together in a Geographic Information System (GIS) to visualize, manage, and analyze a county´s geographic information. Local governments, researches and engineers use these layers to run daily operations, plan infrastructure, track tax assessments, evaluate land plot risk, and dispatch emergency services. Check the general [Datasource & ChangeLog](Readme_Datasource.md) Readme file.
+
 <div align="center">
 
 <img alt="rcfdtools" src="https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/MiniMap/57_MiniMapCountry.png" width="600px"></img>
 
 </div>
-
-## File Names
-
-The counties files will contain the following part names in the compressed (.zip, .rar, .7z) archives. At the end, the showed number correspond to the year and month version, e.g., 202606 means the file correspond to June 2026.
-
-| FileName     | EnDesc                                                  | EsDesc                                                     |
-|:-------------|:--------------------------------------------------------|:-----------------------------------------------------------|
-| Block        | Urban block                                             | Manzana urbana                                             |
-| Building     | Building or construction under roof                     | Construcción o edificación bajo cubierta                   |
-| Carto        | Detail Cartography                                      | Cartografía detallada                                      |
-| District     | Municipal or county District                            | Corregimiento                                              |
-| IGAC         | Colombian Agustin Codazzi Geographic Institute          | Instituto Geográfico Agustín Codazzi de Colombia           |
-| Limit        | County limit or municipal limit                         | Límite municipal                                           |
-| Lot          | Land plot                                               | Lote, predio o terreno                                     |
-| Neighborhood | Urban Neighborhood                                      | Barrio urbano                                              |
-| Nomenclature | Nomenclature or lot address                             | Dirección o nombre de predio                               |
-| Perimeter    | Perimeter around urban lots                             | Perímetro de predios urbanos                               |
-| R1           | Record number 1                                         | Registro 1 de catastro - Información del predio            |
-| R2           | Record number 2                                         | Registro 2 de catastro - Información de las construcciones |
-| Road         | Road or pathway                                         | Vía                                                        |
-| Rural        | Rural zone                                              | Zona rural                                                 |
-| Sector       | Sector or land plot aggrupation in urban or rural areas | Sector urbano o rural                                      |
-| Vereda       | Rural zonification                                      | Zonificación rural                                         |
 
 
 ## Colombian States
@@ -71,6 +49,31 @@ In Colombia, "Departamentos" (Departments) are the main regional administrative 
 * [95 - Guaviare](95.md) (4 Counties)
 * [97 - Vaupés](97.md) (6 Counties)
 * [99 - Vichada](99.md) (4 Counties)
+
+
+## File Names
+
+The counties files will contain the following part names in the compressed (.zip, .rar, .7z) archives. At the end, the showed number correspond to the year and month version, e.g., 202606 means the file correspond to June 2026.
+
+| FileName     | EnDesc                                                  | EsDesc                                                     |
+|:-------------|:--------------------------------------------------------|:-----------------------------------------------------------|
+| Block        | Urban block                                             | Manzana urbana                                             |
+| Building     | Building or construction under roof                     | Construcción o edificación bajo cubierta                   |
+| Carto        | Detail Cartography                                      | Cartografía detallada                                      |
+| District     | Municipal or county District                            | Corregimiento                                              |
+| IGAC         | Colombian Agustin Codazzi Geographic Institute          | Instituto Geográfico Agustín Codazzi de Colombia           |
+| Limit        | County limit or municipal limit                         | Límite municipal                                           |
+| Lot          | Land plot                                               | Lote, predio o terreno                                     |
+| Neighborhood | Urban Neighborhood                                      | Barrio urbano                                              |
+| Nomenclature | Nomenclature or lot address                             | Dirección o nombre de predio                               |
+| Perimeter    | Perimeter around urban lots                             | Perímetro de predios urbanos                               |
+| R1           | Record number 1                                         | Registro 1 de catastro - Información del predio            |
+| R2           | Record number 2                                         | Registro 2 de catastro - Información de las construcciones |
+| Road         | Road or pathway                                         | Vía                                                        |
+| Rural        | Rural zone                                              | Zona rural                                                 |
+| Sector       | Sector or land plot aggrupation in urban or rural areas | Sector urbano o rural                                      |
+| Vereda       | Rural zonification                                      | Zonificación rural                                         |
+
 
 #
 
