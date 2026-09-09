@@ -27,6 +27,11 @@
 *.tfw
 *.tif
 *.ovr
+file/shp/*.csv
+file/table/*.csv
+file/temp/*.csv
+file/table/REGISTRO_R1/*.csv
+file/table/REGISTRO_R2/*.csv
 file/gdb/*.gdb
 file/gdb/*.gpkg
 file/dem/*.tif
