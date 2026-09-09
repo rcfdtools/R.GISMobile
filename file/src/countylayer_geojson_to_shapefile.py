@@ -24,8 +24,8 @@
 # Convert geojson to shapefile (GeoPandas)
 import geopandas as gpd
 
-file_name_input = '08001_Nomenclature_202608'
-file_name_output = '08001_Nomenclature_202608'
+file_name_input = '08001_Lot_202608ZZZZZ'
+file_name_output = '08001_Lot_202608'
 #file_name_output = '05631_Urban_Building_202608'
 #file_name_output = '05631_Rural_Lot_202608'
 #file_name_output = '05001_Lot_202608'
