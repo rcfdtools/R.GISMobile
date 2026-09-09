@@ -6,10 +6,11 @@
 ## Main procedure
 
 1. Download data (manually or from rest service with esri2geojson): countylayer_geojson_to_shapefile.py
-2. Convert .json to shapefile: countylayer_geojson_to_shapefile.py
-3. County segmentation: countylayer_export_separated.py
-4. Compress .zip: countylayer_zip_layer_individually.py
-5. Update main Readme.md: countylayer_readme.py
+2. Convert .json layer to shapefile: countylayer_geojson_to_shapefile.py
+3. County layer segmentation: countylayer_export_separated.py
+4. IGAC Record 1 & Record 2 segmentation: countylayer_igac_r1_r2.py
+5. Compress .zip: countylayer_zip_layer_individually.py
+6. Update main Readme.md: countylayer_readme.py
 
 > Antioquia layers data requires the GIS field `CountyID = '05' ||  "MUNICIPIO"`
 
@@ -22,7 +23,7 @@ esri2geojson https://geodatos.antioquia.gov.co/server/rest/services/Catastro/Vis
 
 ## Counties without layers
 
-The following counties are into process for acquired and publish spatial data here in _CountyLayers_CO_: '05440', '05615', '05674', '52427', '52520', '94883', '94884', '94885', '94886', '94887', '94888', '97511', '97777', '97889'
+The following counties are into process for acquired and publish spatial data here in _CountyLayer_CO_: '05440', '05615', '05674', '52427', '52520', '94883', '94884', '94885', '94886', '94887', '94888', '97511', '97777', '97889'
 
 
 ## IDER Cundinamarca
