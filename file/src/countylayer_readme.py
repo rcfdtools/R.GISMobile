@@ -21,7 +21,8 @@ ppsd_link = 'https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population
 country_code = '57'
 minimap_link = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/MiniMap/'
 county_layer_path = '../gis/CountyLayer_Co/'
-county_layer_filetype_path = f'{county_layer_path}county_layer_filetype.csv'
+county_layer_filetype_path = f'{county_layer_path}countylayer_filetype.csv'
+county_layer_economic_destination_igac_path = f'{county_layer_path}countylayer_economic_destination_igac.csv'
 dir_path = Path('../shp')
 print_on_screen = False # Global print graph in screen
 # zip_files = [file.name for file in dir_path.glob('*.zip')]
@@ -49,6 +50,9 @@ df_cadastre_manager.drop(df_cadastre_manager[df_cadastre_manager['mpcodigo'] == 
 # Filetype list
 df_county_layer_filetype = pd.read_csv(county_layer_filetype_path, encoding='cp1252', sep=',', dtype={'FileName': 'str', 'EnDesc': 'str', 'EsDesc': 'str'})
 #print(df_county_layer_filetype.to_markdown(index=False))
+# IGAC - Economic destination
+df_county_layer_economic_destination_igac = pd.read_csv(county_layer_economic_destination_igac_path, encoding='cp1252', sep=',', dtype={'FileName': 'str', 'EnDesc': 'str', 'EsDesc': 'str'})
+#print(df_county_layer_economic_destination_igac.to_markdown(index=False))
 # State list
 df_state = df_county['DeCodigo'].unique()
 
@@ -63,6 +67,7 @@ for state in df_state:
     df_county_filter = df_county[df_county['DeCodigo'] == state]
     funcs.print_log(file_log, f'\n* [{state} - {state_name}]({state}.md) ({len(df_county_filter)} Counties)')
 funcs.print_log(file_log, f'\n\n\n## File Names\n\n{dictionary.dicts['county_layer_filetype']}\n\n{df_county_layer_filetype.to_markdown(index=False)}\n', on_screen=print_on_screen)
+funcs.print_log(file_log, f'\n\n\n## IGAC - Economic Destination\n\n{dictionary.dicts['county_layer_economic_destination_igac']}\n\n{df_county_layer_economic_destination_igac.to_markdown(index=False)}\n', on_screen=print_on_screen)
 funcs.print_log(file_log, f'\n\n#\n\n<div align="center"><img alt="rcfdtools" src="../../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>', on_screen=print_on_screen)
 funcs.print_log(file_log, f'\n\n<sub>{dictionary.dicts['disclaimer']}</sub>', on_screen=print_on_screen)
 funcs.print_log(file_log, f'\n\n| [:house: Home](../../../README.md)  | [:beginner: Help / Collab](https://github.com/rcfdtools/R.GISMobile/discussions) |', on_screen=print_on_screen)
