@@ -29,7 +29,7 @@ dicts = {
 
     'county_layer_filetype': 'The counties files will contain the following part names in the compressed (.zip, .rar, .7z) archives. At the end, the showed number correspond to the year and month version, e.g., 202606 means the file correspond to June 2026.',
 
-    'county_layer_economic_destination_igac': 'The land plot economic destinations correspond with the Article 86 of Resolution 70 of 2011, Agustín Codazzi Geographic Institute.',
+    'county_layer_economic_destination_igac': 'The land plot economic destinations correspond with the Article 86 of [Resolution 70 of 2011](../ref/resolucion_70_de_2011.pdf), Agustín Codazzi Geographic Institute of Colombia South America.',
 
     'state': 'In Colombia, "Departamentos" (Departments) are the main regional administrative divisions that split the country into 33 large political areas, one special Capital District, which is Bogotá D.C. They are the top level of regional government below the national government. You can think of them like states in the United States or provinces in other nations.',
 
