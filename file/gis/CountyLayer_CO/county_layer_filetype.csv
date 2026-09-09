@@ -1,14 +1,15 @@
 FileName,EnDesc,EsDesc
-Rural,Rural zone,Zona rural
-Lot,Land plot,"Lote, predio o terreno"
+Block,Urban block,Manzana urbana
 Building,Building or construction under roof,Construcción o edificación bajo cubierta
+Carto,Detail Cartography,Cartografía detallada
+District,Municipal or county District,Corregimiento
+IGAC,Colombian Agustin Codazzi Geographic Institute,Instituto Geográfico Agustín Codazzi de Colombia
+Limit,County limit or municipal limit,Límite municipal
+Lot,Land plot,"Lote, predio o terreno"
+Neighborhood,Urban Neighborhood,Barrio urbano
 Nomenclature,Nomenclature or lot address,Dirección o nombre de predio
+Perimeter,Perimeter around urban lots,Perímetro de predios urbanos
+Road,Road or pathway,Vía
+Rural,Rural zone,Zona rural
 Sector,Sector or land plot aggrupation in urban or rural areas,Sector urbano o rural
 Vereda,Rural zonification,Zonificación rural
-Block,Urban block,Manzana urbana
-Perimeter,Perimeter around urban lots,Perímetro de predios urbanos
-Carto,Detail Cartography,Cartografía detallada
-Neighborhood,Urban Neighborhood,Barrio urbano
-District,Municipal or county District,Corregimiento
-Limit,County limit or municipal limit,Límite municipal
-IGAC,Colombian Agustin Codazzi Geographic Institute,Instituto Geográfico Agustín Codazzi de Colombia
