@@ -15,7 +15,7 @@ show_details = False # ● Run showing in console files to include in each zip f
 version_info = f'# Dataset Information\n\n* More information in https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/Readme.md'
 exclude_file_type = ['.zip', '.rar', '*.part*.rar', '.xml', '.cpg', '.sbn', '.sbx', '.qix', '.qmd', '.ovr', '.part1', '.part2', '.part2', '.part3', '.part4', '.part5', '.part6', '.part7', '.part8', '.part9', '.part10']
 
-# List counties with files
+# List counties with files (**** requires update with only founded zip and rar files)
 files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
 files = [item for item in files if not any(exclude in item for exclude in exclude_file_type)]
 #print(files)
