@@ -28,12 +28,24 @@ print_on_screen = False # Global print graph in screen
 zip_files = [file.name for file in dir_path.iterdir() if file.suffix in ('.zip', '.rar')]
 file_log_name = f'{county_layer_path}/Readme.md'  # Markdown file log
 file_log = open(file_log_name, 'w+', encoding='utf-8')  # w+ create the file if it doesn't exist
-# County list
+# County list (es: Listado de municipios)
 dbf_county = Dbf5(f'{dir_path}/ColombiaCounty4326.dbf', codec='cp1252')
 df_county = pd.DataFrame(dbf_county.to_dataframe())
 df_county = df_county[['DeCodigo', 'DeNombre', 'MpCodigo', 'MpNombre', 'MpNorma', 'Latitude', 'Longitude']]
 df_county = df_county.sort_values(by=['DeCodigo', 'DeNombre', 'MpNombre', 'MpCodigo'])
 df_county.drop(df_county[df_county['MpCodigo'] == '00000'].index, inplace=True)
+# Cadastre manager (es: Gestor catastral)
+# Date fields must be deleted in the layer before running
+dbf_cadastre_manager = Dbf5(f'{dir_path}/ColombiaCadastreManager4326.dbf') # , codec='cp1252'
+#print(dbf_cadastre_manager.fields)
+#db_cadastre_manager = dbf_cadastre_manager.to_dataframe()
+df_cadastre_manager = pd.DataFrame(dbf_cadastre_manager.to_dataframe())
+#db_cadastre_manager['date_inici'] = db_cadastre_manager['date_inici'].astype(str)
+#db_cadastre_manager['date_fecha'] = db_cadastre_manager['date_fecha'].astype(str)
+df_cadastre_manager = df_cadastre_manager[['mpcodigo', 'gestor_cat']]
+df_cadastre_manager = df_cadastre_manager.sort_values(by=['mpcodigo'])
+df_cadastre_manager.drop(df_cadastre_manager[df_cadastre_manager['mpcodigo'] == '00000'].index, inplace=True)
+#print(df_cadastre_manager)
 # Filetype list
 df_county_layer_filetype = pd.read_csv(county_layer_filetype_path, encoding='cp1252', sep=',', dtype={'FileName': 'str', 'EnDesc': 'str', 'EsDesc': 'str'})
 #print(df_county_layer_filetype.to_markdown(index=False))
@@ -59,7 +71,7 @@ funcs.print_log(file_log, f'\n|----------------------------|--------------------
 for state in df_state:
     file_log_name = f'{county_layer_path}/{state}.md'  # Markdown file log
     file_log = open(file_log_name, 'w+', encoding='utf-8')  # w+ create the file if it doesn't exist
-    print_dataframe = pd.DataFrame(columns=['MiniMap', 'CountyID', 'CountyName', 'CountyFiles'])
+    print_dataframe = pd.DataFrame(columns=['MiniMap', 'CountyID', 'CountyName', 'Cadastre', 'CountyFiles'])
     df_state_info = df_county[df_county['DeCodigo'] == state]
     state_name = df_state_info['DeNombre'].values[0]
     df_county_filter = df_county[df_county['DeCodigo'] == state]
@@ -72,6 +84,12 @@ for state in df_state:
     funcs.print_log(file_log, f'<img alt="rcfdtools" src="{fig_file0a}" width="600px"></img>', center_div=True, on_screen=print_on_screen)
     df_county_unique = df_county_filter['MpCodigo'].unique()
     for county in df_county_unique:
+        df_cadastre_manager_info = df_cadastre_manager[df_cadastre_manager['mpcodigo'] == county]
+        if len(df_cadastre_manager_info) > 0:
+            cadastre_manager = df_cadastre_manager_info['gestor_cat'].values[0]  ###########
+        else:
+            cadastre_manager = 'Not found'
+        #print(f'County {county}: {cadastre_manager}')
         df_county_info = df_county[df_county['MpCodigo'] == county]
         df_county_info['MpNorma'] = df_county_info['MpNorma'].fillna('')
         county_name = df_county_info['MpNombre'].values[0]
@@ -84,7 +102,7 @@ for state in df_state:
                 files_txt += f'[{file}]({url_file}{file})<br/>'
         else:
             files_txt = 'Not found'
-        print_dataframe.loc[len(print_dataframe)] = [county_minimap, county_ppsd_link, county_name, files_txt]
+        print_dataframe.loc[len(print_dataframe)] = [county_minimap, county_ppsd_link, cadastre_manager, county_name, files_txt]
     funcs.print_log(file_log, print_dataframe.to_markdown(index=False), center_div=True)
     funcs.print_log(file_log, f'\n#\n\n<div align="center"><img alt="rcfdtools" src="../../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>', on_screen = print_on_screen)
     funcs.print_log(file_log, f'\n\n<sub>{dictionary.dicts['disclaimer']}</sub>', on_screen = print_on_screen)
