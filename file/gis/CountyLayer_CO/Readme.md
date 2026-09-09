@@ -3,7 +3,7 @@
 # _🛠️TOOL: “County GIS Layers - Colombia South America”_ 
 Keywords: `geographical-information-system` `gis` `igac` `ider` `geodata` `colombia` `south-america`
 
-County GIS layers are individual digital map datasets stacked together in a Geographic Information System (GIS) to visualize, manage, and analyze a county´s geographic information. Local governments, researches and engineers use these layers to run daily operations, plan infrastructure, track tax assessments, evaluate land plot risk, and dispatch emergency services. Check the general [Datasource & ChangeLog](Readme_Datasource.md) readme file.
+County GIS layers are individual digital map datasets stacked together in a Geographic Information System (GIS) to visualize, manage, and analyze a county´s geographic information. Local governments, researches and engineers use these layers to run daily operations, plan infrastructure, track tax assessments, evaluate land plot risk, and dispatch emergency services. Check the general [Datasource & ChangeLog](Readme_Datasource.md) Readme file.
 <div align="center">
 
 <img alt="rcfdtools" src="https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/MiniMap/57_MiniMapCountry.png" width="600px"></img>
@@ -16,19 +16,20 @@ The counties files will contain the following part names in the compressed (.zip
 
 | FileName     | EnDesc                                                  | EsDesc                                           |
 |:-------------|:--------------------------------------------------------|:-------------------------------------------------|
-| Rural        | Rural zone                                              | Zona rural                                       |
-| Lot          | Land plot                                               | Lote, predio o terreno                           |
+| Block        | Urban block                                             | Manzana urbana                                   |
 | Building     | Building or construction under roof                     | Construcción o edificación bajo cubierta         |
+| Carto        | Detail Cartography                                      | Cartografía detallada                            |
+| District     | Municipal or county District                            | Corregimiento                                    |
+| IGAC         | Colombian Agustin Codazzi Geographic Institute          | Instituto Geográfico Agustín Codazzi de Colombia |
+| Limit        | County limit or municipal limit                         | Límite municipal                                 |
+| Lot          | Land plot                                               | Lote, predio o terreno                           |
+| Neighborhood | Urban Neighborhood                                      | Barrio urbano                                    |
 | Nomenclature | Nomenclature or lot address                             | Dirección o nombre de predio                     |
+| Perimeter    | Perimeter around urban lots                             | Perímetro de predios urbanos                     |
+| Road         | Road or pathway                                         | Vía                                              |
+| Rural        | Rural zone                                              | Zona rural                                       |
 | Sector       | Sector or land plot aggrupation in urban or rural areas | Sector urbano o rural                            |
 | Vereda       | Rural zonification                                      | Zonificación rural                               |
-| Block        | Urban block                                             | Manzana urbana                                   |
-| Perimeter    | Perimeter around urban lots                             | Perímetro de predios urbanos                     |
-| Carto        | Detail Cartography                                      | Cartografía detallada                            |
-| Neighborhood | Urban Neighborhood                                      | Barrio urbano                                    |
-| District     | Municipal or county District                            | Corregimiento                                    |
-| Limit        | County limit or municipal limit                         | Límite municipal                                 |
-| IGAC         | Colombian Agustin Codazzi Geographic Institute          | Instituto Geográfico Agustín Codazzi de Colombia |
 
 
 ## Colombian States
