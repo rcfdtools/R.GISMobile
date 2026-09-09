@@ -9,6 +9,8 @@ Lot,Land plot,"Lote, predio o terreno"
 Neighborhood,Urban Neighborhood,Barrio urbano
 Nomenclature,Nomenclature or lot address,Dirección o nombre de predio
 Perimeter,Perimeter around urban lots,Perímetro de predios urbanos
+R1,Record number 1,Registro 1 de catastro - Información del predio
+R2,Record number 1,Registro 2 de catastro - Información de las construcciones
 Road,Road or pathway,Vía
 Rural,Rural zone,Zona rural
 Sector,Sector or land plot aggrupation in urban or rural areas,Sector urbano o rural
