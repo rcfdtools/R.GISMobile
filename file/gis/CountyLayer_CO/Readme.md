@@ -18,7 +18,7 @@ In Colombia, "Departamentos" (Departments) are the main regional administrative 
 
 * [05 - Antioquia](05.md) (125 Counties)
 * [08 - Atlántico](08.md) (23 Counties)
-* [11 - Bogotá, D.C.](11.md) (1 Counties)
+* [11 - Cundinamarca](11.md) (1 Counties)
 * [13 - Bolívar](13.md) (46 Counties)
 * [15 - Boyacá](15.md) (123 Counties)
 * [17 - Caldas](17.md) (27 Counties)

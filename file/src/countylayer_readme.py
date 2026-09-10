@@ -43,7 +43,7 @@ dbf_cadastre_manager = Dbf5(f'{dir_path}/ColombiaCadastreManager4326.dbf') # , c
 df_cadastre_manager = pd.DataFrame(dbf_cadastre_manager.to_dataframe())
 #db_cadastre_manager['date_inici'] = db_cadastre_manager['date_inici'].astype(str)
 #db_cadastre_manager['date_fecha'] = db_cadastre_manager['date_fecha'].astype(str)
-df_cadastre_manager = df_cadastre_manager[['mpcodigo', 'gestor_cat']]
+df_cadastre_manager = df_cadastre_manager[['mpcodigo', 'Cadastre']]
 df_cadastre_manager = df_cadastre_manager.sort_values(by=['mpcodigo'])
 df_cadastre_manager.drop(df_cadastre_manager[df_cadastre_manager['mpcodigo'] == '00000'].index, inplace=True)
 #print(df_cadastre_manager)
@@ -92,7 +92,7 @@ for state in df_state:
     for county in df_county_unique:
         df_cadastre_manager_info = df_cadastre_manager[df_cadastre_manager['mpcodigo'] == county]
         if len(df_cadastre_manager_info) > 0:
-            cadastre_manager = df_cadastre_manager_info['gestor_cat'].values[0]  ###########
+            cadastre_manager = df_cadastre_manager_info['Cadastre'].values[0]  ###########
         else:
             cadastre_manager = 'Not found'
         #print(f'County {county}: {cadastre_manager}')
