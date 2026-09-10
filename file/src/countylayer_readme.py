@@ -15,11 +15,13 @@ pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
+
 # Processing
 url_file = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/'
 ppsd_link = 'https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/'
 country_code = '57'
 minimap_link = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/MiniMap/'
+igac_map_sheet_link = 'https://www.colombiaenmapas.gov.co/?u=0&t=23&servicio=5&hoja='
 county_layer_path = '../gis/CountyLayer_Co/'
 county_layer_filetype_path = f'../table/countylayer_filetype.csv'
 county_layer_economic_destination_igac_path = f'../table/countylayer_economic_destination_igac.csv'
@@ -29,32 +31,40 @@ print_on_screen = False # Global print graph in screen
 zip_files = [file.name for file in dir_path.iterdir() if file.suffix in ('.zip', '.rar')]
 file_log_name = f'{county_layer_path}/Readme.md'  # Markdown file log
 file_log = open(file_log_name, 'w+', encoding='utf-8')  # w+ create the file if it doesn't exist
+
 # County list (es: Listado de municipios)
 dbf_county = Dbf5(f'{dir_path}/ColombiaCounty4326.dbf', codec='cp1252')
 df_county = pd.DataFrame(dbf_county.to_dataframe())
 df_county = df_county[['DeCodigo', 'DeNombre', 'MpCodigo', 'MpNombre', 'MpNorma', 'Latitude', 'Longitude']]
 df_county = df_county.sort_values(by=['DeCodigo', 'DeNombre', 'MpNombre', 'MpCodigo'])
 df_county.drop(df_county[df_county['MpCodigo'] == '00000'].index, inplace=True)
+
 # Cadastre manager (es: Gestor catastral)
-# Date fields must be deleted in the layer before running
+# Date fields must be moved to Text fields and deleted in the layer before running
 dbf_cadastre_manager = Dbf5(f'{dir_path}/ColombiaCadastreManager4326.dbf') # , codec='cp1252'
 #print(dbf_cadastre_manager.fields)
-#db_cadastre_manager = dbf_cadastre_manager.to_dataframe()
 df_cadastre_manager = pd.DataFrame(dbf_cadastre_manager.to_dataframe())
-#db_cadastre_manager['date_inici'] = db_cadastre_manager['date_inici'].astype(str)
-#db_cadastre_manager['date_fecha'] = db_cadastre_manager['date_fecha'].astype(str)
 df_cadastre_manager = df_cadastre_manager[['mpcodigo', 'Cadastre']]
 df_cadastre_manager = df_cadastre_manager.sort_values(by=['mpcodigo'])
 df_cadastre_manager.drop(df_cadastre_manager[df_cadastre_manager['mpcodigo'] == '00000'].index, inplace=True)
 #print(df_cadastre_manager)
+
+# IGAC Map Sheets (es: Hojas cartográficas)
+dbf_map_sheet = Dbf5(f'{dir_path}/ColombiaCountyMapSheet4326.dbf', codec='cp1252')
+df_map_sheet = pd.DataFrame(dbf_map_sheet.to_dataframe())
+df_map_sheet = df_map_sheet[['MpCodigo', 'PLANCHA']]
+df_map_sheet = df_map_sheet.sort_values(by=['MpCodigo'])
+
 # Filetype list
 df_county_layer_filetype = pd.read_csv(county_layer_filetype_path, encoding='cp1252', sep=',', dtype={'FileName': 'str', 'EnDesc': 'str', 'EsDesc': 'str'})
 #print(df_county_layer_filetype.to_markdown(index=False))
+
 # IGAC - Economic destination
 df_county_layer_economic_destination_igac = pd.read_csv(county_layer_economic_destination_igac_path, encoding='cp1252', sep=',', dtype={'FileName': 'str', 'EnDesc': 'str', 'EsDesc': 'str'})
 #print(df_county_layer_economic_destination_igac.to_markdown(index=False))
 # State list
 df_state = df_county['DeCodigo'].unique()
+
 
 # Main Readme.md
 funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
@@ -77,7 +87,7 @@ funcs.print_log(file_log, f'\n|----------------------------|--------------------
 for state in df_state:
     file_log_name = f'{county_layer_path}/{state}.md'  # Markdown file log
     file_log = open(file_log_name, 'w+', encoding='utf-8')  # w+ create the file if it doesn't exist
-    print_dataframe = pd.DataFrame(columns=['MiniMap', 'CountyID', 'CountyName', 'Cadastre', 'CountyFiles'])
+    print_dataframe = pd.DataFrame(columns=['MiniMap', 'CountyID', 'CountyName', 'Cadastre', 'MapSheet', 'CountyFiles'])
     df_state_info = df_county[df_county['DeCodigo'] == state]
     state_name = df_state_info['DeNombre'].values[0]
     df_county_filter = df_county[df_county['DeCodigo'] == state]
@@ -108,7 +118,17 @@ for state in df_state:
                 files_txt += f'[{file}]({url_file}{file})<br/>'
         else:
             files_txt = 'Not found'
-        print_dataframe.loc[len(print_dataframe)] = [county_minimap, county_ppsd_link, county_name, cadastre_manager, files_txt]
+
+        map_sheets_filter = df_map_sheet[df_map_sheet['MpCodigo'] == county]
+        map_sheets_list = map_sheets_filter['PLANCHA'].unique().tolist()
+        map_sheets_txt = ''
+        if len(map_sheets_filter) > 0:
+            for sheet in map_sheets_list:
+                map_sheets_txt += f'[{sheet}]({igac_map_sheet_link}{sheet}) '
+        else:
+            map_sheets_txt = 'Not found'
+
+        print_dataframe.loc[len(print_dataframe)] = [county_minimap, county_ppsd_link, county_name, cadastre_manager, map_sheets_txt, files_txt]
     funcs.print_log(file_log, print_dataframe.to_markdown(index=False), center_div=True)
     funcs.print_log(file_log, f'\n#\n\n<div align="center"><img alt="rcfdtools" src="../../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>', on_screen = print_on_screen)
     funcs.print_log(file_log, f'\n\n<sub>{dictionary.dicts['disclaimer']}</sub>', on_screen = print_on_screen)
