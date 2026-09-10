@@ -51,7 +51,7 @@ In Colombia, "Departamentos" (Departments) are the main regional administrative 
 * [99 - Vichada](99.md) (4 Counties)
 
 
-## 2. File Name Tags
+## 2. File and Field Name Tags
 
 The counties files will contain the following part names in the compressed (.zip, .rar, .7z) archives. At the end, the showed number correspond to the year and month version, e.g., 202606 means the file correspond to June 2026.
 
@@ -59,12 +59,14 @@ The counties files will contain the following part names in the compressed (.zip
 |:-------------|:--------------------------------------------------------|:-----------------------------------------------------------|
 | Block        | Urban block                                             | Manzana urbana                                             |
 | Building     | Building or construction under roof                     | Construcción o edificación bajo cubierta                   |
-| Carto        | Detail Cartography                                      | Cartografía detallada                                      |
-| District     | Municipal or county District                            | Corregimiento                                              |
+| Carto        | Detailed cartography                                    | Cartografía detallada                                      |
+| Cadastre     | Cadastre manager                                        | Gestor catastral                                           |
+| District     | Municipal or county district                            | Corregimiento                                              |
 | IGAC         | Colombian Agustin Codazzi Geographic Institute          | Instituto Geográfico Agustín Codazzi de Colombia           |
-| Limit        | County limit or municipal limit                         | Límite municipal                                           |
+| Limit        | County limit or municipality limit                      | Límite municipal                                           |
 | Lot          | Land plot                                               | Lote, predio o terreno                                     |
-| Neighborhood | Urban Neighborhood                                      | Barrio urbano                                              |
+| MapSheet     | Cartographic map sheet                                  | Hoja cartográfica                                          |
+| Neighborhood | Urban neighborhood                                      | Barrio urbano                                              |
 | Nomenclature | Nomenclature or lot address                             | Dirección o nombre de predio                               |
 | Perimeter    | Perimeter around urban lots                             | Perímetro de predios urbanos                               |
 | R1           | Record number 1                                         | Registro 1 de catastro - Información del predio            |

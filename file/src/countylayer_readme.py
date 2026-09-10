@@ -76,7 +76,7 @@ for state in df_state:
     state_name = df_state_info['DeNombre'].values[0]
     df_county_filter = df_county[df_county['DeCodigo'] == state]
     funcs.print_log(file_log, f'\n* [{state} - {state_name}]({state}.md) ({len(df_county_filter)} Counties)')
-funcs.print_log(file_log, f'\n\n\n## 2. File Name Tags\n\n{dictionary.dicts['county_layer_filetype']}\n\n{df_county_layer_filetype.to_markdown(index=False)}\n', on_screen=print_on_screen)
+funcs.print_log(file_log, f'\n\n\n## 2. File and Field Name Tags\n\n{dictionary.dicts['county_layer_filetype']}\n\n{df_county_layer_filetype.to_markdown(index=False)}\n', on_screen=print_on_screen)
 funcs.print_log(file_log, f'\n\n\n## 3. IGAC Property Economic Destination\n\n{dictionary.dicts['county_layer_economic_destination_igac']}\n\n{df_county_layer_economic_destination_igac.to_markdown(index=False)}\n', on_screen=print_on_screen)
 funcs.print_log(file_log, f'\n\n#\n\n<div align="center"><img alt="rcfdtools" src="../../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>', on_screen=print_on_screen)
 funcs.print_log(file_log, f'\n\n<sub>{dictionary.dicts['disclaimer']}</sub>', on_screen=print_on_screen)
@@ -118,7 +118,7 @@ for state in df_state:
                 files_txt += f'[{file}]({url_file}{file})<br/>'
         else:
             files_txt = 'Not found'
-
+        # Map sheets
         map_sheets_filter = df_map_sheet[df_map_sheet['MpCodigo'] == county]
         map_sheets_list = map_sheets_filter['PLANCHA'].unique().tolist()
         map_sheets_txt = ''
@@ -132,7 +132,6 @@ for state in df_state:
                     separator = ''
         else:
             map_sheets_txt = 'Not found'
-
         print_dataframe.loc[len(print_dataframe)] = [county_minimap, county_ppsd_link, county_name, cadastre_manager, map_sheets_txt, files_txt]
     funcs.print_log(file_log, print_dataframe.to_markdown(index=False), center_div=True)
     funcs.print_log(file_log, f'\n#\n\n<div align="center"><img alt="rcfdtools" src="../../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>', on_screen = print_on_screen)
