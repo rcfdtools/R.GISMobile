@@ -1,6 +1,6 @@
 <div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>
 
-# 📝County GIS Layers - Datasource & ChangeLog
+# 📝Colombia County GIS Layers - Datasource & ChangeLog
 
 
 ## Main procedure
@@ -21,12 +21,22 @@ From CMD as administrator run
 esri2geojson https://geodatos.antioquia.gov.co/server/rest/services/Catastro/Visor_Geo/FeatureServer/0 AntioquiaLimiteMunicipal202608.geojson
 ```
 
-## Counties without layers
+## Cadastral Managers by County
+
+As part of the National Government's Multipurpose Cadastre policy, the Agustín Codazzi Geographic Institute (IGAC) authorized various entities to act as cadastral managers, with the aim of empowering territorial entities to improve the management of their territories.
+
+* Source: https://www.datos.gov.co/Ordenamiento-Territorial/Gestores-Catastrales-de-Colombia/bhcx-bx97/about_data
+* QGIS replace full text field for cadastral names: countylayer_cadastral_manager_name.py call as cadastre_replace_txt("gestor_Cat")
+* QGIS initial date replacement: date_in (Text 10) = year( "date_inici") ||  '/' ||  month( "date_inici") ||  '/' ||  day( "date_inici")
+* QGIS operation date replacement: date_op (Text 10) = year( "date_fecha") ||  '/' ||  month( "date_fecha") ||  '/' ||  day( "date_fecha")
+
+
+## Counties without public layers
 
 The following counties are into process for acquired and publish spatial data here in _CountyLayer_CO_: '05440', '05615', '05674', '52427', '52520', '94883', '94884', '94885', '94886', '94887', '94888', '97511', '97777', '97889'
 
 
-## IDER Cundinamarca
+## IDER Cundinamarca - Cadastre
 
 The Regional Spatial Data Infrastructure (IDER) provides geospatial and statistical information on Bogotá and the municipalities of Cundinamarca, which is useful for the development and understanding of the territory.
 
@@ -35,7 +45,7 @@ The Regional Spatial Data Infrastructure (IDER) provides geospatial and statisti
 * Counties: '25019', '25035', '25040', '25053', '25095', '25123', '25151', '25154', '25168', '25178', '25200', '25224', '25245', '25258', '25260', '25269', '25281', '25288', '25293', '25297', '25299', '25312', '25317', '25320', '25326', '25328', '25335', '25368', '25372', '25386', '25394', '25407', '25436', '25438', '25483', '25486', '25489', '25491', '25506', '25518', '25524', '25530', '25535', '25580', '25592', '25594', '25596', '25599', '25645', '25653', '25662', '25718', '25743', '25769', '25777', '25779', '25781', '25793', '25797', '25805', '25807', '25815', '25839', '25841', '25843', '25845', '25862', '25867', '25871', '25873', '25875', '25878', '25885', '25898'
 
 
-## IGAC - Catastro 20260628
+## IGAC - Cadastre 20260628
 
 It contains geographic and alphanumeric cadastral data for municipalities within the IGAC's jurisdiction; this information complies with the open data policy of Colombia's Ministry of Information and Communications Technologies, subject to legal exceptions. Level of detail: 1:500,000. License: CC BY 4.0.
 
@@ -52,7 +62,7 @@ General IGAC Colombia data sources
 * https://services8.arcgis.com/SxnAJh3m3lmltMfp/ArcGIS/rest/services
 
 
-## IGAC - Catastro 20200101
+## IGAC - Cadastre 20200101
 
 It contains geographic and alphanumeric cadastral data for municipalities within the IGAC's jurisdiction; this information complies with the open data policy of Colombia's Ministry of Information and Communications Technologies, subject to legal exceptions. Level of detail: 1:500,000. License: CC BY 4.0.
 
@@ -60,7 +70,7 @@ It contains geographic and alphanumeric cadastral data for municipalities within
 * Counties: '08372', '08549', '13670', '15001', '15176', '15401', '15480', '15861', '19701', '23001', '41006', '41206', '44279', '50350', '50370', '52079', '52233', '52250', '52256', '52385', '52390', '52418', '52435', '52473', '52490', '52540', '52612', '52621', '52678', '52696', '52699', '54820', '63111', '63212', '63272', '63470', '63594', '68432', '73873', '81794', '85001', '86755', '94001', '94343', '95025', '97161'
 
 
-## Antioquia
+## Antioquia - Cadastre
 
 * Source IDEM: https://portalidem.metropol.gov.co/server/rest/services
 * Counties: '05079', '05088', '05212', '05266', '05308', '05380', '05631'
@@ -70,16 +80,15 @@ It contains geographic and alphanumeric cadastral data for municipalities within
 * https://geodatos.antioquia.gov.co/server/rest/services/Catastro/BCGS_Catastro_Publico/MapServer
 
 
-## Valle del Cauca
+## Valle del Cauca - Cadastre
 
 * [76001 Cali](https://www.cali.gov.co/hacienda/publicaciones/147969/geoportal-catastral/)* https://www.valledelcauca.gov.co/uaec/publicaciones/75833/datos-abiertos-unidad-administrativa-especial-de-catastro/
 * https://datosabiertos.valledelcauca.gov.co/dataset/informacion-cartografica-catastral-a-nivel-terreno-gestor-catastral-departamento-del-valle-del-cauca
 * https://datos.cali.gov.co/
 
 
-## Complementary data sources
+## Complementary Data Sources
 
-* https://www.datos.gov.co/Ordenamiento-Territorial/Gestores-Catastrales-de-Colombia/bhcx-bx97/about_data
 * [Base Catastral Pública del Departamento de Choco 202607](https://hub.arcgis.com/datasets/ef867bdadca34e85a65371cb2dcf8799/about)
 * [Base Catastral Pública del Departamento de Nariño 202608](https://hub.arcgis.com/datasets/ca9cf5d0b7574a2e89b20f55c32df4d8/about)
 * [Base Catastral Pública del Departamento de Guainía 202608](https://datos-abiertos-igac-igac-oit.hub.arcgis.com/datasets/98c5351a21d94a01b76841a81d9ef369/about)
@@ -89,8 +98,6 @@ It contains geographic and alphanumeric cadastral data for municipalities within
 * [25245 - El Colegio](https://hub.arcgis.com/datasets/ac25453ed9af4aa5a470bfaa000ae15e/about)
 * [05607 - El Retiro](https://dsitelretiro-alcretiro.hub.arcgis.com/datasets/e4a313ef008749c3a110d84a7c63aa7e/about)
 * [08001 - Barranquilla](https://miciudad.barranquilla.gov.co/gis/rest/services/catastro/datosabiertos/MapServer)
-
-
 
 
 #
