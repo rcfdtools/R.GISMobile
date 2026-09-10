@@ -30,6 +30,7 @@
 file/shp/*.csv
 file/table/*.csv
 file/temp/*.csv
+file/temp/geojson/*.csv
 file/table/REGISTRO_R1/*.csv
 file/table/REGISTRO_R2/*.csv
 file/gdb/*.gdb

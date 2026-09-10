@@ -12,7 +12,7 @@ County GIS layers are individual digital map datasets stacked together in a Geog
 </div>
 
 
-## Colombian States
+## Colombian States (es: Departamentos)
 
 In Colombia, "Departamentos" (Departments) are the main regional administrative divisions that split the country into 33 large political areas, one special Capital District, which is Bogotá D.C. They are the top level of regional government below the national government. You can think of them like states in the United States or provinces in other nations.
 
@@ -51,7 +51,7 @@ In Colombia, "Departamentos" (Departments) are the main regional administrative 
 * [99 - Vichada](99.md) (4 Counties)
 
 
-## File Names
+## File Name Tags
 
 The counties files will contain the following part names in the compressed (.zip, .rar, .7z) archives. At the end, the showed number correspond to the year and month version, e.g., 202606 means the file correspond to June 2026.
 
@@ -76,7 +76,7 @@ The counties files will contain the following part names in the compressed (.zip
 
 
 
-## IGAC - Economic Destination
+## IGAC Property Economic Destination
 
 The land lot economic property destinations correspond with the _Article 86 of [Resolution 70 of 2011](../../ref/resolucion_70_de_2011.pdf)_, Agustín Codazzi Geographic Institute of Colombia South America.
 

@@ -21,8 +21,8 @@ ppsd_link = 'https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population
 country_code = '57'
 minimap_link = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/MiniMap/'
 county_layer_path = '../gis/CountyLayer_Co/'
-county_layer_filetype_path = f'{county_layer_path}countylayer_filetype.csv'
-county_layer_economic_destination_igac_path = f'{county_layer_path}countylayer_economic_destination_igac.csv'
+county_layer_filetype_path = f'../table/countylayer_filetype.csv'
+county_layer_economic_destination_igac_path = f'../table/countylayer_economic_destination_igac.csv'
 dir_path = Path('../shp')
 print_on_screen = False # Global print graph in screen
 # zip_files = [file.name for file in dir_path.glob('*.zip')]
@@ -60,14 +60,14 @@ df_state = df_county['DeCodigo'].unique()
 funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
 funcs.print_log(file_log, f'# _{dictionary.dicts['study_name']}_ \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']} Check the general [Datasource & ChangeLog](Readme_Datasource.md) Readme file.\n', on_screen=print_on_screen)
 funcs.print_log(file_log, f'<img alt="rcfdtools" src="{minimap_link}{country_code}_MiniMapCountry.png" width="600px"></img>', center_div=True, on_screen=print_on_screen)
-funcs.print_log(file_log, f'\n## Colombian States\n\n{dictionary.dicts['state']}\n', on_screen=print_on_screen)
+funcs.print_log(file_log, f'\n## Colombian States (es: Departamentos)\n\n{dictionary.dicts['state']}\n', on_screen=print_on_screen)
 for state in df_state:
     df_state_info = df_county[df_county['DeCodigo'] == state]
     state_name = df_state_info['DeNombre'].values[0]
     df_county_filter = df_county[df_county['DeCodigo'] == state]
     funcs.print_log(file_log, f'\n* [{state} - {state_name}]({state}.md) ({len(df_county_filter)} Counties)')
-funcs.print_log(file_log, f'\n\n\n## File Names\n\n{dictionary.dicts['county_layer_filetype']}\n\n{df_county_layer_filetype.to_markdown(index=False)}\n', on_screen=print_on_screen)
-funcs.print_log(file_log, f'\n\n\n## IGAC - Economic Destination\n\n{dictionary.dicts['county_layer_economic_destination_igac']}\n\n{df_county_layer_economic_destination_igac.to_markdown(index=False)}\n', on_screen=print_on_screen)
+funcs.print_log(file_log, f'\n\n\n## File Name Tags\n\n{dictionary.dicts['county_layer_filetype']}\n\n{df_county_layer_filetype.to_markdown(index=False)}\n', on_screen=print_on_screen)
+funcs.print_log(file_log, f'\n\n\n## IGAC Property Economic Destination\n\n{dictionary.dicts['county_layer_economic_destination_igac']}\n\n{df_county_layer_economic_destination_igac.to_markdown(index=False)}\n', on_screen=print_on_screen)
 funcs.print_log(file_log, f'\n\n#\n\n<div align="center"><img alt="rcfdtools" src="../../graph/qr-code-shp.png" width="250px"><br><sub>Share this research</sub></div><br>', on_screen=print_on_screen)
 funcs.print_log(file_log, f'\n\n<sub>{dictionary.dicts['disclaimer']}</sub>', on_screen=print_on_screen)
 funcs.print_log(file_log, f'\n\n| [:house: Home](../../../README.md)  | [:beginner: Help / Collab](https://github.com/rcfdtools/R.GISMobile/discussions) |', on_screen=print_on_screen)
