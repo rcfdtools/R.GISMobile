@@ -14,7 +14,7 @@ def cadastre_replace_txt(field):
                         ['AREA METROPOLITANA DE BUCARAMANGA AMB', 'Área Metropolitana de Bucaramanga AMB'],
                         ['AREA METROPOLITANA DE CENTRO OCCIDENTE AMCO', 'Área Metropolitana de Centro Occidente AMCO'],
                         ['AREA METROPOLITANA DE VALLE DE ABURRA AMV', 'Área Metropolitana de Valle de Aburra AMV'],
-                        ['ASOMUNICIPIOS', 'ASOMUNICIPIOS'],
+                        ['ASOMUNICIPIOS', 'ASOMUNICIPIOS'],`
                         ['CATASTRO ANTIOQUIA', 'Catastro Antioquia'],
                         ['CATASTRO DE MEDELLIN', 'Catastro de Medellín'],
                         ['CATASTRO MUNICIPAL DE CALI', 'Catastro Municipal de Cali'],
