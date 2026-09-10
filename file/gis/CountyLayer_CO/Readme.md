@@ -12,7 +12,7 @@ County GIS layers are individual digital map datasets stacked together in a Geog
 </div>
 
 
-## Colombian States (es: Departamentos)
+## Colombia South America States (es: Departamentos)
 
 In Colombia, "Departamentos" (Departments) are the main regional administrative divisions that split the country into 33 large political areas, one special Capital District, which is Bogotá D.C. They are the top level of regional government below the national government. You can think of them like states in the United States or provinces in other nations.
 
