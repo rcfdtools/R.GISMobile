@@ -122,14 +122,15 @@ for state in df_state:
         map_sheets_filter = df_map_sheet[df_map_sheet['MpCodigo'] == county]
         map_sheets_list = map_sheets_filter['PLANCHA'].unique().tolist()
         map_sheets_txt = ''
-        separator = ','
         int_separator = 1
         if len(map_sheets_filter) > 0:
             for sheet in map_sheets_list:
-                map_sheets_txt += f'[{sheet}]({igac_map_sheet_link}{sheet}){separator} '
                 int_separator += 1
-                if int_separator ==  len(map_sheets_filter):
+                if int_separator <= len(map_sheets_filter) and len(map_sheets_filter) > 1:
+                    separator = ','
+                else:
                     separator = ''
+                map_sheets_txt += f'[{sheet}]({igac_map_sheet_link}{sheet}){separator} '
         else:
             map_sheets_txt = 'Not found'
         print_dataframe.loc[len(print_dataframe)] = [county_minimap, county_ppsd_link, county_name, cadastre_manager, map_sheets_txt, files_txt]

@@ -31,6 +31,21 @@ As part of the National Government's Multipurpose Cadastre policy, the Agustín 
 * QGIS operation date replacement: date_op (Text 10) = year( "date_fecha") ||  '/' ||  month( "date_fecha") ||  '/' ||  day( "date_fecha")
 
 
+## Vectorial Databases and Map Sheets (es: Hojas cartográficas)
+
+Vector mapping with full coverage of the Republic of Colombia. It contains information on administrative divisions, land and river transport, hydrography, terrain relief, orography, and structures. Referenced to the MAGNA-SIRGAS coordinate system, it is generated through the interpretation of features in orthorectified imagery from satellite or airborne platforms and is available in the following formats: Geodatabase, Shapefile, PostGIS, GeoPackage, and services (WMS and WFS).
+As the product integrates various source datasets, the date displayed corresponds to the most recent source used during its creation.
+
+* [1:500k](https://www.colombiaenmapas.gov.co/?u=0&t=2306&servicio=204)
+* [1:100k](https://www.colombiaenmapas.gov.co/?u=0&t=2306&servicio=205)
+* [1:25k](https://www.colombiaenmapas.gov.co/?u=0&t=2306&servicio=206)
+* [Map Sheets](https://www.colombiaenmapas.gov.co/?u=0&t=23&servicio=5)
+
+> The individual Map Sheets limits are available in the [1:100k](https://www.colombiaenmapas.gov.co/?u=0&t=2306&servicio=205) vectorial database as _Indice_Mapas/IndEscala_.
+>
+> QGIS/Processing Toolbox/Vector Overlay/Union between ColombiaMapSheet9377.shp and ColombiaState4326.shp, save as ColombiaCountyMapSheet4326.shp
+
+
 ## Counties without public layers
 
 The following counties are into process for acquired and publish spatial data here in _CountyLayer_CO_: '05440', '05615', '05674', '52427', '52520', '94883', '94884', '94885', '94886', '94887', '94888', '97511', '97777', '97889'
