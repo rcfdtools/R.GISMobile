@@ -53,7 +53,7 @@ df_cadastre_manager.drop(df_cadastre_manager[df_cadastre_manager['mpcodigo'] == 
 dbf_map_sheet = Dbf5(f'{dir_path}/ColombiaCountyMapSheet4326.dbf', codec='cp1252')
 df_map_sheet = pd.DataFrame(dbf_map_sheet.to_dataframe())
 df_map_sheet = df_map_sheet[['MpCodigo', 'PLANCHA']]
-df_map_sheet = df_map_sheet.sort_values(by=['MpCodigo'])
+df_map_sheet = df_map_sheet.sort_values(by=['PLANCHA'])
 
 # Filetype list
 df_county_layer_filetype = pd.read_csv(county_layer_filetype_path, encoding='cp1252', sep=',', dtype={'FileName': 'str', 'EnDesc': 'str', 'EsDesc': 'str'})
@@ -124,7 +124,7 @@ for state in df_state:
         map_sheets_txt = ''
         if len(map_sheets_filter) > 0:
             for sheet in map_sheets_list:
-                map_sheets_txt += f'[{sheet}]({igac_map_sheet_link}{sheet}) '
+                map_sheets_txt += f'•[{sheet}]({igac_map_sheet_link}{sheet}) '
         else:
             map_sheets_txt = 'Not found'
 
