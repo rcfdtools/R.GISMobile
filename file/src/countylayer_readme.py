@@ -93,7 +93,7 @@ for state in df_state:
     df_county_filter = df_county[df_county['DeCodigo'] == state]
     funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
     funcs.print_log(file_log, f'# _{dictionary.dicts['study_name']} for {state} - {state_name} ({len(df_county_filter)} Counties)_ \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n> Check the general [DataSource & ChangeLog](Readme_Datasource.md) readme file.<br/>', on_screen=print_on_screen)
-    funcs.print_log(file_log, f'> Each _CountyID_ code link contain the [Population and Public Services Demand Projections (PPSD)](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/Readme.md) report.\n', center_div=False, on_screen=print_on_screen)
+    funcs.print_log(file_log, f'Each _CountyID_ code link contain the [Population and Public Services Demand Projections (PPSD)](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/Readme.md) report.\n', center_div=False, on_screen=print_on_screen)
     state_latitude = df_state_info['Latitude'].values[0]
     state_longitude = df_state_info['Longitude'].values[0]
     #funcs.print_log(file_log, f'\n# {state} - {state_name} ({len(df_county_filter)} Counties)\n')
