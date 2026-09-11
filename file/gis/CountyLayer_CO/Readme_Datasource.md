@@ -8,7 +8,7 @@ Keywords: `geographical-information-system` `gis` `igac` `ider` `geodata` `colom
 
 1. Download data (manually or from rest service with esri2geojson): countylayer_geojson_to_shapefile.py
 2. Convert .json layer to shapefile: countylayer_geojson_to_shapefile.py
-3. County layer segmentation: countylayer_export_separated.py
+3. County layer segmentation: countylayer_export_layer_separated.py
 4. IGAC Record 1 & Record 2 segmentation: countylayer_igac_r1_r2.py
 5. Compress .zip: countylayer_zip_layer_individually.py
 6. Update main Readme.md: countylayer_readme.py

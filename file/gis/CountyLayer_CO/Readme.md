@@ -3,7 +3,9 @@
 # _🛠️TOOL: “County GIS Layers - Colombia South America”_ 
 Keywords: `geographical-information-system` `gis` `igac` `ider` `geodata` `colombia` `south-america`
 
-County GIS layers are individual digital map datasets stacked together in a Geographic Information System (GIS) to visualize, manage, and analyze a county´s geographic information. Local governments, researches and engineers use these layers to run daily operations, plan infrastructure, track tax assessments, evaluate land plot risk, and dispatch emergency services. Check the general [Datasource & ChangeLog](Readme_Datasource.md) Readme file.
+County GIS layers are individual digital map datasets stacked together in a Geographic Information System (GIS) to visualize, manage, and analyze a county´s geographic information. Local governments, researches and engineers use these layers to run daily operations, plan infrastructure, track tax assessments, evaluate land plot risk, and dispatch emergency services.
+
+> Check the general [Datasource & ChangeLog](Readme_Datasource.md) Readme file.
 
 <div align="center">
 
@@ -68,6 +70,7 @@ The counties files will contain the following part names in the compressed (.zip
 | MapSheet     | Cartographic map sheet                                  | Hoja cartográfica                                          |
 | Neighborhood | Urban neighborhood                                      | Barrio urbano                                              |
 | Nomenclature | Nomenclature or lot address                             | Dirección o nombre de predio                               |
+| OSM          | www.openstreetmap.org                                   | www.openstreetmap.org                                      |
 | Perimeter    | Perimeter around urban lots                             | Perímetro de predios urbanos                               |
 | R1           | Record number 1                                         | Registro 1 de catastro - Información del predio            |
 | R2           | Record number 2                                         | Registro 2 de catastro - Información de las construcciones |
