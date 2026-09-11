@@ -32,6 +32,14 @@ The following counties are into process for acquired and publish spatial data he
 It contains geographic and alphanumeric cadastral data for municipalities within the IGAC's jurisdiction; this information complies with the open data policy of Colombia's Ministry of Information and Communications Technologies, subject to legal exceptions. Level of detail: 1:500,000. License: CC BY 4.0.
 
 
+#### Main Data Sources
+
+* [IGAC - Dirección de Gestión Catastral](https://www.igac.gov.co/index.php/node/31261): Record 1, Record 2 and cadastral data.
+* https://mapas.igac.gov.co/server/rest/services
+* https://mapas2.igac.gov.co/server/rest/services
+* https://services8.arcgis.com/SxnAJh3m3lmltMfp/ArcGIS/rest/services
+
+
 #### Cadastral Managers by County
 
 As part of the National Government's Multipurpose Cadastre policy, the Agustín Codazzi Geographic Institute (IGAC) authorized various entities to act as cadastral managers, with the aim of empowering territorial entities to improve the management of their territories.
@@ -42,15 +50,9 @@ As part of the National Government's Multipurpose Cadastre policy, the Agustín 
 * QGIS operation date replacement: date_op (Text 10) = year( "date_fecha") ||  '/' ||  month( "date_fecha") ||  '/' ||  day( "date_fecha")
 
 
-#### General Colombia data sources
+#### Vectorial Databases and Map Sheets
 
-* [IGAC - Dirección de Gestión Catastral](https://www.igac.gov.co/index.php/node/31261): Record 1, Record 2 and cadastral data.
-* https://mapas.igac.gov.co/server/rest/services
-* https://mapas2.igac.gov.co/server/rest/services
-* https://services8.arcgis.com/SxnAJh3m3lmltMfp/ArcGIS/rest/services
-
-
-#### Vectorial Databases and Map Sheets (es: Hojas cartográficas IGAC)
+> es: Hojas cartográficas
 
 Vector mapping with full coverage of the Republic of Colombia. It contains information on administrative divisions, land and river transport, hydrography, terrain relief, orography, and structures. Referenced to the MAGNA-SIRGAS coordinate system, it is generated through the interpretation of features in orthorectified imagery from satellite or airborne platforms and is available in the following formats: Geodatabase, Shapefile, PostGIS, GeoPackage, and services (WMS and WFS).
 As the product integrates various source datasets, the date displayed corresponds to the most recent source used during its creation.
