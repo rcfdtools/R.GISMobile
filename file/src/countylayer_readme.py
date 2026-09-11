@@ -98,6 +98,7 @@ for state in df_state:
     #funcs.print_log(file_log, f'\n# {state} - {state_name} ({len(df_county_filter)} Counties)\n')
     fig_file0a = f'{minimap_link}{country_code}_{state}_MiniMap.png'
     funcs.print_log(file_log, f'<img alt="rcfdtools" src="{fig_file0a}" width="600px"></img>', center_div=True, on_screen=print_on_screen)
+    funcs.print_log(file_log, f'> Each _CountyID_ code link contain the [Population and Public Services Demand Projections (PPSD)](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/Readme.md) report.\n', center_div=False, on_screen=print_on_screen)
     df_county_unique = df_county_filter['MpCodigo'].unique()
     for county in df_county_unique:
         df_cadastre_manager_info = df_cadastre_manager[df_cadastre_manager['mpcodigo'] == county]
