@@ -27,6 +27,7 @@
 *.tfw
 *.tif
 *.ovr
+*.gpkg
 file/shp/*.csv
 file/table/*.csv
 file/temp/*.csv
