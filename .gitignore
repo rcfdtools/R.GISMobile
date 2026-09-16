@@ -29,11 +29,10 @@
 *.ovr
 *.gpkg
 file/shp/*.csv
-file/table/*.csv
+#/table/*.csv
 file/temp/*.csv
 file/temp/geojson/*.csv
-file/table/REGISTRO_R1/*.csv
-file/table/REGISTRO_R2/*.csv
+file/table/IGAC/*.csv
 file/gdb/*.gdb
 file/gdb/*.gpkg
 file/dem/*.tif

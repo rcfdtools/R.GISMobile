@@ -1,0 +1,21 @@
+FileName,EnDesc,EsDesc
+Block,Urban block,Manzana urbana
+Building,Building or construction under roof,Construcción o edificación bajo cubierta
+Carto,Detailed cartography,Cartografía detallada
+CountyID,County identifier,Código de municipio (MpCodigo or mpcodigo)
+Cadastre,Cadastre manager,Gestor catastral
+District,Municipal or county district,Corregimiento
+IGAC,Colombian Agustin Codazzi Geographic Institute,Instituto Geográfico Agustín Codazzi de Colombia
+Limit,County limit or municipality limit,Límite municipal
+Lot,Land plot,"Lote, predio o terreno"
+MapSheet,Cartographic map sheet,Hoja cartográfica
+Neighborhood,Urban neighborhood,Barrio urbano
+Nomenclature,Nomenclature or lot address,Dirección o nombre de predio
+OSM,www.openstreetmap.org,www.openstreetmap.org
+Perimeter,Perimeter around urban lots,Perímetro de predios urbanos
+R1,Record number 1,Registro 1 de catastro - Información del predio
+R2,Record number 2,Registro 2 de catastro - Información de las construcciones
+Road,Road or pathway,Vía
+Rural,Rural zone,Zona rural
+Sector,Sector or land plot aggrupation in urban or rural areas,Sector urbano o rural
+Vereda,Rural zonification,Zonificación rural
