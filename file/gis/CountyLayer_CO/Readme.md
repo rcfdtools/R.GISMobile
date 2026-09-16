@@ -62,6 +62,7 @@ The counties files will contain the following part names in the compressed (.zip
 | Block        | Urban block                                             | Manzana urbana                                             |
 | Building     | Building or construction under roof                     | Construcción o edificación bajo cubierta                   |
 | Carto        | Detailed cartography                                    | Cartografía detallada                                      |
+| CountyID     | County identifier                                       | Código de municipio (MpCodigo or mpcodigo)                 |
 | Cadastre     | Cadastre manager                                        | Gestor catastral                                           |
 | District     | Municipal or county district                            | Corregimiento                                              |
 | IGAC         | Colombian Agustin Codazzi Geographic Institute          | Instituto Geográfico Agustín Codazzi de Colombia           |
