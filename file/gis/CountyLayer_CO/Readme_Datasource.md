@@ -26,11 +26,11 @@ esri2geojson https://geodatos.antioquia.gov.co/server/rest/services/Catastro/Vis
 ```
 Complementary scripts
 
-* [countylayer_dictionary.py](../../countylayer_dictionary.py): contains the general terms used to create the main Readme files
-* [countylayer_functions.py](../../countylayer_functions.py): contains the main functions
-* [countylayer_geojson_to_csv.py](../../countylayer_geojson_to_csv.py): convert any GeoJSON file into a CSV file
-* [countylayer_igac_r1_r2.py](../../countylayer_igac_r1_r2.py): integrates the cadastral records obtained by state and split by county
-* [countylayer_zip_grouped.py](../../countylayer_zip_grouped.py): (archived) compress the available county layers into a unique .zip file
+* [countylayer_dictionary.py](../../countylayer_dictionary.py): contains the general terms used to create the main Readme files.
+* [countylayer_functions.py](../../countylayer_functions.py): contains the main functions.
+* [countylayer_geojson_to_csv.py](../../countylayer_geojson_to_csv.py): convert any GeoJSON file into a CSV file.
+* [countylayer_igac_r1_r2.py](../../countylayer_igac_r1_r2.py): integrates the cadastral records obtained by state and split by county.
+* [countylayer_zip_grouped.py](../../countylayer_zip_grouped.py): (archived) compress the available county layers into a unique .zip file.
 
 
 ### Counties without public layers
