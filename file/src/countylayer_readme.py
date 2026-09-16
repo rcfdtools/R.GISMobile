@@ -70,7 +70,7 @@ df_state = df_county['DeCodigo'].unique()
 funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
 funcs.print_log(file_log, f'# _{dictionary.dicts['study_name']}_ \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n> Check the general [DataSource & ChangeLog](Readme_Datasource.md) Readme file.\n', on_screen=print_on_screen)
 funcs.print_log(file_log, f'<br/>Each _CountyID_ code link contains the [Population and Public Services Demand Projections (PPSD)](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/Readme.md) report.\n', center_div=False, on_screen=print_on_screen)
-funcs.print_log(file_log, f'<br/>Thinking in download files massively, use the [countylayer_file_index.csv](../table/countylayer_file_index.csv) ) report.\n', center_div=False, on_screen=print_on_screen)
+funcs.print_log(file_log, f'<br/>Thinking in download files massively, use the [countylayer_file_index.csv](../table/countylayer_file_index.csv).\n', center_div=False, on_screen=print_on_screen)
 funcs.print_log(file_log, f'<img alt="rcfdtools" src="{minimap_link}{country_code}_MiniMapCountry.png" width="600px"></img>', center_div=True, on_screen=print_on_screen)
 funcs.print_log(file_log, f'\n## 1. Colombia South America States (es: Departamentos)\n\n{dictionary.dicts['state']}\n', on_screen=print_on_screen)
 for state in df_state:
@@ -96,7 +96,7 @@ for state in df_state:
     funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
     funcs.print_log(file_log, f'# _{dictionary.dicts['study_name']} for {state} - {state_name} ({len(df_county_filter)} Counties)_ \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n> Check the general [DataSource & ChangeLog](Readme_Datasource.md) readme file.<br/>', on_screen=print_on_screen)
     funcs.print_log(file_log, f'Each _CountyID_ code link contains the [Population and Public Services Demand Projections (PPSD)](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/Readme.md) report.\n', center_div=False, on_screen=print_on_screen)
-    funcs.print_log(file_log, f'<br/>Thinking in download files massively, use the [countylayer_file_index.csv](../table/countylayer_file_index.csv) ) report.\n', center_div=False, on_screen=print_on_screen)
+    funcs.print_log(file_log, f'<br/>Thinking in download files massively, use the [countylayer_file_index.csv](../table/countylayer_file_index.csv).\n', center_div=False, on_screen=print_on_screen)
     state_latitude = df_state_info['Latitude'].values[0]
     state_longitude = df_state_info['Longitude'].values[0]
     #funcs.print_log(file_log, f'\n# {state} - {state_name} ({len(df_county_filter)} Counties)\n')
