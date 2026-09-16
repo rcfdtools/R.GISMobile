@@ -11,7 +11,7 @@ Keywords: `geographical-information-system` `gis` `igac` `ider` `geodata` `colom
 
 ## 1. Main Procedure
 
-1. Download data (manually or from rest service with esri2geojson): [countylayer_geojson_to_shapefile.py](../../src/countylayer_geojson_to_shapefile.py)
+1. Download data (manually or from rest service with [esri2geojson](https://pypi.org/project/esridump/)): [countylayer_geojson_to_shapefile.py](../../src/countylayer_geojson_to_shapefile.py)
 2. Convert .json layer to shapefile: [countylayer_geojson_to_shapefile.py](../../src/countylayer_geojson_to_shapefile.py)
 3. County layer segmentation: [countylayer_export_layer_separated.py](../../src/countylayer_export_layer_separated.py)
 4. IGAC Record 1 & Record 2 segmentation: [countylayer_igac_r1_r2.py](../../src/countylayer_igac_r1_r2.py)
@@ -126,6 +126,9 @@ The Regional Spatial Data Infrastructure (IDER) provides geospatial and statisti
 
 ## 3. Complementary Data Sources
 
+
+### 3.1. Cadastral
+
 * [Base Catastral Pública del Departamento de Chocó 202607](https://hub.arcgis.com/datasets/ef867bdadca34e85a65371cb2dcf8799/about)
 * [Base Catastral Pública del Departamento de Nariño 202608](https://hub.arcgis.com/datasets/ca9cf5d0b7574a2e89b20f55c32df4d8/about)
 * [Base Catastral Pública del Departamento de Guainía 202608](https://datos-abiertos-igac-igac-oit.hub.arcgis.com/datasets/98c5351a21d94a01b76841a81d9ef369/about)
@@ -135,6 +138,16 @@ The Regional Spatial Data Infrastructure (IDER) provides geospatial and statisti
 * [25245 - El Colegio](https://hub.arcgis.com/datasets/ac25453ed9af4aa5a470bfaa000ae15e/about)
 * [05607 - El Retiro](https://dsitelretiro-alcretiro.hub.arcgis.com/datasets/e4a313ef008749c3a110d84a7c63aa7e/about)
 * [08001 - Barranquilla](https://miciudad.barranquilla.gov.co/gis/rest/services/catastro/datosabiertos/MapServer)
+
+
+### 3.2. Complementary layers and tools
+
+OSM Roads acquired from:
+
+* [QGIS - OSMDownloader](https://plugins.qgis.org/plugins/OSMDownloader/)
+* [QGIS - QuickOSM](https://plugins.qgis.org/plugins/QuickOSM/)
+* https://download.geofabrik.de/south-america.html
+* https://download.geofabrik.de/south-america/colombia-latest-internal-free.gpkg.zip
 
 
 #
