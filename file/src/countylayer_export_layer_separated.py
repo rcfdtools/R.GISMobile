@@ -1,6 +1,7 @@
 # https://github.com/rcfdtools/R.GISMobile/blob/main/README.md
 # Export counties to individual shapefile from the global IGAC geopackage or a global layer using QGIS (Tested in QGIS version 4.0.1)
 # Select a layer in the QGIS Layer Panel
+# Note: QGIS also provides the tool "Split Vector Layers", however, the diference with this script is the user can decide the crs_target_code, export ordering by index_field and define an specific layer_suffix 
 
 import os
 from qgis.core import QgsProject, QgsVectorFileWriter, QgsCoordinateTransformContext

@@ -12,11 +12,11 @@ Keywords: `geographical-information-system` `gis` `igac` `ider` `geodata` `colom
 ## 1. Main Procedure
 
 1. Download data (manually or from rest service with esri2geojson): [countylayer_geojson_to_shapefile.py](../../src/countylayer_geojson_to_shapefile.py)
-2. Convert .json layer to shapefile: countylayer_geojson_to_shapefile.py
-3. County layer segmentation: countylayer_export_layer_separated.py
-4. IGAC Record 1 & Record 2 segmentation: countylayer_igac_r1_r2.py
-5. Compress .zip: countylayer_zip_layer_individually.py
-6. Update main Readme.md: countylayer_readme.py
+2. Convert .json layer to shapefile: [countylayer_geojson_to_shapefile.py](../../src/countylayer_geojson_to_shapefile.py)
+3. County layer segmentation: [countylayer_export_layer_separated.py](../../src/countylayer_export_layer_separated.py)
+4. IGAC Record 1 & Record 2 segmentation: [countylayer_igac_r1_r2.py](../../src/countylayer_igac_r1_r2.py)
+5. Compress .zip: [countylayer_zip_layer_individually.py](../../src/countylayer_zip_layer_individually.py)
+6. Update main Readme.md: [countylayer_readme.py](../../src/countylayer_readme.py)
 
 esri2geojson sample:
 ```
@@ -24,6 +24,14 @@ pip install esridump
 From CMD as administrator run
 esri2geojson https://geodatos.antioquia.gov.co/server/rest/services/Catastro/Visor_Geo/FeatureServer/0 AntioquiaLimiteMunicipal202608.geojson
 ```
+Complementary scripts
+
+* [countylayer_dictionary.py](../../countylayer_dictionary.py): contains the general terms used to create the main Readme files
+* [countylayer_functions.py](../../countylayer_functions.py): contains the main functions
+* [countylayer_geojson_to_csv.py](../../countylayer_geojson_to_csv.py): convert any GeoJSON file into a CSV file
+* [countylayer_igac_r1_r2.py](../../countylayer_igac_r1_r2.py): integrates the cadastral records obtained by state and split by county
+* [countylayer_zip_grouped.py](../../countylayer_zip_grouped.py): (archived) compress the available county layers into a unique .zip file
+
 
 ### Counties without public layers
 
@@ -51,7 +59,7 @@ It contains geographic and alphanumeric cadastral data for municipalities within
 As part of the National Government's Multipurpose Cadastre policy, the Agustín Codazzi Geographic Institute (IGAC) authorized various entities to act as cadastral managers, with the aim of empowering territorial entities to improve the management of their territories.
 
 * Source: https://www.datos.gov.co/Ordenamiento-Territorial/Gestores-Catastrales-de-Colombia/bhcx-bx97/about_data
-* QGIS replace full text field for cadastral names: countylayer_cadastral_manager_name.py call as cadastre_replace_txt("gestor_Cat")
+* QGIS replace full text field for cadastral names: [countylayer_cadastral_manager_name.py](../../countylayer_cadastral_manager_name.py) call as cadastre_replace_txt("gestor_Cat")
 * QGIS initial date replacement: date_in (Text 10) = year( "date_inici") ||  '/' ||  month( "date_inici") ||  '/' ||  day( "date_inici")
 * QGIS operation date replacement: date_op (Text 10) = year( "date_fecha") ||  '/' ||  month( "date_fecha") ||  '/' ||  day( "date_fecha")
 
