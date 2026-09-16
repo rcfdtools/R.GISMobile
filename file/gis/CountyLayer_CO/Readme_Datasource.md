@@ -36,10 +36,14 @@ Complementary scripts
 
 ### 1.1. Counties without public layers
 
-The following counties are into process for acquired and publish spatial data here in _CountyLayer_CO_: '05440', '05615', '05674', '52427', '52520', '94883', '94884', '94885', '94886', '94887', '94888', '97511', '97777', '97889'
+The following counties are into process for acquired and publish spatial data here in _CountyLayer_CO_:
+
+Counties: '05440', '05615', '05674', '52427', '52520', '94883', '94884', '94885', '94886', '94887', '94888', '97511', '97777', '97889'
 
 
 ### 1.2. General layers
+
+General layers are used to create the general and detailed Readme files.
 
 * [ColombiaState4326.shp](../../shp/ColombiaState4326.zip): States (es: Departamentos) from https://www.colombiaenmapas.gov.co/?u=0&t=29&servicio=23
 * [ColombiaCounty4326.shp](../../shp/ColombiaCounty4326.zip): Counties (es: Municipios) from https://www.colombiaenmapas.gov.co/?u=0&t=29&servicio=24 
