@@ -5,7 +5,7 @@ Keywords: `geographical-information-system` `gis` `igac` `ider` `geodata` `colom
 
 <div align="center">
 
-🛠️ Paper: [County GIS Layers](Readme.md)
+🛠️ Tool: [County GIS Layers](Readme.md)
 
 </div>
 
