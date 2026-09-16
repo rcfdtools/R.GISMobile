@@ -118,7 +118,7 @@ The Regional Spatial Data Infrastructure (IDER) provides geospatial and statisti
 
 ## 3. Complementary Data Sources
 
-* [Base Catastral Pública del Departamento de Choco 202607](https://hub.arcgis.com/datasets/ef867bdadca34e85a65371cb2dcf8799/about)
+* [Base Catastral Pública del Departamento de Chocó 202607](https://hub.arcgis.com/datasets/ef867bdadca34e85a65371cb2dcf8799/about)
 * [Base Catastral Pública del Departamento de Nariño 202608](https://hub.arcgis.com/datasets/ca9cf5d0b7574a2e89b20f55c32df4d8/about)
 * [Base Catastral Pública del Departamento de Guainía 202608](https://datos-abiertos-igac-igac-oit.hub.arcgis.com/datasets/98c5351a21d94a01b76841a81d9ef369/about)
 * https://www.catastroenlinea.com.co/datosabiertos.aspx
