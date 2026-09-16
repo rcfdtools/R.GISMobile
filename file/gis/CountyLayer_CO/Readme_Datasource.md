@@ -41,11 +41,11 @@ The following counties are into process for acquired and publish spatial data he
 
 ### 1.2. General layers
 
-* [ColombiaState4326.shp](../../shp/ColombiaState4326.shp): States (es: Departamentos) from https://www.colombiaenmapas.gov.co/?u=0&t=29&servicio=23
-* [ColombiaCounty4326.shp](../../shp/ColombiaCounty4326.shp): Counties (es: Municipios) from https://www.colombiaenmapas.gov.co/?u=0&t=29&servicio=24 
-* [ColombiaCadastreManager4326.shp](../../shp/ColombiaCadastreManager4326.shp): Cadastre managers (es: Gestores catastrales) from https://www.datos.gov.co/Ordenamiento-Territorial/Gestores-Catastrales-de-Colombia/bhcx-bx97 
-* [ColombiaMapSheet9377.shp](../../shp/ColombiaMapSheet9377.shp): Map sheet (es: Hojas cartográficas) from IGAC [1:100k](https://www.colombiaenmapas.gov.co/?u=0&t=2306&servicio=205) vectorial database as _Indice_Mapas/IndEscala_
-* [ColombiaCountyMapSheet4326.shp](../../shp/ColombiaCountyMapSheet4326.shp): Map sheet by County (es: Fracciones de hojas cartográfica por municipio) from the Union between ColombiaCounty4326.shp and ColombiaMapSheet9377.shp
+* [ColombiaState4326.shp](../../shp/ColombiaState4326.zip): States (es: Departamentos) from https://www.colombiaenmapas.gov.co/?u=0&t=29&servicio=23
+* [ColombiaCounty4326.shp](../../shp/ColombiaCounty4326.zip): Counties (es: Municipios) from https://www.colombiaenmapas.gov.co/?u=0&t=29&servicio=24 
+* [ColombiaCadastreManager4326.shp](../../shp/ColombiaCadastreManager4326.zip): Cadastre managers (es: Gestores catastrales) from https://www.datos.gov.co/Ordenamiento-Territorial/Gestores-Catastrales-de-Colombia/bhcx-bx97 
+* [ColombiaMapSheet9377.shp](../../shp/ColombiaMapSheet9377.zip): Map sheet (es: Hojas cartográficas) from IGAC [1:100k](https://www.colombiaenmapas.gov.co/?u=0&t=2306&servicio=205) vectorial database as _Indice_Mapas/IndEscala_
+* [ColombiaCountyMapSheet4326.shp](../../shp/ColombiaCountyMapSheet4326.zip): Map sheet by County (es: Fracciones de hojas cartográfica por municipio) from the Union between ColombiaCounty4326.shp and ColombiaMapSheet9377.shp
 
 
 ## 2. Cadastre
@@ -88,7 +88,7 @@ As the product integrates various source datasets, the date displayed correspond
 
 > The individual Map Sheets limits are available in the [1:100k](https://www.colombiaenmapas.gov.co/?u=0&t=2306&servicio=205) vectorial database as _Indice_Mapas/IndEscala_.
 >
-> QGIS / Processing Toolbox / Vector Overlay / Union: between [ColombiaMapSheet9377.shp](../../shp/ColombiaMapSheet9377.shp) and [ColombiaCounty4326.shp](../../shp/ColombiaCounty4326.shp), save as [ColombiaCountyMapSheet4326.shp](../../ColombiaCountyMapSheet4326.shp)
+> QGIS / Processing Toolbox / Vector Overlay / Union: between [ColombiaMapSheet9377.shp](../../shp/ColombiaMapSheet9377.zip) and [ColombiaCounty4326.shp](../../shp/ColombiaCounty4326.zip), save as [ColombiaCountyMapSheet4326.zip](../../ColombiaCountyMapSheet4326.zip)
 
 
 #### Cadastre 20260628
