@@ -24,6 +24,7 @@ pip install esridump
 From CMD as administrator run
 esri2geojson https://geodatos.antioquia.gov.co/server/rest/services/Catastro/Visor_Geo/FeatureServer/0 AntioquiaLimiteMunicipal202608.geojson
 ```
+
 Complementary scripts
 
 * [countylayer_dictionary.py](../../countylayer_dictionary.py): contains the general terms used to create the main Readme files.
@@ -33,12 +34,12 @@ Complementary scripts
 * [countylayer_zip_grouped.py](../../countylayer_zip_grouped.py): (archived) compress the available county layers into a unique .zip file.
 
 
-### Counties without public layers
+### 1.1. Counties without public layers
 
 The following counties are into process for acquired and publish spatial data here in _CountyLayer_CO_: '05440', '05615', '05674', '52427', '52520', '94883', '94884', '94885', '94886', '94887', '94888', '97511', '97777', '97889'
 
 
-### Main layers
+### 1.2. General layers
 
 * [ColombiaState4326.shp](../../shp/ColombiaState4326.shp): States (es: Departamentos) from https://www.colombiaenmapas.gov.co/?u=0&t=29&servicio=23
 * [ColombiaCounty4326.shp](../../shp/ColombiaCounty4326.shp): Counties (es: Municipios) from https://www.colombiaenmapas.gov.co/?u=0&t=29&servicio=24 
