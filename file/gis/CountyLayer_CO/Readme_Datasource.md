@@ -57,7 +57,7 @@ General layers are used to create the general and detailed Readme files.
 
 ### 2.1. IGAC
 
-It contains geographic and alphanumeric cadastral data for municipalities within the IGAC's jurisdiction; this information complies with the open data policy of Colombia's Ministry of Information and Communications Technologies, subject to legal exceptions. Level of detail: 1:500,000. License: CC BY 4.0.
+It contains geographic and alphanumeric cadastral data for municipalities within the IGAC's jurisdiction; this information complies with the open data policy of Colombia's Ministry of Information and Communications Technologies, subject to legal exceptions. Level of detail: 1:500000. License: CC BY 4.0.
 
 
 #### Main Data Sources
@@ -104,7 +104,7 @@ As the product integrates various source datasets, the date displayed correspond
 
 #### Cadastre 20200101
 
-It contains geographic and alphanumeric cadastral data for municipalities within the IGAC's jurisdiction; this information complies with the open data policy of Colombia's Ministry of Information and Communications Technologies, subject to legal exceptions. Level of detail: 1:500,000. License: CC BY 4.0.
+It contains geographic and alphanumeric cadastral data for municipalities within the IGAC's jurisdiction; this information complies with the open data policy of Colombia's Ministry of Information and Communications Technologies, subject to legal exceptions. Level of detail: 1:500000. License: CC BY 4.0.
 
 * Source: https://www.colombiaenmapas.gov.co/inicio
 * Counties: '08372', '08549', '13670', '15001', '15176', '15401', '15480', '15861', '19701', '23001', '41006', '41206', '44279', '50350', '50370', '52079', '52233', '52250', '52256', '52385', '52390', '52418', '52435', '52473', '52490', '52540', '52612', '52621', '52678', '52696', '52699', '54820', '63111', '63212', '63272', '63470', '63594', '68432', '73873', '81794', '85001', '86755', '94001', '94343', '95025', '97161'
