@@ -7,7 +7,7 @@ County GIS layers are individual digital map datasets stacked together in a Geog
 
 > Check the general [DataSource & ChangeLog](Readme_Datasource.md) Readme file.
 <br/>Each _CountyID_ code link contains the [Population and Public Services Demand Projections (PPSD)](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/Readme.md) report.
-<br/>Thinking in download files massively, use the [countylayer_file_index.csv](../../../table/countylayer_file_index.csv).
+<br/>Thinking in download files massively, use the [countylayer_file_index.csv](../../table/countylayer_file_index.csv).
 
 <div align="center">
 
