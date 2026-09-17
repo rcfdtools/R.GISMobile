@@ -70,7 +70,7 @@ df_state = df_county['DeCodigo'].unique()
 funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
 funcs.print_log(file_log, f'# _{dictionary.dicts['study_name']}_ \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n', on_screen=print_on_screen)
 funcs.print_log(file_log, f'<img alt="rcfdtools" src="{minimap_link}{country_code}_MiniMapCountry.png" width="600px"></img>', center_div=True, on_screen=print_on_screen)
-funcs.print_log(file_log, f'\n# 0. General Information\n\n', on_screen=print_on_screen)
+funcs.print_log(file_log, f'\n## 0. General Information\n\n', on_screen=print_on_screen)
 funcs.print_log(file_log, f'{dictionary.dicts['datasource']}\n', on_screen=print_on_screen)
 funcs.print_log(file_log, f'{dictionary.dicts['ppsd']}\n', on_screen=print_on_screen)
 funcs.print_log(file_log, f'{dictionary.dicts['massive_download']}\n', on_screen=print_on_screen)
@@ -98,10 +98,12 @@ for state in df_state:
     df_county_filter = df_county[df_county['DeCodigo'] == state]
     funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
     funcs.print_log(file_log, f'# _{dictionary.dicts['study_name']} for {state} - {state_name} ({len(df_county_filter)} Counties)_ \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n', on_screen=print_on_screen)
-    funcs.print_log(file_log, f'> {dictionary.dicts['datasource']}\n', on_screen=print_on_screen)
-    funcs.print_log(file_log, f'> {dictionary.dicts['ppsd']}\n', on_screen=print_on_screen)
-    funcs.print_log(file_log, f'> {dictionary.dicts['massive_download']}\n', on_screen=print_on_screen)
-    funcs.print_log(file_log, f'> {dictionary.dicts['license']}\n', on_screen=print_on_screen)
+    funcs.print_log(file_log, f'\n## 0. General Information\n\n', on_screen=print_on_screen)
+    funcs.print_log(file_log, f'{dictionary.dicts['datasource']}\n', on_screen=print_on_screen)
+    funcs.print_log(file_log, f'{dictionary.dicts['ppsd']}\n', on_screen=print_on_screen)
+    funcs.print_log(file_log, f'{dictionary.dicts['massive_download']}\n', on_screen=print_on_screen)
+    funcs.print_log(file_log, f'{dictionary.dicts['license']}\n\n', on_screen=print_on_screen)
+    funcs.print_log(file_log, f'\n## 1. Layers by County\n\n', on_screen=print_on_screen)
 
     state_latitude = df_state_info['Latitude'].values[0]
     state_longitude = df_state_info['Longitude'].values[0]
