@@ -21,7 +21,7 @@ County GIS layers are individual digital map datasets stacked together in a Geog
 * License: Government data sources (e.g., [gov.co](https://datos.gov.co), [IDER](https://ider.cundinamarca.gov.co), [IDEM](https://portalidem.metropol.gov.co/server/rest/services), [IDECA](https://www.ideca.gov.co)) provide their public information through the Creative Commons Attribution 4.0 International [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en).
 
 
-## 1. Layers & Data Files by Colombian States (es: Departamentos)
+## 1. Layers & Data Files by Colombian States
 
 In Colombia, "Departamentos" (Departments) are the main regional administrative divisions that split the country into 33 large political areas, one special Capital District, which is Bogotá D.C. They are the top level of regional government below the national government. You can think of them like states in the United States or provinces in other nations.
 
