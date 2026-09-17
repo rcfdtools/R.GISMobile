@@ -75,7 +75,7 @@ funcs.print_log(file_log, f'{dictionary.dicts['datasource']}\n', on_screen=print
 funcs.print_log(file_log, f'{dictionary.dicts['ppsd']}\n', on_screen=print_on_screen)
 funcs.print_log(file_log, f'{dictionary.dicts['massive_download']}\n', on_screen=print_on_screen)
 funcs.print_log(file_log, f'{dictionary.dicts['license']}\n\n', on_screen=print_on_screen)
-funcs.print_log(file_log, f'\n## 1. Colombia South America States (es: Departamentos)\n\n{dictionary.dicts['state']}\n', on_screen=print_on_screen)
+funcs.print_log(file_log, f'\n## 1. Layers & Data Files by Colombian States (es: Departamentos)\n\n{dictionary.dicts['state']}\n', on_screen=print_on_screen)
 for state in df_state:
     df_state_info = df_county[df_county['DeCodigo'] == state]
     state_name = df_state_info['DeNombre'].values[0]
