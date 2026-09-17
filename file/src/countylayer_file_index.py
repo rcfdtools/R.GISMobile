@@ -13,7 +13,7 @@ extensions = {'.zip', '.rar', '.7z'}
 columns = ['CountyID', 'FilePath', 'Filename', 'SizeMB']
 df = pd.DataFrame(columns=columns)
 
-# Procedure
+# Local files list
 found_files = [
     file for file in directory_path.rglob('*') 
     if file.is_file() and file.suffix.lower() in extensions

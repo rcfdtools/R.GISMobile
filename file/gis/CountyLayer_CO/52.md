@@ -9,7 +9,7 @@ County GIS layers are individual digital map datasets stacked together in a Geog
 >
 > 👥Each _CountyID_ code link contains the [Population and Public Services Demand Projections (PPSD)](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/Readme.md) report.
 >
-> 📜Researches can download county files massively with the [countylayer_file_index.csv](../../table/countylayer_file_index.csv).
+> 📜Researches can download county files massively with the [countylayer_file_index.csv](../../table/countylayer_file_index.csv) and the script [countylayer_massive_download.py](../../src/countylayer_massive_download.py).
 >
 > 🥇License: Government data sources (e.g., [gov.co](https://datos.gov.co), [IDER](https://ider.cundinamarca.gov.co), [IDEM](https://portalidem.metropol.gov.co/server/rest/services), [IDECA](https://www.ideca.gov.co)) provide their public information through the Creative Commons Attribution 4.0 International [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en).
 
