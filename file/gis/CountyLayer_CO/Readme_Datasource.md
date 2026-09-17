@@ -32,7 +32,7 @@ Complementary scripts
 * [countylayer_geojson_to_csv.py](../../countylayer_geojson_to_csv.py): convert any GeoJSON file into a CSV file.
 * [countylayer_igac_r1_r2.py](../../countylayer_igac_r1_r2.py): integrates the cadastral records obtained by state and split by county.
 * [countylayer_zip_grouped.py](../../countylayer_zip_grouped.py): (archived) compress the available county layers into a unique .zip file.
-* [countylayer_file_index.py](../../countylayer_file_index.py): Creates a file index with all the compressed files contained in /shp. The [countylayer_file_index.csv](../../table/countylayer_file_index.csv) is used to automate the downloads from the CountyLayer repository
+* [countylayer_file_index.py](../../countylayer_file_index.py): Creates a file index with all the compressed files contained in /shp. The [countylayer_file_index.csv](../../table/countylayer_file_index.csv) is used to automate the downloads from the CountyLayer repository.
 
 
 ### 1.1. Counties without public layers

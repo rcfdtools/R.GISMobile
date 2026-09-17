@@ -33,6 +33,12 @@ dicts = {
 
     'state': 'In Colombia, "Departamentos" (Departments) are the main regional administrative divisions that split the country into 33 large political areas, one special Capital District, which is Bogotá D.C. They are the top level of regional government below the national government. You can think of them like states in the United States or provinces in other nations.',
 
+    'datasource': 'The general [DataSource & ChangeLog](Readme_Datasource.md) Readme file, contains the explicit public list of sources used for each county layer and the procedure and Python source codes.',
+
+    'ppsd': 'Each _CountyID_ code link contains the [Population and Public Services Demand Projections (PPSD)](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/Readme.md) report.',
+
+    'massive_download': 'Researches can download files massively with the [countylayer_file_index.csv](../../table/countylayer_file_index.csv).',
+
     'disclaimer': '**APPS & TOOLS & CONTENT DISCLAIMER**: • NO WARRANTY - This content and software is provided by <a href="https://github.com/rcfdtools" target="_blank">github.com/rcfdtools</a> "as is", without any express or implied warranty, including warranties of merchantability, fitness for a particular purpose, or non-infringement. There is no guarantee that the software will be error-free or operate without interruption. • LIMITATION OF LIABILITY - Neither the authors nor copyright holders will be liable for claims or damages arising from the software or its use. You are responsible for determining if the software is appropriate for your use and assume all associated risks, including errors, legal compliance, and data loss. • NO PROFESSIONAL ADVICE - The software provides general information and does not offer professional advice. It should not replace consultation with professional advisors. [Clauses and global license for rcfdtools use.](https://github.com/rcfdtools/rcfdtools/blob/main/LICENSE.md)',
 }
 
