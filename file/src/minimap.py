@@ -1,4 +1,4 @@
-# https://github.com/rcfdtools
+# https://github.com/rcfdtools/R.GISMobile/blob/main/README.md
 # -*- coding: UTF-8 -*-
 # MiniMAP
 

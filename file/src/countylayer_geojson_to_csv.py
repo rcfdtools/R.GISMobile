@@ -1,3 +1,4 @@
+# https://github.com/rcfdtools/R.GISMobile/blob/main/README.md
 # Google prompt: geojson table to .csv python
 
 import json

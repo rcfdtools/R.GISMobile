@@ -1,4 +1,4 @@
-# https://github.com/rcfdtools
+# https://github.com/rcfdtools/R.GISMobile/blob/main/README.md
 # Download ESRI Rest Service as geojson and convert to shapefile (GeoPandas)
 
 # First: download layers in geojson format from Python console

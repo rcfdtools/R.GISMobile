@@ -1,4 +1,4 @@
-# https://github.com/rcfdtools
+# https://github.com/rcfdtools/R.GISMobile/blob/main/README.md
 # Get layer from https://www.datos.gov.co/Ordenamiento-Territorial/Gestores-Catastrales-de-Colombia/bhcx-bx97/about_data
 # QGIS replace full text field for cadastral names
 # Run from Field Calculator and create a string text field (255) with the name Cadastre

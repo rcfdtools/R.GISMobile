@@ -1,5 +1,5 @@
+# https://github.com/rcfdtools/R.GISMobile/blob/main/README.md
 # Dictionary definitions
-# Author https://github.com/rcfdtools
 
 # General vars description in pmp.py
 general_vars = ([
