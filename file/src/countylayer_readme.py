@@ -105,7 +105,7 @@ for state in df_state:
     funcs.print_log(file_log, f'{dictionary.dicts['ppsd']}\n', on_screen=print_on_screen)
     funcs.print_log(file_log, f'{dictionary.dicts['massive_download']}\n', on_screen=print_on_screen)
     funcs.print_log(file_log, f'{dictionary.dicts['license']}\n\n', on_screen=print_on_screen)
-    funcs.print_log(file_log, f'\n## 1. Layers by County\n\n', on_screen=print_on_screen)
+    funcs.print_log(file_log, f'\n## 1. Layers & Data Files by County\n\n', on_screen=print_on_screen)
     state_latitude = df_state_info['Latitude'].values[0]
     state_longitude = df_state_info['Longitude'].values[0]
     #funcs.print_log(file_log, f'\n# {state} - {state_name} ({len(df_county_filter)} Counties)\n')
