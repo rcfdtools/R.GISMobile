@@ -98,9 +98,9 @@ for state in df_state:
     df_county_filter = df_county[df_county['DeCodigo'] == state]
     funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
     funcs.print_log(file_log, f'# _{dictionary.dicts['study_name']} for {state} - {state_name} ({len(df_county_filter)} Counties)_ \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n', on_screen=print_on_screen)
-    funcs.print_log(file_log, f'> {dictionary.dicts['datasource']}\n>', on_screen=print_on_screen)
-    funcs.print_log(file_log, f'> {dictionary.dicts['ppsd']}\n>', on_screen=print_on_screen)
-    funcs.print_log(file_log, f'> {dictionary.dicts['massive_download']}\n>', on_screen=print_on_screen)
+    funcs.print_log(file_log, f'> {dictionary.dicts['datasource']}\n', on_screen=print_on_screen)
+    funcs.print_log(file_log, f'> {dictionary.dicts['ppsd']}\n', on_screen=print_on_screen)
+    funcs.print_log(file_log, f'> {dictionary.dicts['massive_download']}\n', on_screen=print_on_screen)
     funcs.print_log(file_log, f'> {dictionary.dicts['license']}\n', on_screen=print_on_screen)
 
     state_latitude = df_state_info['Latitude'].values[0]
