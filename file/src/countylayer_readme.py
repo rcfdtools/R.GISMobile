@@ -69,7 +69,7 @@ df_state = df_county['DeCodigo'].unique()
 # Main Readme.md
 funcs.print_log(file_log, f'<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
 funcs.print_log(file_log, f'# _{dictionary.dicts['study_name']}_ \n{dictionary.dicts['keywords']}\n\n{dictionary.dicts['study_desc']}\n\n', on_screen=print_on_screen)
-funcs.print_log(file_log, f'> {dictionary.dicts['datasource']}<br/>', on_screen=print_on_screen)
+funcs.print_log(file_log, f'> {dictionary.dicts['datasource']}/n', on_screen=print_on_screen)
 funcs.print_log(file_log, f'> {dictionary.dicts['ppsd']}<br/>', on_screen=print_on_screen)
 funcs.print_log(file_log, f'> {dictionary.dicts['massive_download']}<br/>', on_screen=print_on_screen)
 funcs.print_log(file_log, f'> {dictionary.dicts['license']}\n\n', on_screen=print_on_screen)
