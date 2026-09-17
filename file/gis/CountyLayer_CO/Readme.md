@@ -5,11 +5,11 @@ Keywords: `geographical-information-system` `gis` `igac` `ider` `geodata` `colom
 
 County GIS layers are individual digital map datasets stacked together in a Geographic Information System (GIS) to visualize, manage, and analyze a county´s geographic information. Local governments, researches and engineers use these layers to run daily operations, plan infrastructure, track tax assessments, evaluate land plot risk, and dispatch emergency services.
 
-> The general [DataSource & ChangeLog](Readme_Datasource.md) Readme file, contains the explicit public list of sources used for each county layer and the procedure and Python source codes.
+> The general [DataSource & ChangeLog](Readme_Datasource.md) Readme file, contains the explicit public list of sources used for each county layer, the general procedure and the Python source codes.
 >
 > Each _CountyID_ code link contains the [Population and Public Services Demand Projections (PPSD)](https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/Readme.md) report.
 >
-> Thinking in download files massively, use the [countylayer_file_index.csv](../../table/countylayer_file_index.csv).
+> Researches can download files massively with the [countylayer_file_index.csv](../../table/countylayer_file_index.csv).
 
 
 <div align="center">
