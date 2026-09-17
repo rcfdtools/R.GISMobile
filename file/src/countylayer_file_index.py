@@ -23,7 +23,7 @@ found_files = [
 for f in found_files:
     size_mb = f.stat().st_size / (1024 * 1024)
     file_folder = str(f.parent)
-    file_folder = file_folder.replace('..', '')
+    file_folder = file_folder.replace('..\\', '/')
     print(f'{f.name.split('_')[0]},{file_folder},{f.name},{round(size_mb, 2)}')
     df.loc[len(df)] = [f.name.split('_')[0],file_folder,f.name,round(size_mb, 2)]
 df.to_csv('../table/countylayer_file_index.csv', index=False)
