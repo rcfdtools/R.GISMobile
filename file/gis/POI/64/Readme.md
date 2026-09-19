@@ -1,17 +1,17 @@
 <div align="center"><img alt="rcfdtools" src="../../../graph/R.GISMobile.svg" width="250px"></div>
 
-## :earth_americas:POI: _“Transmicable Ciudad Bolivar - Bogotá D.C, Colombia (2026-09-12)”_
-`Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=4.55022,-74.158741) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.55022&lon=-74.158741) 
+## :earth_americas:POI: _“Monserrate and Bogotá Downtown - Bogotá D.C, Colombia (2026-08-15)”_
+`Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=4.605185,-74.055473) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.605185&lon=-74.055473) 
 
 ```geojson
 {
   "type": "Feature",
   "geometry": {
     "type": "Point", 
-    "coordinates": [-74.158741, 4.55022]
+    "coordinates": [-74.055473, 4.605185]
   }, 
   "properties": {
-    "Name": "Transmicable Ciudad Bolivar - Bogotá D.C, Colombia"
+    "Name": "Monserrate and Bogotá Downtown - Bogotá D.C, Colombia"
   }
 }
 ```
