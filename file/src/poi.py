@@ -118,13 +118,13 @@ gdf.set_geometry(
 gdf.drop(['Latitude', 'Longitude'], axis=1, inplace=True)  # optional
 gdf.to_file('shp/poi.shp')
 
-# Create POI GeoJSON
+# Create Main POI GeoJSON
 if os.path.isfile(path+geojson_file):
     os.remove(path+geojson_file)
 geojson_file_write = open(path+geojson_file, 'w+')   # w+ create the file if it doesn't exist
 df = pd.read_csv(path+poi_file)
 geojson_file_write.write('<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>\n\n')
-geojson_file_write.write('# :large_blue_circle:Geographical Points of Interest - POI\n\n> A Point of Interest (POI) list is a dataset containing specific, geographically located points on a map that are considered useful or interesting, such as dams, reservoirs, ecological parks, or landmarks. Each entry in the list typically includes a name, location (latitude/longitude), and category to identify the place.\n\n### A. Map points\n\n')
+geojson_file_write.write('# :earth_americas:Geographical Points of Interest - POI\n\n> A Point of Interest (POI) list is a dataset containing specific, geographically located points on a map that are considered useful or interesting, such as dams, reservoirs, ecological parks, or landmarks. Each entry in the list typically includes a name, location (latitude/longitude), and category to identify the place.\n\n### A. Map points\n\n')
 geojson_file_write.write('```topojson\n{"type": "Topology", "objects": {"example": {"type": "GeometryCollection","geometries": [\n')
 print('\nPOIs processed: %i' %len(df))
 for i in range(0,len(df)):
