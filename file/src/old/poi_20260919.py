@@ -52,9 +52,9 @@ def image_info(img_path):
 
 
 # Variables
-path = 'D:/R.GISMobile/file/gis/POI/'
+path = 'D:/R.GISMobile/.poi/'
 os.chdir(path)
-path_www = 'https://github.com/rcfdtools/R.GISMobile/tree/main/file/gis/POI/'
+path_www = 'https://github.com/rcfdtools/R.GISMobile/tree/main/.poi/'
 poi_file = 'poi.csv'
 picture_file_name = 'poi_picture.csv'
 geojson_file = 'Readme.md'
