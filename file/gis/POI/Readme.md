@@ -69,6 +69,8 @@
 {"type": "Point","properties": {"POI": "62", "Category": "Freelance field visit", "Name": "Cascada de Angulo - El Peñon, Cundinamarca", "Date": "2026-03-01", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/file/gis/POI/62/Readme.md"},"coordinates": [-74.294128,5.239061]},
 {"type": "Point","properties": {"POI": "63", "Category": "Freelance field visit", "Name": "Transmicable Ciudad Bolivar - Bogotá D.C, Colombia", "Date": "2026-09-12", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/file/gis/POI/63/Readme.md"},"coordinates": [-74.158741,4.55022]},
 {"type": "Point","properties": {"POI": "64", "Category": "Freelance field visit", "Name": "Monserrate and Bogotá Downtown - Bogotá D.C, Colombia", "Date": "2026-08-15", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/file/gis/POI/64/Readme.md"},"coordinates": [-74.055473,4.605185]},
+{"type": "Point","properties": {"POI": "65", "Category": "Freelance field visit", "Name": "Manitou Incline (2768 hiking steps) - Colorado Springs, Colorado, USA", "Date": "2026-08-15", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/file/gis/POI/65/Readme.md"},"coordinates": [-104.943374,38.857989]},
+{"type": "Point","properties": {"POI": "66", "Category": "Freelance field visit", "Name": "Pueblo Reservoir - Arkansas River - Pueblo, Colorado, USA", "Date": "2026-07-18", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/file/gis/POI/66/Readme.md"},"coordinates": [-104.724969,38.268839]},
 {"type": "Point","properties": {"POI": "7", "Category": "Technical field visit", "Name": "Tunel derivador Río Guatiquía a Embalse Chuza, Fómeque, Cundinamarca, Colombia", "Date": "2023-05-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/file/gis/POI/7/Readme.md"},"coordinates": [-73.72825833333333,4.537927777777778]},
 {"type": "Point","properties": {"POI": "8", "Category": "Technical field visit", "Name": "Embalse Paujil, La Jagua de Ibirico, Cesar, Colombia", "Date": "2013-07-03", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/file/gis/POI/8/Readme.md"},"coordinates": [-73.458466,9.559278]},
 {"type": "Point","properties": {"POI": "9", "Category": "Technical field visit", "Name": "Paso de vía Canal Paujil, La Jagua de Ibirico, Cesar, Colombia", "Date": "2013-07-04", "Credits": "rcfdtools", "URL": "https://github.com/rcfdtools/R.GISMobile/tree/main/file/gis/POI/9/Readme.md"},"coordinates": [-73.4642336,9.5532847]}
@@ -80,7 +82,7 @@
 
 | Category              |   POI |
 |:----------------------|------:|
-| Freelance field visit |    37 |
+| Freelance field visit |    39 |
 | Technical field visit |    27 |
 
 
@@ -89,7 +91,7 @@
 | Credit             |   POI |
 |:-------------------|------:|
 | rcfdtool & others  |     1 |
-| rcfdtools          |    61 |
+| rcfdtools          |    63 |
 | rcfdtools & others |     2 |
 
 
@@ -161,6 +163,8 @@
 | [:earth_americas:](62/Readme.md) |    62 | Cascada de Angulo - El Peñon, Cundinamarca                                                                                                                                                                                                                                                                                                                                                                                                                               |    5.23906 |    -74.2941 |    1020    | 2026-03-01 | rcfdtools          | Freelance field visit |
 | [:earth_americas:](63/Readme.md) |    63 | Transmicable Ciudad Bolivar - Bogotá D.C, Colombia                                                                                                                                                                                                                                                                                                                                                                                                                       |    4.55022 |    -74.1587 |    2800.5  | 2026-09-12 | rcfdtools          | Freelance field visit |
 | [:earth_americas:](64/Readme.md) |    64 | Monserrate and Bogotá Downtown - Bogotá D.C, Colombia                                                                                                                                                                                                                                                                                                                                                                                                                    |    4.60518 |    -74.0555 |    3175.09 | 2026-08-15 | rcfdtools          | Freelance field visit |
+| [:earth_americas:](65/Readme.md) |    65 | Manitou Incline (2768 hiking steps) - Colorado Springs, Colorado, USA                                                                                                                                                                                                                                                                                                                                                                                                    |   38.858   |   -104.943  |    2600.18 | 2026-08-15 | rcfdtools          | Freelance field visit |
+| [:earth_americas:](66/Readme.md) |    66 | Pueblo Reservoir - Arkansas River - Pueblo, Colorado, USA                                                                                                                                                                                                                                                                                                                                                                                                                |   38.2688  |   -104.725  |    1455.51 | 2026-07-18 | rcfdtools          | Freelance field visit |
 
 <sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - South America"._<sub>
 
