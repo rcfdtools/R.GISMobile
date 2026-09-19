@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>
+<div align="center"><img alt="rcfdtools" src="../../../graph/R.GISMobile.svg" width="250px"></div>
 
 ## :earth_americas:POI: _“Localización futura presa Río La Playa - Guatiquía, Fómeque, Cundinamarca, Colombia (2023-05-03)”_
 `Pictures` rcfdtools <br>`Category` Technical field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=4.5409,-73.75708888888889) or [Openstreet Map](https://www.openstreetmap.org/query?lat=4.5409&lon=-73.75708888888889) 

@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>
+<div align="center"><img alt="rcfdtools" src="../../../graph/R.GISMobile.svg" width="250px"></div>
 
 ## :earth_americas:POI: _“Ruta Guecha, Suesca, Cundinamarca, Colombia (2021-04-02)”_
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.108268,-73.823783) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.108268&lon=-73.823783) 

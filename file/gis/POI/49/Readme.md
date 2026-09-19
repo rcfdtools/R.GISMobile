@@ -1,4 +1,4 @@
-<div align="center"><img alt="rcfdtools" src="../../graph/R.GISMobile.svg" width="250px"></div>
+<div align="center"><img alt="rcfdtools" src="../../../graph/R.GISMobile.svg" width="250px"></div>
 
 ## :earth_americas:POI: _“Laguna de Suesca, Cundinamarca, Colombia (2025-08-07)”_
 `Pictures` rcfdtools <br>`Category` Freelance field visit <br>`Location` [Google Maps](http://maps.google.com/maps?q=5.185168,-73.788042) or [Openstreet Map](https://www.openstreetmap.org/query?lat=5.185168&lon=-73.788042) 
