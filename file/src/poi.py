@@ -116,7 +116,7 @@ gdf.set_geometry(
     geopandas.points_from_xy(gdf['Longitude'], gdf['Latitude']),
     inplace=True, crs='EPSG:4326')
 gdf.drop(['Latitude', 'Longitude'], axis=1, inplace=True)  # optional
-gdf.to_file('shp/poi.shp')
+gdf.to_file('../../shp/poi.shp')
 
 # Create Main POI GeoJSON
 if os.path.isfile(path+geojson_file):
