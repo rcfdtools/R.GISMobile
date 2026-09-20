@@ -10,7 +10,7 @@
 .venvPython311/
 #*.qgz
 #*.mxd
-*.geojson
+file/temp/geojson/*.geojson
 *.shp
 *.shx
 *.dbf

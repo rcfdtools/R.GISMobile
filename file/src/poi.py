@@ -110,13 +110,17 @@ print(df)
 df = df.sort_values(by=['POI'], ascending=True)
 df.to_csv(path+poi_file, encoding='utf-8', index=False)
 
-# Create POI shapefile
+
+# Create poi.shp
 gdf = geopandas.GeoDataFrame(df)
 gdf.set_geometry(
     geopandas.points_from_xy(gdf['Longitude'], gdf['Latitude']),
     inplace=True, crs='EPSG:4326')
 gdf.drop(['Latitude', 'Longitude'], axis=1, inplace=True)  # optional
-gdf.to_file('../../shp/poi.shp')
+#gdf = gdf.to_crs(epsg=4326)
+gdf.to_file('../../shp/poi.shp')  # requires ../../ because with Path we change the directory to POI
+gdf.to_file('../../geojson/poi.geojson', driver="GeoJSON") # requires ../../ because with Path we change the directory to POI
+
 
 # Create Main POI GeoJSON
 if os.path.isfile(path+geojson_file):
@@ -157,3 +161,19 @@ df = df.drop(['Link'], axis=1)
 df = df.sort_values(by='POI')
 geojson_file_write.write(df.to_markdown(index=False))
 geojson_file_write.write('\n\n'+license_txt+'\n')
+
+
+# Create poi_picture.shp
+df = pd.read_csv('../../gis/poi/poi_picture.csv')
+print(f'Initial: {len(df)} pictures')
+df = df[~((df['Longitude'] == 0) & (df['Latitude'] == 0))]
+print(f'Cleaned: {len(df)} pictures with coordinates')
+gdf = geopandas.GeoDataFrame(df)
+gdf.set_geometry(
+    geopandas.points_from_xy(gdf['Longitude'], gdf['Latitude']),
+    inplace=True, crs='EPSG:4326')
+gdf.drop(['Latitude', 'Longitude'], axis=1, inplace=True)  # optional
+#gdf = gdf.to_crs(epsg=4326)
+gdf.to_file('../../shp/poi_picture.shp') # requires ../../ because with Path we change the directory to POI
+gdf.to_file('../../geojson/poi_picture.geojson', driver="GeoJSON") # requires ../../ because with Path we change the directory to POI
+
