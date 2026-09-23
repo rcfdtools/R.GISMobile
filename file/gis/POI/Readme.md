@@ -2,7 +2,9 @@
 
 # :earth_americas:Geographical Points of Interest - POI
 
-> A Point of Interest (POI) list is a dataset containing specific, geographically located points on a map that are considered useful or interesting, such as dams, reservoirs, ecological parks, or landmarks. Each entry in the list typically includes a name, location (latitude/longitude), and category to identify the place.
+> A Point of Interest (POI) list is a dataset containing specific, geographically located points on a map that are considered useful or interesting, such as dams, reservoirs, ecological parks, or landmarks. Each entry in the list typically includes a name, location (latitude/longitude), and category to identify the place. 
+
+[:earth_americas:Online Pictures Web Map](https://rcfdtools.github.io/rcfdtools/tool/poi/)
 
 ### A. Map points
 
