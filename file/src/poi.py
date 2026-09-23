@@ -56,7 +56,8 @@ def image_info(img_path, poi):
 path = 'D:/R.GISMobile/file/gis/POI/'
 os.chdir(path)
 path_www = 'https://github.com/rcfdtools/R.GISMobile/tree/main/file/gis/POI/' # Used to show POI readme files
-path_www_raw = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/POI/' # Used to display pictures, testing....
+#path_www_raw = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/POI/' # Used to display pictures, testing....
+path_www_raw = 'https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/gis/POI/' # Used to display pictures, testing....
 poi_file = 'poi.csv'
 picture_file_name = 'poi_picture.csv'
 geojson_file = 'Readme.md'
