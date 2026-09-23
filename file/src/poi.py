@@ -46,7 +46,7 @@ def image_info(img_path, poi):
         #print(f"Coordinates:{coords}")
         readme_file.write(f"<sub>`Coordinates & altitude` {coords}</sub>")
         readme_file.write(map_location + '</details>')
-        picture_file.write(f'"{path_www+img_path}",{poi},{cy},{cx},{cz},"{google_maps}","{osm_maps}"\n')
+        picture_file.write(f'"{path_www_raw+img_path}",{poi},{cy},{cx},{cz},"{google_maps}","{osm_maps}"\n')
     else:
         readme_file.write('</details>')
 
@@ -54,7 +54,8 @@ def image_info(img_path, poi):
 # Variables
 path = 'D:/R.GISMobile/file/gis/POI/'
 os.chdir(path)
-path_www = 'https://github.com/rcfdtools/R.GISMobile/tree/main/file/gis/POI/'
+path_www = 'https://github.com/rcfdtools/R.GISMobile/tree/main/file/gis/POI/' # Used to show POI readme files
+path_www_raw = 'https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/gis/POI/' # Used to display pictures
 poi_file = 'poi.csv'
 picture_file_name = 'poi_picture.csv'
 geojson_file = 'Readme.md'
