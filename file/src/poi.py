@@ -39,6 +39,7 @@ def image_info(img_path, poi):
         print('The Image has no EXIF information')
     readme_file.write(info)
     if coords:
+        poi_url = f'{path_www}{poi}/Readme.md'
         google_maps = f'http://maps.google.com/maps?q={str(cy)},{str(cx)}'
         osm_maps = f'https://www.openstreetmap.org/query?lat={str(cy)}&lon={str(cx)}'
         map_location = ('<sub> :earth_americas:`Location over` [Google Maps](http://maps.google.com/maps?q=' + str(
@@ -61,7 +62,7 @@ picture_file_name = 'poi_picture.csv'
 geojson_file = 'Readme.md'
 # poi_cols = ['URL', 'POI', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Name', 'Credit', 'Category', 'Link']
 poi_cols = ['URL', 'POI', 'Name', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Credit', 'Category', 'Link']
-picture_cols = ['URL', 'POI', 'Latitude', 'Longitude', 'Altitude', 'GoogleMaps', 'OSMaps']
+picture_cols = ['URL', 'POI', 'POIURL', 'Latitude', 'Longitude', 'Altitude', 'GoogleMaps', 'OSMaps']
 exclude_folder = ['shp', 'temp', 'old']
 picture_format = ['.JPG', '.JPEG', '.jpeg', '.jpg', '.png', '.PNG', '.tif', '.TIF', '.tiff', '.TIFF']
 license_txt = '<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - South America"._<sub>\n'
