@@ -47,7 +47,7 @@ def image_info(img_path, poi):
         #print(f"Coordinates:{coords}")
         readme_file.write(f"<sub>`Coordinates & altitude` {coords}</sub>")
         readme_file.write(map_location + '</details>')
-        picture_file.write(f'"{path_www_raw+img_path}",{poi},{cy},{cx},{cz},"{google_maps}","{osm_maps}"\n')
+        picture_file.write(f'"{path_www_raw+img_path}",{poi},{poi_url},{cy},{cx},{cz},"{google_maps}","{osm_maps}"\n')
     else:
         readme_file.write('</details>')
 
