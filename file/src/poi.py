@@ -175,3 +175,4 @@ gdf.set_geometry(
 gdf.to_file('../../shp/poi_picture.shp') # requires ../../ because with Path we change the directory to POI
 gdf.to_file('../../geojson/poi_picture.geojson', driver="GeoJSON") # requires ../../ because with Path we change the directory to POI
 
+
