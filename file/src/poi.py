@@ -15,7 +15,7 @@ def decimal_coords(coords, ref):
      decimal_degrees = -decimal_degrees
  return decimal_degrees
 
-def image_info(img_path):
+def image_info(img_path, poi):
     coords = ''
     with open(img_path, 'rb') as src:
         img = Image(src)
@@ -46,7 +46,7 @@ def image_info(img_path):
         #print(f"Coordinates:{coords}")
         readme_file.write(f"<sub>`Coordinates & altitude` {coords}</sub>")
         readme_file.write(map_location + '</details>')
-        picture_file.write(f'"{path_www+img_path}",{cy},{cx},{cz},"{google_maps}","{osm_maps}"\n')
+        picture_file.write(f'"{path_www+img_path}",{poi},{cy},{cx},{cz},"{google_maps}","{osm_maps}"\n')
     else:
         readme_file.write('</details>')
 
@@ -60,7 +60,7 @@ picture_file_name = 'poi_picture.csv'
 geojson_file = 'Readme.md'
 # poi_cols = ['URL', 'POI', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Name', 'Credit', 'Category', 'Link']
 poi_cols = ['URL', 'POI', 'Name', 'Latitude', 'Longitude', 'Altitude', 'Date', 'Credit', 'Category', 'Link']
-picture_cols = ['URL', 'Latitude', 'Longitude', 'Altitude', 'GoogleMaps', 'OSMaps']
+picture_cols = ['URL', 'POI', 'Latitude', 'Longitude', 'Altitude', 'GoogleMaps', 'OSMaps']
 exclude_folder = ['shp', 'temp', 'old']
 picture_format = ['.JPG', '.JPEG', '.jpeg', '.jpg', '.png', '.PNG', '.tif', '.TIF', '.tiff', '.TIFF']
 license_txt = '<sub>_Citation: Partial or total digital reproduction of this repository, scripts, development guides, data models, images, and documentation is permitted, provided that it is referenced as: "R.GISMobile - Mobile geographic information systems on QField that do not require an internet connection for navigation." https://github.com/rcfdtools/R.GISMobile - Bogotá - Colombia - South America"._<sub>\n'
@@ -100,7 +100,7 @@ for i in directories:
             if picture_ext[1] in picture_format:
                 filename_absolute = os.path.basename(picture)
                 print(filename_absolute)
-                image_info(i+'/'+filename_absolute)
+                image_info(i+'/'+filename_absolute, i) #########################
                 readme_file.write('![GISMobile.POI]('+filename_absolute+')\n\n')
                 #picture_file.write(f'{str(picture)},{filename_absolute}\n')
         readme_file.write(license_txt + '\n')
@@ -110,8 +110,7 @@ print(df)
 df = df.sort_values(by=['POI'], ascending=True)
 df.to_csv(path+poi_file, encoding='utf-8', index=False)
 
-
-# Create poi.shp
+# Create poi.shp and poi.geojson
 gdf = geopandas.GeoDataFrame(df)
 gdf.set_geometry(
     geopandas.points_from_xy(gdf['Longitude'], gdf['Latitude']),
@@ -120,7 +119,6 @@ gdf.drop(['Latitude', 'Longitude'], axis=1, inplace=True)  # optional
 #gdf = gdf.to_crs(epsg=4326)
 gdf.to_file('../../shp/poi.shp')  # requires ../../ because with Path we change the directory to POI
 gdf.to_file('../../geojson/poi.geojson', driver="GeoJSON") # requires ../../ because with Path we change the directory to POI
-
 
 # Create Main POI GeoJSON
 if os.path.isfile(path+geojson_file):
@@ -172,7 +170,7 @@ gdf = geopandas.GeoDataFrame(df)
 gdf.set_geometry(
     geopandas.points_from_xy(gdf['Longitude'], gdf['Latitude']),
     inplace=True, crs='EPSG:4326')
-gdf.drop(['Latitude', 'Longitude'], axis=1, inplace=True)  # optional
+#gdf.drop(['Latitude', 'Longitude'], axis=1, inplace=True)  # optional
 #gdf = gdf.to_crs(epsg=4326)
 gdf.to_file('../../shp/poi_picture.shp') # requires ../../ because with Path we change the directory to POI
 gdf.to_file('../../geojson/poi_picture.geojson', driver="GeoJSON") # requires ../../ because with Path we change the directory to POI
