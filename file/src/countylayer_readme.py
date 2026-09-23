@@ -17,7 +17,8 @@ pd.set_option('display.width', None)
 
 
 # Processing
-url_file = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/'
+#url_file = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/shp/'
+url_file = 'https://github.com/rcfdtools/R.GISMobile/raw/refs/heads/main/file/shp/'
 ppsd_link = 'https://github.com/rcfdtools/R.HydroTools/blob/main/tool/Population/file/report/'
 country_code = '57'
 minimap_link = 'https://github.com/rcfdtools/R.GISMobile/blob/main/file/gis/MiniMap/'
