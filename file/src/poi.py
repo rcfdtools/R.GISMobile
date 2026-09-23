@@ -159,10 +159,13 @@ df = df.drop(['Link'], axis=1)
 df = df.sort_values(by='POI')
 geojson_file_write.write(df.to_markdown(index=False))
 geojson_file_write.write('\n\n'+license_txt+'\n')
+del df
+del df1
+picture_file.close()
 
 
-# Create poi_picture.shp
-df = pd.read_csv('../../gis/poi/poi_picture.csv')
+# Create poi_picture.shp & poi_picture.geojson
+df = pd.read_csv('poi_picture.csv')
 print(f'Initial: {len(df)} pictures')
 df = df[~((df['Longitude'] == 0) & (df['Latitude'] == 0))]
 print(f'Cleaned: {len(df)} pictures with coordinates')
