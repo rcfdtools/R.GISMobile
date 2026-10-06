@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[:earth_americas:POI - GeoJSON](https://rcfdtools.github.io/rcfdtools/tool/poi/), [:earth_americas:POI - GeoLibre](https://share.geolibre.app/rcfdtools/poi-rcfdools)
+[:earth_americas:POI - GeoJSON](https://rcfdtools.github.io/rcfdtools/tool/poi/) [:earth_americas:POI - GeoLibre](https://share.geolibre.app/rcfdtools/poi-rcfdools)
 
 </div>
 
