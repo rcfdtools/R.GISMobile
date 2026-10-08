@@ -14,7 +14,7 @@ Keywords: `geographical-information-system` `gis` `igac` `ider` `geodata` `colom
 1. Download data (manually or from rest service with [esri2geojson](https://pypi.org/project/esridump/)): [countylayer_geojson_to_shapefile.py](../../src/countylayer_geojson_to_shapefile.py)
 2. Convert .json layer to shapefile: [countylayer_geojson_to_shapefile.py](../../src/countylayer_geojson_to_shapefile.py)
 3. County layer segmentation: [countylayer_export_layer_separated.py](../../src/countylayer_export_layer_separated.py)
-4. IGAC Record 1 & Record 2 segmentation: [countylayer_igac_r1_r2.py](../../src/countylayer_igac_r1_r2.py)
+4. IGAC Record 1 & Record 2, integration and segmentation by county: [countylayer_igac_r1_r2.py](../../src/countylayer_igac_r1_r2.py)
 5. Compress .zip: [countylayer_zip_layer_individually.py](../../src/countylayer_zip_layer_individually.py)
 6. Update main Readme.md: [countylayer_readme.py](../../src/countylayer_readme.py)
 
@@ -30,9 +30,8 @@ Complementary scripts
 * [countylayer_dictionary.py](../../countylayer_dictionary.py): contains the general terms used to create the main Readme files.
 * [countylayer_functions.py](../../countylayer_functions.py): contains the main functions.
 * [countylayer_geojson_to_csv.py](../../countylayer_geojson_to_csv.py): convert any GeoJSON file into a CSV file.
-* [countylayer_igac_r1_r2.py](../../countylayer_igac_r1_r2.py): integrates the cadastral records obtained by state and split by county.
 * [countylayer_zip_grouped.py](../../countylayer_zip_grouped.py): (archived) compress the available county layers into a unique .zip file.
-* [countylayer_file_index.py](../../countylayer_file_index.py): Creates a file index with all the compressed files contained in /shp. The [countylayer_file_index.csv](../../table/countylayer_file_index.csv) is used to automate the downloads from the CountyLayer repository.
+* [countylayer_file_index.py](../../countylayer_file_index.py): creates a file index with all the compressed files contained in /shp. The [countylayer_file_index.csv](../../table/countylayer_file_index.csv) is used to automate the downloads from the CountyLayer repository.
 
 
 ### 1.1. Counties without public layers
@@ -67,6 +66,10 @@ It contains geographic and alphanumeric cadastral data for municipalities within
 * https://mapas.igac.gov.co/server/rest/services
 * https://mapas2.igac.gov.co/server/rest/services
 * https://services8.arcgis.com/SxnAJh3m3lmltMfp/ArcGIS/rest/services
+* [Terreno de Predio Urbano en Formato Shape 07-2026](https://datos.icde.gov.co/datasets/b99e5959b1d74d54a946d23893c068e6/about)
+* [Terreno de Predio Rural en Formato Shape 07-2026](https://datos.icde.gov.co/datasets/1ab5d2d687534c8d85d7586985cac2cd)
+* [Base Catastral Pública del Gestor IGAC en Formato GDB 07-2026](https://datos.icde.gov.co/datasets/d7f4b87a9b20482db3d3b912ff835343/about)
+* [Base Catastral Pública del Gestor IGAC en Formato GDB 08-2026](https://datos.icde.gov.co/datasets/e9b8fa55ab094fa68b61698c080d3493/about)
 
 
 #### Cadastral Managers by County
@@ -153,6 +156,8 @@ The Regional Spatial Data Infrastructure (IDER) provides geospatial and statisti
 * [25245 - El Colegio](https://hub.arcgis.com/datasets/ac25453ed9af4aa5a470bfaa000ae15e/about)
 * [05607 - El Retiro](https://dsitelretiro-alcretiro.hub.arcgis.com/datasets/e4a313ef008749c3a110d84a7c63aa7e/about)
 * [08001 - Barranquilla](https://miciudad.barranquilla.gov.co/gis/rest/services/catastro/datosabiertos/MapServer)
+* [Base Catastral Pública del Departamento de Vaupés 08-2026](https://hub.arcgis.com/datasets/4263d357365c450186e345e4d977c4bc/about)
+* [Agencia Nacional de Tierras - Portal de Datos Abiertos](https://data-agenciadetierras.opendata.arcgis.com/search)
 
 
 ### 3.2. Complementary layers and tools
