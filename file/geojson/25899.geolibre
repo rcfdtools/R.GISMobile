@@ -3,17 +3,17 @@
   "name": "Untitled Project",
   "mapView": {
     "center": [
-      -74.00406201633604,
-      5.023367442538273
+      -74.00374164061651,
+      5.023424892669354
     ],
-    "zoom": 17.24053473808782,
-    "bearing": 0,
-    "pitch": 50.50000000000005,
+    "zoom": 18.015153874276095,
+    "bearing": -8.853120325697772,
+    "pitch": 53,
     "bbox": [
-      -74.00860541639858,
-      5.020992648005503,
-      -73.99951861626911,
-      5.028966615262604
+      -74.00711539845157,
+      5.021845204784952,
+      -74.00150958230627,
+      5.027510686871949
     ]
   },
   "basemapStyleUrl": "https://tiles.openfreemap.org/styles/fiord",
@@ -484,7 +484,11 @@
           5.1586941833489055
         ]
       },
-      "sourcePath": "https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Lot_202211.parquet"
+      "sourcePath": "https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Lot_202211.parquet",
+      "popup": {
+        "hover": true,
+        "titleField": "codigo"
+      }
     },
     {
       "id": "c4a07972-d740-4c4b-a99e-eeb4471b0ff9",
@@ -841,7 +845,10 @@
           5.040986267949407
         ]
       },
-      "sourcePath": "https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Urban_Block_201301.parquet"
+      "sourcePath": "https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Urban_Block_201301.parquet",
+      "popup": {
+        "titleField": "codigo"
+      }
     },
     {
       "id": "2c0acba6-fcca-49fb-803d-e025fb1dadbf",
@@ -1025,7 +1032,7 @@
       "sourcePath": "https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Urban_Building_201301.parquet"
     }
   ],
-  "selectedLayerId": "c4a07972-d740-4c4b-a99e-eeb4471b0ff9",
+  "selectedLayerId": "8fc6e7e3-273d-477e-a921-fef079be967d",
   "styles": {
     "26ca0876-3937-4228-abb3-51edcec34c81": {
       "minZoom": 0,
