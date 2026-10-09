@@ -3,22 +3,22 @@
   "name": "Untitled Project",
   "mapView": {
     "center": [
-      -74.00412919381421,
-      5.0233550930880995
+      -74.0003115852279,
+      5.0209520263316705
     ],
-    "zoom": 17.697271132068867,
-    "bearing": -12.80000000000018,
-    "pitch": 58.50000000000005,
+    "zoom": 17.732387523763943,
+    "bearing": 15.200000000000273,
+    "pitch": 50.49999999999999,
     "bbox": [
-      -74.0097881375968,
-      5.021204797609414,
-      -74.00135559476077,
-      5.030634843078829
+      -74.00238145005193,
+      5.018964454075615,
+      -73.99614577794894,
+      5.025638230278346
     ]
   },
   "basemapStyleUrl": "https://tiles.openfreemap.org/styles/fiord",
   "basemapVisible": true,
-  "basemapOpacity": 1,
+  "basemapOpacity": 0.85,
   "layers": [
     {
       "id": "26ca0876-3937-4228-abb3-51edcec34c81",
@@ -845,7 +845,7 @@
       "sourcePath": "https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Urban_Building_201301.parquet"
     }
   ],
-  "selectedLayerId": "26ca0876-3937-4228-abb3-51edcec34c81",
+  "selectedLayerId": "2c0acba6-fcca-49fb-803d-e025fb1dadbf",
   "styles": {
     "26ca0876-3937-4228-abb3-51edcec34c81": {
       "minZoom": 0,
