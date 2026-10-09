@@ -3,17 +3,17 @@
   "name": "Untitled Project",
   "mapView": {
     "center": [
-      -73.99936972898331,
-      5.024227976670645
+      -74.00081047910584,
+      5.0224603163559465
     ],
-    "zoom": 15.627467136476866,
-    "bearing": -25.06012543583688,
-    "pitch": 41.00000000000001,
+    "zoom": 16.900179055672286,
+    "bearing": 0,
+    "pitch": 53.999999999999986,
     "bbox": [
-      -74.0141458033773,
-      5.015719177531196,
-      -73.9912329379406,
-      5.0396793181432855
+      -74.00714123178743,
+      5.019328024293998,
+      -73.99447972641961,
+      5.030903179109828
     ]
   },
   "basemapStyleUrl": "https://tiles.openfreemap.org/styles/fiord",
@@ -305,8 +305,190 @@
       }
     },
     {
+      "id": "4662c69f-3b29-4da7-8c61-748dcd6626d0",
+      "name": "Lot 202211",
+      "type": "geojson",
+      "source": {
+        "type": "geojson",
+        "url": "https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Lot_202211.parquet"
+      },
+      "visible": true,
+      "opacity": 1,
+      "style": {
+        "minZoom": 0,
+        "maxZoom": 24,
+        "fillColor": "transparent",
+        "strokeColor": "#808080",
+        "strokeWidth": 0.8,
+        "strokeWidthUnit": "pixels",
+        "fillOpacity": 0.25,
+        "circleRadius": 5,
+        "textColor": "#111827",
+        "textHaloColor": "#ffffff",
+        "textHaloWidth": 2,
+        "textSize": 16,
+        "labels": {
+          "enabled": true,
+          "field": "MzPredioId",
+          "expression": "",
+          "placement": "point",
+          "size": 13,
+          "color": "#111827",
+          "haloColor": "#ffffff",
+          "haloWidth": 1.5,
+          "minZoom": 19,
+          "maxZoom": 24,
+          "allowOverlap": false,
+          "anchor": "center",
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0,
+          "maxWidth": 10,
+          "transform": "none",
+          "numberFormatEnabled": false,
+          "numberDecimals": 0,
+          "numberLocale": "",
+          "dedupe": "off",
+          "sizeExpression": "",
+          "colorExpression": "",
+          "opacityExpression": "",
+          "visibilityExpression": "",
+          "priorityExpression": ""
+        },
+        "extrusionEnabled": false,
+        "extrusionColor": "#3b82f6",
+        "extrusionOpacity": 0.8,
+        "extrusionHeightProperty": "height",
+        "extrusionHeightScale": 1,
+        "extrusionBase": 0,
+        "extrusionAdvancedStyleEnabled": false,
+        "extrusionColorExpression": "",
+        "extrusionHeightExpression": "",
+        "elevation3dEnabled": false,
+        "elevation3dVerticalScale": 1,
+        "elevation3dOffset": 0,
+        "vectorStyleMode": "single",
+        "vectorStyleProperty": "",
+        "vectorStyleClassCount": 5,
+        "vectorStyleColorRamp": "viridis",
+        "vectorStyleClassificationScheme": "equal-interval",
+        "vectorStyleStops": [
+          {
+            "value": 0,
+            "color": "#dbeafe"
+          },
+          {
+            "value": 1,
+            "color": "#2563eb"
+          }
+        ],
+        "vectorStyleExpression": "",
+        "vectorRules": [],
+        "proportionalSizeEnabled": false,
+        "proportionalSizeProperty": "",
+        "proportionalSizeMinValue": 0,
+        "proportionalSizeMaxValue": 100,
+        "proportionalSizeMinRadius": 4,
+        "proportionalSizeMaxRadius": 24,
+        "fillPattern": "none",
+        "fillPatternColor": "#1e40af",
+        "fillPatternSvg": "",
+        "markerEnabled": false,
+        "markerShape": "circle",
+        "markerColor": "#3b82f6",
+        "markerSize": 18,
+        "markerSvg": "",
+        "simpleStyleEnabled": false,
+        "diagramType": "none",
+        "diagramFields": [],
+        "diagramSizeMode": "fixed",
+        "diagramSize": 30,
+        "diagramSizeProperty": "",
+        "diagramMinZoom": 0,
+        "diagramDeclutter": false,
+        "pointRenderer": "single",
+        "heatmapRadius": 30,
+        "heatmapIntensity": 1,
+        "heatmapColorRamp": "turbo",
+        "heatmapWeightProperty": "",
+        "clusterRadius": 50,
+        "clusterMaxZoom": 14,
+        "invertedFillEnabled": false,
+        "lineDecoration": "none",
+        "lineDecorationColor": "",
+        "lineDecorationSize": 12,
+        "lineDecorationSpacing": 80,
+        "geometryGenerator": "none",
+        "geometryGeneratorBufferDistance": 1000,
+        "geometryGeneratorBufferProperty": "",
+        "geometryGeneratorFillColor": "#f59e0b",
+        "geometryGeneratorStrokeColor": "#b45309",
+        "geometryGeneratorStrokeWidth": 2,
+        "geometryGeneratorOpacity": 0.4,
+        "geometryGeneratorCircleRadius": 5,
+        "geometryGeneratorSizeProperty": "",
+        "geometryGeneratorSizeMinValue": 0,
+        "geometryGeneratorSizeMaxValue": 100,
+        "geometryGeneratorSizeMinRadius": 4,
+        "geometryGeneratorSizeMaxRadius": 24,
+        "rasterBrightnessMin": 0,
+        "rasterBrightnessMax": 1,
+        "rasterSaturation": 0,
+        "rasterContrast": 0,
+        "rasterHueRotate": 0,
+        "blendMode": "normal"
+      },
+      "metadata": {
+        "identifiable": true,
+        "sourceKind": "maplibre-gl-vector-adopted",
+        "vectorSource": "url",
+        "vectorState": {
+          "format": "geoparquet",
+          "ingestMode": "table",
+          "picker": false,
+          "renderMode": "geojson",
+          "style": {
+            "fillColor": "#3388ff",
+            "fillOpacity": 0.4,
+            "lineColor": "#3388ff",
+            "lineWidth": 2,
+            "circleColor": "#3388ff",
+            "circleRadius": 5,
+            "circleOpacity": 0.85,
+            "pointMode": "circle",
+            "heatmapRadius": 30,
+            "heatmapIntensity": 1,
+            "clusterRadius": 50,
+            "clusterMaxZoom": 14
+          }
+        },
+        "geometryType": "polygon",
+        "featureCount": 26395,
+        "fields": [
+          "OGC_FID",
+          "codigo",
+          "vereda_id",
+          "tipo_avalu",
+          "condicion_",
+          "Reporte",
+          "manzana_id",
+          "Zone",
+          "APm2",
+          "PPm",
+          "MzPredioId"
+        ],
+        "bounds": [
+          -74.0943598732881,
+          4.962839314649236,
+          -73.90798217521812,
+          5.1586941833489055
+        ]
+      },
+      "sourcePath": "https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Lot_202211.parquet"
+    },
+    {
       "id": "70be343a-6622-4486-bf35-1efc529cfc57",
-      "name": "25899_Urban_Block_201301",
+      "name": "Urban Block 201301",
       "type": "geojson",
       "source": {
         "type": "geojson",
@@ -481,241 +663,8 @@
       "sourcePath": "https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/geojson/25899_Urban_Block_201301.geojson"
     },
     {
-      "id": "8c5ae8d6-8980-442d-81b3-09d6cc6661ec",
-      "name": "25899_Lot_202211",
-      "type": "geojson",
-      "source": {
-        "type": "geojson"
-      },
-      "visible": false,
-      "opacity": 1,
-      "style": {
-        "minZoom": 0,
-        "maxZoom": 24,
-        "fillColor": "transparent",
-        "strokeColor": "#808080",
-        "strokeWidth": 0.5,
-        "strokeWidthUnit": "pixels",
-        "fillOpacity": 0.25,
-        "circleRadius": 5,
-        "textColor": "#111827",
-        "textHaloColor": "#ffffff",
-        "textHaloWidth": 2,
-        "textSize": 16,
-        "labels": {
-          "enabled": true,
-          "field": "MzPredioId",
-          "expression": "",
-          "placement": "point",
-          "size": 13,
-          "color": "#111827",
-          "haloColor": "#ffffff",
-          "haloWidth": 1.5,
-          "minZoom": 19,
-          "maxZoom": 24,
-          "allowOverlap": false,
-          "anchor": "center",
-          "offsetX": 0,
-          "offsetY": 0,
-          "rotation": 0,
-          "maxWidth": 10,
-          "transform": "none",
-          "numberFormatEnabled": false,
-          "numberDecimals": 0,
-          "numberLocale": "",
-          "dedupe": "off",
-          "sizeExpression": "",
-          "colorExpression": "",
-          "opacityExpression": "",
-          "visibilityExpression": "",
-          "priorityExpression": ""
-        },
-        "extrusionEnabled": false,
-        "extrusionColor": "#3b82f6",
-        "extrusionOpacity": 0.8,
-        "extrusionHeightProperty": "height",
-        "extrusionHeightScale": 1,
-        "extrusionBase": 0,
-        "extrusionAdvancedStyleEnabled": false,
-        "extrusionColorExpression": "",
-        "extrusionHeightExpression": "",
-        "elevation3dEnabled": false,
-        "elevation3dVerticalScale": 1,
-        "elevation3dOffset": 0,
-        "vectorStyleMode": "single",
-        "vectorStyleProperty": "vereda_id",
-        "vectorStyleClassCount": 12,
-        "vectorStyleColorRamp": "viridis",
-        "vectorStyleClassificationScheme": "equal-interval",
-        "vectorStyleStops": [
-          {
-            "value": "2589901",
-            "color": "#404040"
-          },
-          {
-            "value": "2589900000004",
-            "color": "#401760"
-          },
-          {
-            "value": "2589900000006",
-            "color": "#3c2d6d"
-          },
-          {
-            "value": "2589900000007",
-            "color": "#384379"
-          },
-          {
-            "value": "2589900000014",
-            "color": "#345986"
-          },
-          {
-            "value": "2589900000013",
-            "color": "#316e8d"
-          },
-          {
-            "value": "2589900000011",
-            "color": "#327f88"
-          },
-          {
-            "value": "2589900000003",
-            "color": "#339084"
-          },
-          {
-            "value": "2589900000012",
-            "color": "#34a07f"
-          },
-          {
-            "value": "2589900000009",
-            "color": "#35b17b"
-          },
-          {
-            "value": "2589900000005",
-            "color": "#52be6d"
-          },
-          {
-            "value": "2589900000008",
-            "color": "#7cc85b"
-          },
-          {
-            "value": "2589900000002",
-            "color": "#a7d249"
-          },
-          {
-            "value": "2589900000010",
-            "color": "#d2dd37"
-          },
-          {
-            "value": "2589900000015",
-            "color": "#fde725"
-          }
-        ],
-        "vectorStyleExpression": "",
-        "vectorRules": [],
-        "proportionalSizeEnabled": false,
-        "proportionalSizeProperty": "",
-        "proportionalSizeMinValue": 0,
-        "proportionalSizeMaxValue": 100,
-        "proportionalSizeMinRadius": 4,
-        "proportionalSizeMaxRadius": 24,
-        "fillPattern": "none",
-        "fillPatternColor": "#1e40af",
-        "fillPatternSvg": "",
-        "markerEnabled": false,
-        "markerShape": "circle",
-        "markerColor": "#3b82f6",
-        "markerSize": 18,
-        "markerSvg": "",
-        "simpleStyleEnabled": false,
-        "diagramType": "none",
-        "diagramFields": [],
-        "diagramSizeMode": "fixed",
-        "diagramSize": 30,
-        "diagramSizeProperty": "",
-        "diagramMinZoom": 0,
-        "diagramDeclutter": false,
-        "pointRenderer": "single",
-        "heatmapRadius": 30,
-        "heatmapIntensity": 1,
-        "heatmapColorRamp": "turbo",
-        "heatmapWeightProperty": "",
-        "clusterRadius": 50,
-        "clusterMaxZoom": 14,
-        "invertedFillEnabled": false,
-        "lineDecoration": "none",
-        "lineDecorationColor": "",
-        "lineDecorationSize": 12,
-        "lineDecorationSpacing": 80,
-        "geometryGenerator": "none",
-        "geometryGeneratorBufferDistance": 1000,
-        "geometryGeneratorBufferProperty": "",
-        "geometryGeneratorFillColor": "#f59e0b",
-        "geometryGeneratorStrokeColor": "#b45309",
-        "geometryGeneratorStrokeWidth": 2,
-        "geometryGeneratorOpacity": 0.4,
-        "geometryGeneratorCircleRadius": 5,
-        "geometryGeneratorSizeProperty": "",
-        "geometryGeneratorSizeMinValue": 0,
-        "geometryGeneratorSizeMaxValue": 100,
-        "geometryGeneratorSizeMinRadius": 4,
-        "geometryGeneratorSizeMaxRadius": 24,
-        "rasterBrightnessMin": 0,
-        "rasterBrightnessMax": 1,
-        "rasterSaturation": 0,
-        "rasterContrast": 0,
-        "rasterHueRotate": 0,
-        "blendMode": "normal"
-      },
-      "metadata": {
-        "identifiable": true,
-        "sourceKind": "maplibre-gl-vector-adopted",
-        "vectorSource": "file",
-        "localFileReloadable": true,
-        "vectorState": {
-          "format": "shapefile",
-          "ingestMode": "table",
-          "picker": false,
-          "renderMode": "geojson",
-          "style": {
-            "fillColor": "#3388ff",
-            "fillOpacity": 0.4,
-            "lineColor": "#3388ff",
-            "lineWidth": 2,
-            "circleColor": "#3388ff",
-            "circleRadius": 5,
-            "circleOpacity": 0.85,
-            "pointMode": "circle",
-            "heatmapRadius": 30,
-            "heatmapIntensity": 1,
-            "clusterRadius": 50,
-            "clusterMaxZoom": 14
-          }
-        },
-        "geometryType": "polygon",
-        "featureCount": 26395,
-        "fields": [
-          "codigo",
-          "vereda_id",
-          "tipo_avalu",
-          "condicion_",
-          "Reporte",
-          "manzana_id",
-          "Zone",
-          "APm2",
-          "PPm",
-          "MzPredioId"
-        ],
-        "bounds": [
-          -74.0943598732881,
-          4.962839314649236,
-          -73.90798217521812,
-          5.1586941833489055
-        ]
-      },
-      "sourcePath": "C:\\Temp\\25899\\25899_Lot_202211.shp"
-    },
-    {
       "id": "df594478-2ccf-4425-9246-165b5cc663b2",
-      "name": "25899_Urban_Building_201301",
+      "name": "Urban Building 201301",
       "type": "geojson",
       "source": {
         "type": "geojson",
@@ -894,7 +843,7 @@
       "sourcePath": "https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/geojson/25899_Urban_Building_201301.geojson"
     }
   ],
-  "selectedLayerId": "70be343a-6622-4486-bf35-1efc529cfc57",
+  "selectedLayerId": "4662c69f-3b29-4da7-8c61-748dcd6626d0",
   "styles": {
     "26ca0876-3937-4228-abb3-51edcec34c81": {
       "minZoom": 0,
@@ -1144,14 +1093,14 @@
       "rasterHueRotate": 0,
       "blendMode": "normal"
     },
-    "70be343a-6622-4486-bf35-1efc529cfc57": {
-      "minZoom": 15,
+    "4662c69f-3b29-4da7-8c61-748dcd6626d0": {
+      "minZoom": 0,
       "maxZoom": 24,
-      "fillColor": "#808080",
-      "strokeColor": "#101010",
-      "strokeWidth": 2,
+      "fillColor": "transparent",
+      "strokeColor": "#808080",
+      "strokeWidth": 0.8,
       "strokeWidthUnit": "pixels",
-      "fillOpacity": 0.4,
+      "fillOpacity": 0.25,
       "circleRadius": 5,
       "textColor": "#111827",
       "textHaloColor": "#ffffff",
@@ -1159,15 +1108,15 @@
       "textSize": 16,
       "labels": {
         "enabled": true,
-        "field": "",
-        "expression": "[\"concat\",\"MZ-\",[\"get\",\"MzId\"]]",
+        "field": "MzPredioId",
+        "expression": "",
         "placement": "point",
-        "size": 15,
+        "size": 13,
         "color": "#111827",
         "haloColor": "#ffffff",
         "haloWidth": 1.5,
-        "minZoom": 16,
-        "maxZoom": 19,
+        "minZoom": 19,
+        "maxZoom": 24,
         "allowOverlap": false,
         "anchor": "center",
         "offsetX": 0,
@@ -1268,14 +1217,14 @@
       "rasterHueRotate": 0,
       "blendMode": "normal"
     },
-    "8c5ae8d6-8980-442d-81b3-09d6cc6661ec": {
-      "minZoom": 0,
+    "70be343a-6622-4486-bf35-1efc529cfc57": {
+      "minZoom": 15,
       "maxZoom": 24,
-      "fillColor": "transparent",
-      "strokeColor": "#808080",
-      "strokeWidth": 0.5,
+      "fillColor": "#808080",
+      "strokeColor": "#101010",
+      "strokeWidth": 2,
       "strokeWidthUnit": "pixels",
-      "fillOpacity": 0.25,
+      "fillOpacity": 0.4,
       "circleRadius": 5,
       "textColor": "#111827",
       "textHaloColor": "#ffffff",
@@ -1283,15 +1232,15 @@
       "textSize": 16,
       "labels": {
         "enabled": true,
-        "field": "MzPredioId",
-        "expression": "",
+        "field": "",
+        "expression": "[\"concat\",\"MZ-\",[\"get\",\"MzId\"]]",
         "placement": "point",
-        "size": 13,
+        "size": 15,
         "color": "#111827",
         "haloColor": "#ffffff",
         "haloWidth": 1.5,
-        "minZoom": 19,
-        "maxZoom": 24,
+        "minZoom": 16,
+        "maxZoom": 19,
         "allowOverlap": false,
         "anchor": "center",
         "offsetX": 0,
@@ -1322,70 +1271,18 @@
       "elevation3dVerticalScale": 1,
       "elevation3dOffset": 0,
       "vectorStyleMode": "single",
-      "vectorStyleProperty": "vereda_id",
-      "vectorStyleClassCount": 12,
+      "vectorStyleProperty": "",
+      "vectorStyleClassCount": 5,
       "vectorStyleColorRamp": "viridis",
       "vectorStyleClassificationScheme": "equal-interval",
       "vectorStyleStops": [
         {
-          "value": "2589901",
-          "color": "#404040"
+          "value": 0,
+          "color": "#dbeafe"
         },
         {
-          "value": "2589900000004",
-          "color": "#401760"
-        },
-        {
-          "value": "2589900000006",
-          "color": "#3c2d6d"
-        },
-        {
-          "value": "2589900000007",
-          "color": "#384379"
-        },
-        {
-          "value": "2589900000014",
-          "color": "#345986"
-        },
-        {
-          "value": "2589900000013",
-          "color": "#316e8d"
-        },
-        {
-          "value": "2589900000011",
-          "color": "#327f88"
-        },
-        {
-          "value": "2589900000003",
-          "color": "#339084"
-        },
-        {
-          "value": "2589900000012",
-          "color": "#34a07f"
-        },
-        {
-          "value": "2589900000009",
-          "color": "#35b17b"
-        },
-        {
-          "value": "2589900000005",
-          "color": "#52be6d"
-        },
-        {
-          "value": "2589900000008",
-          "color": "#7cc85b"
-        },
-        {
-          "value": "2589900000002",
-          "color": "#a7d249"
-        },
-        {
-          "value": "2589900000010",
-          "color": "#d2dd37"
-        },
-        {
-          "value": "2589900000015",
-          "color": "#fde725"
+          "value": 1,
+          "color": "#2563eb"
         }
       ],
       "vectorStyleExpression": "",
