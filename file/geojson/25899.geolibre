@@ -3,22 +3,22 @@
   "name": "Untitled Project",
   "mapView": {
     "center": [
-      -74.00374164061651,
-      5.023424892669354
+      -74.00373787883802,
+      5.023324696472287
     ],
-    "zoom": 18.015153874276095,
-    "bearing": -8.853120325697772,
-    "pitch": 53,
+    "zoom": 17.839312275607213,
+    "bearing": -19.19999999999891,
+    "pitch": 47.50000000000009,
     "bbox": [
-      -74.00711539845157,
-      5.021845204784952,
-      -74.00150958230627,
-      5.027510686871949
+      -74.00817821915744,
+      5.021344422198666,
+      -74.00144927597428,
+      5.027569423433675
     ]
   },
   "basemapStyleUrl": "https://tiles.openfreemap.org/styles/fiord",
   "basemapVisible": true,
-  "basemapOpacity": 0.85,
+  "basemapOpacity": 1,
   "layers": [
     {
       "id": "26ca0876-3937-4228-abb3-51edcec34c81",
@@ -491,6 +491,271 @@
       }
     },
     {
+      "id": "25f63615-0d9a-4a38-9026-e369e855b23b",
+      "name": "25899_OSM_Road_202608",
+      "type": "geojson",
+      "source": {
+        "type": "geojson",
+        "url": "https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_OSM_Road_202608.parquet"
+      },
+      "visible": true,
+      "opacity": 1,
+      "style": {
+        "minZoom": 0,
+        "maxZoom": 24,
+        "fillColor": "transparent",
+        "strokeColor": "#bfbd7d",
+        "strokeWidth": 2,
+        "strokeWidthUnit": "pixels",
+        "fillOpacity": 0.4,
+        "circleRadius": 5,
+        "textColor": "#111827",
+        "textHaloColor": "#ffffff",
+        "textHaloWidth": 2,
+        "textSize": 16,
+        "labels": {
+          "enabled": true,
+          "field": "name",
+          "expression": "",
+          "placement": "line",
+          "size": 14,
+          "color": "#ffffff",
+          "haloColor": "#282525",
+          "haloWidth": 1.5,
+          "minZoom": 0,
+          "maxZoom": 24,
+          "allowOverlap": false,
+          "anchor": "center",
+          "offsetX": 0,
+          "offsetY": 0,
+          "rotation": 0,
+          "maxWidth": 10,
+          "transform": "none",
+          "numberFormatEnabled": false,
+          "numberDecimals": 0,
+          "numberLocale": "",
+          "dedupe": "off",
+          "sizeExpression": "",
+          "colorExpression": "",
+          "opacityExpression": "",
+          "visibilityExpression": "",
+          "priorityExpression": ""
+        },
+        "extrusionEnabled": false,
+        "extrusionColor": "#3b82f6",
+        "extrusionOpacity": 0.8,
+        "extrusionHeightProperty": "height",
+        "extrusionHeightScale": 1,
+        "extrusionBase": 0,
+        "extrusionAdvancedStyleEnabled": false,
+        "extrusionColorExpression": "",
+        "extrusionHeightExpression": "",
+        "elevation3dEnabled": false,
+        "elevation3dVerticalScale": 1,
+        "elevation3dOffset": 0,
+        "vectorStyleMode": "single",
+        "vectorStyleProperty": "fclass",
+        "vectorStyleClassCount": 12,
+        "vectorStyleColorRamp": "turbo",
+        "vectorStyleClassificationScheme": "equal-interval",
+        "vectorStyleStops": [
+          {
+            "value": "bridleway",
+            "color": "#30123b"
+          },
+          {
+            "value": "cycleway",
+            "color": "#352a66"
+          },
+          {
+            "value": "footway",
+            "color": "#3b4291"
+          },
+          {
+            "value": "path",
+            "color": "#405abc"
+          },
+          {
+            "value": "pedestrian",
+            "color": "#4672e6"
+          },
+          {
+            "value": "primary",
+            "color": "#3f88e9"
+          },
+          {
+            "value": "primary_link",
+            "color": "#359de2"
+          },
+          {
+            "value": "residential",
+            "color": "#2ab2da"
+          },
+          {
+            "value": "secondary",
+            "color": "#20c7d3"
+          },
+          {
+            "value": "secondary_link",
+            "color": "#32d2bc"
+          },
+          {
+            "value": "service",
+            "color": "#58d89a"
+          },
+          {
+            "value": "steps",
+            "color": "#7ddd78"
+          },
+          {
+            "value": "tertiary",
+            "color": "#a3e356"
+          },
+          {
+            "value": "track",
+            "color": "#bfdc3f"
+          },
+          {
+            "value": "track_grade1",
+            "color": "#cfc437"
+          },
+          {
+            "value": "track_grade2",
+            "color": "#dfac30"
+          },
+          {
+            "value": "track_grade3",
+            "color": "#ee9328"
+          },
+          {
+            "value": "track_grade4",
+            "color": "#f57a21"
+          },
+          {
+            "value": "track_grade5",
+            "color": "#d65d19"
+          },
+          {
+            "value": "trunk",
+            "color": "#b73f12"
+          },
+          {
+            "value": "trunk_link",
+            "color": "#99220a"
+          },
+          {
+            "value": "unclassified",
+            "color": "#7a0403"
+          }
+        ],
+        "vectorStyleExpression": "",
+        "vectorRules": [],
+        "proportionalSizeEnabled": false,
+        "proportionalSizeProperty": "",
+        "proportionalSizeMinValue": 0,
+        "proportionalSizeMaxValue": 100,
+        "proportionalSizeMinRadius": 4,
+        "proportionalSizeMaxRadius": 24,
+        "fillPattern": "none",
+        "fillPatternColor": "#1e40af",
+        "fillPatternSvg": "",
+        "markerEnabled": false,
+        "markerShape": "circle",
+        "markerColor": "#3b82f6",
+        "markerSize": 18,
+        "markerSvg": "",
+        "simpleStyleEnabled": false,
+        "diagramType": "none",
+        "diagramFields": [],
+        "diagramSizeMode": "fixed",
+        "diagramSize": 30,
+        "diagramSizeProperty": "",
+        "diagramMinZoom": 0,
+        "diagramDeclutter": false,
+        "pointRenderer": "single",
+        "heatmapRadius": 30,
+        "heatmapIntensity": 1,
+        "heatmapColorRamp": "turbo",
+        "heatmapWeightProperty": "",
+        "clusterRadius": 50,
+        "clusterMaxZoom": 14,
+        "invertedFillEnabled": false,
+        "lineDecoration": "none",
+        "lineDecorationColor": "",
+        "lineDecorationSize": 12,
+        "lineDecorationSpacing": 80,
+        "geometryGenerator": "none",
+        "geometryGeneratorBufferDistance": 1000,
+        "geometryGeneratorBufferProperty": "",
+        "geometryGeneratorFillColor": "#f59e0b",
+        "geometryGeneratorStrokeColor": "#b45309",
+        "geometryGeneratorStrokeWidth": 2,
+        "geometryGeneratorOpacity": 0.4,
+        "geometryGeneratorCircleRadius": 5,
+        "geometryGeneratorSizeProperty": "",
+        "geometryGeneratorSizeMinValue": 0,
+        "geometryGeneratorSizeMaxValue": 100,
+        "geometryGeneratorSizeMinRadius": 4,
+        "geometryGeneratorSizeMaxRadius": 24,
+        "rasterBrightnessMin": 0,
+        "rasterBrightnessMax": 1,
+        "rasterSaturation": 0,
+        "rasterContrast": 0,
+        "rasterHueRotate": 0,
+        "blendMode": "normal"
+      },
+      "metadata": {
+        "identifiable": true,
+        "sourceKind": "maplibre-gl-vector-adopted",
+        "vectorSource": "url",
+        "vectorState": {
+          "format": "geoparquet",
+          "ingestMode": "table",
+          "picker": false,
+          "renderMode": "geojson",
+          "style": {
+            "fillColor": "#3388ff",
+            "fillOpacity": 0.4,
+            "lineColor": "#3388ff",
+            "lineWidth": 2,
+            "circleColor": "#3388ff",
+            "circleRadius": 5,
+            "circleOpacity": 0.85,
+            "pointMode": "circle",
+            "heatmapRadius": 30,
+            "heatmapIntensity": 1,
+            "clusterRadius": 50,
+            "clusterMaxZoom": 14
+          }
+        },
+        "geometryType": "line",
+        "featureCount": 2830,
+        "fields": [
+          "osm_id",
+          "code",
+          "fclass",
+          "name",
+          "ref",
+          "oneway",
+          "maxspeed",
+          "layer",
+          "bridge",
+          "tunnel",
+          "MpCodigo",
+          "MpNombre",
+          "DeCodigo",
+          "DeNombre"
+        ],
+        "bounds": [
+          -74.0890281,
+          4.963184117309095,
+          -73.91250297453618,
+          5.154921115645237
+        ]
+      },
+      "sourcePath": "https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_OSM_Road_202608.parquet"
+    },
+    {
       "id": "c4a07972-d740-4c4b-a99e-eeb4471b0ff9",
       "name": "25899_Rural_Vereda_202411",
       "type": "geojson",
@@ -504,10 +769,10 @@
         "minZoom": 0,
         "maxZoom": 24,
         "fillColor": "transparent",
-        "strokeColor": "#ae9142",
+        "strokeColor": "#c8c8c8",
         "strokeWidth": 2.5,
         "strokeWidthUnit": "pixels",
-        "fillOpacity": 0.4,
+        "fillOpacity": 0.2,
         "circleRadius": 5,
         "textColor": "#111827",
         "textHaloColor": "#ffffff",
@@ -519,8 +784,8 @@
           "expression": "[\"concat\",[\"get\",\"NOMBRE_VER\"],\"\\n\",[\"get\",\"CODIGO_VER\"]]",
           "placement": "point",
           "size": 15,
-          "color": "#111827",
-          "haloColor": "#ffffff",
+          "color": "#ffffff",
+          "haloColor": "#000000",
           "haloWidth": 1.5,
           "minZoom": 0,
           "maxZoom": 24,
@@ -1032,7 +1297,7 @@
       "sourcePath": "https://raw.githubusercontent.com/rcfdtools/R.GISMobile/refs/heads/main/file/parquet/25899_Urban_Building_201301.parquet"
     }
   ],
-  "selectedLayerId": "8fc6e7e3-273d-477e-a921-fef079be967d",
+  "selectedLayerId": "25f63615-0d9a-4a38-9026-e369e855b23b",
   "styles": {
     "26ca0876-3937-4228-abb3-51edcec34c81": {
       "minZoom": 0,
@@ -1406,14 +1671,218 @@
       "rasterHueRotate": 0,
       "blendMode": "normal"
     },
+    "25f63615-0d9a-4a38-9026-e369e855b23b": {
+      "minZoom": 0,
+      "maxZoom": 24,
+      "fillColor": "transparent",
+      "strokeColor": "#bfbd7d",
+      "strokeWidth": 2,
+      "strokeWidthUnit": "pixels",
+      "fillOpacity": 0.4,
+      "circleRadius": 5,
+      "textColor": "#111827",
+      "textHaloColor": "#ffffff",
+      "textHaloWidth": 2,
+      "textSize": 16,
+      "labels": {
+        "enabled": true,
+        "field": "name",
+        "expression": "",
+        "placement": "line",
+        "size": 14,
+        "color": "#ffffff",
+        "haloColor": "#282525",
+        "haloWidth": 1.5,
+        "minZoom": 0,
+        "maxZoom": 24,
+        "allowOverlap": false,
+        "anchor": "center",
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "maxWidth": 10,
+        "transform": "none",
+        "numberFormatEnabled": false,
+        "numberDecimals": 0,
+        "numberLocale": "",
+        "dedupe": "off",
+        "sizeExpression": "",
+        "colorExpression": "",
+        "opacityExpression": "",
+        "visibilityExpression": "",
+        "priorityExpression": ""
+      },
+      "extrusionEnabled": false,
+      "extrusionColor": "#3b82f6",
+      "extrusionOpacity": 0.8,
+      "extrusionHeightProperty": "height",
+      "extrusionHeightScale": 1,
+      "extrusionBase": 0,
+      "extrusionAdvancedStyleEnabled": false,
+      "extrusionColorExpression": "",
+      "extrusionHeightExpression": "",
+      "elevation3dEnabled": false,
+      "elevation3dVerticalScale": 1,
+      "elevation3dOffset": 0,
+      "vectorStyleMode": "single",
+      "vectorStyleProperty": "fclass",
+      "vectorStyleClassCount": 12,
+      "vectorStyleColorRamp": "turbo",
+      "vectorStyleClassificationScheme": "equal-interval",
+      "vectorStyleStops": [
+        {
+          "value": "bridleway",
+          "color": "#30123b"
+        },
+        {
+          "value": "cycleway",
+          "color": "#352a66"
+        },
+        {
+          "value": "footway",
+          "color": "#3b4291"
+        },
+        {
+          "value": "path",
+          "color": "#405abc"
+        },
+        {
+          "value": "pedestrian",
+          "color": "#4672e6"
+        },
+        {
+          "value": "primary",
+          "color": "#3f88e9"
+        },
+        {
+          "value": "primary_link",
+          "color": "#359de2"
+        },
+        {
+          "value": "residential",
+          "color": "#2ab2da"
+        },
+        {
+          "value": "secondary",
+          "color": "#20c7d3"
+        },
+        {
+          "value": "secondary_link",
+          "color": "#32d2bc"
+        },
+        {
+          "value": "service",
+          "color": "#58d89a"
+        },
+        {
+          "value": "steps",
+          "color": "#7ddd78"
+        },
+        {
+          "value": "tertiary",
+          "color": "#a3e356"
+        },
+        {
+          "value": "track",
+          "color": "#bfdc3f"
+        },
+        {
+          "value": "track_grade1",
+          "color": "#cfc437"
+        },
+        {
+          "value": "track_grade2",
+          "color": "#dfac30"
+        },
+        {
+          "value": "track_grade3",
+          "color": "#ee9328"
+        },
+        {
+          "value": "track_grade4",
+          "color": "#f57a21"
+        },
+        {
+          "value": "track_grade5",
+          "color": "#d65d19"
+        },
+        {
+          "value": "trunk",
+          "color": "#b73f12"
+        },
+        {
+          "value": "trunk_link",
+          "color": "#99220a"
+        },
+        {
+          "value": "unclassified",
+          "color": "#7a0403"
+        }
+      ],
+      "vectorStyleExpression": "",
+      "vectorRules": [],
+      "proportionalSizeEnabled": false,
+      "proportionalSizeProperty": "",
+      "proportionalSizeMinValue": 0,
+      "proportionalSizeMaxValue": 100,
+      "proportionalSizeMinRadius": 4,
+      "proportionalSizeMaxRadius": 24,
+      "fillPattern": "none",
+      "fillPatternColor": "#1e40af",
+      "fillPatternSvg": "",
+      "markerEnabled": false,
+      "markerShape": "circle",
+      "markerColor": "#3b82f6",
+      "markerSize": 18,
+      "markerSvg": "",
+      "simpleStyleEnabled": false,
+      "diagramType": "none",
+      "diagramFields": [],
+      "diagramSizeMode": "fixed",
+      "diagramSize": 30,
+      "diagramSizeProperty": "",
+      "diagramMinZoom": 0,
+      "diagramDeclutter": false,
+      "pointRenderer": "single",
+      "heatmapRadius": 30,
+      "heatmapIntensity": 1,
+      "heatmapColorRamp": "turbo",
+      "heatmapWeightProperty": "",
+      "clusterRadius": 50,
+      "clusterMaxZoom": 14,
+      "invertedFillEnabled": false,
+      "lineDecoration": "none",
+      "lineDecorationColor": "",
+      "lineDecorationSize": 12,
+      "lineDecorationSpacing": 80,
+      "geometryGenerator": "none",
+      "geometryGeneratorBufferDistance": 1000,
+      "geometryGeneratorBufferProperty": "",
+      "geometryGeneratorFillColor": "#f59e0b",
+      "geometryGeneratorStrokeColor": "#b45309",
+      "geometryGeneratorStrokeWidth": 2,
+      "geometryGeneratorOpacity": 0.4,
+      "geometryGeneratorCircleRadius": 5,
+      "geometryGeneratorSizeProperty": "",
+      "geometryGeneratorSizeMinValue": 0,
+      "geometryGeneratorSizeMaxValue": 100,
+      "geometryGeneratorSizeMinRadius": 4,
+      "geometryGeneratorSizeMaxRadius": 24,
+      "rasterBrightnessMin": 0,
+      "rasterBrightnessMax": 1,
+      "rasterSaturation": 0,
+      "rasterContrast": 0,
+      "rasterHueRotate": 0,
+      "blendMode": "normal"
+    },
     "c4a07972-d740-4c4b-a99e-eeb4471b0ff9": {
       "minZoom": 0,
       "maxZoom": 24,
       "fillColor": "transparent",
-      "strokeColor": "#ae9142",
+      "strokeColor": "#c8c8c8",
       "strokeWidth": 2.5,
       "strokeWidthUnit": "pixels",
-      "fillOpacity": 0.4,
+      "fillOpacity": 0.2,
       "circleRadius": 5,
       "textColor": "#111827",
       "textHaloColor": "#ffffff",
@@ -1425,8 +1894,8 @@
         "expression": "[\"concat\",[\"get\",\"NOMBRE_VER\"],\"\\n\",[\"get\",\"CODIGO_VER\"]]",
         "placement": "point",
         "size": 15,
-        "color": "#111827",
-        "haloColor": "#ffffff",
+        "color": "#ffffff",
+        "haloColor": "#000000",
         "haloWidth": 1.5,
         "minZoom": 0,
         "maxZoom": 24,
