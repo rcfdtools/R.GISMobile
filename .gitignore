@@ -35,7 +35,9 @@ file/temp/geojson/*.csv
 file/table/IGAC/*.csv
 file/gdb/*.gdb
 file/gdb/*.gpkg
-file/dem/*.tif
+#file/dem/*.tif
+file/dem/Colombia_COP90_4326.tif
+file/dem/Colombia_COP90_9377_Clip.tif
 file/gis/EAAB_CO/*.gdb
 file/gis/EAAB_CO/*.gpkg
 file/gis/EAAB_CO/dem/AlosPalsar*.tif*
